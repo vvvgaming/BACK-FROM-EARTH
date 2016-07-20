@@ -8,6 +8,6 @@
 
 ####May your reign Continue for a thousand, eight thousand generations, Until the pebbles grow into boulders Lush with moss.
 
-####How can a man die better than facing fearful odds. For the ashes of his father and the temples of his Gods.
+####How can a man die better than facing fearful odds, For the ashes of his fathers and the temples of his Gods.
 
 ####Just because we were competing with somebody doesn't mean: we have to be rude.
