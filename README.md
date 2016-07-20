@@ -11,3 +11,5 @@
 ####How can a man die better than facing fearful odds, For the ashes of his fathers and the temples of his Gods.
 
 ####Just because we were competing with somebody doesn't mean: we have to be rude.
+
+####As soon as you stop wanting something, you get it.
