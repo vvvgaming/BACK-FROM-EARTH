@@ -4,12 +4,15 @@
 
 ####Life can be much broader.
 
+####As soon as you stop wanting something, you get it.
+
 ####I’ve always liked you a lot. That’s too bad.
 
 ####May your reign Continue for a thousand, eight thousand generations, Until the pebbles grow into boulders Lush with moss.
 
 ####How can a man die better than facing fearful odds, For the ashes of his fathers and the temples of his Gods.
 
-####Just because we were competing with somebody doesn't mean: we have to be rude.
+####Just because we were competing with somebody doesn't mean we have to be rude.
 
-####As soon as you stop wanting something, you get it.
+
+####As ever, they look to seduce and captivate and intoxicate us, to draw us in, draw us close, never let us go.
