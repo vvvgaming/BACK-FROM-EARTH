@@ -18,3 +18,7 @@
 ####As ever, they look to seduce and captivate and intoxicate us, to draw us in, draw us close, never let us go.
 
 ####Design: the invention of desire.
+
+####We want for material possessions, our possession and passing on of heirlooms, our want to leave a legacy.
+
+####
