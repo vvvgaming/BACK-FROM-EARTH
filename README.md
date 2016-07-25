@@ -19,6 +19,8 @@
 
 ####Design: the invention of desire.
 
-####We want for material possessions, our possession and passing on of heirlooms, our want to leave a legacy.
+####Our want for material possessions, our possession and passing on of heirlooms, our want to leave a legacy.
 
-####
+####Desire means imbalance.
+
+####You and I have memories longer than the road that stretches out ahead.
