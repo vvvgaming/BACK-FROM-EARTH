@@ -14,8 +14,9 @@
 
 ####Just because we were competing with somebody doesn't mean we have to be rude.
 
-
 ####As ever, they look to seduce and captivate and intoxicate us, to draw us in, draw us close, never let us go.
+
+####Isn't it funny, a ship that leaks from the top.
 
 ####Design: the invention of desire.
 
@@ -25,4 +26,4 @@
 
 ####You and I have memories longer than the road that stretches out ahead.
 
-####Isn't it funny, a ship that leaks from the top.
+####I think to miss something is to hope that it will come back. But it's not coming back.
