@@ -34,4 +34,6 @@
 
 ####Let's slow it down. let's slow it way down.
 
-####Dihital
+####A digital-design company.
+
+
