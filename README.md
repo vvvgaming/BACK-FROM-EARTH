@@ -34,6 +34,6 @@
 
 ####Let's slow it down. let's slow it way down.
 
-####A digital-design company.
+####Find a digital-design company.
 
 
