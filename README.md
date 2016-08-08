@@ -40,3 +40,5 @@
 ####All thing digital.
 
 ####More plain, less open to interpretation.
+
+####Good idea.
