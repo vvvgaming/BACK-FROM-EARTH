@@ -50,3 +50,7 @@
 ####…
 
 ####Formula.
+
+####…
+
+####Algorithms.
