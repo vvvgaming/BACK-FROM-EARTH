@@ -56,3 +56,5 @@
 ####Algorithms.
 
 ####Moral dilemma.
+
+####Glory.
