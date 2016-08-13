@@ -58,3 +58,5 @@
 ####Moral dilemma.
 
 ####Glory.
+
+####Honor is a kind of wished-for state among certain members of the society who want to be the best possible versions of themselves.
