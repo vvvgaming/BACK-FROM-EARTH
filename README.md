@@ -68,3 +68,5 @@
 ####The past is past, but tomorrow is tomorrow.
 
 ####Extraordinary or die.
+
+####The trick …is not minding that it hurts.
