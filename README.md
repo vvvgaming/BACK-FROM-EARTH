@@ -72,3 +72,5 @@
 ####The trick …is not minding that it hurts.
 
 ####Impulse.
+
+####Response.
