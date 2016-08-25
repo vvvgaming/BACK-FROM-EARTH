@@ -78,3 +78,5 @@
 ####Fluid.
 
 ####Imperfect.
+
+####Patterned.
