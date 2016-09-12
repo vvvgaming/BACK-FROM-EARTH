@@ -111,3 +111,5 @@
 
 ####Nordic way
 
+####Progress, not perfection.
+
