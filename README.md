@@ -150,3 +150,5 @@
 ####You are beautiful, you're kind, and you are painfully honest.
 
 ####Time Machine.
+
+####Ce qui importe, ce n'est pas de mourir,ni à quel âge on meurt. C'est ce qu'on est en train de faire, à ce moment précis. 
