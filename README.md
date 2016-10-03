@@ -113,7 +113,7 @@
 
 ####Progress, not perfection.
 
-####Ding in the universe.
+####Ding in the Planet.
 
 ####Single digits.
 
