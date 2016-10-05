@@ -49,7 +49,7 @@
 
 ####…
 
-####Formula: 33-19x-?b-66=78
+####Formula.
 
 ####…
 
@@ -152,3 +152,7 @@
 ####Time Machine.
 
 ####Ce qui importe, ce n'est pas de mourir,ni à quel âge on meurt. C'est ce qu'on est en train de faire, à ce moment précis. 
+
+####33-19x-?b-66=78
+
+####
