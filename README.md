@@ -189,4 +189,6 @@
 
 ####It's time for them to see this in Palo Alto.
 
+####and Fashion is never finished.
+
 ####
