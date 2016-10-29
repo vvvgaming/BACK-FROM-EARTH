@@ -191,4 +191,6 @@
 
 ####and Fashion is never finished.
 
+####We don't know what it is, we don't know what it can be, we don't know what it will be, we know that it's just cool.
+
 ####
