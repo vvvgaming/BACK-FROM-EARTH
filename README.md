@@ -197,7 +197,7 @@
 
 ####There's a path for everyone. 
 
-####All that we see or seem. Is but a dream within a dream.
+####All that we see or seem, is but a dream within a dream.
 
 ####
 
