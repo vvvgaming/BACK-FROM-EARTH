@@ -199,6 +199,6 @@
 
 ####All that we see or seem, is but a dream within a dream.
 
-####
+####Dreams mean everything. they’re the stories e tell ourselves of what could be, who we could become.
 
 ####
