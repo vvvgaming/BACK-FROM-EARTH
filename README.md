@@ -201,4 +201,6 @@
 
 ####Dreams mean everything. they’re the stories e tell ourselves of what could be, who we could become.
 
-####
+####Here's to getting rich and fat.
+
+####And dyin' in the arms of a beautiful woman.
