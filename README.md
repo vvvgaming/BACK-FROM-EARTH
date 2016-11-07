@@ -129,8 +129,6 @@
 
 ####Sarah Burton
 
-####Huracán.
-
 ####Hiten Mitsurugi-ryū
 
 ####What are you thinking?
