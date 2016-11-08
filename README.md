@@ -206,3 +206,5 @@
 ####Evil Things.
 
 #### It is a mistake to suppose that the whole issue is how to free man, the issue is to improve the way in which he is controlled.
+
+####Digitize our consciousness, data.å
