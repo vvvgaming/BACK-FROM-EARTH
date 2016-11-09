@@ -28,7 +28,6 @@
 
 ####I think to miss something is to hope that it will come back. But it's not coming back.
 
-####Focus!
 
 ####About Hiraeth:this is for you.
 
