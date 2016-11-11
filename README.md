@@ -209,3 +209,5 @@
 ####Digitize our consciousness, data.
 
 ####Attribute matrix.
+
+####Bulk apperception.
