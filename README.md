@@ -215,3 +215,5 @@
 ####Minimalism is not a lack of something, it’s simply the perfect amount of something.
 
 ####To excel is to extol 
+
+####Promised Land.
