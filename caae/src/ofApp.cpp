@@ -14,6 +14,13 @@
 ofxTrueTypeFontUC myFont;
 string sampleString;
 vector<ofPath> characters;
+vector<ofMesh> mesh;
+vector<ofMesh> newMesh;
+vector<int> ran;
+ofPoint center;
+Lyrics lyrics;
+ofDirectory dir;
+vector<string> fonts;
 
 
 void ofApp::setup(){
