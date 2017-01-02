@@ -9,6 +9,13 @@
 #define FROM 500
 #define TO 0
 #define DURATION 1000
+
+//font
+ofxTrueTypeFontUC myFont;
+string sampleString;
+vector<ofPath> characters;
+
+
 void ofApp::setup(){
     
 }
