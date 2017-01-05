@@ -11,6 +11,7 @@ void ofApp::setup(){
 void ofApp::draw(){
     
     ofBackground(255);
+    ofTranslate(ofGetWidth/2, ofGetHeight/2);
 
 }
 
