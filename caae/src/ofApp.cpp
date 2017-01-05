@@ -9,6 +9,8 @@ void ofApp::setup(){
 }
 
 void ofApp::draw(){
+    
+    ofBackground(255);
 
 }
 
