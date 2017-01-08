@@ -28,6 +28,14 @@ public:
     void setup();
     void update();
     void draw();
+    
+    void createAnchor(float angleIn, float minAngleIn, float maxAngleIn, float lengthIn,ofVec2f centerIn, float minNextIn);
+    void createBranches(float fAngle, ofVec2f start, float minNext,float minAngleIn ,float maxAngleIn);
+    vector<Branch>branches;
+    
+    
+    float totalLength;
+    float flength;
 
 }
 
