@@ -8,6 +8,8 @@
 
 #include "flower.hpp"
 
-void flower::setuo(){
+void flower::setup(){
+    
+    
 
 }
