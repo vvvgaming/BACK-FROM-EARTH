@@ -13,7 +13,7 @@
 
 struct Branch{
     
-public:vector<ofVec3f>points;
+vector<ofVec3f>points;
     
     
 
@@ -25,6 +25,9 @@ public:
     
     flower(){};
     ~flower(){};
+    void setup();
+    void update();
+    void draw();
 
 }
 
