@@ -13,6 +13,18 @@
 
 struct Branch{
     
+public:vector<ofVec3f>points;
+    
+    
+
+};
+
+class flower{
+    
+public:
+    
+    flower(){};
+    ~flower(){};
 
 }
 
