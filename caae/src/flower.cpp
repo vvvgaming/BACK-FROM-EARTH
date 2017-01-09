@@ -11,5 +11,8 @@
 void flower::setup(){
     
     float time = random(1000);
+    float timeVal = random(0.001, 0.5);
+    anchor = new Anchor[num];
+    anchor[] angles = new float[num];
 
 }
