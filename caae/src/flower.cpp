@@ -25,5 +25,7 @@ void flower::setup(){
     
     float val = map(mouseX, 0, width, 2, 60);
     if(mouseX <= 0 ||mouseX >width) val =14;
+    float minlength = d * 10, maxLength = 0;
+    float[] length = new float[num];
 
 }
