@@ -14,5 +14,15 @@ void flower::setup(){
     float timeVal = random(0.001, 0.5);
     anchor = new Anchor[num];
     anchor[] angles = new float[num];
+    
+    for(int i = 0; i < num; i++){
+        
+        angles[i] = random(360);
+    
+    }
+    
+    arrayCopy(sort(angles), angles);
+    
+    
 
 }
