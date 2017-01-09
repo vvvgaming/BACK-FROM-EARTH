@@ -10,6 +10,6 @@
 
 void flower::setup(){
     
-    
+    float time = random(1000);
 
 }
