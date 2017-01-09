@@ -23,6 +23,7 @@ void flower::setup(){
     
     arrayCopy(sort(angles), angles);
     
-    
+    float val = map(mouseX, 0, width, 2, 60);
+    if(mouseX <= 0 ||mouseX >width) val =14;
 
 }
