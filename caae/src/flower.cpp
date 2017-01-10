@@ -47,6 +47,10 @@ void flower::setup(){
         }
     }
     
+    for (int i = 0; i < num; i++){
+        
+        anchor[i] = 
     
+    }
 
 }
