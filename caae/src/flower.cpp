@@ -31,8 +31,22 @@ void flower::setup(){
     for (int i = 0; i < length.length; i++){
         
         length[i] = mode ==0 ? noise(time) * (float)d : d;
+        if (length[i] < minLength) minLength = length[i];
+        if (length[i] > maxLength) maxLength = length[i];
         
+        time += timeVal;
     
     }
+    
+    if (minLength != maxLength){
+    
+        for (int i = 0; i < length.length; i++){
+            
+            length[i] = map(length[i], minLength, maxLength, minLength, d);
+        
+        }
+    }
+    
+    
 
 }
