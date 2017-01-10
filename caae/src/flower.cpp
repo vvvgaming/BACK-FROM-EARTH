@@ -49,7 +49,7 @@ void flower::setup(){
     
     for (int i = 0; i < num; i++){
         
-        anchor[i] = 
+        anchor[i] = new Anchor(angles[i], -val, val, length[i], centerX, centerY, minNext);
     
     }
 
