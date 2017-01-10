@@ -27,5 +27,12 @@ void flower::setup(){
     if(mouseX <= 0 ||mouseX >width) val =14;
     float minlength = d * 10, maxLength = 0;
     float[] length = new float[num];
+    
+    for (int i = 0; i < length.length; i++){
+        
+        length[i] = mode ==0 ? noise(time) * (float)d : d;
+        
+    
+    }
 
 }
