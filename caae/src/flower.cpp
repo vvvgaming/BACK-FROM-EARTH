@@ -60,4 +60,8 @@ void flower::update(){
 
 }
 
+void flower::draw(){
+
+}
+
 
