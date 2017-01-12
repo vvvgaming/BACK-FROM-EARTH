@@ -94,3 +94,37 @@ void flower::createAnchor(float angleIn, float minAngleIn, float maxAngleIn, flo
     }
 
 }
+
+void flower::createBranches(float fAngle, ofVec2f start, float minNext,float minAngleIn ,float maxAngleIn){
+    
+    float mangle = ofRandom(- minAngleIn / 2, maxAngleIn / 2);
+    float weighing = ofRandom(0.25, 0.75);
+    
+    Branch tBranch;
+    tBranch.points.assign(5, ofVec2f(0, 0));
+    if (flength>80) tBranch.points.assign(6, ofVec2f(0, 0));
+    
+    tBranch.points[0] = tBranch.points[1] = start;
+
+    tBranch.points[tBranch.points.size() - 2] = tBranch.points[tBranch.points.size() - 1] = start + ofVec2f(cos(ofDegToRad(fAngle)) * flength, sin(ofDegToRad(fAngle)) * flength);
+    
+    
+    if (flength <= 80){
+
+        tBranch.points[2] = ofVec2f(start.x + cos(ofDegToRad(fAngle + mangle)) * ofDist(start.x, start.y, tBranch.points[tBranch.points.size() - 1].x * weighing,tBranch.points[tBranch.points.size() - 1].y * weighing), start.y + cos(ofDegToRad(fAngle + mangle)) * ofDist(start.x, start.y, tBranch.points[tBranch.points.size() - 1].x * weighing,tBranch.points[tBranch.points.size() - 1].y * weighing));
+    }
+    else {
+        weighing = ofRandom(0.25, 0.5);
+        tBranch.points[2] = ofVec2f(start.x + cos(ofDegToRad(fAngle + mangle)) * ofDist(start.x, start.y, tBranch.points[tBranch.points.size() - 1].x * weighing, tBranch.points[tBranch.points.size() - 1].y * weighing), start.y + cos(ofDegToRad(fAngle + mangle)) * ofDist(start.x, start.y, tBranch.points[tBranch.points.size() - 1].x * weighing, tBranch.points[tBranch.points.size() - 1].y * weighing));
+        
+        mangle = ofRandom(- minAngleIn / 2, maxAngleIn / 2);
+        weighing = ofRandom(0.5, 0.75);
+        tBranch.points[3] = ofVec2f(start.x + cos(ofDegToRad(fAngle + mangle)) * ofDist(start.x, start.y, tBranch.points[tBranch.points.size() - 1].x * weighing, tBranch.points[tBranch.points.size() - 1].y * weighing), start.y + cos(ofDegToRad(fAngle + mangle)) * ofDist(start.x, start.y, tBranch.points[tBranch.points.size() - 1].x * weighing, tBranch.points[tBranch.points.size() - 1].y * weighing));
+    }
+    
+    
+    branches.push_back(tBranch);
+    
+    totalLength += flength;
+
+}
