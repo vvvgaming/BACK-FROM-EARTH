@@ -64,4 +64,12 @@ void flower::draw(){
 
 }
 
+void flower::createAnchor(float angleIn, float minAngleIn, float maxAngleIn, float lengthIn, int centerIn, float minNextIn){
+    
+    for (int i = 0; i < 25; i++){
+        
+        
+    
+    }
 
+}
