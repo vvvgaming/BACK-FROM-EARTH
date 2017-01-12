@@ -68,7 +68,10 @@ void flower::createAnchor(float angleIn, float minAngleIn, float maxAngleIn, flo
     
     for (int i = 0; i < 25; i++){
         
-        if (flength > 1.5)
+        if (flength > 1.5){
+            int dir = (int)ofRandom(0, 3);
+        
+        }
     
     }
 
