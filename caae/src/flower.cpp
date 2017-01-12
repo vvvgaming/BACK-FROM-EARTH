@@ -69,7 +69,25 @@ void flower::createAnchor(float angleIn, float minAngleIn, float maxAngleIn, flo
     for (int i = 0; i < 25; i++){
         
         if (flength > 1.5){
+            
             int dir = (int)ofRandom(0, 3);
+            
+            if (dir <= 1){
+                
+                float nextflength = flength * ofRandom(0.75, 1.20);
+                if (totalLength + nextflength < lengthIn) createBranches(fAngle + ofRandom(minAngleIn * 2, maxAngleIn * 2), branches[branches.size()].points[branches[branches.size()].points.size() - 1], totalLength, nextflength, i, minNextIn);
+            
+            }
+            
+            else
+                
+            {
+                float nextflength = flength * ofRandom(minNextIn, 1.05);
+                if (totalLength + nextflength < lengthIn) createBranches(fAngle + ofRandom(minAngle / 2, 0), branches[branches.size()].points[branches[branches.size()].points.size() - 1], totalLength, nextflength, i, minNextIn);
+                nextflength = flength * ofRandom(minNextIn, 1.05);
+                if (totalLength + nextflength < lengthIn) createBranches(fAngle + ofRandom(0, maxAngle / 2), branches[branches.size()].points[branches[branches.size()].points.size() - 1], totalLength, nextflength, i, minNextIn);
+            }
+
         
         }
     
