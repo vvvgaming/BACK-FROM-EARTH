@@ -1,6 +1,6 @@
 #progma oncce 
 
-#include "ofmain.h"
+#include "ofMain.h"
 #include "flower.hpp"
 
 class ofApp : public ofbaseApp{
