@@ -1,11 +1,17 @@
 #include "ofApp.h"
 
 
-void ofApp::draw(){
+void ofApp::setup(){
 
 }
 
+void ofApp::update(){
 
+}
+
+void ofApp::draw(){
+
+}
 
 
 
