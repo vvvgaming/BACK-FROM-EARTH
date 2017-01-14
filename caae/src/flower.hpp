@@ -37,6 +37,6 @@ public:
     float totalLength;
     float flength;
 
-}
+};
 
 #endif /* flower_hpp */
