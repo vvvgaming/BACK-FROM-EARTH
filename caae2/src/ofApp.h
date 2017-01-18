@@ -2,6 +2,11 @@
 
 #include "ofMain.h"
 
+#include "ofxJpegGlitch.h"
+#include "ofxCv.h"
+#include "ofxFaceTrackerThreaded.h"
+#include "ofxGui.h"
+
 class ofApp : public ofBaseApp{
 
 	public:
@@ -20,5 +25,21 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+private:
+    ofVideoGrabber grabber;
+    ofxFaceTrackerThreaded tracker;
+    ExpressionClassifier classifier;
+    bool classifierInited;
+    
+    vector<ofImage> images;
+    int imageIndex;
+    int glitchCount;
+    enum GlitchType {NONE, JPEG, GRAY} glitchType;
+    ofxJpegGlitch jpeg;
+    ofShader shader;
+    
+    ofxPanel gui;
+    ofxFloatSlider ratioThreshold;
 		
 };
