@@ -35,7 +35,7 @@ void ofApp::setupImages(string dirName, string ext) {
     dir.listDir();
     for(int i = 0; i < dir.size(); i++) {
         images.push_back(ofImage());
-        images.back().loadImage(dirName + "/" + dir.getName(i));
+        images.back().load(dirName + "/" + dir.getName(i));
     }
 }
 
