@@ -46,7 +46,7 @@ void ofApp::update(){
     
     grabber.update();
     if(grabber.isFrameNew()) {
-        tracker.update(toCv(grabber));
+        tracker.update(ofxCv::toCv(grabber));
     }
     
     if(tracker.getFound() && !classifierInited) {
