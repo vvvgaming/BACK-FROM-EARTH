@@ -1,0 +1,7 @@
+ofxCv
+ofxFaceTracker
+ofxGui
+ofxJpegGlitch
+ofxOpenCv
+ofxOsc
+ofxPubSubOsc
