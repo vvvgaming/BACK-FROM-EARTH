@@ -1,7 +1,7 @@
 #include "ofApp.h"
 #include "ofxPubSubOsc.h"
 
-//--------------------------------------------------------------
+
 void ofApp::setup(){
 	ofSetVerticalSync(true);
 
@@ -25,7 +25,7 @@ void ofApp::setup(){
     ofSetFrameRate(30);
 }
 
-//--------------------------------------------------------------
+
 void ofApp::update(){
     
     for (int i = 0; i < 4; i++) {
