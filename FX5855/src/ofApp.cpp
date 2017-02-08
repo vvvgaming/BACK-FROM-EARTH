@@ -6,4 +6,4 @@ void ofApp::setup(){
     ofEnableBlendMode(OF_BLENDMODE_ADD);
     ofSetFrameRate(60);
     
-    ofBackground(0);
+   
