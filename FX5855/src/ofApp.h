@@ -4,9 +4,10 @@
 
 class ofApp : public ofBaseApp{
     
-puclic:
+public:
     
     void setup();
-    void 
+    void update();
+    void draw();
 
 };
