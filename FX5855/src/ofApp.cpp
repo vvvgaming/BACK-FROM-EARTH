@@ -9,6 +9,7 @@ void ofApp::setup(){
     
     image.load("");
     image.resize(100, 100);
+    image.setAnchorPercent(0.5, 0.5);
     
     
 }
