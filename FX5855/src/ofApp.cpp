@@ -29,9 +29,13 @@ void ofApp::setup(){
         ofClear(0, 0);
         ofFill();
         ofSetColor(255, 255);
-        
+        ofDrawCircle(mask.getWidth() * 0.5, mask.getHeight() * 0.5, 40);
     
     }
+    
+    mask.end();
+    
+    
     
     
 }
