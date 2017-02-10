@@ -18,6 +18,10 @@ void ofApp::setup(){
         ofClear(0, 0);
     }
     
+    canvas.end();
+    
+    
+    
     
     
     
