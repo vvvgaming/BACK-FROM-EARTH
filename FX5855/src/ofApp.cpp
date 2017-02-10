@@ -13,7 +13,12 @@ void ofApp::setup(){
     
     canvas.allocate(ofGetWidth(), ofGetHeight(), GL_RGBA, 8);
     
-    canvas.begin();
+    canvas.begin();{
+    
+        ofClear(0, 0);
+    }
+    
+    
     
     
 }
