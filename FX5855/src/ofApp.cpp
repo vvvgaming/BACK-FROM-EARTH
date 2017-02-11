@@ -45,6 +45,13 @@ void ofApp::setup(){
 }
 
 void ofApp::update(){
+    
+    canvas.begin();{
+        
+        
+    
+    }
+    
 
 }
 
