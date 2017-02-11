@@ -52,6 +52,7 @@ void ofApp::update(){
         
         cam.begin();{
             
+            ofEnableDepthTest();
         
         }
     
