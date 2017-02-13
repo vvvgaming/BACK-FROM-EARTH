@@ -37,7 +37,7 @@ void ofApp::setup(){
     
     for (int i = 0; i < 100; i++){
         
-        positions.push_back(ofVec3f(ofRandom(500), ofRandom(500), ofRandom(-100, 100)));
+
     
     }
     
