@@ -19,6 +19,6 @@ public:
     
     vector<ofVec3f> positions;
     
-    ofEasyCam cam;
+    
 
 };
