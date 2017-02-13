@@ -46,13 +46,7 @@ void ofApp::setup(){
 
 void ofApp::update(){
     
-    canvas.begin();{
-        
-        ofClear(0, 0);
-        
 
-    
-    }
     
 
 }
