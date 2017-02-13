@@ -27,8 +27,7 @@ void ofApp::setup(){
     mask.begin();{
     
         ofClear(0, 0);
-        ofFill();
-        ofSetColor(255, 255);
+
 
     
     }
