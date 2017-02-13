@@ -24,12 +24,6 @@ void ofApp::setup(){
     
     mask.allocate(ofGetWidth(), ofGetHeight(), GL_RGBA, 8);
     
-    mask.begin();    
-    mask.end();
-    
-
-    
-    
 }
 
 
