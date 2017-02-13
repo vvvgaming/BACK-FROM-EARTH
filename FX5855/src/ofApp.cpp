@@ -50,17 +50,7 @@ void ofApp::update(){
         
         ofClear(0, 0);
         
-        cam.begin();{
-            
-            ofEnableDepthTest();
-            
-            ofPushMatrix();{
-                
-                
-            
-            }
-        
-        }
+
     
     }
     
