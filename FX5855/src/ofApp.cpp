@@ -20,9 +20,7 @@ void ofApp::setup(){
     
     canvas.end();
     
-    
-    
-    mask.allocate(ofGetWidth(), ofGetHeight(), GL_RGBA, 8);
+
     
 }
 
