@@ -7,7 +7,7 @@ void ofApp::setup(){
     ofSetCircleResolution(120);
     ofEnableSmoothing();
     
-    image.load("");
+
     image.resize(100, 100);
     image.setAnchorPercent(0.5, 0.5);
 
