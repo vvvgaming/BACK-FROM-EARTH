@@ -10,10 +10,8 @@ void ofApp::setup(){
     image.load("");
     image.resize(100, 100);
     image.setAnchorPercent(0.5, 0.5);
+
     
-    canvas.allocate(ofGetWidth(), ofGetHeight(), GL_RGBA, 8);
-    
-    canvas.begin();
     
 
     
