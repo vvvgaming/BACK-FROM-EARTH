@@ -15,7 +15,7 @@ void ofApp::setup(){
     
     canvas.begin();
     
-    canvas.end();
+
     
 
     
