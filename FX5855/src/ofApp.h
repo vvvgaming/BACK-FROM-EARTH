@@ -12,8 +12,7 @@ public:
     void keyPressed(int key);
     
     ofShader shader;
-    ofImage image;
-    
+
     
     
     
