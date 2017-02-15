@@ -8,7 +8,6 @@ void ofApp::setup(){
     ofEnableSmoothing();
     
 
-    image.resize(100, 100);
     
 
     
