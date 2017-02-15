@@ -17,7 +17,7 @@ public:
     ofFbo canvas;
     ofFbo mask;
     
-    vector<ofVec3f> positions;
+    
     
     
 
