@@ -14,8 +14,8 @@ public:
     ofShader shader;
     ofImage image;
     
-    ofFbo canvas;
-    ofFbo mask;
+    
+    
     
     
     
