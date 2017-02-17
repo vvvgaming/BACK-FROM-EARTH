@@ -11,7 +11,7 @@ public:
     void draw();
     void keyPressed(int key);
     
-    ofShader shader;
+   
 
     
     
