@@ -3,8 +3,7 @@
 void ofApp::setup(){
     
  
-    
-    ofSetCircleResolution(120);
+
     
     
 
