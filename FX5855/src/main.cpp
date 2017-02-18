@@ -2,9 +2,7 @@
 #include "ofApp.h"
 
 int main( ){
-    //	ofSetupOpenGL(1024,768,OF_WINDOW);			// <-------- setup the GL context
-    
-    // 720p
+    //	ofSetupOpenGL(1024,768,OF_WINDOW);		
 
     ofRunApp(new ofApp());
     
