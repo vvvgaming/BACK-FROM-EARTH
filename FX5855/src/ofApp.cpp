@@ -11,9 +11,7 @@ void ofApp::setup() {
     graph->setApp(this);
 }
 
-void ofApp::update() {}
 
-void ofApp::draw() {
  
 
 
