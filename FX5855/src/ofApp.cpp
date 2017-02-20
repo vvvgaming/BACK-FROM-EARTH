@@ -14,13 +14,7 @@ void ofApp::setup() {
 void ofApp::update() {}
 
 void ofApp::draw() {
-    // set background gradient
-    ofBackgroundGradient(ofColor(64), ofColor(0));
-    
-    // draw graph
-    graph->draw();
-    graph->step();
-}
+ 
 
 
 
