@@ -14,13 +14,7 @@ void ofApp::setup()
     image.resize(100, 100);
     image.setAnchorPercent(0.5, 0.5);
     
-    // fbo for canvas
-    canvas.allocate(ofGetWidth(), ofGetHeight(), GL_RGBA, 8);
-    canvas.begin();
-    {
-        ofClear(0, 0);
-    }
-    canvas.end();
+
  
 
 
