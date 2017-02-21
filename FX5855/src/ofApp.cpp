@@ -32,12 +32,7 @@ void ofApp::setup()
         ofDrawCircle(mask.getWidth() * 0.5, mask.getHeight() * 0.5, 40);
     }
     mask.end();
-    
-    // init positions
-    for (int i = 0; i < 100; ++i) {
-        positions.push_back(ofVec3f(ofRandom(500), ofRandom(500), ofRandom(-100, 100)));
-    }
-}
+
 
 
 
