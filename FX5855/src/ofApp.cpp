@@ -7,9 +7,7 @@ void ofApp::setup()
     shader.load("mask");
     
     ofSetCircleResolution(128);
-    ofEnableSmoothing();
-    
-}
+
 
 
 
