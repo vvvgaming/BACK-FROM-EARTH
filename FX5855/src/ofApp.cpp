@@ -11,6 +11,9 @@ void ofApp::setup(){
     jpeg.setup(20, 40, 80);
     
     shader.load("shaders/shader.vert", "shaders/shader.frag");
+    
+    gui.setup();
+    gui.add(ratioThreshold.setup( "ratio", 0.75f, 0, 1 ));
 
 
 }
