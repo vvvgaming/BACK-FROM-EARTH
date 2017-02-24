@@ -16,6 +16,9 @@ void ofApp::setup(){
     gui.add(ratioThreshold.setup( "ratio", 0.75f, 0, 1 ));
     
     setupImages("images", "png");
+    
+    tracker.setup();
+    tracker.setRescale(.5);
 
 
 }
