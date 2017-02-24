@@ -14,6 +14,8 @@ void ofApp::setup(){
     
     gui.setup();
     gui.add(ratioThreshold.setup( "ratio", 0.75f, 0, 1 ));
+    
+    setupImages("images", "png");
 
 
 }
