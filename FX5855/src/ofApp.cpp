@@ -19,6 +19,9 @@ void ofApp::setup(){
     
     tracker.setup();
     tracker.setRescale(.5);
+    
+    classifier.reset();
+    classifierInited = false;
 
 
 }
