@@ -22,6 +22,8 @@ void ofApp::setup(){
     
     classifier.reset();
     classifierInited = false;
+    
+    grabber.initGrabber(640, 480);
 
 
 }
