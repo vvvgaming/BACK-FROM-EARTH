@@ -30,3 +30,5 @@ public:
 private:
     ofVideoGrabber grabber;
     ofxFaceTrackerThreaded tracker;
+    ExpressionClassifier classifier;
+    bool classifierInited;
