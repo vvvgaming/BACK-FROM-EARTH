@@ -32,6 +32,15 @@ void ofApp::setup(){
 
 }
 
+void ofApp::setupImages(string dirName, string ext){
+    // load images in images folder
+    ofDirectory dir(dirName);
+    dir.allowExt(ext);
+    
+    
+
+}
+
 
 
 
