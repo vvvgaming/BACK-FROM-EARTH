@@ -36,9 +36,12 @@ void ofApp::setupImages(string dirName, string ext){
     // load images in images folder
     ofDirectory dir(dirName);
     dir.allowExt(ext);
+    dir.listDir();
+    for(int i = 0; i < dir.size(); i++) {
+        images.push_back(ofImage());
+        images.back().loadImage(dirName + "/" + dir.getName(i));
+    }
     
-    
-
 }
 
 
