@@ -24,6 +24,10 @@ void ofApp::setup(){
     classifierInited = false;
     
     grabber.initGrabber(640, 480);
+    
+    
+    imageIndex = 0;
+    glitchCount = 0;
 
 
 }
