@@ -46,6 +46,19 @@ void ofApp::setupImages(string dirName, string ext){
 
 void ofApp::update(){
     ofSetWindowTitle(ofToString(ofGetFrameRate()));
+    
+    grabber.update();
+    if(grabber.isFrameNew()) {
+        tracker.update(toCv(grabber));
+    }
+    
+    if(tracker.getFound() && !classifierInited) {
+        classifier.load("expressions");
+        classifierInited = true;
+    }
+    
+    updateDecision();
+    updateGlitch();
 
 
 
