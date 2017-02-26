@@ -1,6 +1,6 @@
 #include "ofApp.h"
 
-
+using namespace ofxCv;
 
 
 void ofApp::setup(){
