@@ -37,3 +37,5 @@ private:
     int imageIndex;
     int glitchCount;
     enum GlitchType {NONE, JPEG, GRAY} glitchType;
+    ofxJpegGlitch jpeg;
+    ofShader shader;
