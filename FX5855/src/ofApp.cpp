@@ -60,9 +60,33 @@ void ofApp::update(){
     updateDecision();
     updateGlitch();
 
+}
 
+void ofApp::updateDecision(){
+    classifier.classify(tracker);
+    
+    int primary = classifier.getPrimaryExpression();
+    float pTotal = 0;
+    float pPrime = classifier.getProbability(primary);
+    for(int i = 0; i < classifier.size(); i++){
+        pTotal += classifier.getProbability(i);
+    }
+    
 
-
+    if(pPrime / pTotal < ratioThreshold) {
+       
+        if(classifier.getProbability(0) > classifier.getProbability(2)) {
+            glitchType = GRAY;
+        }
+        
+        else {
+            glitchType = JPEG;
+        }
+    }
+    
+    else {
+        glitchType = NONE;
+    }
 }
 
 
