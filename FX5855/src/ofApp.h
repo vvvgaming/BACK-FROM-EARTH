@@ -39,3 +39,6 @@ private:
     enum GlitchType {NONE, JPEG, GRAY} glitchType;
     ofxJpegGlitch jpeg;
     ofShader shader;
+    
+    ofxPanel gui;
+    ofxFloatSlider ratioThreshold;
