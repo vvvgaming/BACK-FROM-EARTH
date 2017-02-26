@@ -32,3 +32,8 @@ private:
     ofxFaceTrackerThreaded tracker;
     ExpressionClassifier classifier;
     bool classifierInited;
+    
+    vector<ofImage> images;
+    int imageIndex;
+    int glitchCount;
+    enum GlitchType {NONE, JPEG, GRAY} glitchType;
