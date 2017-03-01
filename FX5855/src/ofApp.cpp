@@ -115,6 +115,11 @@ void ofApp::exit(){
     tracker.waiForThread();
 }
 
+void ofApp::draw(){
+
+    ofBackground(0);
+}
+
 
 
 
