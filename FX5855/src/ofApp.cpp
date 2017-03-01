@@ -110,7 +110,10 @@ void ofApp::updateGlitch(){
 
 }
 
+void ofApp::exit(){
 
+    tracker.waiForThread();
+}
 
 
 
