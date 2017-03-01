@@ -124,6 +124,9 @@ void ofApp::draw(){
     ofBaseDraws *ofBaseDraw;
 
     switch(glitchType){
+        case GRAY:
+
+            ofBaseDraw = &grabber;
 
     }
 }
