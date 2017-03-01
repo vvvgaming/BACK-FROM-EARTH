@@ -100,7 +100,8 @@ void ofApp::updateGlitch(){
         
         }
         if(!jpeg.getImage().isAllocated() || ofGetFrameNum() % 5 == 0){
-            
+            jpeg.setPixels(images.at(imageIndex - 1).getPixels());
+            jpeg.glitch();
         }
 
 }
