@@ -92,6 +92,12 @@ void ofApp::updateDecision(){
 void ofApp::updateGlitch(){
     
     glichCount = max(0, glitchCount -1);
+    
+    if(glitchType == JPEG){
+        
+    
+    }
+    
 
 }
 
