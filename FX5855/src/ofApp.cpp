@@ -123,7 +123,9 @@ void ofApp::draw(){
     shader.begin();
     ofBaseDraws *ofBaseDraw;
 
-    
+    switch(glitchType){
+
+    }
 }
 
 
