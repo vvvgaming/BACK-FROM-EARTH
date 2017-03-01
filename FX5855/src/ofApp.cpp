@@ -127,6 +127,7 @@ void ofApp::draw(){
         case GRAY:
 
             ofBaseDraw = &grabber;
+            shader.setUniformTexture("tex0", grabber.getTexture(), 0);
 
     }
 }
