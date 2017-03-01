@@ -99,9 +99,9 @@ void ofApp::updateGlitch(){
             glitchCount = 10;
         
         }
-    
-    }
-    
+        if(!jpeg.getImage().isAllocated() || ofGetFrameNum() % 5 == 0){
+            
+        }
 
 }
 
