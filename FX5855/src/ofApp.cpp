@@ -103,8 +103,16 @@ void ofApp::updateGlitch(){
             jpeg.setPixels(images.at(imageIndex - 1).getPixels());
             jpeg.glitch();
         }
+    }
+    else{
+        imageIndex = 0;
+    }
 
 }
+
+
+
+
 
 
 
