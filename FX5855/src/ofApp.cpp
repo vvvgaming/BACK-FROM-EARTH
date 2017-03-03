@@ -164,6 +164,10 @@ void ofApp::drawClassifier() {
     
     int w = 100, h = 12;
     
+    ofPushStyle();
+    
+    ofPopStyle();
+    
 }
 
 
