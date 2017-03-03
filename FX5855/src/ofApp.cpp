@@ -149,7 +149,9 @@ void ofApp::draw(){
     }
 
     shader.setUniform2f("imageViewPort", baseDraw->getWidth(), baseDraw->getHeight());
-    shader.setUniform2f();
+    shader.setUniform2f("screenViewPort", ofGetWidth(), ofGetHeight());
+
+    
 
 }
 
