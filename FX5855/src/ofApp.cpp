@@ -128,12 +128,15 @@ void ofApp::draw(){
 
             ofBaseDraw = &grabber;
             shader.setUniformTexture("tex0", grabber.getTexture(), 0);
-            shader.setUniform1f("doGray", 1)
+            shader.setUniform1f("doGray", 1);
             bgreak;
 
         case JPEG:
 
              baseDraw = &(jpeg.getImage());
+             shader.setUniformTexture("tex0", jepg.getImage().getTexture(), 0);
+             shader.setUniform1f("doGray", 0);
+             break;
 
 
 
