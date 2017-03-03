@@ -142,6 +142,7 @@ void ofApp::draw(){
         default:
 
              baseDraw = &grabber;
+             shader.setUniformTexture("tex0", grabber.getTexture(), 0);
 
 
 
