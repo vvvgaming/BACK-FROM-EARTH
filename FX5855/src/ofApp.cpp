@@ -151,6 +151,7 @@ void ofApp::draw(){
     shader.setUniform2f("imageViewPort", baseDraw->getWidth(), baseDraw->getHeight());
     shader.setUniform2f("screenViewPort", ofGetWidth(), ofGetHeight());
 
+    ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
     
 
 }
