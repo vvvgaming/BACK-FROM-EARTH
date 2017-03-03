@@ -138,6 +138,11 @@ void ofApp::draw(){
              shader.setUniform1f("doGray", 0);
              break;
 
+        case NONE:
+        default:
+
+             baseDraw = &grabber;
+
 
 
 
