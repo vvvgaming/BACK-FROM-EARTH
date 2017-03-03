@@ -168,6 +168,9 @@ void ofApp::drawClassifier() {
     ofPushMatrix();
     ofTranslate(5, 100);
     
+    int n = classifier.size();
+    
+    
     
     ofPopMatrix();
     ofPopStyle();
