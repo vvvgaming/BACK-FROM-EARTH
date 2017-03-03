@@ -146,11 +146,11 @@ void ofApp::draw(){
              shader.setUniform1f("doGary", 0);
              break;
 
-
-
-
-
     }
+
+    shader.setUniform2f("imageViewPort", baseDraw->getWidth(), baseDraw->getHeight());
+    shader.setUniform2f();
+
 }
 
 
