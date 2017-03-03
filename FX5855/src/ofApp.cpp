@@ -131,6 +131,14 @@ void ofApp::draw(){
             shader.setUniform1f("doGray", 1)
             bgreak;
 
+        case JPEG:
+
+             baseDraw = &(jpeg.getImage());
+
+
+
+
+
     }
 }
 
