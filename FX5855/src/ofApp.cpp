@@ -128,6 +128,8 @@ void ofApp::draw(){
 
             ofBaseDraw = &grabber;
             shader.setUniformTexture("tex0", grabber.getTexture(), 0);
+            shader.setUniform1f("doGray", 1)
+            bgreak;
 
     }
 }
