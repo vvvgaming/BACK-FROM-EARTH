@@ -152,7 +152,11 @@ void ofApp::draw(){
     shader.setUniform2f("screenViewPort", ofGetWidth(), ofGetHeight());
 
     ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
-    
+
+    shader.end();
+
+    gui.draw();
+    drawClassifier();
 
 }
 
