@@ -172,6 +172,7 @@ void ofApp::drawClassifier() {
     int primary = classifier.getPrimaryExpression();
     for(int i = 0; i < n; i++){
         
+        ofSetColor(i == primary ? ofColor::red : ofColor::black);
         
     
     }
