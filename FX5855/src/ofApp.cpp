@@ -169,6 +169,7 @@ void ofApp::drawClassifier() {
     ofTranslate(5, 100);
     
     int n = classifier.size();
+    int primary = classifier.getPrimaryExpression();
     
     
     
