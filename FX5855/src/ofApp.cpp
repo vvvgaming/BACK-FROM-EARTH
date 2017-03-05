@@ -173,7 +173,7 @@ void ofApp::drawClassifier() {
     for(int i = 0; i < n; i++){
         
         ofSetColor(i == primary ? ofColor::red : ofColor::black);
-        
+        ofDrawRectangle(0, 0, w * classifier.getProbability(i) + 0.5, h);
     
     }
     
