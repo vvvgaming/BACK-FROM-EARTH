@@ -170,7 +170,9 @@ void ofApp::drawClassifier() {
     
     int n = classifier.size();
     int primary = classifier.getPrimaryExpression();
+    for(){
     
+    }
     
     
     ofPopMatrix();
