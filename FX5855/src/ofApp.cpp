@@ -175,6 +175,8 @@ void ofApp::drawClassifier() {
         ofSetColor(i == primary ? ofColor::red : ofColor::black);
         ofDrawRectangle(0, 0, w * classifier.getProbability(i) + 0.5, h);
         ofSetColor(255);
+        ofDrawBitmapString(classifier.getDescription(i), 5, 9);
+        
     
     }
     
