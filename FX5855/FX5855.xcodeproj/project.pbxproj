@@ -1,376 +1,2236 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
+<?xml version="1.0"?>
+<plist version="1.0">
+	<dict>
+		<key>archiveVersion</key>
+		<string>1</string>
+		<key>classes</key>
+		<dict />
+		<key>objectVersion</key>
+		<string>46</string>
+		<key>objects</key>
+		<dict>
+			<key>C125923DCAE883AB3F627C76</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxJpegGlitch.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src/ofxJpegGlitch.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>DFF91EA9474B4D3208195B21</key>
+			<dict>
+				<key>fileRef</key>
+				<string>A70A2B7081F75D7C580CF66D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>A70A2B7081F75D7C580CF66D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxJpegGlitch.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src/ofxJpegGlitch.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>84348EBA0C307037953DFCF8</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>EB430C9D6DA2236D99BF3E19</string>
+					<string>A70A2B7081F75D7C580CF66D</string>
+					<string>C125923DCAE883AB3F627C76</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>19F5C8743B39A8C356DAEB17</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>84348EBA0C307037953DFCF8</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxJpegGlitch</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>EB430C9D6DA2236D99BF3E19</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>JpegConstant.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src/JpegConstant.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F358093754F2112410F0A80C</key>
+			<dict>
+				<key>fileRef</key>
+				<string>84D294072CC969937091D3C2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>84D294072CC969937091D3C2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Tracker.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/Tracker.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D2144095FC9789B3CA164341</key>
+			<dict>
+				<key>fileRef</key>
+				<string>62644606EEABD20057527208</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>62644606EEABD20057527208</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>PDM.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/PDM.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>455CA14497A85A91F4DCE8F3</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1B78F34FA5529E1184D2B81B</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1B78F34FA5529E1184D2B81B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>PAW.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/PAW.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E70F5AD7500F30E0061F038D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>67433D1D221415628BD2667B</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>67433D1D221415628BD2667B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Patch.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/Patch.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CB1A1E16B06283C8F6C4C2AA</key>
+			<dict>
+				<key>fileRef</key>
+				<string>FB1072D822DFCB7262FA5212</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>FB1072D822DFCB7262FA5212</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>IO.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/IO.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0F49C6F00B88EFA7009CD324</key>
+			<dict>
+				<key>fileRef</key>
+				<string>104FE8119D696B567D097F1D</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>104FE8119D696B567D097F1D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FDet.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/FDet.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CD23E5F69D99AC2DA3C33A60</key>
+			<dict>
+				<key>fileRef</key>
+				<string>9B393166D2C8E7741D9142FC</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>9B393166D2C8E7741D9142FC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FCheck.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/FCheck.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>74312553B85B0FAC32207F8A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>3D8473392FBDA44C77C495BB</string>
+					<string>9B393166D2C8E7741D9142FC</string>
+					<string>104FE8119D696B567D097F1D</string>
+					<string>FB1072D822DFCB7262FA5212</string>
+					<string>67433D1D221415628BD2667B</string>
+					<string>1B78F34FA5529E1184D2B81B</string>
+					<string>62644606EEABD20057527208</string>
+					<string>84D294072CC969937091D3C2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>lib</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>EE7AB71CA23FB7FF1C5A1E69</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>74312553B85B0FAC32207F8A</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>A6D706201E66568E7A145F61</key>
+			<dict>
+				<key>fileRef</key>
+				<string>3D8473392FBDA44C77C495BB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>3D8473392FBDA44C77C495BB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>CLM.cc</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib/CLM.cc</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>CF255B1133770D7D827BFC4F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Tracker.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/Tracker.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0EB652663CDD33F429E6C80C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>PDM.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/PDM.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>39F62B36B0AFABB9B2C3CE75</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>PAW.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/PAW.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7B4AA7280172A748C0DC1064</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Patch.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/Patch.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>71395217F277D1F0B36734B7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>IO.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/IO.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4C48D6865B69BCCE6DE5CF37</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FDet.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/FDet.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>84DAD6DFF64740E0CB7B0DF4</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>FCheck.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/FCheck.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E98B41DCE24F6EE3FAFB16AE</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>CBB95CD8DA03382A0AD7F9E8</string>
+					<string>84DAD6DFF64740E0CB7B0DF4</string>
+					<string>4C48D6865B69BCCE6DE5CF37</string>
+					<string>71395217F277D1F0B36734B7</string>
+					<string>7B4AA7280172A748C0DC1064</string>
+					<string>39F62B36B0AFABB9B2C3CE75</string>
+					<string>0EB652663CDD33F429E6C80C</string>
+					<string>CF255B1133770D7D827BFC4F</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>FaceTracker</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>FA7DE18CAD263BF5D191DB1B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E98B41DCE24F6EE3FAFB16AE</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8B6D45C09E1EE5AA0A7EC645</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>FA7DE18CAD263BF5D191DB1B</string>
+					<string>EE7AB71CA23FB7FF1C5A1E69</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>FaceTracker</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>96E8AB44895C3D65BDB04141</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>8B6D45C09E1EE5AA0A7EC645</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>CBB95CD8DA03382A0AD7F9E8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>CLM.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker/CLM.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>012709E784990200AB41EE03</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFaceTrackerThreaded.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/ofxFaceTrackerThreaded.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6790824E814317BF1BEA3B47</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFaceTracker.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/ofxFaceTracker.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A95FD2D6B24EB1A00F5233BE</key>
+			<dict>
+				<key>fileRef</key>
+				<string>BF4570F94B13DBF8CC000E04</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>BF4570F94B13DBF8CC000E04</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFaceTracker.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/ofxFaceTracker.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F7A751D727F6B679C4078A71</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ExpressionClassifier.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/ExpressionClassifier.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4A2F652B4884B0631E0E8052</key>
+			<dict>
+				<key>fileRef</key>
+				<string>10084F07F7463F49BC04C3B7</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>10084F07F7463F49BC04C3B7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ExpressionClassifier.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/ExpressionClassifier.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>27EC560AE6C507AE0FACC064</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Expression.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/Expression.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EE1E8A73C6C6A1D433F5FA51</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>5784842C4EB0B3CD6A6D88ED</string>
+					<string>27EC560AE6C507AE0FACC064</string>
+					<string>10084F07F7463F49BC04C3B7</string>
+					<string>F7A751D727F6B679C4078A71</string>
+					<string>BF4570F94B13DBF8CC000E04</string>
+					<string>6790824E814317BF1BEA3B47</string>
+					<string>012709E784990200AB41EE03</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>2B86176FA97BFB2BEE1F2F83</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>EE1E8A73C6C6A1D433F5FA51</string>
+					<string>96E8AB44895C3D65BDB04141</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxFaceTracker</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>91FE752B67BFF639A43D846F</key>
+			<dict>
+				<key>fileRef</key>
+				<string>5784842C4EB0B3CD6A6D88ED</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>5784842C4EB0B3CD6A6D88ED</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Expression.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src/Expression.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D0A67EAAA1468DC6D6C67A43</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFaceRecognizer.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceRecognizer/src/ofxFaceRecognizer.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A3DFD9738AFD997939741C48</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>FCCEF56FB85CB5B27E4E75FC</string>
+					<string>D0A67EAAA1468DC6D6C67A43</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8D0783E7026DC6F5DEB56FE7</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>A3DFD9738AFD997939741C48</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxFaceRecognizer</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>90B566F55D3039763103FFD7</key>
+			<dict>
+				<key>fileRef</key>
+				<string>FCCEF56FB85CB5B27E4E75FC</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>FCCEF56FB85CB5B27E4E75FC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxFaceRecognizer.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxFaceRecognizer/src/ofxFaceRecognizer.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>8BEE97592840E8DDE477AA6F</key>
+			<dict>
+				<key>fileRef</key>
+				<string>9EC734F00A1D89DF70906E32</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>9EC734F00A1D89DF70906E32</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Wrappers.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Wrappers.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F97DC0E3AA1F595BB2DC26C5</key>
+			<dict>
+				<key>fileRef</key>
+				<string>AB9A6FF18862DC28B4D732FC</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>AB9A6FF18862DC28B4D732FC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Utilities.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Utilities.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9BF6BDDA4582645D7F6BE01A</key>
+			<dict>
+				<key>fileRef</key>
+				<string>358BC3AB88A17F5C0467F7A6</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>358BC3AB88A17F5C0467F7A6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Tracker.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Tracker.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>56DD012C5298FA644056C4AD</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E90AC913504283E25A7E4302</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E90AC913504283E25A7E4302</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>RunningBackground.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/RunningBackground.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D3F14898B9C3E6274E684474</key>
+			<dict>
+				<key>fileRef</key>
+				<string>4CF13BE22E96E8910DE28700</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>4CF13BE22E96E8910DE28700</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ObjectFinder.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/ObjectFinder.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E8926A5C109CC25784E73AA9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1A05C3D42CEF321F9F420704</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1A05C3D42CEF321F9F420704</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Kalman.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Kalman.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AA79304951223A25DB3D0ADC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8FDABD2C91A426EF618F7694</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8FDABD2C91A426EF618F7694</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Helpers.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Helpers.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EE3FB2F182B657B19082F893</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7091E865EC7848037C990BB2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7091E865EC7848037C990BB2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Flow.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Flow.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>5B60A92785B88A571705828D</key>
+			<dict>
+				<key>fileRef</key>
+				<string>CE7647A8848B07ABD3FCD266</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>CE7647A8848B07ABD3FCD266</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Distance.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Distance.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B40BE6AF27A0064D5ED9F4FB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>6BEDCAF08B4E183CA0ECF20E</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>6BEDCAF08B4E183CA0ECF20E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ContourFinder.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/ContourFinder.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D240A1DD1AE9F8E81BDBCD2B</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>1CBB002BA9E09EE671506AD3</string>
+					<string>6BEDCAF08B4E183CA0ECF20E</string>
+					<string>CE7647A8848B07ABD3FCD266</string>
+					<string>7091E865EC7848037C990BB2</string>
+					<string>8FDABD2C91A426EF618F7694</string>
+					<string>1A05C3D42CEF321F9F420704</string>
+					<string>4CF13BE22E96E8910DE28700</string>
+					<string>E90AC913504283E25A7E4302</string>
+					<string>358BC3AB88A17F5C0467F7A6</string>
+					<string>AB9A6FF18862DC28B4D732FC</string>
+					<string>9EC734F00A1D89DF70906E32</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>1C756C8F1025C4194694CF7B</key>
+			<dict>
+				<key>fileRef</key>
+				<string>1CBB002BA9E09EE671506AD3</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>1CBB002BA9E09EE671506AD3</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Calibration.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/src/Calibration.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2534BFE3D3E6B33CE9FCE77C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Wrappers.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Wrappers.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>C23FDEB77D7AEEFE3636D5CB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Utilities.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Utilities.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F70D011B89AF3D38907725C6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Tracker.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Tracker.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>225909A87A58918AB42793D6</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>RunningBackground.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/RunningBackground.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>23280930F3657F0EA27FB524</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ObjectFinder.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ObjectFinder.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>3B23B825FBCA48DAD0D5A34F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Kalman.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Kalman.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>27AB99EB5FE5E28697628A34</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Helpers.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Helpers.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A822D7D6CCD3B43B5E8A3650</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Flow.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Flow.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>2B7055420164D93D7CC59264</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Distance.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Distance.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>AAC9936EDC1120F84A65B150</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ContourFinder.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/ContourFinder.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>4EB038C7DF921AA8A4070286</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>15F2C1B5F859BCA523C1F46C</string>
+					<string>AAC9936EDC1120F84A65B150</string>
+					<string>2B7055420164D93D7CC59264</string>
+					<string>A822D7D6CCD3B43B5E8A3650</string>
+					<string>27AB99EB5FE5E28697628A34</string>
+					<string>3B23B825FBCA48DAD0D5A34F</string>
+					<string>23280930F3657F0EA27FB524</string>
+					<string>225909A87A58918AB42793D6</string>
+					<string>F70D011B89AF3D38907725C6</string>
+					<string>C23FDEB77D7AEEFE3636D5CB</string>
+					<string>2534BFE3D3E6B33CE9FCE77C</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxCv</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>13C72B31738CA9F68523CB1C</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>4EB038C7DF921AA8A4070286</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>85961BEC127E2550AA7756C9</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>13C72B31738CA9F68523CB1C</string>
+					<string>D240A1DD1AE9F8E81BDBCD2B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxCv</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>15F2C1B5F859BCA523C1F46C</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Calibration.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include/ofxCv/Calibration.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A18A8B2FE2662C36C762B4A8</key>
+			<dict>
+				<key>fileRef</key>
+				<string>8375C8E4527EF3AF58A52F2B</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>8375C8E4527EF3AF58A52F2B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>fdog.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/src/fdog.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>37CF39B443ACB0F86B1351ED</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>0074DA912E8B39694AA8FF6B</string>
+					<string>8375C8E4527EF3AF58A52F2B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>A3839B1C3DFE573D5F574CA9</key>
+			<dict>
+				<key>fileRef</key>
+				<string>0074DA912E8B39694AA8FF6B</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>0074DA912E8B39694AA8FF6B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ETF.cpp</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/src/ETF.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>EC08676C8853B5CCD8784A7B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>myvec.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD/myvec.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>F452E310819AF5947D85442F</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>imatrix.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD/imatrix.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>77A3199FCE99462CDF9424A1</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>fdog.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD/fdog.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>FEA273413D5AFD9607F56ABE</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>DFD31C1CA5875D755A49FAB2</string>
+					<string>77A3199FCE99462CDF9424A1</string>
+					<string>F452E310819AF5947D85442F</string>
+					<string>EC08676C8853B5CCD8784A7B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>CLD</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>45591C11B7434576DF6996B4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>FEA273413D5AFD9607F56ABE</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>7CC1E591490DB083FB916812</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>45591C11B7434576DF6996B4</string>
+					<string>37CF39B443ACB0F86B1351ED</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>CLD</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>90D509C72729D1998E28A98F</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>7CC1E591490DB083FB916812</string>
+					<string>85961BEC127E2550AA7756C9</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>libs</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>DFD31C1CA5875D755A49FAB2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ETF.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD/ETF.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>873F2BD1A608B2DE7BC81AFB</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>CC636CB0C0F68CEB40B67F5B</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>6025FAF6414C2CA589764D26</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>873F2BD1A608B2DE7BC81AFB</string>
+					<string>90D509C72729D1998E28A98F</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxCv</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>CC636CB0C0F68CEB40B67F5B</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxCv.h</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/addons/ofxCv/src/ofxCv.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>6948EE371B920CB800B5AC1A</key>
+			<dict>
+				<key>children</key>
+				<array />
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>local_addons</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>8466F1851C04CA0E00918B1C</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>12</string>
+				<key>files</key>
+				<array />
+				<key>inputPaths</key>
+				<array />
+				<key>isa</key>
+				<string>PBXShellScriptBuildPhase</string>
+				<key>outputPaths</key>
+				<array />
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+				<key>shellPath</key>
+				<string>/bin/sh</string>
+				<key>shellScript</key>
+				<string># ---- Code Sign App Package ----
+ 
+# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!
 
-/* Begin PBXBuildFile section */
-		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
-		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
-		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
-/* End PBXBuildFile section */
+# Verify that $CODE_SIGN_IDENTITY is set
+if [ -z "${CODE_SIGN_IDENTITY}" ] ; then
+echo "CODE_SIGN_IDENTITY needs to be set for framework code-signing"
+exit 0
+fi
 
-/* Begin PBXContainerItemProxy section */
-		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
-			remoteInfo = openFrameworks;
-		};
-/* End PBXContainerItemProxy section */
+if [ -z "${CODE_SIGN_ENTITLEMENTS}" ] ; then
+echo "CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!"
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
+if [ "${CONFIGURATION}" = "Release" ] ; then
+exit 1
+else
+# Code-signing is optional for non-release builds.
+exit 0
+fi
+fi
 
-/* Begin PBXFileReference section */
-		BEEA25641E6337DA003CF086 /* ofxCv */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ofxCv; path = ../../../of_v0.9.2_osx_release/addons/ofxCv; sourceTree = "<group>"; };
-		BEEA25651E633804003CF086 /* ofxFaceTracker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ofxFaceTracker; path = ../../../of_v0.9.2_osx_release/addons/ofxFaceTracker; sourceTree = "<group>"; };
-		BEEA25661E633819003CF086 /* ofxJpegGlitch */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ofxJpegGlitch; path = ../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch; sourceTree = "<group>"; };
-		BEEA25671E633827003CF086 /* ofxGui */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ofxGui; path = ../../../of_v0.9.2_osx_release/addons/ofxGui; sourceTree = "<group>"; };
-		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../of_v0.9.2_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* FX5855Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FX5855Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
-		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
-		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../of_v0.9.2_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
-		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-/* End PBXFileReference section */
+ITEMS=""
 
-/* Begin PBXFrameworksBuildPhase section */
-		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
+FRAMEWORKS_DIR="${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}"
+echo "$FRAMEWORKS_DIR"
+if [ -d "$FRAMEWORKS_DIR" ] ; then
+FRAMEWORKS=$(find "${FRAMEWORKS_DIR}" -depth -type d -name "*.framework" -or -name "*.dylib" -or -name "*.bundle" | sed -e "s/\(.*framework\)/\1\/Versions\/A\//")
+RESULT=$?
+if [[ $RESULT != 0 ]] ; then
+exit 1
+fi
 
-/* Begin PBXGroup section */
-		6948EE371B920CB800B5AC1A /* local_addons */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = local_addons;
-			sourceTree = "<group>";
-		};
-		BB4B014C10F69532006C3DED /* addons */ = {
-			isa = PBXGroup;
-			children = (
-				BEEA25671E633827003CF086 /* ofxGui */,
-				BEEA25661E633819003CF086 /* ofxJpegGlitch */,
-				BEEA25651E633804003CF086 /* ofxFaceTracker */,
-				BEEA25641E6337DA003CF086 /* ofxCv */,
-			);
-			name = addons;
-			sourceTree = "<group>";
-		};
-		E4328144138ABC890047C5CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E4B69B4A0A3A1720003C02F2 = {
-			isa = PBXGroup;
-			children = (
-				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
-				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
-				E4B69E1C0A3A1BDC003C02F2 /* src */,
-				E4EEC9E9138DF44700A80321 /* openFrameworks */,
-				BB4B014C10F69532006C3DED /* addons */,
-				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* FX5855Debug.app */,
-			);
-			sourceTree = "<group>";
-		};
-		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
-				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
-			);
-			path = src;
-			sourceTree = SOURCE_ROOT;
-		};
-		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
-				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
-			);
-			name = openFrameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
+ITEMS="${FRAMEWORKS}"
+fi
 
-/* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* FX5855 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "FX5855" */;
-			buildPhases = (
-				E4B69B580A3A1756003C02F2 /* Sources */,
-				E4B69B590A3A1756003C02F2 /* Frameworks */,
-				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
-				E4C2427710CC5ABF004149E2 /* CopyFiles */,
-				8466F1851C04CA0E00918B1C /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
-			);
-			name = FX5855;
-			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* FX5855Debug.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
+LOGINITEMS_DIR="${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/"
+if [ -d "$LOGINITEMS_DIR" ] ; then
+LOGINITEMS=$(find "${LOGINITEMS_DIR}" -depth -type d -name "*.app")
+RESULT=$?
+if [[ $RESULT != 0 ]] ; then
+exit 1
+fi
 
-/* Begin PBXProject section */
-		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0600;
-			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "FX5855" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
-			);
-			mainGroup = E4B69B4A0A3A1720003C02F2;
-			productRefGroup = E4B69B4A0A3A1720003C02F2;
-			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E4328144138ABC890047C5CB /* Products */;
-					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
-				},
-			);
-			projectRoot = "";
-			targets = (
-				E4B69B5A0A3A1756003C02F2 /* FX5855 */,
-			);
-		};
-/* End PBXProject section */
+ITEMS="${ITEMS}"$'\n'"${LOGINITEMS}"
+fi
 
-/* Begin PBXReferenceProxy section */
-		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = openFrameworksDebug.a;
-			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
+# Prefer the expanded name, if available.
+CODE_SIGN_IDENTITY_FOR_ITEMS="${EXPANDED_CODE_SIGN_IDENTITY_NAME}"
+if [ "${CODE_SIGN_IDENTITY_FOR_ITEMS}" = "" ] ; then
+# Fall back to old behavior.
+CODE_SIGN_IDENTITY_FOR_ITEMS="${CODE_SIGN_IDENTITY}"
+fi
 
-/* Begin PBXShellScriptBuildPhase section */
-		8466F1851C04CA0E00918B1C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# ---- Code Sign App Package ----\n \n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n";
-		};
-		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../of_v0.9.2_osx_release/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../of_v0.9.2_osx_release/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
+echo "Identity:"
+echo "${CODE_SIGN_IDENTITY_FOR_ITEMS}"
 
-/* Begin PBXSourcesBuildPhase section */
-		E4B69B580A3A1756003C02F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
-				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
+echo "Entitlements:"
+echo "${CODE_SIGN_ENTITLEMENTS}"
 
-/* Begin PBXTargetDependency section */
-		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = openFrameworks;
-			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
+echo "Found:"
+echo "${ITEMS}"
 
-/* Begin XCBuildConfiguration section */
-		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_AUTO_VECTORIZATION = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-D__MACOSX_CORE__",
-					"-mtune=native",
-				);
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		E4B69B4F0A3A1720003C02F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
-				COPY_PHASE_STRIP = YES;
-				DEAD_CODE_STRIPPING = YES;
-				GCC_AUTO_VECTORIZATION = YES;
-				GCC_ENABLE_SSE3_EXTENSIONS = YES;
-				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_UNROLL_LOOPS = YES;
-				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
-				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
-				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
-				GCC_WARN_UNINITIALIZED_AUTOS = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				OTHER_CPLUSPLUSFLAGS = (
-					"-D__MACOSX_CORE__",
-					"-mtune=native",
-				);
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		E4B69B600A3A1757003C02F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../of_v0.9.2_osx_release/libs/glut/lib/osx\"";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = NONE;
-				ICON = "$(ICON_NAME_DEBUG)";
-				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
-				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		E4B69B610A3A1757003C02F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../of_v0.9.2_osx_release/libs/glut/lib/osx\"";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = NONE;
-				ICON = "$(ICON_NAME_RELEASE)";
-				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
-				INSTALL_PATH = /Applications;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
+# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.
+SAVED_IFS=$IFS
+IFS=$(echo -en "\n\b")
 
-/* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "FX5855" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4B69B4E0A3A1720003C02F2 /* Debug */,
-				E4B69B4F0A3A1720003C02F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "FX5855" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4B69B600A3A1757003C02F2 /* Debug */,
-				E4B69B610A3A1757003C02F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
-}
+# Loop through all items.
+for ITEM in $ITEMS;
+do
+echo "Signing '${ITEM}'"
+codesign --force --verbose --sign "${CODE_SIGN_IDENTITY_FOR_ITEMS}" --entitlements "${CODE_SIGN_ENTITLEMENTS}" "${ITEM}"
+RESULT=$?
+if [[ $RESULT != 0 ]] ; then
+echo "Failed to sign '${ITEM}'."
+IFS=$SAVED_IFS
+exit 1
+fi
+done
+
+# Restore $IFS.
+IFS=$SAVED_IFS
+</string>
+			</dict>
+			<key>BB4B014C10F69532006C3DED</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>6025FAF6414C2CA589764D26</string>
+					<string>8D0783E7026DC6F5DEB56FE7</string>
+					<string>2B86176FA97BFB2BEE1F2F83</string>
+					<string>19F5C8743B39A8C356DAEB17</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>addons</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4328143138ABC890047C5CB</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>wrapper.pb-project</string>
+				<key>name</key>
+				<string>openFrameworksLib.xcodeproj</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4328144138ABC890047C5CB</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4328148138ABC890047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>Products</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4328147138ABC890047C5CB</key>
+			<dict>
+				<key>containerPortal</key>
+				<string>E4328143138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXContainerItemProxy</string>
+				<key>proxyType</key>
+				<string>2</string>
+				<key>remoteGlobalIDString</key>
+				<string>E4B27C1510CBEB8E00536013</string>
+				<key>remoteInfo</key>
+				<string>openFrameworks</string>
+			</dict>
+			<key>E4328148138ABC890047C5CB</key>
+			<dict>
+				<key>fileType</key>
+				<string>archive.ar</string>
+				<key>isa</key>
+				<string>PBXReferenceProxy</string>
+				<key>path</key>
+				<string>openFrameworksDebug.a</string>
+				<key>remoteRef</key>
+				<string>E4328147138ABC890047C5CB</string>
+				<key>sourceTree</key>
+				<string>BUILT_PRODUCTS_DIR</string>
+			</dict>
+			<key>E4328149138ABC9F0047C5CB</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4328148138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B69B4A0A3A1720003C02F2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4B6FCAD0C3E899E008CF71C</string>
+					<string>E4EB6923138AFD0F00A09F29</string>
+					<string>E4B69E1C0A3A1BDC003C02F2</string>
+					<string>E4EEC9E9138DF44700A80321</string>
+					<string>BB4B014C10F69532006C3DED</string>
+					<string>6948EE371B920CB800B5AC1A</string>
+					<string>E4B69B5B0A3A1756003C02F2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4B69B4C0A3A1720003C02F2</key>
+			<dict>
+				<key>attributes</key>
+				<dict>
+					<key>LastUpgradeCheck</key>
+					<string>0600</string>
+				</dict>
+				<key>buildConfigurationList</key>
+				<string>E4B69B4D0A3A1720003C02F2</string>
+				<key>compatibilityVersion</key>
+				<string>Xcode 3.2</string>
+				<key>developmentRegion</key>
+				<string>English</string>
+				<key>hasScannedForEncodings</key>
+				<string>0</string>
+				<key>isa</key>
+				<string>PBXProject</string>
+				<key>knownRegions</key>
+				<array>
+					<string>English</string>
+					<string>Japanese</string>
+					<string>French</string>
+					<string>German</string>
+				</array>
+				<key>mainGroup</key>
+				<string>E4B69B4A0A3A1720003C02F2</string>
+				<key>productRefGroup</key>
+				<string>E4B69B4A0A3A1720003C02F2</string>
+				<key>projectDirPath</key>
+				<string />
+				<key>projectReferences</key>
+				<array>
+					<dict>
+						<key>ProductGroup</key>
+						<string>E4328144138ABC890047C5CB</string>
+						<key>ProjectRef</key>
+						<string>E4328143138ABC890047C5CB</string>
+					</dict>
+				</array>
+				<key>projectRoot</key>
+				<string />
+				<key>targets</key>
+				<array>
+					<string>E4B69B5A0A3A1756003C02F2</string>
+				</array>
+			</dict>
+			<key>E4B69B4D0A3A1720003C02F2</key>
+			<dict>
+				<key>buildConfigurations</key>
+				<array>
+					<string>E4B69B4E0A3A1720003C02F2</string>
+					<string>E4B69B4F0A3A1720003C02F2</string>
+				</array>
+				<key>defaultConfigurationIsVisible</key>
+				<string>0</string>
+				<key>defaultConfigurationName</key>
+				<string>Release</string>
+				<key>isa</key>
+				<string>XCConfigurationList</string>
+			</dict>
+			<key>E4B69B4E0A3A1720003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceRecognizer/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/model</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>0</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.8</string>
+					<key>ONLY_ACTIVE_ARCH</key>
+					<string>YES</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Debug</string>
+			</dict>
+			<key>E4B69B4F0A3A1720003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceRecognizer/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/model</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src</string>
+					</array>
+					<key>CONFIGURATION_BUILD_DIR</key>
+					<string>$(SRCROOT)/bin/</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>DEAD_CODE_STRIPPING</key>
+					<string>YES</string>
+					<key>GCC_AUTO_VECTORIZATION</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SSE3_EXTENSIONS</key>
+					<string>YES</string>
+					<key>GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS</key>
+					<string>YES</string>
+					<key>GCC_INLINES_ARE_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_OPTIMIZATION_LEVEL</key>
+					<string>3</string>
+					<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+					<string>NO</string>
+					<key>GCC_UNROLL_LOOPS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+					<string>YES</string>
+					<key>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</key>
+					<string>NO</string>
+					<key>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VALUE</key>
+					<string>NO</string>
+					<key>GCC_WARN_UNUSED_VARIABLE</key>
+					<string>NO</string>
+					<key>MACOSX_DEPLOYMENT_TARGET</key>
+					<string>10.8</string>
+					<key>OTHER_CPLUSPLUSFLAGS</key>
+					<array>
+						<string>-D__MACOSX_CORE__</string>
+						<string>-mtune=native</string>
+					</array>
+					<key>SDKROOT</key>
+					<string>macosx</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Release</string>
+			</dict>
+			<key>E4B69B580A3A1756003C02F2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array>
+					<string>E4B69E200A3A1BDC003C02F2</string>
+					<string>E4B69E210A3A1BDC003C02F2</string>
+					<string>A3839B1C3DFE573D5F574CA9</string>
+					<string>A18A8B2FE2662C36C762B4A8</string>
+					<string>1C756C8F1025C4194694CF7B</string>
+					<string>B40BE6AF27A0064D5ED9F4FB</string>
+					<string>5B60A92785B88A571705828D</string>
+					<string>EE3FB2F182B657B19082F893</string>
+					<string>AA79304951223A25DB3D0ADC</string>
+					<string>E8926A5C109CC25784E73AA9</string>
+					<string>D3F14898B9C3E6274E684474</string>
+					<string>56DD012C5298FA644056C4AD</string>
+					<string>9BF6BDDA4582645D7F6BE01A</string>
+					<string>F97DC0E3AA1F595BB2DC26C5</string>
+					<string>8BEE97592840E8DDE477AA6F</string>
+					<string>90B566F55D3039763103FFD7</string>
+					<string>91FE752B67BFF639A43D846F</string>
+					<string>4A2F652B4884B0631E0E8052</string>
+					<string>A95FD2D6B24EB1A00F5233BE</string>
+					<string>A6D706201E66568E7A145F61</string>
+					<string>CD23E5F69D99AC2DA3C33A60</string>
+					<string>0F49C6F00B88EFA7009CD324</string>
+					<string>CB1A1E16B06283C8F6C4C2AA</string>
+					<string>E70F5AD7500F30E0061F038D</string>
+					<string>455CA14497A85A91F4DCE8F3</string>
+					<string>D2144095FC9789B3CA164341</string>
+					<string>F358093754F2112410F0A80C</string>
+					<string>DFF91EA9474B4D3208195B21</string>
+				</array>
+				<key>isa</key>
+				<string>PBXSourcesBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4B69B590A3A1756003C02F2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array>
+					<string>E4328149138ABC9F0047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXFrameworksBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4B69B5A0A3A1756003C02F2</key>
+			<dict>
+				<key>buildConfigurationList</key>
+				<string>E4B69B5F0A3A1757003C02F2</string>
+				<key>buildPhases</key>
+				<array>
+					<string>E4B69B580A3A1756003C02F2</string>
+					<string>E4B69B590A3A1756003C02F2</string>
+					<string>E4B6FFFD0C3F9AB9008CF71C</string>
+					<string>E4C2427710CC5ABF004149E2</string>
+					<string>8466F1851C04CA0E00918B1C</string>
+				</array>
+				<key>buildRules</key>
+				<array />
+				<key>dependencies</key>
+				<array>
+					<string>E4EEB9AC138B136A00A80321</string>
+				</array>
+				<key>isa</key>
+				<string>PBXNativeTarget</string>
+				<key>name</key>
+				<string>FX5855</string>
+				<key>productName</key>
+				<string>myOFApp</string>
+				<key>productReference</key>
+				<string>E4B69B5B0A3A1756003C02F2</string>
+				<key>productType</key>
+				<string>com.apple.product-type.application</string>
+			</dict>
+			<key>E4B69B5B0A3A1756003C02F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>wrapper.application</string>
+				<key>includeInIndex</key>
+				<string>0</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>path</key>
+				<string>FX5855Debug.app</string>
+				<key>sourceTree</key>
+				<string>BUILT_PRODUCTS_DIR</string>
+			</dict>
+			<key>E4B69B5F0A3A1757003C02F2</key>
+			<dict>
+				<key>buildConfigurations</key>
+				<array>
+					<string>E4B69B600A3A1757003C02F2</string>
+					<string>E4B69B610A3A1757003C02F2</string>
+				</array>
+				<key>defaultConfigurationIsVisible</key>
+				<string>0</string>
+				<key>defaultConfigurationName</key>
+				<string>Release</string>
+				<key>isa</key>
+				<string>XCConfigurationList</string>
+			</dict>
+			<key>E4B69B600A3A1757003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceRecognizer/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/model</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>NO</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
+					</array>
+					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
+					<string>"$(SRCROOT)/../../../of_v0.9.2_osx_release/libs/glut/lib/osx"</string>
+					<key>GCC_DYNAMIC_NO_PIC</key>
+					<string>NO</string>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_DEBUG)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)Debug</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Debug</string>
+			</dict>
+			<key>E4B69B610A3A1757003C02F2</key>
+			<dict>
+				<key>baseConfigurationReference</key>
+				<string>E4EB6923138AFD0F00A09F29</string>
+				<key>buildSettings</key>
+				<dict>
+					<key>HEADER_SEARCH_PATHS</key>
+					<array>
+						<string>$(OF_CORE_HEADERS)</string>
+						<string>src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/ofxCv/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/libs/CLD/include/CLD</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxCv/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceRecognizer/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/include/FaceTracker</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/model</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/libs/FaceTracker/src/lib</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxFaceTracker/src</string>
+						<string>../../../of_v0.9.2_osx_release/addons/ofxJpegGlitch/src</string>
+					</array>
+					<key>COMBINE_HIDPI_IMAGES</key>
+					<string>YES</string>
+					<key>COPY_PHASE_STRIP</key>
+					<string>YES</string>
+					<key>FRAMEWORK_SEARCH_PATHS</key>
+					<array>
+						<string>$(inherited)</string>
+						<string>$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)</string>
+					</array>
+					<key>FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1</key>
+					<string>"$(SRCROOT)/../../../of_v0.9.2_osx_release/libs/glut/lib/osx"</string>
+					<key>GCC_GENERATE_DEBUGGING_SYMBOLS</key>
+					<string>YES</string>
+					<key>GCC_MODEL_TUNING</key>
+					<string>NONE</string>
+					<key>ICON</key>
+					<string>$(ICON_NAME_RELEASE)</string>
+					<key>ICON_FILE</key>
+					<string>$(ICON_FILE_PATH)$(ICON)</string>
+					<key>INFOPLIST_FILE</key>
+					<string>openFrameworks-Info.plist</string>
+					<key>INSTALL_PATH</key>
+					<string>/Applications</string>
+					<key>LIBRARY_SEARCH_PATHS</key>
+					<string>$(inherited)</string>
+					<key>PRODUCT_NAME</key>
+					<string>$(TARGET_NAME)</string>
+					<key>WRAPPER_EXTENSION</key>
+					<string>app</string>
+					<key>baseConfigurationReference</key>
+					<string>E4EB6923138AFD0F00A09F29</string>
+				</dict>
+				<key>isa</key>
+				<string>XCBuildConfiguration</string>
+				<key>name</key>
+				<string>Release</string>
+			</dict>
+			<key>E4B69E1C0A3A1BDC003C02F2</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4B69E1D0A3A1BDC003C02F2</string>
+					<string>E4B69E1E0A3A1BDC003C02F2</string>
+					<string>E4B69E1F0A3A1BDC003C02F2</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>path</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1D0A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>name</key>
+				<string>main.cpp</string>
+				<key>path</key>
+				<string>src/main.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1E0A3A1BDC003C02F2</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofApp.cpp</string>
+				<key>path</key>
+				<string>src/ofApp.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E1F0A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>name</key>
+				<string>ofApp.h</string>
+				<key>path</key>
+				<string>src/ofApp.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4B69E200A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4B69E1D0A3A1BDC003C02F2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B69E210A3A1BDC003C02F2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>E4B69E1E0A3A1BDC003C02F2</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>E4B6FCAD0C3E899E008CF71C</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.plist.xml</string>
+				<key>path</key>
+				<string>openFrameworks-Info.plist</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4B6FFFD0C3F9AB9008CF71C</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>files</key>
+				<array />
+				<key>inputPaths</key>
+				<array />
+				<key>isa</key>
+				<string>PBXShellScriptBuildPhase</string>
+				<key>outputPaths</key>
+				<array />
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+				<key>shellPath</key>
+				<string>/bin/sh</string>
+				<key>shellScript</key>
+				<string>mkdir -p "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+# Copy default icon file into App/Resources
+rsync -aved "$ICON_FILE" "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/"
+# Copy bin/data into App/Resources
+rsync -avz --exclude='.DS_Store' "${SRCROOT}/bin/data/" "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/"
+# Copy libfmod and change install directory for fmod to run
+rsync -aved ../../../of_v0.9.2_osx_release/libs/fmodex/lib/osx/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/";
+install_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME";
+# Copy GLUT framework (must remove for AppStore submissions)
+rsync -aved ../../../of_v0.9.2_osx_release/libs/glut/lib/osx/GLUT.framework "$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/"
+</string>
+			</dict>
+			<key>E4C2427710CC5ABF004149E2</key>
+			<dict>
+				<key>buildActionMask</key>
+				<string>2147483647</string>
+				<key>dstPath</key>
+				<string />
+				<key>dstSubfolderSpec</key>
+				<string>10</string>
+				<key>files</key>
+				<array />
+				<key>isa</key>
+				<string>PBXCopyFilesBuildPhase</string>
+				<key>runOnlyForDeploymentPostprocessing</key>
+				<string>0</string>
+			</dict>
+			<key>E4EB691F138AFCF100A09F29</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.xcconfig</string>
+				<key>name</key>
+				<string>CoreOF.xcconfig</string>
+				<key>path</key>
+				<string>../../../of_v0.9.2_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>E4EB6923138AFD0F00A09F29</key>
+			<dict>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>lastKnownFileType</key>
+				<string>text.xcconfig</string>
+				<key>path</key>
+				<string>Project.xcconfig</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>E4EEB9AB138B136A00A80321</key>
+			<dict>
+				<key>containerPortal</key>
+				<string>E4328143138ABC890047C5CB</string>
+				<key>isa</key>
+				<string>PBXContainerItemProxy</string>
+				<key>proxyType</key>
+				<string>1</string>
+				<key>remoteGlobalIDString</key>
+				<string>E4B27C1410CBEB8E00536013</string>
+				<key>remoteInfo</key>
+				<string>openFrameworks</string>
+			</dict>
+			<key>E4EEB9AC138B136A00A80321</key>
+			<dict>
+				<key>isa</key>
+				<string>PBXTargetDependency</string>
+				<key>name</key>
+				<string>openFrameworks</string>
+				<key>targetProxy</key>
+				<string>E4EEB9AB138B136A00A80321</string>
+			</dict>
+			<key>E4EEC9E9138DF44700A80321</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>E4EB691F138AFCF100A09F29</string>
+					<string>E4328143138ABC890047C5CB</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>openFrameworks</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+		</dict>
+		<key>rootObject</key>
+		<string>E4B69B4C0A3A1720003C02F2</string>
+	</dict>
+</plist>
