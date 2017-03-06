@@ -1,0 +1,4 @@
+ofxCv
+ofxFaceRecognizer
+ofxFaceTracker
+ofxJpegGlitch
