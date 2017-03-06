@@ -176,7 +176,7 @@ void ofApp::drawClassifier() {
         ofDrawRectangle(0, 0, w * classifier.getProbability(i) + 0.5, h);
         ofSetColor(255);
         ofDrawBitmapString(classifier.getDescription(i), 5, 9);
-        
+        ofTranslate(5, h + 9);
     
     }
     
