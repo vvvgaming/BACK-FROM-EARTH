@@ -1,4 +1,4 @@
 ofxCv
-ofxFaceRecognizer
 ofxFaceTracker
+ofxGui
 ofxJpegGlitch
