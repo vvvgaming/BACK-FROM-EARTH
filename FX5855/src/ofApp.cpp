@@ -96,10 +96,7 @@ void ofApp::updateGlitch(){
     if(glitchType == JPEG){
         if(imageIndex == 0){
             imageIndex = ofRandom(1, images.size());
-            glitchCount = 10;
-        
-        }
-            }
+ 
 
 
 }
