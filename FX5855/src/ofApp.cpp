@@ -123,15 +123,7 @@ void ofApp::draw(){
     shader.begin();
     ofBaseDraws *ofBaseDraw;
 
-    switch(glitchType){
-        case GRAY:
 
-            ofBaseDraw = &grabber;
-            shader.setUniformTexture("tex0", grabber.getTexture(), 0);
-            shader.setUniform1f("doGray", 1);
-            bgreak;
-
-  
 
 
 
