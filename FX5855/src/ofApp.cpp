@@ -115,14 +115,6 @@ void ofApp::exit(){
     tracker.waiForThread();
 }
 
-void ofApp::draw(){
-
-    ofBackground(0);
-    ofSetColor(255, 255);
-
-    shader.begin();
-    ofBaseDraws *ofBaseDraw;
-
 
 
 
