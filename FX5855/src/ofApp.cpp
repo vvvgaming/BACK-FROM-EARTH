@@ -160,31 +160,7 @@ void ofApp::draw(){
 
 }
 
-void ofApp::drawClassifier() {
-    
-    int w = 100, h = 12;
-    
-    ofPushStyle();
-    ofPushMatrix();
-    ofTranslate(5, 100);
-    
-    int n = classifier.size();
-    int primary = classifier.getPrimaryExpression();
-    for(int i = 0; i < n; i++){
-        
-        ofSetColor(i == primary ? ofColor::red : ofColor::black);
-        ofDrawRectangle(0, 0, w * classifier.getProbability(i) + 0.5, h);
-        ofSetColor(255);
-        ofDrawBitmapString(classifier.getDescription(i), 5, 9);
-        ofTranslate(5, h + 9);
-    
-    }
-    
-    
-    ofPopMatrix();
-    ofPopStyle();
-    
-}
+
 
 
 
