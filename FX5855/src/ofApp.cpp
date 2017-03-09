@@ -104,9 +104,7 @@ void ofApp::updateGlitch(){
             jpeg.glitch();
         }
     }
-    else{
-        imageIndex = 0;
-    }
+
 
 }
 
