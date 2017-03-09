@@ -139,17 +139,7 @@ void ofApp::draw(){
              break;
 
         case NONE:
-        default:
-
-             baseDraw = &grabber;
-             shader.setUniformTexture("tex0", grabber.getTexture(), 0);
-             shader.setUniform1f("doGary", 0);
-             break;
-
-    }
-
-
-
+ 
 
 
 
