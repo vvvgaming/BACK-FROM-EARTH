@@ -91,7 +91,7 @@ void ofApp::updateDecision(){
 
 void ofApp::updateGlitch(){
     
-    glichCount = max(0, glitchCount -1);
+    glitchCount = max(0, glitchCount -1);
     
     if(glitchType == JPEG){
         if(imageIndex == 0){
@@ -99,11 +99,7 @@ void ofApp::updateGlitch(){
             glitchCount = 10;
         
         }
-        if(!jpeg.getImage().isAllocated() || ofGetFrameNum() % 5 == 0){
-            jpeg.setPixels(images.at(imageIndex - 1).getPixels());
-            jpeg.glitch();
-        }
-    }
+            }
 
 
 }
