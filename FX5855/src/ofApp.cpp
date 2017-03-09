@@ -131,16 +131,7 @@ void ofApp::draw(){
             shader.setUniform1f("doGray", 1);
             bgreak;
 
-        case JPEG:
-
-             baseDraw = &(jpeg.getImage());
-             shader.setUniformTexture("tex0", jepg.getImage().getTexture(), 0);
-             shader.setUniform1f("doGray", 0);
-             break;
-
-        case NONE:
- 
-
+  
 
 
 
