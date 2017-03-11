@@ -89,7 +89,7 @@ void ofApp::updateDecision(){
     }
 }
 
-void ofApp::updateGlitch()
+
     
 
 
