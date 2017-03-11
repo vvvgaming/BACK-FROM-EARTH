@@ -66,8 +66,6 @@ void ofApp::updateDecision(){
     classifier.classify(tracker);
     
     int primary = classifier.getPrimaryExpression();
-    float pTotal = 0;
- 
 
 }
 
