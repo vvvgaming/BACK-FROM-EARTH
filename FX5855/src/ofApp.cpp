@@ -65,7 +65,6 @@ void ofApp::update(){
 void ofApp::updateDecision(){
     classifier.classify(tracker);
     
-    int primary = classifier.getPrimaryExpression();
 
 }
 
