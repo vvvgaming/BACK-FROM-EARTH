@@ -62,9 +62,7 @@ void ofApp::update(){
 
 }
 
-void ofApp::updateDecision(){
 
-}
 
 
     
