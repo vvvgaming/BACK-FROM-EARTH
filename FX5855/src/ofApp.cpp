@@ -84,9 +84,7 @@ void ofApp::updateDecision(){
         }
     }
     
-    else {
-        glitchType = NONE;
-    }
+
 }
 
 
