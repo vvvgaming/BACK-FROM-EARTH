@@ -89,13 +89,9 @@ void ofApp::updateDecision(){
     }
 }
 
-void ofApp::updateGlitch(){
-    
-    glitchCount = max(0, glitchCount -1);
+void ofApp::updateGlitch()
     
 
-
-}
 
 
 
