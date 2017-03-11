@@ -63,8 +63,6 @@ void ofApp::update(){
 }
 
 void ofApp::updateDecision(){
-    classifier.classify(tracker);
-    
 
 }
 
