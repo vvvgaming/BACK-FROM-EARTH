@@ -73,11 +73,6 @@ void ofApp::updateDecision(){
     }
     
 
-    if(pPrime / pTotal < ratioThreshold) {
-       
-        if(classifier.getProbability(0) > classifier.getProbability(2)) {
-            glitchType = GRAY;
-        }
 
     }
     
