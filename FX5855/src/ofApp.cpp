@@ -68,9 +68,7 @@ void ofApp::updateDecision(){
     int primary = classifier.getPrimaryExpression();
     float pTotal = 0;
     float pPrime = classifier.getProbability(primary);
-    for(int i = 0; i < classifier.size(); i++){
-        pTotal += classifier.getProbability(i);
-    }
+  
     
 
 
