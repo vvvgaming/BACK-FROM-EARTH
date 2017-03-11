@@ -56,8 +56,7 @@ void ofApp::update(){
         classifier.load("expressions");
         classifierInited = true;
     }
-    
-    updateDecision();
+
     updateGlitch();
 
 }
