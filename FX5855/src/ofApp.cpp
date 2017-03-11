@@ -78,10 +78,7 @@ void ofApp::updateDecision(){
         if(classifier.getProbability(0) > classifier.getProbability(2)) {
             glitchType = GRAY;
         }
-        
-        else {
-            glitchType = JPEG;
-        }
+
     }
     
 
