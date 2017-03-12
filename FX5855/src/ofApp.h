@@ -29,7 +29,7 @@ private:
     ofVideoGrabber grabber;
     ofxFaceTrackerThreaded tracker;
     ExpressionClassifier classifier;
-    bool classifierInited;
+    
     
     vector<ofImage> images;
     int imageIndex;
