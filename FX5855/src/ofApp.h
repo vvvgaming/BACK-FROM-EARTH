@@ -28,7 +28,7 @@ public:
 private:
     ofVideoGrabber grabber;
     ofxFaceTrackerThreaded tracker;
-    ExpressionClassifier classifier;
+    
     
     
     vector<ofImage> images;
