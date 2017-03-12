@@ -45,6 +45,7 @@ void ofApp::setupImages(string dirName, string ext){
 }
 
 void ofApp::update(){
+    
     ofSetWindowTitle(ofToString(ofGetFrameRate()));
     
     grabber.update();
