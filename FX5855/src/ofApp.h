@@ -39,4 +39,3 @@ private:
     ofShader shader;
     
     ofxPanel gui;
-    ofxFloatSlider ratioThreshold;
