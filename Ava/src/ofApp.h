@@ -13,7 +13,5 @@ class ofApp : public ofBaseApp{
 		void keyReleased(int key);
 		void mouseMoved(int x, int y );
 		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
 
-		
 };
