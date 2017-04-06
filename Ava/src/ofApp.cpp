@@ -12,7 +12,7 @@ void ofApp::update(){
     for(int i = 0; i < 100000; i++){
         
         float x = random(width/2);
-        
+        float y = random(height);
     
     }
 
