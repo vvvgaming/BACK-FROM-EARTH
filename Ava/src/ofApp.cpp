@@ -22,8 +22,7 @@ void ofApp::update(){
 
 void ofApp::draw(){
     
-    ofSetColor(255);
-    ofDrawCircle(500, 500, 80);
+    ofTranslate(width/2, 0);
 
 }
 
