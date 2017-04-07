@@ -22,8 +22,9 @@ void ofApp::update(){
 
 void ofApp::draw(){
     
-    ofTranslate(width/2, 0);
-    float x = (random(width/2) + random(random))
+    ofTranslate(OfGetW
+                idth/2, 0);
+    float x = (random(width/2) + random(random));
 
 }
 
