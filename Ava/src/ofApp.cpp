@@ -11,8 +11,8 @@ void ofApp::update(){
     
     for(int i = 0; i < 100000; i++){
         
-        float x = random(width/2);
-        float y = random(height);
+        float x = random(ofGetWidth/2);
+        float y = random(ofGetHeight);
         point(x,y);
     
     }
@@ -23,7 +23,7 @@ void ofApp::update(){
 void ofApp::draw(){
     
     ofTranslate(width/2, 0);
-    float x = (random(width/2))
+    float x = (random(width/2) + random(random))
 
 }
 
