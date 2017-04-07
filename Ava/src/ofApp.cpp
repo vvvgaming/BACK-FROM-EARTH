@@ -13,6 +13,7 @@ void ofApp::update(){
         
         float x = random(width/2);
         float y = random(height);
+        point(x,y);
     
     }
 
