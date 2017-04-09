@@ -25,6 +25,8 @@ void ofApp::draw(){
     ofTranslate(OfGetW
                 idth/2, 0);
     float x = (random(width/2) + random(width/2) + random(width/2) + random(width/2) + random(width/2)) /5.0;
+    
+    float y = (random(height) + random(height) + random(height) + random(height) + random(height)) / 5.0;
 
 }
 
