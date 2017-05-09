@@ -10,10 +10,4 @@ class ofApp : public ofBaseApp{
 		void draw();
 
 
-
-
-
-
-
-
 };
