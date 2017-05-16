@@ -4,6 +4,8 @@ void ofApp::setup(){
     
     ofBackground(0);
     ofSetloglevel("ofxCsv", OF_LOG_VERBOSE);
+    
+    ofSetCircleResolution(3);
 
 }
 
