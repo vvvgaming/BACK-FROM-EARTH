@@ -1,6 +1,9 @@
 #include "ofApp.h"
 
 void ofApp::setup(){
+    
+    ofBackground(0);
+    
 
 }
 
