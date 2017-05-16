@@ -37,7 +37,6 @@ void ofApp::draw(){
         ofxCsvRow row = csv[i];
         string type = row.getString(12);
         if(type == "airport"){
-            
             ofSetColor(31, 127, 255);
         
         }else if
