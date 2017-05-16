@@ -31,6 +31,13 @@ void ofApp::draw(){
     
     ofPushmatrix();
     ofTranslate(ofGetWidth()/2, ofGetHeigh()/2);
+    
+    for(int i = 0; i < csv.getNumRows(); i++){
+        
+        ofxCsvRow row = csv[i];
+        string type = row.getString(12)
+    
+    }
 }
 
 
