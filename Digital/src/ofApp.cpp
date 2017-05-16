@@ -26,7 +26,11 @@ void ofApp::update(){
 }
 
 void ofApp::draw(){
-
+    
+    ofVec2f airportLoc;
+    
+    ofPushmatrix();
+    ofTranslate(ofGetWidth()/2, ofGetHeigh()/2);
 }
 
 
