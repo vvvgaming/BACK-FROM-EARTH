@@ -42,7 +42,9 @@ void ofApp::draw(){
             color = ofFloatColor(1.0, 0.5, 0.2);
         }else if(type == "port"){
             color = ofFloatColor(0.5, 1.0, 0.2);
-        } 
+        } else {
+            color = ofFloatColor(0.8);
+        }
     
     }
 }
