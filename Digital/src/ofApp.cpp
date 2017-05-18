@@ -40,6 +40,8 @@ void ofApp::draw(){
             ofSetColor(31, 127, 255);
         }else if(type == "station"){
             color = ofFloatColor(1.0, 0.5, 0.2);
+        }else if(type == "port"){
+            color = ofFloatColor(0.5, 1.0, 0.2);
         }
     
     }
