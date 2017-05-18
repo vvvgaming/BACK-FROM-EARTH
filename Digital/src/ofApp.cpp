@@ -39,6 +39,7 @@ void ofApp::draw(){
         if(type == "airport"){
             ofSetColor(31, 127, 255);
         }else if(type == "station"){
+            color = ofFloatColor(1.0, 0.5, 0.2);
         }
     
     }
