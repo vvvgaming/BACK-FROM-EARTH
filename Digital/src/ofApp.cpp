@@ -45,6 +45,8 @@ void ofApp::draw(){
         } else {
             color = ofFloatColor(0.8);
         }
+        
+        ofQuaternion latRot, longRot, spinQuat;
     
     }
 }
