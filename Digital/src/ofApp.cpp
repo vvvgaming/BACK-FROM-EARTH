@@ -47,6 +47,7 @@ void ofApp::draw(){
         }
         
         ofQuaternion latRot, longRot, spinQuat;
+        latRot.makeRotate(row.getFloat(6), 1, 0, 0);
     
     }
 }
