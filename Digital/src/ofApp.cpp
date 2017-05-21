@@ -30,7 +30,7 @@ void ofApp::draw(){
     ofVec2f airportLoc;
     
     ofPushMatrix();
-    ofTranslate(ofGetWidth()/2, ofGetHeigh()/2);
+    ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
     
     for(int i = 0; i < csv.getNumRows(); i++){
         
