@@ -3,7 +3,7 @@
 void ofApp::setup(){
     
     ofBackground(0);
-    ofSetloglevel("ofxCsv", OF_LOG_VERBOSE);
+    ofSetLogLevel("ofxCsv", OF_LOG_VERBOSE);
     ofSetCircleResolution(3);
     
     if(csv.load("airports-extended.dat")){
