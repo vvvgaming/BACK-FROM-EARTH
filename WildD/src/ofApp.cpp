@@ -2,9 +2,6 @@
 
 void ofApp::setup(){
 
-}
-
-
 
 
 
