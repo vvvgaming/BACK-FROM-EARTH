@@ -4,7 +4,5 @@
 
 class ofApp : public ofBaseApp{
 
-	public:
-
 		
 };
