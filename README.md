@@ -82,7 +82,7 @@
 
 ####Chaotic.
 
-####Big things…have small beginnings.
+####Big things have small beginnings.
 
 ####Everyone is conservative about what he knows best.
 
