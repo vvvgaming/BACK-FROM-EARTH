@@ -4,5 +4,3 @@
 
 class ofApp : public ofBaseApp{
 
-		
-};
