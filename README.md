@@ -68,7 +68,7 @@
 
 ####Extraordinary or die.
 
-####The trick …is not minding that it hurts.
+####The trick, William Potter, is not minding that it hurts.
 
 ####Impulse.
 
