@@ -124,7 +124,7 @@
 
 ####Mademoiselle Privé.
 
-####Miss Dior Cheir.
+####Miss Dior Cherie.
 
 ####Sarah Burton
 
@@ -170,7 +170,7 @@
 
 ####Tastes change  People change
 
-####Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.
+####Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.
 
 ####Digital life.
 
@@ -180,7 +180,7 @@
 
 ####Snow Snow T-shirt
 
-####What is remarkable, what hard to fathom hut true.
+####What is remarkable, what hard to fathom but true.
 
 ####It's not a dish best serve cold, it's best serve immediately and…
 
