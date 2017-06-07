@@ -180,15 +180,15 @@
 
 ####Snow Snow T-shirt
 
-####What is remarkable, what hard to fathom but true.
+####What is remarkable, what's hard to fathom but true.
 
 ####It's not a dish best serve cold, it's best serve immediately and…
 
+#### and Fashion is never finished.
+
 ####It's time for them to see this in Palo Alto.
 
-####and Fashion is never finished.
-
-####We don't know what it is, we don't know what it can be, we don't know what it will be, we know that it's just cool.
+####We don't know what it is yet, we don't know what it is. we don't know what it can be, we don't know what it will be, we know that it's just cool.
 
 ####How people were thinking.
 
@@ -196,11 +196,11 @@
 
 ####All that we see or seem, is but a dream within a dream.
 
-####Dreams mean everything. they’re the stories e tell ourselves of what could be, who we could become.
+####Dreams mean everything. they’re the stories we tell ourselves of what could be, who we could become.
 
 ####Here's to getting rich and fat.
 
-####And dyin' in the arms of a beautiful woman.
+####And dying' in the arms of a beautiful woman.
 
 ####Evil Things.
 
