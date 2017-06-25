@@ -1,3 +1,3 @@
 
 int main( ){
-	ofSetupOpenGL(10
+	ofSetupOpenGL(1
