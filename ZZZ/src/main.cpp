@@ -1,2 +1,2 @@
 
-int ma
+int m
