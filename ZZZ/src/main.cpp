@@ -1,2 +1,2 @@
 
-int mai
+int ma
