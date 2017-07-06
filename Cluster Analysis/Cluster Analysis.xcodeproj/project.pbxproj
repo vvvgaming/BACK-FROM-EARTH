@@ -421,7 +421,7 @@ IFS=$SAVED_IFS
 				<key>isa</key>
 				<string>PBXNativeTarget</string>
 				<key>name</key>
-				<string>Cluster Analysis</string>
+				<string>Cluster analysis</string>
 				<key>productName</key>
 				<string>myOFApp</string>
 				<key>productReference</key>
@@ -438,7 +438,7 @@ IFS=$SAVED_IFS
 				<key>isa</key>
 				<string>PBXFileReference</string>
 				<key>path</key>
-				<string>Cluster AnalysisDebug.app</string>
+				<string>Cluster analysisDebug.app</string>
 				<key>sourceTree</key>
 				<string>BUILT_PRODUCTS_DIR</string>
 			</dict>
