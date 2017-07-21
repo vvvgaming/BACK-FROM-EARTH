@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-               BuildableName = "Data mining.app"
-               BlueprintName = "Data mining"
-               ReferencedContainer = "container:Data mining.xcodeproj">
+               BuildableName = "Data analysis.app"
+               BlueprintName = "Data analysis"
+               ReferencedContainer = "container:Data analysis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Data mining.app"
-            BlueprintName = "Data mining"
-            ReferencedContainer = "container:Data mining.xcodeproj">
+            BuildableName = "Data analysis.app"
+            BlueprintName = "Data analysis"
+            ReferencedContainer = "container:Data analysis.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Data mining.app"
-            BlueprintName = "Data mining"
-            ReferencedContainer = "container:Data mining.xcodeproj">
+            BuildableName = "Data analysis.app"
+            BlueprintName = "Data analysis"
+            ReferencedContainer = "container:Data analysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4B69B5A0A3A1756003C02F2"
-            BuildableName = "Data mining.app"
-            BlueprintName = "Data mining"
-            ReferencedContainer = "container:Data mining.xcodeproj">
+            BuildableName = "Data analysis.app"
+            BlueprintName = "Data analysis"
+            ReferencedContainer = "container:Data analysis.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
