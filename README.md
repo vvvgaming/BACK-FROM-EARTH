@@ -1,219 +1,219 @@
 # Space notes
 
-####It's not where you take things from — it's where you take them to.
+It's not where you take things from — it's where you take them to.
 
-####Life can be much broader.
+Life can be much broader.
 
-####As soon as you stop wanting something, you get it.
+As soon as you stop wanting something, you get it.
 
-####I’ve always liked you a lot. That’s too bad.
+I’ve always liked you a lot. That’s too bad.
 
-####May your reign Continue for a thousand, eight thousand generations, Until the pebbles grow into boulders Lush with moss.
+May your reign Continue for a thousand, eight thousand generations, Until the pebbles grow into boulders Lush with moss.
 
-####How can a man die better than facing fearful odds, For the ashes of his fathers and the temples of his Gods.
+How can a man die better than facing fearful odds, For the ashes of his fathers and the temples of his Gods.
 
-####Just because we were competing with somebody doesn't mean we have to be rude.
+Just because we were competing with somebody doesn't mean we have to be rude.
 
-####As ever, they look to seduce and captivate and intoxicate us, to draw us in, draw us close, never let us go.
+As ever, they look to seduce and captivate and intoxicate us, to draw us in, draw us close, never let us go.
 
-####Isn't it funny, a ship that leaks from the top.
+Isn't it funny, a ship that leaks from the top.
 
-####Design: the invention of desire.
+Design: the invention of desire.
 
-####Our want for material possessions, our possession and passing on of heirlooms, our want to leave a legacy.
+Our want for material possessions, our possession and passing on of heirlooms, our want to leave a legacy.
 
-####Desire means imbalance.
+Desire means imbalance.
 
-####You and I have memories longer than the road that stretches out ahead.
+You and I have memories longer than the road that stretches out ahead.
 
-####I think to miss something is to hope that it will come back. But it's not coming back.
+I think to miss something is to hope that it will come back. But it's not coming back.
 
 
-####About Hiraeth:this is for you.
+About Hiraeth:this is for you.
 
-####Let's slow it down. let's slow it way down.
+Let's slow it down. let's slow it way down.
 
-####Find a digital-design company.
+Find a digital-design company.
 
 
-####All thing digital.
+All thing digital.
 
-####More plain, less open to interpretation.
+More plain, less open to interpretation.
 
-####Good idea.
+Good idea.
 
-####…
+…
 
-####Committee.
+Committee.
 
-####…
+…
 
-####Formula.
+Formula.
 
-####…
+…
 
-####Algorithms.
+Algorithms.
 
-####Moral dilemma.
+Moral dilemma.
 
-####Glory.
+Glory.
 
-####Honor is a kind of wished-for state among certain members of the society who want to be the best possible versions of themselves. and they want to live and die bravely, and fighting , you know , with this, according to a certain code.
+Honor is a kind of wished-for state among certain members of the society who want to be the best possible versions of themselves. and they want to live and die bravely, and fighting , you know , with this, according to a certain code.
 
-####Working Paper.
+Working Paper.
 
-####For doing important work.
+For doing important work.
 
-####The past is past, but tomorrow is tomorrow.
+The past is past, but tomorrow is tomorrow.
 
-####Extraordinary or die.
+Extraordinary or die.
 
-####The trick, William Potter, is not minding that it hurts.
+The trick, William Potter, is not minding that it hurts.
 
-####Impulse.
+Impulse.
 
-####Response.
+Response.
 
-####Fluid.
+Fluid.
 
-####Imperfect.
+Imperfect.
 
-####Patterned.
+Patterned.
 
-####Chaotic.
+Chaotic.
 
-####Big things have small beginnings.
+Big things have small beginnings.
 
-####Everyone is conservative about what he knows best.
+Everyone is conservative about what he knows best.
 
-####4 a.m.
+4 a.m.
 
-####Life is short.
+Life is short.
 
-####THE BIG IDEA.
+THE BIG IDEA.
 
-####Unique.
+Unique.
 
-####Hungry.
+Hungry.
 
-####Feeling are facts.
+Feeling are facts.
 
-####Peanut.
+Peanut.
 
-####Sardine.
+Sardine.
 
-####Freshwater.
+Freshwater.
 
-####Good is the enemy of great.
+Good is the enemy of great.
 
-####Regular Spalding Gray.
+Regular Spalding Gray.
 
-####Nordic way
+Nordic way
 
-####Progress, not perfection.
+Progress, not perfection.
 
-####Ding in the Planet.
+Ding in the Planet.
 
-####Single digits.
+Single digits.
 
-####SC6625
+SC6625
 
-####Sugar clouds my thinking.
+Sugar clouds my thinking.
 
-####For reals.
+For reals.
 
-####Mademoiselle Privé.
+Mademoiselle Privé.
 
-####Miss Dior Cherie.
+Miss Dior Cherie.
 
-####Sarah Burton
+Sarah Burton
 
-####Hiten Mitsurugi-ryū
+Hiten Mitsurugi-ryū
 
-####What are you thinking?
+What are you thinking?
 
-####How are you feeling?
+How are you feeling?
 
-####What have we done to each other? 
+What have we done to each other? 
 
-#### What will we do?
+ What will we do?
 
-####JULY 5TH
+JULY 5TH
 
-####October
+October
 
-####Neverness
+Neverness
 
-####You are beautiful, you're kind, and you are painfully honest.
+You are beautiful, you're kind, and you are painfully honest.
 
-####Time Machine.
+Time Machine.
 
-####Ce qui importe, ce n'est pas de mourir,ni à quel âge on meurt. C'est ce qu'on est en train de faire, à ce moment précis. 
+Ce qui importe, ce n'est pas de mourir,ni à quel âge on meurt. C'est ce qu'on est en train de faire, à ce moment précis. 
 
-####33-19x-?b-66=78
+33-19x-?b-66=78
 
-####ravi, différent, normal, bien, concentré, petit, fantastique
+ravi, différent, normal, bien, concentré, petit, fantastique
 
-####Avec mes souvenirs
+Avec mes souvenirs
 
-####J'ai allumé le feu
+J'ai allumé le feu
 
-####Je n'ai plus besoin d'eux 
+Je n'ai plus besoin d'eux 
 
-####Balayés les amours
+Balayés les amours
 
-####Et tous leurs trémolos
+Et tous leurs trémolos
 
-####Balayés pour toujours
+Balayés pour toujours
 
-####Je repars à zéro
+Je repars à zéro
 
-####Tastes change  People change
+Tastes change  People change
 
-####Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.
+Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.
 
-####Digital life.
+Digital life.
 
-####AVA Digital Design, Inc.
+AVA Digital Design, Inc.
 
-####Ogura Hyakunin Isshu
+Ogura Hyakunin Isshu
 
-####Snow Snow T-shirt
+Snow Snow T-shirt
 
-####What is remarkable, what's hard to fathom but true.
+What is remarkable, what's hard to fathom but true.
 
-####It's not a dish best serve cold, it's best serve immediately and…
+It's not a dish best serve cold, it's best serve immediately and…
 
-#### and Fashion is never finished.
+ and Fashion is never finished.
 
-####It's time for them to see this in Palo Alto.
+It's time for them to see this in Palo Alto.
 
-####We don't know what it is yet, we don't know what it is. we don't know what it can be, we don't know what it will be, we know that it's just cool.
+We don't know what it is yet, we don't know what it is. we don't know what it can be, we don't know what it will be, we know that it's just cool.
 
-####How people were thinking.
+How people were thinking.
 
-####There's a path for everyone. 
+There's a path for everyone. 
 
-####All that we see or seem, is but a dream within a dream.
+All that we see or seem, is but a dream within a dream.
 
-####Dreams mean everything. they’re the stories we tell ourselves of what could be, who we could become.
+Dreams mean everything. they’re the stories we tell ourselves of what could be, who we could become.
 
-####Here's to getting rich and fat.
+Here's to getting rich and fat.
 
-####And dying' in the arms of a beautiful woman.
+And dying' in the arms of a beautiful woman.
 
-####Evil Things.
+Evil Things.
 
-#### It is a mistake to suppose that the whole issue is how to free man, the issue is to improve the way in which he is controlled.
+ It is a mistake to suppose that the whole issue is how to free man, the issue is to improve the way in which he is controlled.
 
-####Digitize our consciousness, data.
+Digitize our consciousness, data.
 
-####Attribute matrix.
+Attribute matrix.
 
-####Bulk apperception.
+Bulk apperception.
 
-####Minimalism is not a lack of something, it’s simply the perfect amount of something.
+Minimalism is not a lack of something, it’s simply the perfect amount of something.
 
-####To excel is to extol.
+To excel is to extol.
 
-####Promised Land.
+Promised Land.
