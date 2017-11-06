@@ -57,6 +57,6 @@ void ofApp::gotMessage(ofMessage msg){
 }
 
 
-//void ofApp::dragEvent(ofDragInfo dra
+//void ofApp::dragEvent(ofDragInfo dr
 
 
