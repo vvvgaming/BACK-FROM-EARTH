@@ -52,7 +52,7 @@ void ofApp::windowResized(int w, int h){
 }
 
 
-//void ofApp::gotMessage(ofMe
+//void ofApp::gotMessage(ofM
 
 
 
