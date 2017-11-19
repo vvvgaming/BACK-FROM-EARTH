@@ -47,7 +47,7 @@ void ofApp::mouseExited(int x, int y){
 }
 
 
-//void ofA
+//void of
 
 
 
