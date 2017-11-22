@@ -43,7 +43,7 @@ void ofApp::mouseEntered(int x, int y){
 }
 
 
-//void ofApp::mous
+//void ofApp::mou
 
 
 
