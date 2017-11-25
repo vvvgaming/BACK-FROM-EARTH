@@ -38,9 +38,9 @@ void ofApp::mouseReleased(int x, int y, int button){
 }
 
 
-void ofApp::mouseEntered(int x, int y){
+//void ofApp::mouseEntered(int x, int y){
 
-}
+
 
 
 
