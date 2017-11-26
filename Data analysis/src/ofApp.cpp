@@ -38,7 +38,7 @@ void ofApp::mouseReleased(int x, int y, int button){
 }
 
 
-//void ofApp::mouseEnter
+//void ofApp::mouseEnte
 
 
 
