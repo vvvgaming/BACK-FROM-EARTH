@@ -23,7 +23,7 @@ void ofApp::mouseMoved(int x, int y ){
 
 }
 
-//void ofApp::mouse
+//void ofApp::mous
 
 
 
