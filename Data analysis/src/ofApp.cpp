@@ -19,7 +19,7 @@ void ofApp::keyReleased(int key){
 
 }
 
-void ofApp::mouseMoved(int x, in
+void ofApp::mouseMoved(int x, i
 
 
 
