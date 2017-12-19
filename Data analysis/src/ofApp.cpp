@@ -19,4 +19,4 @@ void ofApp::keyReleased(int key){
 
 }
 
-void ofApp::mouseM
+void ofApp::mouse
