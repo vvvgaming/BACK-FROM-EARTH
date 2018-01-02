@@ -4,5 +4,5 @@ void ofApp::setup(){
 
 }
 
-void ofApp::
+void ofApp:
 
