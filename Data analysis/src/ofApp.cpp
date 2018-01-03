@@ -4,5 +4,5 @@ void ofApp::setup(){
 
 }
 
-voi
+vo
 
