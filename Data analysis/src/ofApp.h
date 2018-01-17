@@ -4,7 +4,7 @@
 
 class ofApp : public ofBaseApp{
 
-	public:
+	publi:
 		void setup();
 		void update();
 		void draw();
