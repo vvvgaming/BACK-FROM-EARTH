@@ -9,5 +9,5 @@ class ofApp : public ofBaseApp{
 		void update();
 		void draw();
 
-		void keyPressed(int key);
+		void keyPressed(int key)
     
