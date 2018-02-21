@@ -9,4 +9,4 @@ class ofApp : public ofBaseApp{
 		void update();
 		void draw();
 
-		void keyPressed(in
+		void keyPressed(i
