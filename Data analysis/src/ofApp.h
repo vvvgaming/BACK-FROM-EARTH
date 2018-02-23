@@ -9,4 +9,4 @@ class ofApp : public ofBaseApp{
 		void update();
 		void draw();
 
-		vo
+		v
