@@ -7,4 +7,3 @@ class ofApp : public ofBaseApp{
 	publi:
 		void setup();
 		void update();
-    
