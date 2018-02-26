@@ -6,4 +6,4 @@ class ofApp : public ofBaseApp{
 
 	publi:
 		void setup();
-		void up
+		void u
