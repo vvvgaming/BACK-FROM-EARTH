@@ -5,4 +5,4 @@
 class ofApp : public ofBaseApp{
 
 	publi:
-		void setup
+		void setu
