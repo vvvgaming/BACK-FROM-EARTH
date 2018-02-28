@@ -4,4 +4,4 @@
 
 class ofApp : public ofBaseApp{
 
-	publi:
+	publi
