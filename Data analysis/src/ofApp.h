@@ -2,4 +2,4 @@
 
 #include "ofMain.h"
 
-class ofApp : public ofBase
+class ofApp : public ofBas
