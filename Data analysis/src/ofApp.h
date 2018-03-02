@@ -2,4 +2,4 @@
 
 #include "ofMain.h"
 
-class ofApp : publ
+class ofApp : pub
