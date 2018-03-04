@@ -2,4 +2,4 @@
 
 #include "ofMain.h"
 
-class of
+class o
