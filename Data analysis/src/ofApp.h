@@ -2,4 +2,4 @@
 
 #include "ofMain.h"
 
-class ofAp
+class ofA
