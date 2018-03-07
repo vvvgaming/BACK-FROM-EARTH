@@ -1,2 +1,2 @@
-#pragm
+#prag
 
