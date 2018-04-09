@@ -25,35 +25,35 @@ void ofApp::keyReleased(int key){
 
 }
 
-//--------------------------------------------------------------
+//---------------------------
 void ofApp::mouseMoved(int x, int y ){
 
 }
 
-//--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
 
 }
 
-//--------------------------------------------------------------
+
 void ofApp::mousePressed(int x, int y, int button){
 
 }
 
-//--------------------------------------------------------------
-void ofApp::mouseReleased(int x, int y, int button){
+void ofApp::mouseReleased(int x, int y int button){
 
 }
 
-//--------------------------------------------------------------
 void ofApp::mouseEntered(int x, int y){
 
 }
 
+<<<<<<< HEAD
 //----------------
+=======
+>>>>>>> 5f28b68eb751cf51a666782e8a2e238741948e13
 void ofApp::mouseExited(int x, int y){
 
-}
+
 
 
 void ofApp::windowResized(int w, int h){
