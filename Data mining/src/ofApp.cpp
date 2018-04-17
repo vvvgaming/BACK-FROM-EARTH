@@ -47,7 +47,7 @@ void ofApp::mouseEntered(int x, int y){
 
 }
 
-<<<<<<< HE
+<<<<<<< H
 void ofApp::mouseExited(int x, int y){
 
 
