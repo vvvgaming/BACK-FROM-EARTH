@@ -56,4 +56,4 @@ void ofApp::gotMessage(ofMessage msg){
 }
 
 
-void ofA
+void of
