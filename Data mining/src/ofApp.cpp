@@ -47,4 +47,4 @@ void ofApp::mouseExited(int x, int y){
 
 
 
-void ofApp::windowResized(int w, in
+void ofApp::windowResized(int w, i
