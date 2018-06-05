@@ -43,4 +43,4 @@ void ofApp::mouseEntered(int x, int y){
 
 }
 
-void ofApp::mouseExited(int x, in
+void ofApp::mouseExited(int x, i
