@@ -26,5 +26,5 @@ void ofApp::mouseMoved(int x, int y ){
 
 }
 
-void ofApp::mouseDragged(int x, int y, int button){
+void ofApp::mouseDragged(int x, int y, int button)
 
