@@ -22,5 +22,5 @@ void ofApp::keyReleased(int key){
 }
 
 
-void ofApp::mouseMoved(
+void ofApp::mouseMoved
 
