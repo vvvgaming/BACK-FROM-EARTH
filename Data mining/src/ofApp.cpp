@@ -22,5 +22,5 @@ void ofApp::keyReleased(int key){
 }
 
 
-vo
+v
 
