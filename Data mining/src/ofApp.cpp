@@ -17,7 +17,7 @@ void ofApp::keyPressed(int key){
 
 }
 
-void ofApp::keyReleas
+void ofApp::keyRelea
 
 
 
