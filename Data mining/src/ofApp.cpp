@@ -17,7 +17,7 @@ void ofApp::keyPressed(int key){
 
 }
 
-void ofAp
+void ofA
 
 
 
