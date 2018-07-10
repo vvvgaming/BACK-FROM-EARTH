@@ -13,7 +13,7 @@ void ofApp::draw(){
 
 }
 
-void ofApp::keyPre
+void ofApp::keyPr
 
 
 
