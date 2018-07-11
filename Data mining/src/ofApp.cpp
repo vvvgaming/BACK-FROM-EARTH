@@ -13,7 +13,7 @@ void ofApp::draw(){
 
 }
 
-void ofApp::k
+void ofApp::
 
 
 
