@@ -13,7 +13,7 @@ void ofApp::draw(){
 
 }
 
-voi
+vo
 
 
 
