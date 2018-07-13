@@ -9,7 +9,7 @@ void ofApp::update(){
 
 }
 
-void ofApp::dra
+void ofApp::dr
 
 
 
