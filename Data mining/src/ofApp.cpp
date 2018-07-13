@@ -9,7 +9,7 @@ void ofApp::update(){
 
 }
 
-void ofApp
+void ofAp
 
 
 
