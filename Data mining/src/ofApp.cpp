@@ -5,7 +5,7 @@ void ofApp::setup(){
 
 }
 
-void ofApp::upd
+void ofApp::up
 
 
 
