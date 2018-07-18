@@ -1,7 +1,7 @@
 #include "ofApp.h"
 
 
-void ofApp::setu
+void ofApp::set
 
 
 
