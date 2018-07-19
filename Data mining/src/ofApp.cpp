@@ -1,7 +1,7 @@
 #include "ofApp.h"
 
 
-void ofA
+void of
 
 
 
