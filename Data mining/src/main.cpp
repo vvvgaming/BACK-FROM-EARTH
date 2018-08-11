@@ -4,4 +4,4 @@
 //========================================================================
 int main( ){
 	ofSetupOpen
-    __ATOMIC_RELAXED
+    __ATOMIC_RELAXE
