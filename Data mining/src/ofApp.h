@@ -16,4 +16,8 @@ class ofApp : public ofBaseApp{
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
 		void mouseEntered(int x, int y);
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> ed744fcd87c3cc030e2ea53a936b18bca0db5062
