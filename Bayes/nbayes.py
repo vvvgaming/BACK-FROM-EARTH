@@ -2,4 +2,4 @@ import math
 
 from collections import defaultdict
 
-class NBayes(ob)
+class NBayes(obj)
