@@ -2,4 +2,4 @@ import math
 
 from collections import defaultdict
 
-class 
+class N
