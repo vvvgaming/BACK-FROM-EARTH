@@ -7,3 +7,4 @@ class NBayes(object):
         self.data = trainSet
         self.tags = defaultdict(int)
         self.tagwords = defaultdict(int)
+
