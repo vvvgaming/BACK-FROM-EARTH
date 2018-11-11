@@ -6,4 +6,4 @@ class NBayes(object):
     def __init__(self, trainSet):
         self.data = trainSet
         self.tags = defaultdict(int)
-        self.tagwords = defaultdict()
+        self.tagwords = defaultdict(int)
