@@ -10,4 +10,4 @@ class NBayes(object):
         self.total = 0
 
     def _():
-    	pass
+    	pa
