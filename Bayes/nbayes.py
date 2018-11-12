@@ -9,5 +9,4 @@ class NBayes(object):
         self.tagwords = defaultdict(int)
         self.total = 0
 
-    def _():
-
+    def _to():
