@@ -8,3 +8,6 @@ class NBayes(object):
         self.tags = defaultdict(int)
         self.tagwords = defaultdict(int)
         self.total = 0
+
+    def _():
+    	pass
