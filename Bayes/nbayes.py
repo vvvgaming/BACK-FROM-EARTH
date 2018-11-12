@@ -10,4 +10,4 @@ class NBayes(object):
         self.total = 0
 
     def _tokenizer(self, sent):
-    	return 
+    	return list(sent)
