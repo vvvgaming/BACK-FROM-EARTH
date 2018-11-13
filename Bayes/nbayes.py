@@ -11,3 +11,5 @@ class NBayes(object):
 
     def _tokenizer(self, sent):
     	return list(sent)
+
+    def
