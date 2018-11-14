@@ -13,4 +13,4 @@ class NBayes(object):
     	return list(sent)
 
     def train(self):
-    	for tag, doc in self.da
+    	for tag, doc in self.dat
