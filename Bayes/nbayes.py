@@ -14,4 +14,4 @@ class NBayes(object):
 
     def train(self):
     	for tag, doc in self.data
-    	words = self._tok
+    	words = self._toke
