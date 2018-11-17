@@ -15,4 +15,4 @@ class NBayes(object):
     def train(self):
     	for tag, doc in self.data
     	words = self._tokenizer(doc)
-        for word in wo
+        for word in wor
