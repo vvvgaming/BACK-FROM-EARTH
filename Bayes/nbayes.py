@@ -18,4 +18,4 @@ class NBayes(object):
         for word in words:
             self.tags[tag] += 1
             self.tagwords[(tag, word)] += 1
-            self.total += 
+            self.total += 1
