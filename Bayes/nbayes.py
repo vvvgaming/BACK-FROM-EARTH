@@ -17,4 +17,4 @@ class NBayes(object):
     	words = self._tokenizer(doc)
         for word in words:
             self.tags[tag] += 1
-            self.ta
+            self.tag
