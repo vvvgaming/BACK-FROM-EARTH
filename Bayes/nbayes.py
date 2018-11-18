@@ -19,3 +19,4 @@ class NBayes(object):
             self.tags[tag] += 1
             self.tagwords[(tag, word)] += 1
             self.total += 1
+            
