@@ -20,4 +20,4 @@ class NBayes(object):
             self.tagwords[(tag, word)] += 1
             self.total += 1
 
-     def predict(se)     
+     def predict(sel)     
