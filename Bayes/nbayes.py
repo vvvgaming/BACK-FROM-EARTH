@@ -21,4 +21,4 @@ class NBayes(object):
             self.total += 1
 
      def predict(self, inp):
-         words = self.ta     
+         words = self.tag     
