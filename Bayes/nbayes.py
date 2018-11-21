@@ -23,4 +23,4 @@ class NBayes(object):
      def predict(self, inp):
          words = self._tokenizer(inp)
 
-         tmp =       
+         tmp = {}      
