@@ -24,4 +24,4 @@ class NBayes(object):
          words = self._tokenizer(inp)
 
          tmp = {}
-         for tag in se      
+         for tag in sel      
