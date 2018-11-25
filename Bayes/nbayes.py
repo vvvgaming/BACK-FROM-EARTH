@@ -25,4 +25,4 @@ class NBayes(object):
 
          tmp = {}
          for tag in self.tag.keys():
-             tmp[tag] = math.log(self.ta)
+             tmp[tag] = math.log(self.tag)
