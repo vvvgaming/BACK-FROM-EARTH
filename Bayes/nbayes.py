@@ -27,4 +27,4 @@ class NBayes(object):
          for tag in self.tag.keys():
              tmp[tag] = math.log(self.tags[tag]) - math.log(self.toutal)
              for word in words:
-                 tmp[tag] += math
+                 tmp[tag] += math.
