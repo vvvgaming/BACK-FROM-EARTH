@@ -28,4 +28,4 @@ class NBayes(object):
              tmp[tag] = math.log(self.tags[tag]) - math.log(self.toutal)
              for word in words:
                  tmp[tag] += math.log(self.tagwords.get((tag, word), 1.0)) - math.log(self.tags[tag])
-        ret, scor
+        ret, score
