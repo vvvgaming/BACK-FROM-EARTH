@@ -30,4 +30,4 @@ class NBayes(object):
                  tmp[tag] += math.log(self.tagwords.get((tag, word), 1.0)) - math.log(self.tags[tag])
         ret, score = 0, 0.0
         for t in self.tags.keys():
-            c
+            cn
