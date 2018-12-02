@@ -31,4 +31,4 @@ class NBayes(object):
         ret, score = 0, 0.0
         for t in self.tags.keys():
             cnt = 0.0
-            for tt in se
+            for tt in sel
