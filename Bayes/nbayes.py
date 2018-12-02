@@ -32,4 +32,4 @@ class NBayes(object):
         for t in self.tags.keys():
             cnt = 0.0
             for tt in self.tags.keys():
-                cnt += math.ex
+                cnt += math.exp
