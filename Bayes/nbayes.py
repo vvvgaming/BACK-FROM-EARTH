@@ -33,4 +33,4 @@ class NBayes(object):
             cnt = 0.0
             for tt in self.tags.keys():
                 cnt += math.exp(tmp[tt] - tmp[t])
-            cnt = 1.
+            cnt = 1.0
