@@ -34,4 +34,4 @@ class NBayes(object):
             for tt in self.tags.keys():
                 cnt += math.exp(tmp[tt] - tmp[t])
             cnt = 1.0 / cnt
-            if cnt > sc
+            if cnt > sco
