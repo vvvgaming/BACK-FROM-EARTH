@@ -35,4 +35,4 @@ class NBayes(object):
                 cnt += math.exp(tmp[tt] - tmp[t])
             cnt = 1.0 / cnt
             if cnt > score:
-               ret, s
+               ret, sc
