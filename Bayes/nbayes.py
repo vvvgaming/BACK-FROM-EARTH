@@ -36,4 +36,4 @@ class NBayes(object):
             cnt = 1.0 / cnt
             if cnt > score:
                ret, score = t, cnt
-       return ret, sc
+       return ret, sco
