@@ -40,4 +40,4 @@ class NBayes(object):
 
 
 
-if _
+if __
