@@ -37,3 +37,7 @@ class NBayes(object):
             if cnt > score:
                ret, score = t, cnt
        return ret, score
+
+
+
+i
