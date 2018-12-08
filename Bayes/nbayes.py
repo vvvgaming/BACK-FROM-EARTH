@@ -40,4 +40,4 @@ class NBayes(object):
 
 
 
-if __name__ == '__m
+if __name__ == '__ma
