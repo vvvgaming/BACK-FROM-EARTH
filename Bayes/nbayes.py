@@ -41,5 +41,5 @@ class NBayes(object):
 
 
 if __name__ == '__main__':
-    tra
+    trai
     
