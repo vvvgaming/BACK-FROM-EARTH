@@ -42,5 +42,5 @@ class NBayes(object):
 
 if __name__ == '__main__':
     trainSet [("pos", "what are you thinking"),
-              ("pos", "How are yo")]
+              ("pos", "How are you")]
     
