@@ -44,5 +44,5 @@ if __name__ == '__main__':
     trainSet [("pos", "what are you thinking"),
               ("pos", "How are you feeling"),
               ("pos", "What have done to each other"),
-              ("",)]
+              ("p",)]
     
