@@ -47,4 +47,4 @@ if __name__ == '__main__':
               ("pos", "Whah will do?")
               ]
     clf = NBayes(trainSet)
-    clf.trai
+    clf.train
