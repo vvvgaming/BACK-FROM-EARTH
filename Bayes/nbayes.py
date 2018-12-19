@@ -48,4 +48,4 @@ if __name__ == '__main__':
               ]
     clf = NBayes(trainSet)
     clf.train()
-    print("When two peop")
+    print("When two peopl")
