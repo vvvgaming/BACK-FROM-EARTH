@@ -1,1 +1,1 @@
-import jieb
+import jieba
