@@ -1,2 +1,2 @@
 import jieba
-import nump
+import numpy
