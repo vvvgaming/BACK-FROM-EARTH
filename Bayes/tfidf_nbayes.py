@@ -1,2 +1,2 @@
 import jieba
-import n
+import nu
