@@ -1,2 +1,2 @@
 import jieba
-imp
+impo
