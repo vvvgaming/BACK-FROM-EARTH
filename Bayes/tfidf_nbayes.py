@@ -1,2 +1,2 @@
 import jieba
-import numpy a
+import numpy as
