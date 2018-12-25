@@ -1,3 +1,3 @@
 import jieba
 import numpy as np
-from collections i
+from collections im
