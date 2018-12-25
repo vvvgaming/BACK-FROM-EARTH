@@ -1,3 +1,3 @@
 import jieba
 import numpy as np
-from collections import d
+from collections import de
