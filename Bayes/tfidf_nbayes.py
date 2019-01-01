@@ -5,4 +5,4 @@ from collections import defaultdict
 class Corpus(object):
     def __init__(self):
         self.word2idx = {}
-        self.tags = defaultdic
+        self.tags = defaultdict
