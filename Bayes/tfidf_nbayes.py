@@ -6,5 +6,5 @@ class Corpus(object):
     def __init__(self):
         self.word2idx = {}
         self.tags = defaultdict(int)
-  
+   
 
