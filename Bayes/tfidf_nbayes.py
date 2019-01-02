@@ -7,6 +7,6 @@ class Corpus(object):
         self.word2idx = {}
         self.tags = defaultdict(int)
         self.docs = []
-        s
+        se
 
 
