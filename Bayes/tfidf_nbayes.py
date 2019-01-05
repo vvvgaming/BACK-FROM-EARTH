@@ -10,6 +10,6 @@ class Corpus(object):
         self.total = 0
 
     def tokenizer(self, docs)
-        return jieb
+        return jieba
 
 
