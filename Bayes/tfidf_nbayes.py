@@ -9,6 +9,6 @@ class Corpus(object):
         self.docs = []
         self.total = 0
 
-    def tokenizer(self, do)
+    def tokenizer(self, doc)
 
 
