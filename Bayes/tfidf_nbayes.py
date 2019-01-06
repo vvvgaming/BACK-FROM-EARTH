@@ -14,6 +14,6 @@ class Corpus(object):
 
 
 
-    def pr
+    def pro
 
 
