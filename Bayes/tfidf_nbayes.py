@@ -14,6 +14,6 @@ class Corpus(object):
 
 
 
-    def process_data(se)
+    def process_data(sel)
 
 
