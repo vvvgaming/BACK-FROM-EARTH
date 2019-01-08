@@ -14,7 +14,7 @@ class Corpus(object):
 
 
 
-    def process_data(self, docs)
+def process_data(self, docs):
 
 
 
