@@ -16,6 +16,6 @@ class Corpus(object):
 
 def process_data(self, docs):
     vocabs = set()
-    for tag, doc in docs
+    for tag, doc in docs:
 
 
