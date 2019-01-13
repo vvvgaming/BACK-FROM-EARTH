@@ -18,6 +18,6 @@ def process_data(self, docs):
     vocabs = set()
     for tag, doc in docs:
         words = self.tokenizer(doc)
-        if len(words) == 0
+        if len(words) == 0:
 
 
