@@ -19,6 +19,6 @@ def process_data(self, docs):
     for tag, doc in docs:
         words = self.tokenizer(doc)
         if len(words) == 0:
-           continu
+           continue
 
 
