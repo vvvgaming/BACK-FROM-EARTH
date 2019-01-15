@@ -20,6 +20,6 @@ def process_data(self, docs):
         words = self.tokenizer(doc)
         if len(words) == 0:
            continue
-        se
+        sel
 
 
