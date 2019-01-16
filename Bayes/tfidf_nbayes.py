@@ -21,6 +21,6 @@ def process_data(self, docs):
         if len(words) == 0:
            continue
         self.tags[tag] += 1
-   
+    
 
 
