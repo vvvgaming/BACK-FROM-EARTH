@@ -22,6 +22,6 @@ def process_data(self, docs):
            continue
         self.tags[tag] += 1
         self.total += 1
-  
+   
 
 
