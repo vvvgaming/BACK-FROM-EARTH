@@ -23,6 +23,6 @@ def process_data(self, docs):
         self.tags[tag] += 1
         self.total += 1
         self.docs.append((tag,words))
-        vo
+        voc
 
 
