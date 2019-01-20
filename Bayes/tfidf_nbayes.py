@@ -24,6 +24,6 @@ def process_data(self, docs):
         self.total += 1
         self.docs.append((tag,words))
         vocabs.update(words)
- 
+  
 
 
