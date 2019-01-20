@@ -26,3 +26,4 @@ def process_data(self, docs):
         vocabs.update(words)
 
 
+
