@@ -28,7 +28,7 @@ def process_data(self, docs):
     self.word2idx = dict(zip(vocabs, range(len(vocabs))))
 
 
-  
+   
    
 
 
