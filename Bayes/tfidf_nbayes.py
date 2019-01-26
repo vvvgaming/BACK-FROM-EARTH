@@ -28,7 +28,7 @@ def process_data(self, docs):
     self.word2idx = dict(zip(vocabs, range(len(vocabs))))
 
 
-    def calc_bow(sel)
+    def calc_bow(self)
    
 
 
