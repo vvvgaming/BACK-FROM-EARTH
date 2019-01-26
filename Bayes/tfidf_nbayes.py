@@ -29,7 +29,7 @@ def process_data(self, docs):
 
 
 def calc_bow(self):
-    
+    b
    
 
 
