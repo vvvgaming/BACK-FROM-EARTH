@@ -29,7 +29,7 @@ def process_data(self, docs):
 
 
 def calc_bow(self):
-    bow = np.zeros([self.total, len(s)])
+    bow = np.zeros([self.total, len(se)])
    
 
 
