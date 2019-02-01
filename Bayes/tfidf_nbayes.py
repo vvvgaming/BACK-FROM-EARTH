@@ -32,7 +32,7 @@ def calc_bow(self):
     bow = np.zeros([self.total, len(self.word2idx)])
 
     for docidx, (tag, doc) in enumerate(self.docs):
-        for word in d
+        for word in do
    
 
 
