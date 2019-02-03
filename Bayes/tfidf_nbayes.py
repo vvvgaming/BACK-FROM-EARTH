@@ -33,7 +33,7 @@ def calc_bow(self):
 
     for docidx, (tag, doc) in enumerate(self.docs):
         for word in doc:
-            bow[docidx, self.word2idx]
+            bow[docidx, self.word2idx[]
    
    
 
