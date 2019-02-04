@@ -35,6 +35,7 @@ def calc_bow(self):
         for word in doc:
             bow[docidx, self.word2idx[word]] += 1
        return bow
+
    
    
 
