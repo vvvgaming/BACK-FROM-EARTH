@@ -37,7 +37,7 @@ def calc_bow(self):
        return bow
 
 
-def calc_t(self):
+def calc_tf(self):
    
    
 
