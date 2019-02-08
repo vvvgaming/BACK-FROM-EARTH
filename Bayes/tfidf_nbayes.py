@@ -38,7 +38,7 @@ def calc_bow(self):
 
 
 def calc_tfidf(self):
-    tf = self.calc_b
+    tf = self.calc_bo
    
    
 
