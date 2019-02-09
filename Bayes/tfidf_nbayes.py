@@ -41,6 +41,7 @@ def calc_tfidf(self):
     tf = self.calc_bow()
     df = np.ones([1, len(self.word2idx)])
 
+
    
    
 
