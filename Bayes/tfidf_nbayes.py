@@ -39,7 +39,7 @@ def calc_bow(self):
 
 def calc_tfidf(self):
     tf = self.calc_bow()
-    df = np.ones([1, ])
+    df = np.ones([1, l])
    
    
 
