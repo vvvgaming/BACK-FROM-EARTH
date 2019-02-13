@@ -42,7 +42,7 @@ def calc_tfidf(self):
     df = np.ones([1, len(self.word2idx)])
 
     for docidx, (tag, doc) in enumberate(self.docs):
-        tf[docidx] /= np.max(tf[doc])
+        tf[docidx] /= np.max(tf[doci])
    
    
 
