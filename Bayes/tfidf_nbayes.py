@@ -43,7 +43,7 @@ class Corpus(object):
 
         for docidx, (tag, doc) in enumberate(self.docs):
             tf[docidx] /= np.max(tf[docidx])
-            fo
+            for
    
    
 
