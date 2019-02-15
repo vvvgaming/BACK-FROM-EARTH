@@ -15,7 +15,7 @@ class Corpus(object):
 
 
     def process_data(self, docs):
-       vocabs = set()
+        vocabs = set()
     for tag, doc in docs:
         words = self.tokenizer(doc)
         if len(words) == 0:
