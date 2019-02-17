@@ -44,7 +44,7 @@ class Corpus(object):
         for docidx, (tag, doc) in enumberate(self.docs):
             tf[docidx] /= np.max(tf[docidx])
             for word in doc:
-                df[0, self.word2idx[word]]
+                df[0, self.word2idx[word] 
    
    
 
