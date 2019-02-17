@@ -45,7 +45,7 @@ class Corpus(object):
             tf[docidx] /= np.max(tf[docidx])
             for word in doc:
                 df[0, self.word2idx[word] += 1
-        idf = np.log(float(self.total))
+        idf = np.log(float(self.total)) 
    
    
 
