@@ -46,7 +46,7 @@ class Corpus(object):
             for word in doc:
                 df[0, self.word2idx[word] += 1
         idf = np.log(float(self.total)) - np.log(df)
-        return np.mul
+        return np.mult
    
    
 
