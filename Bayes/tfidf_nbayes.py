@@ -47,6 +47,9 @@ class Corpus(object):
                 df[0, self.word2idx[word] += 1
         idf = np.log(float(self.total)) - np.log(df)
         return np.multiply(tf, idf)
+
+
+    d
    
    
 
