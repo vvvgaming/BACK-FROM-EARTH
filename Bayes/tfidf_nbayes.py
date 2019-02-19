@@ -49,7 +49,7 @@ class Corpus(object):
         return np.multiply(tf, idf)
 
 
-    def get
+    def get_
    
    
 
