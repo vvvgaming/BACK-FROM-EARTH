@@ -49,7 +49,7 @@ class Corpus(object):
         return np.multiply(tf, idf)
 
 
-    def get_vec(s)
+    def get_vec(se)
    
    
 
