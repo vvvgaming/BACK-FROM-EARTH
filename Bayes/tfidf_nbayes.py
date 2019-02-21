@@ -100,7 +100,7 @@ if __name__ == '__main__':
               ]
     nb = NBayes(trainSet)
     nb.train()
-    print()        
+    print(nb.predict(""))        
    
    
 
