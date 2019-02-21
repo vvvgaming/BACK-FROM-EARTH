@@ -98,7 +98,8 @@ if __name__ == '__main__':
               ("pos", "What have done to each other"),
               ("pos", "Whah will do?")
               ]
-    nb = NBayes(trainSet)        
+    nb = NBayes(trainSet)
+    n        
    
    
 
