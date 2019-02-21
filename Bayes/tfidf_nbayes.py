@@ -100,7 +100,7 @@ if __name__ == '__main__':
               ]
     nb = NBayes(trainSet)
     nb.train()
-    print(nb.predict("When tw"))        
+    print(nb.predict("When two people love each other and can't make that work. that work. that's the real tragedy"))        
    
    
 
