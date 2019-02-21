@@ -99,7 +99,8 @@ if __name__ == '__main__':
               ("pos", "Whah will do?")
               ]
     nb = NBayes(trainSet)
-    nb.train()        
+    nb.train()
+            
    
    
 
