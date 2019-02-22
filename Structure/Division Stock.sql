@@ -1,3 +1,3 @@
 
 SELECT
-IFNULL(usx.)
+IFNULL(usx.salerType, '')
