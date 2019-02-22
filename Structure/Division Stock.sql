@@ -7,4 +7,4 @@ SELECT
   t.customer_name AS '客户姓名',
   AES_DECRYPT (UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号'
 DATE_FORMAT(tu.create_time, '%Y-%m-%d %h:%i:%s') AS '注册时间'
-  (SELECT tb.)
+  (SELECT tb.invest_time)
