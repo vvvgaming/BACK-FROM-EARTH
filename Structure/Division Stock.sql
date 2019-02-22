@@ -6,4 +6,4 @@ SELECT
   t.customer_id AS '客户编号',
   t.customer_name AS '客户姓名',
   AES_DECRYPT (UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号'
- DATE_FORMAT()
+ DATE_FORMAT(tu.)
