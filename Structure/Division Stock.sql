@@ -1,3 +1,3 @@
 
 SELECT
-IFNULL(usx.salerType, '') 
+IFNULL(usx.salerType, '') AS '区域'
