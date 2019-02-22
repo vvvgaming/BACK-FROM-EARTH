@@ -8,4 +8,4 @@ SELECT
   AES_DECRYPT (UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号'
 DATE_FORMAT(tu.create_time, '%Y-%m-%d %h:%i:%s') AS '注册时间'
   (SELECT tb.invest_time FROM jjjr2_product.tb_dealorder tb
-WHERE (( tb.product_type = '100' AND tb.status IN )))
+WHERE (( tb.product_type = '100' AND tb.status IN ('100', '200')) OR()))
