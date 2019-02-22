@@ -5,4 +5,4 @@ SELECT
    LEFT(t.serial_code, 32) AS '交易序列号',
   t.customer_id AS '客户编号',
   t.customer_name AS '客户姓名',
-  AES_DECRYPT (UNHEX(tu.username),'CXS') AS '手机号'
+  AES_DECRYPT (UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号'
