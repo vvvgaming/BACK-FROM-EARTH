@@ -13,3 +13,5 @@ AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首�
   t.invest_time AS '投资时间'
   r.saler_code AS '客户经理代码'
   CASE WHEN s.name
+
+  
