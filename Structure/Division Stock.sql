@@ -12,4 +12,4 @@ WHERE (( tb.product_type = '100' AND tb.status IN ('100', '200')) OR(tb.product_
 AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首投时间'
   t.invest_time AS '投资时间'
   r.saler_code AS '客户经理代码'
-  CASE WHEN
+  CASE WHEN 
