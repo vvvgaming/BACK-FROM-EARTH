@@ -17,4 +17,5 @@ AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首�
  = '000002' THEN '公司' WHEN s.name
 
  IN ( '000000' '000001') THEN '电销' ELSE s.name END AS '客户经理姓名'
-  IFNULL(AES_DECRYPT)
+  IFNULL(AES_DECRYPT (UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG'),'') AS '客户经理手机'
+  
