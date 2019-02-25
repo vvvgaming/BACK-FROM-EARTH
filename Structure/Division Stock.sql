@@ -15,3 +15,5 @@ AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首�
   CASE WHEN s.name
 
  = '000002' THEN '公司' WHEN s.name
+
+ IN 
