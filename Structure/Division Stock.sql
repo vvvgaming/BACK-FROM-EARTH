@@ -23,4 +23,4 @@ IFNULL(usx.C_SalerType,'') AS 'C级代理人代码',
 IFNULL(cusx.saler_name,'') AS 'C级代理人姓名',
 IFNULL(usx.B_SalerType,'') AS 'B级代理人代码',
 IFNULL(busx.saler_name,'') AS 'B级代理人姓名',
-IFNULL(usx.A)
+IFNULL(usx.A_SalerType,'') AS 
