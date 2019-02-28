@@ -26,4 +26,4 @@ IFNULL(busx.saler_name,'') AS 'B级代理人姓名',
 IFNULL(usx.A_SalerType,'') AS 'A级代理人代码',
 IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
 
- CASE  
+ CASE s.status  
