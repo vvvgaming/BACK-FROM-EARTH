@@ -29,4 +29,5 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
  CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.status END AS '客户经理状态',
   GROUP_CONCAT(t.product_name) AS '产品名称',
   GROUP_CONCAT(t.freeze_duration) AS '产品期限',
-  GROUP_CONCAT(t.freeze_unit) AS '期限单位', 
+  GROUP_CONCAT(t.freeze_unit) AS '期限单位',
+   
