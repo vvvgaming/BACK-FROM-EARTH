@@ -32,3 +32,4 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
   GROUP_CONCAT(t.freeze_unit) AS '期限单位',
   ROUND(SUM(IFNULL(t.invest_cash, 0)),2) AS '现金投资金额'
   ROUND(SUM(IFNULL(t.invest_cash * t.freeze_duration / 12, 0)),2) AS '现金年化投资金额'
+  ROUND()
