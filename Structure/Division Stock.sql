@@ -33,3 +33,4 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
   ROUND(SUM(IFNULL(t.invest_cash, 0)),2) AS '现金投资金额'
   ROUND(SUM(IFNULL(t.invest_cash * t.freeze_duration / 12, 0)),2) AS '现金年化投资金额'
   ROUND(SUM(IFNULL(t.invest_coupon, 0)), 2) AS '投资券金额'
+  ROUND(t.add_rate,2) AS '加息券'
