@@ -36,4 +36,4 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
   ROUND(t.add_rate,2) AS '加息券'
 
 
- CASE WHEN t.stat
+ CASE WHEN t.statu
