@@ -37,4 +37,4 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
 
 
  CASE WHEN t.status = '100' THEN '投资中'
- WHEN t.statu
+ WHEN t.status
