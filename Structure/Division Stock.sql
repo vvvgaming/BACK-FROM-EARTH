@@ -43,4 +43,4 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
  IFNULL(u.real_name,'') AS '推广人姓名',
  IFNULL(CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)),'') AS '推广人手机号'
 FROM
- jjjr2_sns.u_user tu JOIN 
+ jjjr2_sns.u_user tu JOIN jjjr2_product.tb_dealorder t ON tu.custom_id = t.customer_id
