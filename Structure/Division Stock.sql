@@ -41,4 +41,6 @@ IFNULL(busx.saler_name,'') AS 'A级代理人姓名',
  WHEN t.status = '300' THEN '赎回' END AS '订单状态',
  IFNULL(u.invest_code,'') AS '推广码',
  IFNULL(u.real_name,'') AS '推广人姓名',
- IFNULL(CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),))))
+ IFNULL(CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)),'') AS '推广人手机号'
+FROM
+ jjjr2_sns.u_user tu
