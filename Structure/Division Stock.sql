@@ -59,3 +59,4 @@ WHERE
  AND t.freeze_duration = '3'
  AND t.product_name IN ('金奖1号')
  GROUP BY LEFT(t.serial_code,32)
+ORDER BY t.id ASC;
