@@ -58,4 +58,4 @@ WHERE
  AND t.status IN ('100', '200','300')
  AND t.freeze_duration = '3'
  AND t.product_name IN ('金奖1号')
- GROUP BY 
+ GROUP BY LEFT(t.serial_code,32)
