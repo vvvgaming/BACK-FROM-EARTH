@@ -50,4 +50,6 @@ FROM
  LEFT JOIN jjjr2_sns.u_saler_extend usx ON r.saler_code = usx.saler_code
  LEFT JOIN jjjr2_sns.u_saler_extend cusx ON usx.C_SalerType = cusx.saler_code
  LEFT JOIN jjjr2_sns.u_saler_extend busx ON usx.B_SalerType = busx.saler_code
+ LEFT JOIN jjjr2_sns.u_saler_extend ausx ON usx.A_SalerType = ausx.saler_code
+WHERE
  
