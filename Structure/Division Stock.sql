@@ -47,3 +47,4 @@ FROM
  LEFT JOIN jjjr2_sns.u_customer_relation r ON t.customer_id = r.custom_id AND t.invest_time >= r.begin_time AND t.invest_time < IFNULL(r.end_time,'9999-99-99')
  LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
  LEFT JOIN jjjr2_sns.u_user u ON tu.introducer_id = u.custom_id
+ 
