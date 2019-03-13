@@ -52,4 +52,4 @@ FROM
  LEFT JOIN jjjr2_sns.u_saler_extend busx ON usx.B_SalerType = busx.saler_code
  LEFT JOIN jjjr2_sns.u_saler_extend ausx ON usx.A_SalerType = ausx.saler_code
 WHERE
- 
+ t.create_time > 
