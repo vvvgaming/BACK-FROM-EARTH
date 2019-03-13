@@ -52,4 +52,5 @@ FROM
  LEFT JOIN jjjr2_sns.u_saler_extend busx ON usx.B_SalerType = busx.saler_code
  LEFT JOIN jjjr2_sns.u_saler_extend ausx ON usx.A_SalerType = ausx.saler_code
 WHERE
- t.create_time > 
+ t.create_time > '2019-03-07' AND t.create_time < '2019-03-16'
+ 
