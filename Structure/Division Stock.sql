@@ -54,4 +54,8 @@ FROM
 WHERE
  t.create_time > '2019-03-07' AND t.create_time < '2019-03-16'
  AND t.invest_cash > 0
- AND 
+ AND t.product_type = '200'
+ AND t.status IN ('100', '200','300')
+ AND t.freeze_duration = '3'
+ AND t.product_name IN ('金奖1号')
+ 
