@@ -64,4 +64,4 @@ ORDER BY t.id ASC;
 
 --兑付
 t.id AS '订单编号',
- LEFT(t.serial_code,32) AS ''
+ LEFT(t.serial_code,32) AS '交易序列号',
