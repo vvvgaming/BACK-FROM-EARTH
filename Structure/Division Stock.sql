@@ -68,4 +68,4 @@ t.id AS '订单编号',
 t.customer_id AS '客户编号',
 t.customer_name AS '客户姓名',
 AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号',
-DATE_FORMAT(tu.create_time, '%Y-%m-%d %H-%s-%s') AS 
+DATE_FORMAT(tu.create_time, '%Y-%m-%d %H-%s-%s') AS ''
