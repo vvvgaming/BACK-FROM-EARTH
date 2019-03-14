@@ -60,3 +60,7 @@ WHERE
  AND t.product_name IN ('金奖1号')
  GROUP BY LEFT(t.serial_code,32)
 ORDER BY t.id ASC;
+
+
+--兑付
+t.id AS '订单编号',
