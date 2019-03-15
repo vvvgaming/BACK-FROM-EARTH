@@ -69,4 +69,4 @@ t.customer_id AS '客户编号',
 t.customer_name AS '客户姓名',
 AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号',
 DATE_FORMAT(tu.create_time, '%Y-%m-%d %H-%s-%s') AS '注册时间',
- (SELECT )
+ (SELECT tb.invest_time FROM jjjr2_product.tb_dealorder tb)
