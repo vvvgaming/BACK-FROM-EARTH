@@ -84,3 +84,4 @@ ROUND(IFNULL(t.invest_cash * t.freeze_duration/12,0),2) AS '现金年化投资�
 t.invest_time AS '投资时间',
 ROUND(t.due_income,2) AS '到期利息',
 ROUND((t.invest_amount + t.due_income),2) AS '到期总金额',
+t.end_time AS '到期时间',
