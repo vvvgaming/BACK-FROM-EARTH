@@ -75,3 +75,4 @@ AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首�
  r.saler_code AS '客户经理代码',
 CASE WHEN s.saler = '000002' THEN '公司' WHEN s.saler_code IN ('000000', '000001') THEN '电销' ELSE s.name END AS '客户经理姓名',
 AES_DECRYPT (UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
+CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.name END AS '客户经理状态',
