@@ -90,3 +90,6 @@ WHEN t.status = '200' THEN '满标'
 WHEN t.status = '300' THEN '赎回' END AS '订单状态',
 u.invite_code AS '推广码',
 u.real_name AS '推广人姓名',
+CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,3),'****',SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '推广人手机'
+FROM
+jjjr2_sns.u_user tu JOIN jjjr2_product tb.tb_dealorder t ON tu.custom_id = t.customer_id
