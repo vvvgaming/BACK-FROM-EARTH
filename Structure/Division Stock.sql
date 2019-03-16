@@ -85,4 +85,6 @@ t.invest_time AS '投资时间',
 ROUND(t.due_income,2) AS '到期利息',
 ROUND((t.invest_amount + t.due_income),2) AS '到期总金额',
 t.end_time AS '到期时间',
-CASE WHEN t.status = '100' THEN '投资中',
+CASE WHEN t.status = '100' THEN '投资中'
+WHEN t.status = '200' THEN '满标'
+WHEN t.status = '300' THEN '赎回' END AS '订单状态',
