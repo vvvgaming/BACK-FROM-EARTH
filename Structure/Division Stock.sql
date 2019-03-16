@@ -74,4 +74,4 @@ WHERE (( tb.product_type = '100' AND tb.status IN('100','200')) OR(tb.product_ty
 AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首投时间',
  r.saler_code AS '客户经理代码',
 CASE WHEN s.saler = '000002' THEN '公司' WHEN s.saler_code IN ('000000', '000001') THEN '电销' ELSE s.name END AS '客户经理姓名',
-AES_DECRYPT (UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS 
+AES_DECRYPT (UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
