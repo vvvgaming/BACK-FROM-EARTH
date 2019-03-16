@@ -88,3 +88,5 @@ t.end_time AS '到期时间',
 CASE WHEN t.status = '100' THEN '投资中'
 WHEN t.status = '200' THEN '满标'
 WHEN t.status = '300' THEN '赎回' END AS '订单状态',
+u.invite_code AS '推广码',
+u.real_name AS '推广人姓名',
