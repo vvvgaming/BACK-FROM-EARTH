@@ -93,3 +93,12 @@ u.real_name AS '推广人姓名',
 CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,3),'****',SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '推广人手机'
 FROM
 jjjr2_sns.u_user tu JOIN jjjr2_product tb.tb_dealorder t ON tu.custom_id = t.customer_id
+LEFT JOIN jjjr2_sns.u_customer_relation r ON t.customer_id = r.custom_id
+LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
+LEFT JOIN jjjr2_sns.u_user u ON tu.introducer_id = u.custom_id
+WHERE
+DATE_FORMAT(t.end_time,'%Y-%m') < '2019-03'
+AND t.product_type = '200'
+AND t.status IN ('100', '200', '300')
+AND r.status = '1'
+ORDER BY t.id ASC;
