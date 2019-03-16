@@ -77,3 +77,4 @@ CASE WHEN s.saler = '000002' THEN '公司' WHEN s.saler_code IN ('000000', '0000
 AES_DECRYPT (UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
 CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.name END AS '客户经理状态',
 t.product_name AS '产品名称',
+t.freeze_duration AS '产品期限',
