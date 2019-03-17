@@ -108,3 +108,5 @@ AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户手机',
 IFNULL(u.nickname,'') AS '客户昵称',
 u.real_name AS '真实姓名',
 tca.available_amount AS '账户余额',
+FROM 
+jjr2_finance.t_cash_account tca,
