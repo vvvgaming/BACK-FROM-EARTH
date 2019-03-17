@@ -124,3 +124,9 @@ WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'
 CASE LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG')) WHEN 15 THEN CASE MOD(RIGHT(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),1),2) WHEN 0 THEN '女' ELSE '男' END
 CASE WHEN SUBSTRING(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,2) = SUBSTRING(uc.code,1,2) THEN uc.name ELSE '未知' END AS '地域',
 DATE_FORMAT(u.create_time,'%y-%m-%d %h:%i:%s') AS '注册时间',
+temp.time AS '首投时间',
+temp.amt AS '定期持有存量',
+ucr.saler_code AS '客户经理代码',
+us.name AS '客户经理姓名',
+AES_DECRYPT (UNHEX(us.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
+FROM
