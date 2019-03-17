@@ -118,3 +118,4 @@ ORDER BY tca.available_amount DESC;
 SELECT
 u.custom_id AS '客户编号',
 IFNULL(u.real_name,'') AS '姓名',
+AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号',
