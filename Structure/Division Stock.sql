@@ -116,3 +116,4 @@ WHERE tca.member_id = u.custom_id AND tca.available_amount > 1
 ORDER BY tca.available_amount DESC;
 
 SELECT
+u.custom_id AS '客户编号',
