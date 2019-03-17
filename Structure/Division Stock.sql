@@ -130,3 +130,16 @@ ucr.saler_code AS '客户经理代码',
 us.name AS '客户经理姓名',
 AES_DECRYPT (UNHEX(us.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
 FROM
+jjjr2_sns.u_user u 
+LEFT JOIN jjjr2_sns.u_province uc ON LEFT(uc.code,2) = LEFT(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),2)
+LEFT JOIN jjjr2_sns.u_customer_relation ucr ON u.custom_id = ucr.custom_id AND ucr.status = '1'
+LEFT JOIN jjjr2_sns.u_saler us ON ucr.saler_code = us.saler_code
+LEFT JOIN
+(SELECT tb.customer_id,MIN(tb.invest_time)) AS 'time', ROUND(SUM(CASE WHEN tb.product_type = '200' AND tb.status IN('100','200')
+THEN tb.invest_amount ELSE 0.00 END),2) AS 'amt'
+FROM jjjr2_product.tb_dealorder tb_dealorder
+WHERE
+(tb.product_type = '200' AND tb.status IN ('100','200','300'))
+OR (tb.product_type = '300' AND tb.status IN ('200','400'))
+OR(tb.product_type = '100' AND tb.status = '200')
+GROUP BY 
