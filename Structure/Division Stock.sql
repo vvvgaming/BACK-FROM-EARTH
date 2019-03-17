@@ -143,4 +143,5 @@ WHERE
 OR (tb.product_type = '300' AND tb.status IN ('200','400'))
 OR(tb.product_type = '100' AND tb.status = '200')
 GROUP BY tb.customer_id) temp
-ON 
+ON u.custom_id = temp.customer_id
+WHERE
