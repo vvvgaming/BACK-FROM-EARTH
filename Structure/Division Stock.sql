@@ -104,3 +104,4 @@ AND r.status = '1'
 ORDER BY t.id ASC;
 
 SELECT tca.member_id AS '客户编号',
+AES_DECRYPT()
