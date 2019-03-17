@@ -145,4 +145,4 @@ OR(tb.product_type = '100' AND tb.status = '200')
 GROUP BY tb.customer_id) temp
 ON u.custom_id = temp.customer_id
 WHERE
-u.status
+u.status = ''
