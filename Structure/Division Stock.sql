@@ -103,4 +103,4 @@ AND t.status IN ('100', '200', '300')
 AND r.status = '1'
 ORDER BY t.id ASC;
 
-SELECT 
+SELECT tca.member_id AS ''
