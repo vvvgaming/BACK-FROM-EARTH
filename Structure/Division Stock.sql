@@ -106,3 +106,4 @@ ORDER BY t.id ASC;
 SELECT tca.member_id AS '客户编号',
 AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户手机',
 IFNULL(u.nickname,'') AS '客户昵称',
+u.real_name AS 
