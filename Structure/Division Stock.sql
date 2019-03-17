@@ -102,3 +102,5 @@ AND t.product_type = '200'
 AND t.status IN ('100', '200', '300')
 AND r.status = '1'
 ORDER BY t.id ASC;
+
+SELECT 
