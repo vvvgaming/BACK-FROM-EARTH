@@ -113,3 +113,4 @@ jjr2_finance.t_cash_account tca,
 jjjr2_sns.u_user u 
 WHERE tca.member_id = u.custom_id AND tca.available_amount > 1
 ORDER BY tca.available_amount DESC;
+
