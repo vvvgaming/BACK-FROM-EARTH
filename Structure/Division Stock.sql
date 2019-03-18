@@ -150,4 +150,4 @@ u.status = '1' AND temp.amt > 0;
 
 
 SELECT 
-t.id 
+t.id A
