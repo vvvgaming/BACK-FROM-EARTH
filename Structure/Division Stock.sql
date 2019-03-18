@@ -146,3 +146,6 @@ GROUP BY tb.customer_id) temp
 ON u.custom_id = temp.customer_id
 WHERE
 u.status = '1' AND temp.amt > 0;
+
+
+
