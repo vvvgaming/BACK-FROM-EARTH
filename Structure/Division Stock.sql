@@ -151,4 +151,4 @@ u.status = '1' AND temp.amt > 0;
 
 SELECT 
 t.id AS '订单编号',
-LEFT()
+LEFT(t.serial_code,32)
