@@ -152,4 +152,4 @@ u.status = '1' AND temp.amt > 0;
 SELECT 
 t.id AS '订单编号',
 LEFT(t.serial_code,32) AS '交易序列号',
-t.customer_id AS
+t.customer_id AS 
