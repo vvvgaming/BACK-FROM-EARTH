@@ -164,3 +164,32 @@ CASE WHEN s.name = '000002' THEN '公司' WHEN s.name IN ('000000','000001') THE
 AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
 CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.status END AS '客户经理状态',
 t.product_name AS '产品名称',
+ROUND(t.product_rate,6) AS '产品利率',
+t.freeze_duration AS '产品期限',
+t.freeze_unit AS '期限单位',
+ROUND(IFNULL(t.invest_cash,0),2) AS '现金投资金额',
+ROUND(IFNULL(t.invest_cash * t.freeze_duration/12,0),2) AS '现金年化投资金额',
+ROUND(IFNULL(t.invest_coupon,0),2) AS '投资券金额',
+ROUND(t.add_rate,6) AS '加息券',
+t.invest_time AS '投资时间',
+t.begin_time AS '满标时间',
+t.end_time AS '到期时间',
+CASE WHEN t.status = '100' THEN '投资中' WHEN t.status = '200' THEN '满标' WHEN t.status = '300' THEN '赎回' END AS '订单状态',
+IFNULL(u.invite_code,'') AS '推广码',
+IFNULL(u.real_name,'') AS '推广人姓名',
+IFNULL(CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)),'') AS '推广人手机'
+FROM
+jjjr2_sns.u_user tu JOIN jjjr2_product.tb_dealorder t ON tu.custom_id = t.customer_id
+LEFT JOIN jjjr2_sns.u_customer_relation r ON t.customer_id = r.custom_id AND t.invest_time >= r.begin_time AND t.invest_time < IFNULL(r.end_time,'9999-999-99')
+LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
+LEFT JOIN jjjr2_sns.u_user u ON tu.introducer_id = u.custom_id
+WHERE
+DATE_FORMAT(t.invest_time,'%Y-%m-%d') >= '2019-03-22'
+AND t.customer_id = '000463619'
+AND t.invest_cash > 0
+AND t.product_type = '200'
+AND t.status IN ('100','200'.'300')
+ORDER BY t.id ASC;
+
+
+
