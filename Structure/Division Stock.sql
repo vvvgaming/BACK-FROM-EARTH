@@ -199,3 +199,25 @@ t.user_id AS '客户编号',
 tu.real_name AS '客户姓名',
 tu.mobile AS '手机号',
 tu.create_time AS '注册时间',
+(SELECT tb.create_time FROM jjdb.project_invest tb_dealorder
+	WHERE tb.status = '1' AND tb.user_id = t.user_id ORDER BY tb.create_time ASC LIMIT 1) AS '首投时间',
+	s.saler_code AS '客户经理代码',
+	CASE WHEN s.name = '000002' THEN '公司' WHEN s.name IN ('000000','000001') THEN '电销' ELSE  s.name END AS '客户经理姓名',
+	AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
+	CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.status END AS '客户经理状态',
+	pj.project_name AS '产品名称',
+	ROUND(pj.apr,6) AS '产品利率',
+	pj.time_limit AS '产品期限',
+	CASE WHEN pj.time_type = '0' THEN '月' ELSE '天' END AS '期限单位',
+	ROUND(IFNULL(t.amount,0),2) AS '现金投资金额',
+	CASE WHEN pj.time_type = 0 THEN ROUND(IFNULL(t.amount * pj.time_limit/12,0),2) ELSE ROUND(IFNULL(t.amount * pj.time_limit/360,0),2) AS '现金年化投资金额',
+	t.create_time AS '投资时间',
+	t.interest_date AS '起息日',
+	t.end_date AS '结束日'
+	FROM
+	jjdb.user tu JOIN jjdb.project_invest t ON tu.uuid = t.user_id
+	LEFT JOIN jjdb.u_customer_relation r ON r.u_mobile = tu.mobile AND r.status = '1'
+	LEFT JOIN jjdb.u_saler s ON s.saler_code = r.saler_code
+	LEFT JOIN jjdb.project pj ON pj.uuid = t.project_id
+	WHERE
+	
