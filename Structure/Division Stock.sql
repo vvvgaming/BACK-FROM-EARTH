@@ -220,4 +220,4 @@ tu.create_time AS '注册时间',
 	LEFT JOIN jjdb.u_saler s ON s.saler_code = r.saler_code
 	LEFT JOIN jjdb.project pj ON pj.uuid = t.project_id
 	WHERE
-	DATE_FORMAT(t.create_time,'%Y-%m-%d') 
+	DATE_FORMAT(t.create_time,'%Y-%m-%d') >
