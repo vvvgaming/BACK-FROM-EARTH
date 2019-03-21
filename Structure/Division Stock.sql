@@ -193,3 +193,9 @@ ORDER BY t.id ASC;
 
 
 
+SELECT
+t.invest_order_no AS '订单编号',
+t.user_id AS '客户编号',
+tu.real_name AS '客户姓名',
+tu.mobile AS '手机号',
+tu.create_time AS '注册时间',
