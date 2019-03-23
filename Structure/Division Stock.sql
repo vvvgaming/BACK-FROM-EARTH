@@ -214,7 +214,7 @@ ROUND(pj.apr,6) AS '产品利率',
 pj.time_limit AS '产品期限',
 CASE WHEN pj.time_type = '0' THEN '月' ELSE '天' END AS '期限单位',
 ROUND(IFNULL(t.amount,0),2) AS '现金投资金额',
-	CASE WHEN pj.time_type = 0 THEN ROUND(IFNULL(t.amount * pj.time_limit/12,0),2) ELSE ROUND(IFNULL(t.amount * pj.time_limit/360,0),2) AS '现金年化投资金额',
+CASE WHEN pj.time_type = 0 THEN ROUND(IFNULL(t.amount * pj.time_limit/12,0),2) ELSE ROUND(IFNULL(t.amount * pj.time_limit/360,0),2) AS '现金年化投资金额',
 	t.create_time AS '投资时间',
 	t.interest_date AS '起息日',
 	t.end_date AS '结束日'
