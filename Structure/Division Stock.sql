@@ -232,7 +232,7 @@ wc.name AS '姓名',
 AES_DECRYPT (UNHEX(cc.card_no),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '卡号',
 cc.bank_name AS '银行',
 cc.brabank_name AS '支行',
-wc.amount
+wc.amount AS 
 
 
 
