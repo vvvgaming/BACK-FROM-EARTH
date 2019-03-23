@@ -216,16 +216,16 @@ CASE WHEN pj.time_type = '0' THEN '月' ELSE '天' END AS '期限单位',
 ROUND(IFNULL(t.amount,0),2) AS '现金投资金额',
 CASE WHEN pj.time_type = 0 THEN ROUND(IFNULL(t.amount * pj.time_limit/12,0),2) ELSE ROUND(IFNULL(t.amount * pj.time_limit/360,0),2) AS '现金年化投资金额',
 t.create_time AS '投资时间',
-	t.interest_date AS '起息日',
-	t.end_date AS '结束日'
-	FROM
-	jjdb.user tu JOIN jjdb.project_invest t ON tu.uuid = t.user_id
-	LEFT JOIN jjdb.u_customer_relation r ON r.u_mobile = tu.mobile AND r.status = '1'
-	LEFT JOIN jjdb.u_saler s ON s.saler_code = r.saler_code
-	LEFT JOIN jjdb.project pj ON pj.uuid = t.project_id
-	WHERE
-	DATE_FORMAT(t.create_time,'%Y-%m-%d') >= '2019-03-22'
-	AND t.status = '1'
+t.interest_date AS '起息日',
+t.end_date AS '结束日'
+FROM
+jjdb.user tu JOIN jjdb.project_invest t ON tu.uuid = t.user_id
+LEFT JOIN jjdb.u_customer_relation r ON r.u_mobile = tu.mobile AND r.status = '1'
+LEFT JOIN jjdb.u_saler s ON s.saler_code = r.saler_code
+LEFT JOIN jjdb.project pj ON pj.uuid = t.project_id
+WHERE
+DATE_FORMAT(t.create_time,'%Y-%m-%d') >= '2019-03-22'
+AND t.status = '1'
 	ORDER BY invest_order_no ASC;
 
 
