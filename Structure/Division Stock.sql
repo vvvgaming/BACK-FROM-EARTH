@@ -225,7 +225,11 @@ tu.create_time AS '注册时间',
 	ORDER BY invest_order_no ASC;
 
 
-	#提现明细
+#提现明细
+SELCET 
+wc.customer_id AS '客户id',
+wc.name AS '姓名'
 
 
-	#提现汇总
+
+#提现汇总
