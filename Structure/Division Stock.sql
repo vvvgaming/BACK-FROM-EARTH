@@ -231,7 +231,8 @@ wc.customer_id AS '客户id',
 wc.name AS '姓名',
 AES_DECRYPT (UNHEX(cc.card_no),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '卡号',
 cc.bank_name AS '银行',
-cc.
+cc.brabank_name AS '支行',
+
 
 
 
