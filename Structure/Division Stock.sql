@@ -210,7 +210,7 @@ CASE WHEN s.name = '000002' THEN '公司' WHEN s.name IN ('000000','000001') THE
 AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
 CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.status END AS '客户经理状态',
 pj.project_name AS '产品名称',
-	ROUND(pj.apr,6) AS '产品利率',
+ROUND(pj.apr,6) AS '产品利率',
 pj.time_limit AS '产品期限',
 	CASE WHEN pj.time_type = '0' THEN '月' ELSE '天' END AS '期限单位',
 	ROUND(IFNULL(t.amount,0),2) AS '现金投资金额',
