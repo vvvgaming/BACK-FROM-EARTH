@@ -200,7 +200,8 @@ tu.real_name AS '客户姓名',
 tu.mobile AS '手机号',
 tu.create_time AS '注册时间',
 (SELECT tb.create_time 
-	FROM jjdb.project_invest tb_dealorder
+	FROM 
+	jjdb.project_invest tb_dealorder
 	WHERE tb.status = '1' AND tb.user_id = t.user_id ORDER BY tb.create_time ASC LIMIT 1) AS '首投时间',
 	s.saler_code AS '客户经理代码',
 	CASE WHEN s.name = '000002' THEN '公司' WHEN s.name IN ('000000','000001') THEN '电销' ELSE  s.name END AS '客户经理姓名',
