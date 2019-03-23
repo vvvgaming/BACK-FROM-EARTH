@@ -226,7 +226,7 @@ LEFT JOIN jjdb.project pj ON pj.uuid = t.project_id
 WHERE
 DATE_FORMAT(t.create_time,'%Y-%m-%d') >= '2019-03-22'
 AND t.status = '1'
-	ORDER BY invest_order_no ASC;
+ORDER BY invest_order_no ASC;
 
 
 #提现明细
