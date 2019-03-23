@@ -203,7 +203,8 @@ tu.create_time AS '注册时间',
 	FROM 
 	jjdb.project_invest tb_dealorder
 	WHERE 
-	tb.status = '1' AND tb.user_id = t.user_id ORDER BY tb.create_time ASC LIMIT 1) AS '首投时间',
+	tb.status = '1' AND tb.user_id = t.user_id 
+	ORDER BY tb.create_time ASC LIMIT 1) AS '首投时间',
 	s.saler_code AS '客户经理代码',
 	CASE WHEN s.name = '000002' THEN '公司' WHEN s.name IN ('000000','000001') THEN '电销' ELSE  s.name END AS '客户经理姓名',
 	AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
