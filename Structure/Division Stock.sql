@@ -239,7 +239,7 @@ FROM
 sjzx.t_withdraw_cash wc, jjjr2_partner.t_customer_cards cc
 WHERE
 cc.customer_id = wc.customer_id
-AND w
+AND wc
 
 
 
