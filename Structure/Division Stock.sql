@@ -228,7 +228,8 @@ tu.create_time AS '注册时间',
 #提现明细
 SELCET 
 wc.customer_id AS '客户id',
-wc.name AS '姓名'
+wc.name AS '姓名',
+
 
 
 
