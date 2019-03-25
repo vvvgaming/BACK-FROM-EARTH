@@ -267,6 +267,8 @@ u.real_name AS '姓名',
 us.name AS '销售',
 u.create_time AS '注册时间'
 FROM
+jjdb.user u
+LEFT JOIN jjdb.u_customer_relation uc ON u.mobile = uc.u_mobile
 
 
 
