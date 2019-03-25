@@ -249,4 +249,4 @@ AND wc.create_time >= '2019-03-23 16:00:00';
 
 #提现汇总
 SELECT
-SUM(tmp.提现金额),SUM(CASE WHEN tmp.方式 = '连连' THEN tmp.) 
+SUM(tmp.提现金额),SUM(CASE WHEN tmp.方式 = '连连' THEN tmp.提现金额) 
