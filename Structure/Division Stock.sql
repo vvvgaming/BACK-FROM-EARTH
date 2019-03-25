@@ -252,4 +252,8 @@ SELECT
 SUM(tmp.提现金额),SUM(CASE WHEN tmp.方式 = '连连' THEN tmp.提现金额 ELSE 0 END) AS '连连',
 SUM(CASE WHEN tmp.方式 = '富友' THEN tmp.提现金额 ELSE 0 END) AS '富友'
 FROM
- 
+(SELECT wc.customer_id AS '客户id',wc.name AS '姓名',AES_DECRYPT(UNHEX(cc.card_no),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '银行卡号',cc.bank_name AS '银行',
+cc.brabank_name AS '支行',wc.amount AS '提现金额',CASE WHEN wc.channel = '1' THEN '连连' WHEN wc.channel = '2' THEN '富友' ELSE wc.channel END AS '方式',wc.create_time AS '提现时间'
+FROM
+sjzx.t_withdraw_cash wc ,jjjr2_partner.t_customer_cards cc
+WHERE cc.customer_id = wc.customer_id AND wc.create_time ) 
