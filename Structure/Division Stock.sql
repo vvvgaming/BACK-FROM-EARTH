@@ -260,4 +260,6 @@ WHERE cc.customer_id = wc.customer_id AND wc.create_time >= '2019-03-25 19:00:00
 
 
 
-SELECT u.uuid,expa.city AS ,u.real_name AS '姓名' 
+SELECT 
+u.uuid AS 'id',
+expa.city AS '城市',u.real_name AS '姓名' 
