@@ -269,7 +269,9 @@ u.create_time AS '注册时间'
 FROM
 jjdb.user u
 LEFT JOIN jjdb.u_customer_relation uc ON u.mobile = uc.u_mobile
-
+LEFT JOIN jjdb.u_saler us ON us.saler_code = uc.saler_code AND uc.status = '1'
+LEFT JOIN jjjr2_sns.u_saler_expand expa ON expa.saler_code = us.saler_code
+WHERE 
 
 
 
