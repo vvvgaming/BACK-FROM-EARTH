@@ -258,4 +258,6 @@ FROM
 sjzx.t_withdraw_cash wc ,jjjr2_partner.t_customer_cards cc
 WHERE cc.customer_id = wc.customer_id AND wc.create_time >= '2019-03-25 19:00:00')
 
- 
+
+
+SELECT u.uuid,expa.city, 
