@@ -264,7 +264,8 @@ SELECT
 u.uuid AS 'id',
 expa.city AS '城市',
 u.real_name AS '姓名',
-us.name AS 
+us.name AS '销售',
+
 
 
 
