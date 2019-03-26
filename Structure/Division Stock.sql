@@ -229,7 +229,7 @@ AND t.status = '1'
 ORDER BY invest_order_no ASC;
 
 
-#提现明细
+-- 提现明细
 SELCET 
 wc.customer_id AS '客户id',
 wc.name AS '姓名',
@@ -247,7 +247,7 @@ AND wc.create_time >= '2019-03-23 16:00:00';
 
 
 
-#提现汇总
+-- 提现汇总
 SELECT
 SUM(tmp.提现金额),SUM(CASE WHEN tmp.方式 = '连连' THEN tmp.提现金额 ELSE 0 END) AS '连连',
 SUM(CASE WHEN tmp.方式 = '富友' THEN tmp.提现金额 ELSE 0 END) AS '富友'
@@ -259,7 +259,7 @@ sjzx.t_withdraw_cash wc ,jjjr2_partner.t_customer_cards cc
 WHERE cc.customer_id = wc.customer_id AND wc.create_time >= '2019-03-25 19:00:00')
 
 
-
+-- 注册客户
 SELECT 
 u.uuid AS 'id',
 expa.city AS '城市',
@@ -275,6 +275,13 @@ WHERE u.create_time >= '2019-03-26'
 GROUP BY u.uuid;
 
 
+
+-- 有效客户
+
+
+
+
+-- 投资客户
 
 
 
