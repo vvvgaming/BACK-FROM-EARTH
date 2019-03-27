@@ -301,6 +301,7 @@ t.user_id,
 u.real_name,
 u.mobile,
 us.name AS '销售',
+expa.city,
  
 
 
