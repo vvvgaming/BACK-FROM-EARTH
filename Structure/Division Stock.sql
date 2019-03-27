@@ -303,7 +303,7 @@ u.mobile,
 us.name AS '销售',
 expa.city,
 SUM(IFNULL(t.amount,0)) AS 'amt',
-CASE WHEN 
+CASE WHEN pj.time_type = 0 THEN SUM(IFNULL())
 
 
 
