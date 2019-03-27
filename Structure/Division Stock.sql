@@ -288,7 +288,8 @@ FROM
  AND tb.invest_date >= '20190327'
  GROUP BY tb.user_id HAVING SUM(tb.amount) >= 10000
  ) tmp
- LEFT JOIN jjdb.u_customer_relation uc ON 
+ LEFT JOIN jjdb.u_customer_relation uc ON uc.u_mobile = tmp.mobile
+ LEFT JOIN 
 
 
 
