@@ -284,7 +284,8 @@ FROM
 (SELECT tb.user_id AS 'sustomerID',u.real_name,SUM(tb.amount) AS 'amt',u.mobile
  FROM jjdb.user u,jjdb.project_invest tb
  WHERE tb.user_id = u.uuid
- AND tb.)
+ AND tb.status = '1'
+ AND tb.invest_date >= '20190327')
 
 
 
