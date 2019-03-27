@@ -286,7 +286,7 @@ FROM
  WHERE tb.user_id = u.uuid
  AND tb.status = '1'
  AND tb.invest_date >= '20190327'
- GROUP BY )
+ GROUP BY tb.user_id)
 
 
 
