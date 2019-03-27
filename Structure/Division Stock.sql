@@ -312,7 +312,8 @@ LEFT JOIN jjdb.u_customer_relation uc ON uc.u_mobile = u.mobile
 LEFT JOIN jjdb.u_saler us ON us.saler_code = uc.saler_code AND uc.status = '1'
 LEFT JOIN jjjr2_sns u_saler_expand expa ON expa.saler_code = us.saler_code
 WHERE t.status = '1'
-AND t.invest_time >= '20190328' 
+AND t.invest_time >= '20190328'
+GROUP BY t.user_id; 
 
 
 
