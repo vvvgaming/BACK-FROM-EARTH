@@ -283,8 +283,8 @@ tmp.mobile, tmp.real_name,us.name AS '销售',expa.city,tmp.amt AS '投资额'
 FROM
 (SELECT tb.user_id AS 'sustomerID',u.real_name,SUM(tb.amount) AS 'amt',u.mobile
  FROM jjdb.user u,jjdb.project_invest tb
- WHERE
- )
+ WHERE tb.user_id = u.uuid
+ AND tb.)
 
 
 
