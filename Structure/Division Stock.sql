@@ -297,6 +297,10 @@ FROM
 
 -- 投资客户
 SELECT
+t.user_id,
+u.real_name,
+u.mobile,
+us.name AS '销售',
  
 
 
