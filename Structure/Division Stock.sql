@@ -288,7 +288,7 @@ FROM
  AND tb.invest_date >= '20190327'
  GROUP BY tb.user_id HAVING SUM(tb.amount) >= 10000
  ) tmp
- 
+ LEFT JOIN 
 
 
 
