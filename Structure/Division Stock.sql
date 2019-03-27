@@ -302,7 +302,7 @@ u.real_name,
 u.mobile,
 us.name AS '销售',
 expa.city,
-SUM(IFNULL(t.amount)) 
+SUM(IFNULL(t.amount,0)) 
 
 
 
