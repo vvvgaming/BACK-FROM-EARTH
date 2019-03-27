@@ -278,6 +278,10 @@ GROUP BY u.uuid;
 
 -- 有效客户
 
+SELECT 
+tmp.mobile, tmp.real_name,us.name AS '销售',expa.city,tmp.amt AS '投资额'
+FROM
+
 
 
 
