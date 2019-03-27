@@ -303,7 +303,9 @@ u.mobile,
 us.name AS '销售',
 expa.city,
 SUM(IFNULL(t.amount,0)) AS 'amt',
-CASE WHEN pj.time_type = 0 THEN SUM(IFNULL(t.amount,0)) * pj.time_limit/12 ELSE 
+CASE WHEN pj.time_type = 0 THEN SUM(IFNULL(t.amount,0)) * pj.time_limit/12 ELSE SUM(IFNULL(t.amount,0)) * pj.time_limit/360 END AS 'year_amt'
+FROM
+
 
 
 
