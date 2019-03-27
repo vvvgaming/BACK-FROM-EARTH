@@ -305,7 +305,14 @@ expa.city,
 SUM(IFNULL(t.amount,0)) AS 'amt',
 CASE WHEN pj.time_type = 0 THEN SUM(IFNULL(t.amount,0)) * pj.time_limit/12 ELSE SUM(IFNULL(t.amount,0)) * pj.time_limit/360 END AS 'year_amt'
 FROM
-
+jjdb.project_invest t
+LEFT JOIN jjdb.project pj ON pj.uuid = t.project_id
+LEFT JOIN jjdb.user u ON t.user_id = u.uuid
+LEFT JOIN jjdb.u_customer_relation uc ON uc.u_mobile = u.mobile
+LEFT JOIN jjdb.u_saler us ON us.saler_code = uc.saler_code AND uc.status = '1'
+LEFT JOIN jjjr2_sns u_saler_expand expa ON expa.saler_code = us.saler_code
+WHERE t.status = '1'
+AND  
 
 
 
