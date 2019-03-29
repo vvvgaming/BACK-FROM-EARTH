@@ -319,7 +319,7 @@ GROUP BY t.user_id;
 -- 新平台投资明细
 SELECT
  temp.invest_order_no AS '订单编号',
- temp.
+ temp.user_id AS '客户编号'
 
 
 
