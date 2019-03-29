@@ -321,6 +321,7 @@ SELECT
  temp.invest_order_no AS '订单编号',
  temp.user_id AS '客户编号',
  temp.real_name AS '客户姓名',
+ CONCAT(SUBSTRING(temp.mobile,1,4),'****',SUBSTRING(temp.mobile,-4,4)) AS '客户手机号',
  
 
 
