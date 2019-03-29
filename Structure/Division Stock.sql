@@ -323,7 +323,37 @@ SELECT
  temp.real_name AS '客户姓名',
  CONCAT(SUBSTRING(temp.mobile,1,4),'****',SUBSTRING(temp.mobile,-4,4)) AS '客户手机号',
  temp.zcsj AS '客户注册时间',
-
+ (SELECT tb.create_time FROM jjdb.project_invest tb
+ 	WHERE tb.status = '1'
+ 	AND tb.user_id = temp.user_id ORDER BY tb.create_time ASC LIMIT 1) AS '首投时间',
+ s.saler_code AS '客户经理代码',
+ CASE WHEN s.name = '000002' THEN '公司' WHEN s.name IN ('000000','000001') THEN '电销' ELSE s.name END AS '客户经理姓名',
+ AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
+ CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.status END AS '客户经理状态',
+ expa.city AS '直营城市',
+ pj.project_name AS '产品名称',
+ ROUND(pj.apr,6) AS '产品利率',
+ pj.time_limit AS '产品期限',
+ CASE WHEN pj.time_type = '0' THEN '月' ELSE '天' END AS '期限单位',
+ CASE WHEN pj.repay_style = '1' THEN '等额本息' WHEN pj.repay_style = '2' THEN '一次性还本付息'
+ WHEN pj/repay_style = '3' THEN '每月还息到期还本' WHEN pj.repay_style = '4' THEN '等额本金' ELSE '' END AS '还款方式',
+ ROUND(IFNULL(temp.amount,0),2) AS '现金投资金额',
+ CASE WHEN pj.time_type = 0 THEN ROUND(IFNULL(temp.amount * pj.time_limit/12,0),2) ELSE ROUND(IFNULL(temp.amount * pj.time_limit/360,0),2) END AS '现金年化投资金额',
+ temp.create_time AS '投资时间',
+ temp.interest_date AS '起息日',
+ DATE_FORMAT(pc.repay_time,'%Y-%m-%d') AS '到期时间'
+ FROM
+ (SELECT tu.mobile,tu.real_name,tu.create_time AS zcsj,t.* FROM jjdb.user tu JOIN jjdb.project_invest t ON tu.uuid = t.user_id) temp
+ LEFT JOIN jjdb.u_customer_relation r ON r.u_mobile = temp.mobile AND temp.invest_date >= r.begin_time AND temp.temp.invest_date < IFNULL(r.end_time,'9999-99-99')
+ LEFT JOIN jjdb.u_saler s ON s.saler_code = r.saler_code
+ LEFT JOIN jjdb.project pj ON pj.uuid = temp.project_id
+ LEFT JOIN jjjr2_sns.u_saler_expand expa ON expa.saler_code = r.saler_code
+ LEFT JOIN jjdb.project_collection pc ON pc.invest_id = temp.uuid
+WHERE DATE_FORMAT(temp.create_time,'%Y-%m-%d') >= '2019-03-29'
+AND temp.status = '1'
+AND expa.city = '上海'
+ORDER BY temp.invest_order_no ASC
+LIMIT 100000;
 
 
 
