@@ -316,6 +316,10 @@ AND t.invest_time >= '20190328'
 GROUP BY t.user_id; 
 
 
+-- 新平台投资明细
+SELECT
+ temp.invest_order_no AS '订单编号',
+
 
 
 
