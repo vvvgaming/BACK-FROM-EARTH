@@ -355,6 +355,9 @@ AND expa.city = '上海'
 ORDER BY temp.invest_order_no ASC
 LIMIT 100000;
 
+-- 老平台投资明细
+
+
 
 
 
