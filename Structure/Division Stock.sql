@@ -357,7 +357,7 @@ LIMIT 100000;
 
 -- 老平台投资明细
 SELECT
-t.id AS '订单'
+t.id AS '订单编号'
 
 
 
