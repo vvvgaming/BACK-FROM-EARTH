@@ -358,7 +358,12 @@ LIMIT 100000;
 -- 老平台投资明细
 SELECT
  t.id AS '订单编号',
- LEFT()
+ LEFT(t.serial_code,32) AS '交易序列号',
+ t.customer_id AS '客户编号',
+ t.customer_name AS '客户姓名',
+ expa.city AS '城市',
+ CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '手机号',
+ 
 
 
 
