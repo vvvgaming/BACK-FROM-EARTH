@@ -363,7 +363,7 @@ SELECT
  t.customer_name AS '客户姓名',
  expa.city AS '城市',
  CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '手机号',
- DATE_FO
+ DATE_FOR
 
 
 
