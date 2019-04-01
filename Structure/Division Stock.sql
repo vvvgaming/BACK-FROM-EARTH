@@ -364,7 +364,9 @@ SELECT
  expa.city AS '城市',
  CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '手机号',
  DATE_FORMAT(tu.create_time FROM jjjr2_product.tb_dealorder tb
- 	WHERE ((tb.product_type = '100' AND tb.staus IN('100','200')) OR ))
+ 	WHERE ((tb.product_type = '100' AND tb.staus IN('100','200')) OR (tb.product_type = '200' AND tb.status IN ('100','200','300')) OR (tb.product_type = '300' AND tb.status IN ('200','400')))
+ 	AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首投时间',
+ 
 
 
 
