@@ -366,6 +366,7 @@ SELECT
  DATE_FORMAT(tu.create_time FROM jjjr2_product.tb_dealorder tb
  	WHERE ((tb.product_type = '100' AND tb.staus IN('100','200')) OR (tb.product_type = '200' AND tb.status IN ('100','200','300')) OR (tb.product_type = '300' AND tb.status IN ('200','400')))
  	AND tb.customer_id = t.customer_id ORDER BY tb.invest_time ASC LIMIT 1) AS '首投时间',
+ r.saler_code AS '客户经理代码',
  
 
 
