@@ -371,6 +371,15 @@ SELECT
  AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机',
  CASE s.status WHEN '10' THEN '在职' WHEN '20' THEN '离职' ELSE s.status END AS '客户经理状态',
  t.product_name AS '产品名称',
+ ROUND(t.product_rate,6) AS '产品利率',
+ t.freeze_duration AS '产品期限',
+ t.freeze_unit AS '期限单位',
+ ROUND(IFNULL(t.invest_cash,0),2) AS '现金投资金额',
+ ROUND(IFNULL(t.invest_cash * t.freeze_duration/12,0),2) AS '现金年化投资金额',
+ ROUND(IFNULL(invest_coupon,0),2) AS '投资券金额',
+ ROUND(t.add_rate,6) AS '加息券',
+ t.invest_time AS '投资时间',
+ 
 
 
 
