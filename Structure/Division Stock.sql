@@ -381,7 +381,21 @@ SELECT
  t.invest_time AS '投资时间',
  t.begin_time AS '满标时间',
  t.end_time AS '到期时间',
- CASE WHEN 
+ CASE WHEN t.status = '100' THEN '投资中' WHEN t.status = '200' THEN '满标' WHEN t.status = '300' THEN '赎回' END AS '订单状态',
+ IFNULL(u.invite_code,'') AS '推广码',
+ IFNULL(u.real_name,'') AS '推广人姓名',
+ IFNULL(CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)),'') AS '推广人手机号'
+ FROM
+ jjjr2_sns.u_user tu JOIN jjjr2_product.tb_dealorder t ON tu.custom_id = t.customer_id
+ LEFT JOIN jjjr2_sns.u_customer_relation r ON t.customer_id = r.custom_id AND t.invest_time >= r.begin_time AND t.invest_time < IFNULL(r.end_time,'9999-99-99')
+ LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
+ LEFT JOIN jjjr2_sns.u_saler_expand expa ON expa.saler_code = r.saler_code
+ LEFT JOIN jjjr2_sns.u_saler u ON tu.introducer_id = u.custom_id
+WHERE
+DATE_FORMAT(t.invest_time,'%Y-%m-%d') >= '2019-04-01'
+AND t.product_type = '200'
+AND expa.city = '上海'
+
 
 
 
