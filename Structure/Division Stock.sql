@@ -364,7 +364,7 @@ SELECT
  expa.city AS '城市',
  CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '手机号',
  DATE_FORMAT(tu.create_time FROM jjjr2_product.tb_dealorder tb
- 	WHERE ((tb.product_type = '100' AND )))
+ 	WHERE ((tb.product_type = '100' AND tb.staus )))
 
 
 
