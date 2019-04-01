@@ -379,7 +379,9 @@ SELECT
  ROUND(IFNULL(invest_coupon,0),2) AS '投资券金额',
  ROUND(t.add_rate,6) AS '加息券',
  t.invest_time AS '投资时间',
- 
+ t.begin_time AS '满标时间',
+ t.end_time AS '到期时间',
+ CASE WHEN 
 
 
 
