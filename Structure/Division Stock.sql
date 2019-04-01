@@ -396,7 +396,7 @@ DATE_FORMAT(t.invest_time,'%Y-%m-%d') >= '2019-04-01'
 AND t.product_type = '200'
 AND expa.city = '上海'
 AND t.status IN ('100','200','300')
-ORDER BY 
+ORDER BY t.id
 
 
 
