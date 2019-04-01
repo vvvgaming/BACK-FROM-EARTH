@@ -397,7 +397,7 @@ AND t.product_type = '200'
 AND expa.city = '上海'
 AND t.status IN ('100','200','300')
 ORDER BY t.id ASC
-
+LIMIT 
 
 
 
