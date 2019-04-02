@@ -404,7 +404,7 @@ INSERT INTO jjdb.u_customer_relation (
 u_mobile,
 saler_code,
 begin_time,
-
+end_time
 )
 
 
