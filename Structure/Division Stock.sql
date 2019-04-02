@@ -405,6 +405,10 @@ u_mobile,
 saler_code,
 begin_time,
 end_time,
+status,
+create_time,
+creator,
+update_time,
 
 )
 
