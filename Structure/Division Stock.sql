@@ -400,7 +400,10 @@ ORDER BY t.id ASC
 LIMIT 10000;
 
 -- 归属变更
-INSERT INTO jjdb.u_customer
+INSERT INTO jjdb.u_customer_relation (
+u_mobile,
+
+)
 
 
 
