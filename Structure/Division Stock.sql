@@ -401,18 +401,19 @@ LIMIT 10000;
 
 -- 归属变更
 INSERT INTO jjdb.u_customer_relation (
-u_mobile,
-saler_code,
-begin_time,
-end_time,
-status,
-create_time,
-creator,
-update_time,
-updater
-)
+ u_mobile,
+ saler_code,
+ begin_time,
+ end_time,
+ status,
+ create_time,
+ creator,
+ update_time,
+ updater
+ )
 VALUES
 ('13701511158','900061','2019-04-02','9999-99-99','1',NOW(),'钱金芳',NOW(),'钱银芳');
+
 
 
 
