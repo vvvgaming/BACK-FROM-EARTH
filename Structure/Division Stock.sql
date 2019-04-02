@@ -414,7 +414,7 @@ INSERT INTO jjdb.u_customer_relation (
 VALUES
 ('13701511158','900061','2019-04-02','9999-99-99','1',NOW(),'钱金芳',NOW(),'钱银芳');
 
-SELEC
+SELECT 
 
 
 
