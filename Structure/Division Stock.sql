@@ -409,9 +409,10 @@ status,
 create_time,
 creator,
 update_time,
-
+updater
 )
-
+VALUES
+('13701511158','900061')
 
 
 
