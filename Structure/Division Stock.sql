@@ -417,7 +417,7 @@ VALUES
 SELECT
 temp.date AS '日期',
 MAX(CASE temp.description WHEN '注册人数' THEN temp.amt ELSE 0 END) AS '注册人数',
-MAX(CASE temp.description WHEN '投资人数' ) 
+MAX(CASE temp.description WHEN '投资人数' THEN ) 
 
 
 
