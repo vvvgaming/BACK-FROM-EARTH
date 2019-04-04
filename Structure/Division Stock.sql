@@ -417,7 +417,32 @@ VALUES
 SELECT
 temp.date AS '日期',
 MAX(CASE temp.description WHEN '注册人数' THEN temp.amt ELSE 0 END) AS '注册人数',
-MAX(CASE temp.description WHEN '投资人数' THEN temp.amt ELSE 0 END) AS '' 
+MAX(CASE temp.description WHEN '投资人数' THEN temp.amt ELSE 0 END) AS '投资人数',
+MAX(CASE temp.description WHEN '投资人数' THEN temp.amt_1 ELSE 0 END) AS '投资笔数',
+MAX(CASE temp.description WHEN '投资人数' THEN temp.amt_2 ELSE 0 END) AS '投资金额'
+FROM(
+-- 注册人数
+SELECT '注册人数' AS 'description', DATE_FORMAT(u.create_time,'%Y-%m-%d') AS 'date',COUNT(u.custom_id) AS 'amt',0 AS 'amt1',0 AS 'amt_2' FROM jjjr2_sns.u_user u, jjjr2_sns.u_customer_relation uc
+WHERE u.custom_id = uc.custom_id AND uc.status = '1' AND u.status = '1'
+AND uc.saler_code LIKE 'jd%'
+AND u.create_time >= '2019-04-04'
+GROUP BY DATE_FORMAT(u.create_time,'%Y-%m-%d')
+
+UNION ALL
+
+-- 投资人数
+SELECT '投资人数' AS 'description',DATE_FORMAT(t.invest_time,'%Y-%m-%d') AS 'date',
+COUNT(DISTINCT t.customer_id) AS 'amt',
+COUNT(t.id) AS 'amt_1',
+SUM(IFNULL(t.invest_cash,0)) AS 'amt_2'
+FROM jjjr2_product.tb_dealorder t,jjjr2_sns.u_customer_relation uc
+WHERE t.customer_id = uc.custom_id
+AND uc.status = '1'
+AND uc.saler_code LIKE 'jd%'
+AND t.product_type = '200'
+AND t.status IN ('100','200','300')
+AND t.invest_time >= '2019-04-04'
+GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date; 
 
 
 
