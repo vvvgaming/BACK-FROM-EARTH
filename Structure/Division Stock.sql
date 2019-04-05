@@ -449,7 +449,7 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
  SELECT
  u.uuid,
  expa.city,
- u.
+ u.r
 
 
 
