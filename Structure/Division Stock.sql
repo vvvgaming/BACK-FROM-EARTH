@@ -448,7 +448,7 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
 -- 新平台注册
  SELECT
  u.uuid,
- expa.
+ expa.city
 
 
 
