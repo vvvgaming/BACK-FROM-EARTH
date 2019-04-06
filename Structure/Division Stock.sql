@@ -449,7 +449,8 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
  SELECT
  u.uuid,
  expa.city,
- u.real_name AS '客户姓名'
+ u.real_name AS '客户姓名',
+ 
 
 
 
