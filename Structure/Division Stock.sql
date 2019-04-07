@@ -454,7 +454,7 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
  u.create_time
  FROM
  jjdb.user u
- 
+ LEFT 
 
 
 
