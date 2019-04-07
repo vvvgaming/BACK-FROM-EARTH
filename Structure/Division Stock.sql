@@ -453,7 +453,7 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
  us.name AS '客户经理',
  u.create_time
  FROM
- jjdb.user 
+ jjdb.user u
 
 
 
