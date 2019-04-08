@@ -455,7 +455,7 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
  FROM
  jjdb.user u
  LEFT JOIN jjdb.u_customer_relation uc ON u.mobile = uc.u_mobile
- L
+ LE
 
 
 
