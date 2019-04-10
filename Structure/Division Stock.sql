@@ -499,7 +499,18 @@ LIMIT 10000;
 
 
 SELECT
-
+ab.province as '省份',
+SUM(ab.amt) as '投资额'
+FROM
+(SELECT
+CASE WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'))=15 AND MOD(RIGHT(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),1),2)=0 THEN '女'
+     WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'))=15 AND MOD(RIGHT(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),1),2)=1 THEN '男'
+     WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'))=18 AND MOD(LEFT(RIGHT(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),2),1),2)=0 THEN '女'
+     WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'))=18 AND MOD(LEFT(RIGHT(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),2),1),2)=1 THEN '男' ELSE '未知' END AS 'level',
+     tb.invest_cash AS amt
+     FROM jjjr2_product.tb_dealorder tb JOIN jjjr2_sns.u_user u
+     ON u.custom_id = tb.customer_id
+     WHERE (tb.product_type = '100' AND tb.status IN ('100','200')) OR (tb.product_type = '200' AND tb.status IN ('100','200','300')) OR (tb.product_type = '300' AND tb.status IN('200','400'))) ab
 
 
 
