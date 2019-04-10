@@ -489,7 +489,7 @@ t.real_name,
 AES_DECRYPT(UNHEX(t.username),'CXSOKJTSQSAZCVGHGHVDSDCG')
 FROM
 jjjr2_sns.u_user t
-
+WHERE
 
 
 
