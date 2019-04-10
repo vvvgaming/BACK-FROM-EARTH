@@ -460,7 +460,7 @@ GROUP BY DATE_FORMAT(t.invest_time,'%Y-%m-%d'))temp GROUP BY temp.date;
  WHERE u.create_time >= '2019-04-09'
  GROUP BY u.uuid;
 
- SELECT * FROM jjjr2_product.
+ SELECT * FROM jjjr2_product.tb
 
 
 
