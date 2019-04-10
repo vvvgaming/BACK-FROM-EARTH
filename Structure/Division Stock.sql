@@ -484,6 +484,7 @@ AND create_time < '2019-04-10 20:00:00'
 AND status IN(100,200);
 
 SELECT
+t.custom_id,
 
 
 
