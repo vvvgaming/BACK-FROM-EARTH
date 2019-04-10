@@ -474,7 +474,14 @@ SELECT * FROM jjjr2_product.tb_activity WHERE activity_code = 'fg' AND create_ti
 SELECT * FROM jjjr2_product.tb_activity WHERE activity_code = 'kldy' AND create_time >='2019-04-11 03:00:00' AND create_time <='2019-04-12 02:00:00';
 
 
-
+SELECT
+IFNULL(SUM(invest_amount),0) sumInvestAmt
+FROM
+jjjr2_product.tb_dealorder
+WHERE
+create_time >= '2019-04-10 00:00:00'
+AND create_time < '2019-04-10 20:00:00'
+AND status IN(100,200);
 
 
 
