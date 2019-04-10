@@ -485,7 +485,7 @@ AND status IN(100,200);
 
 SELECT
 t.custom_id,
-
+t.
 
 
 
