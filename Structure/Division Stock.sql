@@ -490,6 +490,7 @@ AES_DECRYPT(UNHEX(t.username),'CXSOKJTSQSAZCVGHGHVDSDCG')
 FROM
 jjjr2_sns.u_user t
 WHERE
+t.custom_id IN('000440311','000013538')
 
 
 
