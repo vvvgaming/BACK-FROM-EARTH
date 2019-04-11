@@ -534,6 +534,7 @@ SELECT
 tca.member_id AS '客户编号',
 AES_DECRYPT(UNHEX(u.username),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '手机号',
 IFNULL(u.real_name,'') AS '客户姓名',
+tca.available_amount AS '账户余额'
 
 
 
