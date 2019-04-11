@@ -531,7 +531,7 @@ GROUP BY ab.level;
 
 -- 存量客户
 SELECT
-
+tca.member_id AS '客户编号',
 
 
 
