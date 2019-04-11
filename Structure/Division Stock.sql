@@ -526,6 +526,7 @@ CASE WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVD
 FROM
 jjjr2_product.tb_dealorder tb JOIN jjjr2_sns.u_user u
 WHERE (tb.product_type = '100' AND tb.status IN ('100','200')) OR (tb.product_type = '200' AND tb.status IN ('100','200','300')) OR (tb.product_type = '300' AND tb.status IN ('200','400'))) ab
+GROUP BY ab.level;
 
 
 
