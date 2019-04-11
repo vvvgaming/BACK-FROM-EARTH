@@ -522,6 +522,10 @@ FROM
 (SELECT tb.customer_id AS id,
 CASE WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'))=15 THEN CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),7,1),'oh')
      WHEN LENGTH(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'))=18 THEN CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(u.identity_card_number),'CXSOKJTSQSAZCVGHGHVDSDCG'),9,1),'oh') ELSE '其他' END AS 'level',
+     tb.invest_cash AS amt
+FROM
+jjjr2_product.tb_dealorder tb JOIN jjjr2_sns.u_user u
+
 
 
 
