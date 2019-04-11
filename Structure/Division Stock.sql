@@ -537,7 +537,9 @@ IFNULL(u.real_name,'') AS '客户姓名',
 tca.available_amount AS '账户余额'
 FROM
 jjjr_finance.t_cash_account tca, jjjr2_sns.u_user u
-
+WHERE tca.member_id = u.custom_id
+AND tca.available_amount > 1
+ORDER BY tca.available_amount DESC;
 
 
 
