@@ -542,7 +542,25 @@ AND tca.available_amount > 1
 ORDER BY tca.available_amount DESC;
 
 -- 充值
-
+t.trade_no AS '交易编号',
+tu.custom_id AS '客户编号',
+tu.real_name AS '客户姓名',
+CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '客户手机号',
+s.saler_code AS '客户经理代码',
+s.name AS '客户经理姓名',
+AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机号',
+ROPUND(t.trans_amount,2) AS '充值金额',
+DATE_FORMAT(t.gmt_create,'%Y-%m-%d %H:%i:%s') AS '充值申请时间',
+DATE_FORMAT(t.gmt_modify,'%Y-%m-%d %H:%i:%s') AS '充值成功时间',
+CASE t.trans_status WHEN '00' THEN '申请中' WHEN '10' THEN '成功' END AS '交易状态'
+FROM
+jjjr2_sns.u_user tu, jjjr2_paycore.t_transaction t
+LEFT JOIN jjjr2_sns.u_customer_relation r ON t.member_id = r.custom_id AND r.status = '1'
+LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
+WHERE t.member_id = tu.custom_id
+AND t.trans_type IN ('01','26','FU01','FU26')
+AND t.trans_status IN ('00','10')
+AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBSTRING(CURRENT_DATE,INTERVAL 1 DAY),'%Y-%m-%d');
 
 
 
