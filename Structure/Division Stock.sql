@@ -529,6 +529,10 @@ WHERE (tb.product_type = '100' AND tb.status IN ('100','200')) OR (tb.product_ty
 GROUP BY ab.level;
 
 
+-- 存量客户
+
+
+
 
 
 
