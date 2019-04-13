@@ -565,7 +565,7 @@ AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBSTRING(CURRENT_DATE,IN
 -- 提现
 SELECT
 t.trade_no AS '交易编号',
-tu.custom_id AS 
+tu.custom_id AS ''
 
 
 
