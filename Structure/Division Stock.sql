@@ -570,3 +570,4 @@ AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBSTRING(CURRENT_DATE,IN
 
 
 
+
