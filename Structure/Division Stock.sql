@@ -580,7 +580,7 @@ jjjr2_sns.u_user tu, jjjr2_paycore.t_transaction t
 LEFT JOIN jjjr2_sns.u_customer_relation r ON member_id = r.custom_id AND r.status = '1'
 LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
 WHERE t.member_id = tu.custom_id
-AND
+AND t.trans_type IN
 
 
 
