@@ -582,7 +582,7 @@ LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
 WHERE t.member_id = tu.custom_id
 AND t.trans_type IN('03','FY03')
 AND t.trans_status IN('00','10')
-AND
+AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBDATE(CURRENT_DATE,))
 
 
 
