@@ -566,7 +566,8 @@ AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBSTRING(CURRENT_DATE,IN
 SELECT
 t.trade_no AS '交易编号',
 tu.custom_id AS '客户编号',
-
+tu.real_name AS '客户姓名',
+CONCAT(SUBSTRING(AES_DECRYPT))
 
 
 
