@@ -574,7 +574,12 @@ AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机号
 ROUND(t.trans_amount,2) AS '提现金额',
 DATE_FORMAT(t.gmt_create,'%Y-%m-%d %H:%i:%s') AS '提现申请时间',
 DATE_FORMAT(t.gmt_modify,'%Y-%m-%d %H:%i:%s') AS '提现成功时间',
-CASE 
+CASE t.trans_status WHEN '00' THEN '申请中' WHEN '10' THEN '成功' END AS '交易状态'
+FROM
+jjjr2_sns.u_user tu, jjjr2_paycore.t_transaction t 
+LEFT JOIN jjjr2_sns.u_customer_relation r ON member_id = r.custom_id AND r.status = '1'
+LEFT JOIN jjjr2_sns.u_saler s ON s.saler_code = r.saler_code
+WHERE t.member_id = tu.custom_id
 
 
 
