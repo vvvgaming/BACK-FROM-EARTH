@@ -567,7 +567,14 @@ SELECT
 t.trade_no AS '交易编号',
 tu.custom_id AS '客户编号',
 tu.real_name AS '客户姓名',
-CONCAT(SUBSTRING(AES_DECRYPT))
+CONCAT(SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOKJTSQSAZCVGHGHVDSDCG'),1,4),'***',SUBSTRING(AES_DECRYPT(UNHEX(tu.username),'CXSOJTSQSAZCVGHGHVDSDCG'),-4,4)) AS '客户手机号',
+s.saler_code AS '客户经理代码',
+s.name AS '客户经理姓名',
+AES_DECRYPT(UNHEX(s.phone),'CXSOKJTSQSAZCVGHGHVDSDCG') AS '客户经理手机号',
+ROUND(t.trans_amount,2) AS '提现金额',
+DATE_FORMAT(t.gmt_create,'%Y-%m-%d %H:%i:%s') AS '提现申请时间',
+DATE_FORMAT(t.gmt_modify,'%Y-%m-%d %H:%i:%s') AS '提现成功时间',
+CASE 
 
 
 
