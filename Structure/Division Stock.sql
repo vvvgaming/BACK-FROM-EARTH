@@ -637,7 +637,8 @@ AND t.create_time < CURDATE()
 AND ((
   t.product_type = '200'
 AND t.status IN ('100','200','300')
-) OR (t.product_type = '100'))
+) OR (t.product_type = '100'
+AND t.status = '200'))
 
 
 
