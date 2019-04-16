@@ -585,7 +585,7 @@ AND t.trans_status IN('00','10')
 AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBDATE(CURRENT_DATE,INTERVAL 1 DAY),'%Y-%m-%d');
 
 
-
+-- 到期兑付
 
 
 
