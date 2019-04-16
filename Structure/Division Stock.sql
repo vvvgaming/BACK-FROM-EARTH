@@ -587,7 +587,7 @@ AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBDATE(CURRENT_DATE,INTE
 
 -- 到期兑付
 SELECT
-LEFT(t.serial_code) AS 
+LEFT(t.serial_code) AS '交易序列编号',
 
 
 
