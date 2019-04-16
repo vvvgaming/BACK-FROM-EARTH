@@ -636,8 +636,7 @@ t.create_time > SUBDATE(CURRENT(),INTERVAL 1 DAY)
 AND t.create_time < CURDATE()
 AND ((
   t.product_type = '200'
-AND t.status IN ('100','200','300')
-) OR (t.product_type = '100'
+AND t.status IN ('100','200','300')) OR (t.product_type = '100'
 AND t.status = '200') OR (t.product_type = '300'
 AND t.status = IN ('200','400')))
 GROUP BY t.customer_id
