@@ -586,6 +586,7 @@ AND DATE_FORMAT(t.gmt_create,'%Y-%m-%d') = DATE_FORMAT(SUBDATE(CURRENT_DATE,INTE
 
 
 -- 到期兑付
+SELECT
 
 
 
