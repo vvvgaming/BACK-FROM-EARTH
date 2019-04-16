@@ -629,6 +629,12 @@ ORDER BY t.id ASC;
 SELECT
  t.customer_id AS '客户编号',
  ROUND(SUM(t.invest_time),2) AS '现金总金额',
+FROM
+ jjjr2_product.tb_dealorder t 
+WHERE
+t.create_time > SUBDATE(CURRENT(),INTERVAL 1 DAY)
+AND t.create_time < CURDATE()
+AND
 
 
 
