@@ -634,7 +634,10 @@ FROM
 WHERE
 t.create_time > SUBDATE(CURRENT(),INTERVAL 1 DAY)
 AND t.create_time < CURDATE()
-AND
+AND ((
+  t.product_type = '200'
+AND t.status IN ('100','200','300')
+) OR (t.product_type = '100'))
 
 
 
