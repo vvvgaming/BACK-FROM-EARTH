@@ -639,7 +639,7 @@ AND ((
 AND t.status IN ('100','200','300')
 ) OR (t.product_type = '100'
 AND t.status = '200') OR (t.product_type = '300'
-AND t.status))
+AND t.status =))
 
 
 
