@@ -626,7 +626,9 @@ AND r.status = '1'
 ORDER BY t.id ASC;
 
 --金豆昨日投资
-
+SELECT
+ t.customer_id AS '客户编号',
+ ROUND(SUM(t.invest_time),2) AS '现金总金额',
 
 
 
