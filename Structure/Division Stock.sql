@@ -642,6 +642,6 @@ AND t.status = IN ('200','400')))
 GROUP BY t.customer_id
 LIMIT 100000;
 
-
+-- 
 
 
