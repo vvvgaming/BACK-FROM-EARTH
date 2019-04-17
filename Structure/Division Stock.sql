@@ -644,6 +644,18 @@ LIMIT 100000;
 
 -- 金豆累计投资
 SELECT
- t.cus
-
+ t.customer_id AS '客户编号',
+ ROUND(SUM(t.invest_cash),2) AS '现金总金额',
+FROM
+ jjjr2_product.tb_dealorder t 
+WHERE
+ t.create_time > SUBDATE(CURDATE(),INTERVAL 1 DAY)
+AND t.create_time < CURDATE()
+AND((
+   t.product_type = '200'
+AND t.status IN ('100','200','300') )OR (t.product_type = '100'
+AND t.status = '200') OR (t.product_type = '300'
+AND t.status IN ('200','400')))
+GROUP BY t.customer_id
+LIMIT 10000;
 
