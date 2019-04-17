@@ -643,6 +643,6 @@ GROUP BY t.customer_id
 LIMIT 100000;
 
 -- 金豆累计投资
-SELE
+SELEC
 
 
