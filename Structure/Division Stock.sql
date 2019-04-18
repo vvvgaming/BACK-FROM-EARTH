@@ -660,3 +660,4 @@ GROUP BY t.customer_id
 LIMIT 10000;
 
 
+
