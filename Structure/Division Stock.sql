@@ -661,6 +661,7 @@ LIMIT 10000;
 
 
 --ZY
-select * from table 
+select * from table
+ 
 
 
