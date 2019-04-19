@@ -662,6 +662,7 @@ LIMIT 10000;
 
 --ZY
 select * from table
- 
+where email in （select distinct email from table ） and rownum=1
+
 
 
