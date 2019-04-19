@@ -852,7 +852,7 @@ AND t.grant_loan_date<='2017-10-31'
 ) lsdn
 GROUP BY lsdn.mon
 ) lsdnlj ON lsdnlj.mon=fk.mon
-
+ORDER BY 1
 
 
 
