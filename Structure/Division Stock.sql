@@ -668,7 +668,7 @@ SELECT fk.com 月份,fk.dyfkhte 当月放宽合同额,
 yd.yddnye 月底当年放款未结清账户贷款余额,
 yd.ydlsye 月底全部放款未结清账户贷款余额,
 fk.dyxzsdkhs 当月新增首贷客户数,
-fk.
+fk.dydkkhs 
 
 
 
