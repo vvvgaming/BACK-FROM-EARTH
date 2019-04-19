@@ -664,5 +664,7 @@ LIMIT 10000;
 select * from table
 where email in （select distinct email from table ） and rownum=1
 
+SELECT fk.com 月份,fk.dyfkhte 当月放宽合同额,
+
 
 
