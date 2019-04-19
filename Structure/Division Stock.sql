@@ -669,6 +669,189 @@ yd.yddnye 月底当年放款未结清账户贷款余额,
 yd.ydlsye 月底全部放款未结清账户贷款余额,
 fk.dyxzsdkhs 当月新增首贷客户数,
 fk.dydkkhs 当月贷款客户数,
+lsdnlj.lsdnall 当年累计客户数,
+lslj.lsall 历史累计客户数,
+yd.ydlswjq 历史所有未结清账户数,
+yd.yd0moreCount 月底逾期0more账户数,
+yd.ydhtbjye 累计未结清账户合同本金余额,
+yd.yd30morecount 累计30more户数,
+yd.yd30more 累计30more账户合同本金余额
+ FROM (
+SELECT substr(t.grant_loan_date,1,7) mon,SUM(t.loan_amount) dyfkhte,
+SUM(CASE WHEN t.xdbz='首贷' THEN 1 ELSE 0 END) dyxzsdkhs,COUNT(1) dydkkhs
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01' 
+AND t.grant_loan_date<='2017-10-31' 
+GROUP BY substr(t.grant_loan_date,1,7)
+) fk
+LEFT JOIN ( 
+SELECT to_char(t.create_date,'yyyy-mm') mon,
+SUM(CASE WHEN t.grant_loan_date>='2017-01-01' THEN (t.pay_term-t.paid_term)*t.month_rtn_amount ELSE 0 END) yddnye ,
+SUM((t.pay_term-t.paid_term)*t.month_rtn_amount) ydlsye ,
+COUNT(1) ydlswjq,
+SUM(CASE WHEN t.overdue_day>0 THEN 1 ELSE 0 END) yd0moreCount,
+SUM(t.loan_amount-t.paid_capital) ydhtbjye,
+SUM(CASE WHEN t.overdue_day>7 THEN 1 ELSE 0 END) yd7morecount,
+SUM(CASE WHEN t.overdue_day>7 THEN (t.loan_amount-t.paid_capital) ELSE 0 END) yd7more,
+SUM(CASE WHEN t.overdue_day>30 THEN 1 ELSE 0 END) yd30morecount,
+SUM(CASE WHEN t.overdue_day>30 THEN (t.loan_amount-t.paid_capital) ELSE 0 END) yd30more,
+
+SUM(CASE WHEN t.overdue_day>7 AND t.grant_loan_date>='2017-01-01' THEN 1 ELSE 0 END) yd7morecountdn,
+SUM(CASE WHEN t.overdue_day>7 AND t.grant_loan_date>='2017-01-01' THEN (t.loan_amount-t.paid_capital) ELSE 0 END) yd7moredn,
+SUM(CASE WHEN t.overdue_day>30 AND t.grant_loan_date>='2017-01-01' THEN 1 ELSE 0 END) yd30morecountdn,
+SUM(CASE WHEN t.overdue_day>30 AND t.grant_loan_date>='2017-01-01' THEN (t.loan_amount-t.paid_capital) ELSE 0 END) yd30moredn
+FROM clspuser.crf_p2p_overdue_info_oldjjt t
+LEFT JOIN clspuser.oldandjjt_account a ON a.loan_contract_no=t.loan_contract_no
+WHERE t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND a.onlinetype='线下' 
+AND t.status<>'3'
+AND t.create_date IN 
+(SELECT last_day(ADD_MONTHS(TO_DATE('2017-01', 'yyyy-MM'), ROWNUM - 1)) FROM DUAL CONNECT BY ROWNUM <=months_between(to_date('2017-10', 'yyyy-MM'),to_date('2017-01', 'yyyy-MM')) + 1)
+GROUP BY t.create_date
+) yd ON yd.mon=fk.mon
+LEFT JOIN (
+SELECT ls.mon,COUNT(1) lsall FROM (
+SELECT DISTINCT '2017-01' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-01-31' 
+UNION ALL
+SELECT DISTINCT '2017-02' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-02-28' 
+UNION ALL
+SELECT DISTINCT '2017-03' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-03-31' 
+UNION ALL
+SELECT DISTINCT '2017-04' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-04-31' 
+
+UNION ALL
+SELECT DISTINCT '2017-05' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-05-31' 
+UNION ALL
+SELECT DISTINCT '2017-06' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-06-31' 
+UNION ALL
+SELECT DISTINCT '2017-07' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-07-31' 
+UNION ALL
+SELECT DISTINCT '2017-08' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-08-31' 
+UNION ALL
+SELECT DISTINCT '2017-09' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-09-31' 
+UNION ALL
+SELECT DISTINCT '2017-10' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date<='2017-10-31' 
+) ls
+GROUP BY ls.mon
+) lslj ON lslj.mon=fk.mon
+----dn
+LEFT JOIN (
+SELECT lsdn.mon,COUNT(1) lsdnall FROM (
+SELECT DISTINCT '2017-01' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-01-31' 
+UNION ALL
+SELECT DISTINCT '2017-02' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-02-28' 
+UNION ALL
+SELECT DISTINCT '2017-03' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-03-31' 
+UNION ALL
+SELECT DISTINCT '2017-04' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-04-31' 
+
+UNION ALL
+SELECT DISTINCT '2017-05' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-05-31' 
+UNION ALL
+SELECT DISTINCT '2017-06' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-06-31' 
+UNION ALL
+SELECT DISTINCT '2017-07' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-07-31' 
+UNION ALL
+SELECT DISTINCT '2017-08' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-08-31' 
+UNION ALL
+SELECT DISTINCT '2017-09' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-09-31' 
+UNION ALL
+SELECT DISTINCT '2017-10' mon,t.Id_Card
+ FROM clspuser.oldandjjt_account t
+WHERE t.onlinetype='线下' 
+AND t.area_no IN ( SELECT o.Org_Desc FROM cffg_loan.Sys_Org o WHERE o.area_code_ IN ('C','X','L','Y','G'))
+AND t.grant_loan_date>='2017-01-01'
+AND t.grant_loan_date<='2017-10-31' 
+) lsdn
+GROUP BY lsdn.mon
+) lsdnlj ON lsdnlj.mon=fk.mon
 
 
 
