@@ -855,9 +855,11 @@ GROUP BY lsdn.mon
 ) lsdnlj ON lsdnlj.mon=fk.mon
 ORDER BY 1
 
-
+-- practice
 SELECT * FROM Customers WHERE NOT (Country='Germany' OR Country='USA')
 SELECT * FROM Customers WHERE NOT Country='Germany' AND NOT Country='USA'
+
+SELECT * FROM Customers ORDER BY Country DESC;
 
 
 
