@@ -857,7 +857,7 @@ ORDER BY 1
 
 
 SELECT * FROM Customers WHERE NOT (Country='Germany' OR Country='USA')
-
+SELECT * FROM Customers WHERE NOT Country='Germany' AND NOT Country='USA'
 
 
 
