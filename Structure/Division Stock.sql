@@ -856,6 +856,8 @@ GROUP BY lsdn.mon
 ORDER BY 1
 
 
+SELECT * FROM Customers WHERE NOT (Country='Germany' OR Country='USA')
+
 
 
 
