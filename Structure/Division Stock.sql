@@ -776,6 +776,7 @@ AND t.grant_loan_date<='2017-10-31'
 ) ls
 GROUP BY ls.mon
 ) lslj ON lslj.mon=fk.mon
+
 ----dn
 LEFT JOIN (
 SELECT lsdn.mon,COUNT(1) lsdnall FROM (
