@@ -860,6 +860,7 @@ SELECT * FROM Customers WHERE NOT (Country='Germany' OR Country='USA')
 SELECT * FROM Customers WHERE NOT Country='Germany' AND NOT Country='USA'
 
 SELECT * FROM Customers ORDER BY Country DESC;
+SELECT * FROM Customers ORDER BY Country, CustomerName;
 
 
 
