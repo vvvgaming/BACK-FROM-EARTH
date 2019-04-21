@@ -870,6 +870,6 @@ CREATE SCHEMA  Jack Ma with DBPROPERTIES(
 
 CREATE EXTERNAL TABLE BABA(
   ordernumber BIGINT
-  br
+  bra
 )
 
