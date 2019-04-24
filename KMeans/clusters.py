@@ -1,2 +1,2 @@
 import matplotlib, matplotlib.pyplot as pyplot
-import pickle, pand
+import pickle, panda
