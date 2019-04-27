@@ -4,4 +4,4 @@ import sklearn.cluster, sklearn.preprocessing
 
 alco2019 = pickle.load(open("alco2019.pickle", "rb"))
 
-stat
+states
