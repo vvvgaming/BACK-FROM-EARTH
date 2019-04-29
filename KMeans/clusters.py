@@ -8,3 +8,5 @@ states = pd.read_csv("states.csv", name=("States", "Standard", "Postal", "Capita
 colums = ["Wine", "Beer"]
 
 kmeans = sklearn.cluster.KMeans(n_clusters=9)
+kmeans.fit(alco2019[colums])
+alco2019["Cluster"] = kmeans.labels_
