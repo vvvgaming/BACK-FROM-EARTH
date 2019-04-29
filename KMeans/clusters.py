@@ -10,3 +10,4 @@ colums = ["Wine", "Beer"]
 kmeans = sklearn.cluster.KMeans(n_clusters=9)
 kmeans.fit(alco2019[colums])
 alco2019["Cluster"] = kmeans.labels_
+centers = pd.dataFrame(kmeans.cluster_centers_, )
