@@ -21,3 +21,8 @@ centers.plot.scatter(columns[0], columns[1], color="red", marker="+",
 s=200, ax=ax)
 
 def add_abbr(state):
+    _ = ax.annotate(state["Postal"], state[columns], xytext=(1, 5),
+    textcoords="offset points", size=8,
+    color="darkslategrey")
+
+alco2019withState = pd.
