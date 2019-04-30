@@ -27,3 +27,5 @@ def add_abbr(state):
 
 alco2019withState = pd.concat([alco2019, state.set_index("State")],
 axis=1)
+alco2019withState.apply(add_abbr, axis=1)
+
