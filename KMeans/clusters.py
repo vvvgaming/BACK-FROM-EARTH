@@ -20,3 +20,4 @@ cmap=plt.cm.Accent, s=100)
 centers.plot.scatter(columns[0], columns[1], color="red", marker="+",
 s=200, ax=ax)
 
+def add_abbr(state):
