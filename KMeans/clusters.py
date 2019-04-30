@@ -25,4 +25,5 @@ def add_abbr(state):
     textcoords="offset points", size=8,
     color="darkslategrey")
 
-alco2019withState = pd.
+alco2019withState = pd.concat([alco2019, state.set_index("State")],
+axis=1)
