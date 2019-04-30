@@ -14,4 +14,4 @@ centers = pd.dataFrame(kmeans.cluster_centers_, columns=columns)
 
 matplotlib.style.use("ggplot")
 
-ax = 
+ax = alco2019
