@@ -14,4 +14,5 @@ centers = pd.dataFrame(kmeans.cluster_centers_, columns=columns)
 
 matplotlib.style.use("ggplot")
 
-ax = alco2019.plot.scatter(columns[0], columns[1], c="Clusters")
+ax = alco2019.plot.scatter(columns[0], columns[1], c="Clusters",
+cmap=plt.cm.Accent, s=100)
