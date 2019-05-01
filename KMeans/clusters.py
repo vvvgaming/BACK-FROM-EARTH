@@ -36,4 +36,4 @@ import random
 import math
 
 def eucldist(p0,p1):
-    dist = 0
+    dist = 0.0
