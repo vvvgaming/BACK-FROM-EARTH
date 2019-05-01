@@ -35,4 +35,4 @@ plt.savefig("/images/cluster.pdf")
 import random
 import math
 
-def eucldist(p0,p1)
+def eucldist(p0,p1):
