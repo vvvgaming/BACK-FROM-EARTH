@@ -33,3 +33,4 @@ plt.title("US States Clustered by Alcohol Consumption")
 plt.savefig("/images/cluster.pdf")
 
 import random
+import
