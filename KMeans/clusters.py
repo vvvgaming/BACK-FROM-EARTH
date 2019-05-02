@@ -38,3 +38,4 @@ import math
 def eucldist(p0,p1):
     dist = 0.0
     for i in range(0, len(p0)):
+        
