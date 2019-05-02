@@ -37,4 +37,4 @@ import math
 
 def eucldist(p0,p1):
     dist = 0.0
-    for i in ran
+    for i in rang
