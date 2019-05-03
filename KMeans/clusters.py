@@ -43,4 +43,4 @@ def eucldist(p0,p1):
 
 
 
-def kmeans(k,)
+def kmeans(k,da)
