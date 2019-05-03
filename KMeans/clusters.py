@@ -43,4 +43,4 @@ def eucldist(p0,p1):
 
 
 
-def kmeans(k,datapoints)
+def kmeans(k,datapoints):
