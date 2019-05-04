@@ -50,4 +50,4 @@ def kmeans(k,datapoints):
     Max_Iteration = 1000
     i = 0
 
-    cluster = [0] * l
+    cluster = [0] * le
