@@ -53,5 +53,5 @@ def kmeans(k,datapoints):
     cluster = [0] * len(datapoints)
     prev_cluster = [-1] * len(datapoints)
 
-    
+    cluster
     
