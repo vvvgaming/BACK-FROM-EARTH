@@ -55,5 +55,5 @@ def kmeans(k,datapoints):
 
     cluster_centers = []
     for i in range(0,k):
-        new_cluster
+        new_cluster =
     
