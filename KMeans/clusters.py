@@ -55,3 +55,4 @@ def kmeans(k,datapoints):
 
     cluster_centers = []
     
+    
