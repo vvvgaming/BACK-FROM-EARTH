@@ -62,4 +62,4 @@ def kmeans(k,datapoints):
         
     
     #重点测试
-    for cent in range(k)
+    for cent in range(k):
