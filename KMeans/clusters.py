@@ -63,4 +63,4 @@ def kmeans(k,datapoints):
     
     #重点测试
     for cent in range(k):
-        ptsInClust = dataSet[nonzero(clusterAssment)]
+        ptsInClust = dataSet[nonzero(clusterAssment[:,0])]
