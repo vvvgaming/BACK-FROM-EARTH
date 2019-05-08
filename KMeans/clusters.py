@@ -61,3 +61,5 @@ def kmeans(k,datapoints):
 
         
     
+    #重点测试
+    
