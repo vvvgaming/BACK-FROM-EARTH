@@ -62,7 +62,7 @@ def kmeans(k,datapoints):
     force_recalculation = False
 
 
-    while
+    while (cluster != prev_cluster) or
 
         
     
