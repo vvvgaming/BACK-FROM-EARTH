@@ -69,6 +69,7 @@ def kmeans(k,datapoints):
         i += 1
 
         for p in range(0, len(datapoints)):
+            min_dist
 
         
     
