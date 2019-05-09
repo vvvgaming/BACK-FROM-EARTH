@@ -73,7 +73,9 @@ def kmeans(k,datapoints):
 
             for c in range(0, len(cluster_centers)):
 
-                dist = 
+                dist = eucldist(datapoints[p],cluster_centers[c])
+
+                if
 
         
     
