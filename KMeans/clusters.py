@@ -59,6 +59,8 @@ def kmeans(k,datapoints):
 
     cluster_centers += [random.choice(datapoints)]
 
+    force_reca
+
         
     
     #重点测试
