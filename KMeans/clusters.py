@@ -71,6 +71,10 @@ def kmeans(k,datapoints):
         for p in range(0, len(datapoints)):
             min_dist = float("inf")
 
+            for c in range(0, len(cluster_centers)):
+
+                dist = 
+
         
     
     #重点测试
