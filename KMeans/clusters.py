@@ -59,7 +59,7 @@ def kmeans(k,datapoints):
 
     cluster_centers += [random.choice(datapoints)]
 
-    force_recalculation
+    force_recalculation = 
 
         
     
