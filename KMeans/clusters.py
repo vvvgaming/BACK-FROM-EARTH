@@ -98,7 +98,7 @@ def kmeans(k,datapoints):
                     force_recalculation = True
                     print "Forced Recalculation..."
 
-            cluster_centers[k] = 
+            cluster_centers[k] = new
             
 
 
