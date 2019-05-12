@@ -104,7 +104,15 @@ def kmeans(k,datapoints):
     print "======== Results ========"
     print "Clusters", cluster_centers
     print "Iterations",i
-    print 
+    print "Assignments", cluster
+
+
+if __name__ == "__main__":
+    
+    
+    datapoints = [(3,2),(2,2),(1,2),(0,1),(1,0),(1,1),(5,6),(7,7),(9,10),(11,13),(12,12),(12,13),(13,13)]
+
+    k = 
             
 
 
