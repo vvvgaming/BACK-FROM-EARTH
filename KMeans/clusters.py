@@ -96,7 +96,9 @@ def kmeans(k,datapoints):
                 else:
                     new_center = random.choice(datapoints)
                     force_recalculation = True
-                    print "Forced "
+                    print "Forced Recalculation..."
+
+            cluster_centers
             
 
 
