@@ -127,4 +127,4 @@ if __name__ == "__main__":
 
 
 
-import numpy a
+import numpy as
