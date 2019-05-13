@@ -124,8 +124,4 @@ if __name__ == "__main__":
     for cent in range(k):
         ptsInClust = dataSet[nonzero(clusterAssment[:,0].A==cent)[0]]
         centroids[cent,:] = mean(ptsInClust, axis=0)
-
-
-
-import numpy as ny
-import matplotlib.pyplot as 
+ 
