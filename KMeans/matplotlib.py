@@ -1,3 +1,3 @@
 import numpy as ny
 import matplotlib.pyplot as plt
-plt.rcParams[]
+plt.rcParams['font.sans-serif']
