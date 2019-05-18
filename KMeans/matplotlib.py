@@ -6,4 +6,4 @@ plt.rcParams['axes.unicode_minus'] = False
 data = np.load('.../data/测试数据.npz')
 name = data['columns']
 values = data['values']
-label = ['第一产业','']
+label = ['第一产业','第二产业']
