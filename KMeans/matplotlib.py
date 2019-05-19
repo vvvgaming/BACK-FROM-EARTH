@@ -10,4 +10,4 @@ label = ['第一产业','第二产业',' 第三产业']
 plt.figure(fisize=(6,5))
 plt.bar(range(3),values[-1,3:6],width = 0.5)
 plt.xlabel('产业')
-plt.ylabel
+plt.ylabel('')
