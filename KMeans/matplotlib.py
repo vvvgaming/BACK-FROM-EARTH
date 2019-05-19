@@ -14,4 +14,4 @@ plt.ylabel('生产总值（亿元）')
 plt.xticks(range(3),label)
 plt.title('一季度国民生产总值')
 plt.savefig('.../tmp/一季度国民生产总值.png')
-plt.
+plt.show()
