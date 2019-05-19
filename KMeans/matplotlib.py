@@ -11,4 +11,4 @@ plt.figure(fisize=(6,5))
 plt.bar(range(3),values[-1,3:6],width = 0.5)
 plt.xlabel('产业')
 plt.ylabel('生产总值（亿元）')
-plt.xticks
+plt.xticks()
