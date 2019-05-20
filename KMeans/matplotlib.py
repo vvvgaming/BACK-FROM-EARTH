@@ -16,4 +16,4 @@ plt.title('一季度国民生产总值')
 plt.savefig('.../tmp/一季度国民生产总值.png')
 plt.show()
 
-matplotlib
+matplotlib.pyplot.pie
