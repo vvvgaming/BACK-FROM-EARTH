@@ -17,4 +17,4 @@ plt.savefig('.../tmp/一季度国民生产总值.png')
 plt.show()
 
 matplotlib.pyplot.pie(x, explode, labels=None,colors, autopct=None,
-pctdistance=0.6, shadow)
+pctdistance=0.6, shadow=False, labeldistance=1.1)
