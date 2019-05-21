@@ -21,4 +21,4 @@ pctdistance=0.6, shadow=False, labeldistance=1.1, startangle=None,
 radius=None, counterclock=True, wegeprops=None, textprops=None, center=(0,0),
 frame=False, hold=None, data=None)
 
-plt.figure
+plt.figure()
