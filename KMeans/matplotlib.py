@@ -22,4 +22,4 @@ radius=None, counterclock=True, wegeprops=None, textprops=None, center=(0,0),
 frame=False, hold=None, data=None)
 
 plt.figure(figsize=(6,6))
-lable
+lable=['第一产业','第二产业','第三产业']
