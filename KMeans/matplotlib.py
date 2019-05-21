@@ -22,3 +22,4 @@ radius=None, counterclock=True, wegeprops=None, textprops=None, center=(0,0),
 frame=False, hold=None, data=None)
 
 plt.figure(figsize=(6,6))
+lable
