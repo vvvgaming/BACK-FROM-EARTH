@@ -1,1 +1,1 @@
-pandas.read_sql_table
+pandas.read_sql_table(table_name,con)
