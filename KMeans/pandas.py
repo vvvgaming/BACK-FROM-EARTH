@@ -1,1 +1,1 @@
-pandas.read_sql_table(table_name,con)
+pandas.read_sql_table(table_name,con,schema=None,index_col=None,coerce)
