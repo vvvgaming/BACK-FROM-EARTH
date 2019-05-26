@@ -8,4 +8,4 @@ formlist = pd.read_sql_query('show table', con = engine)
 print('testdb'','\n',formlist)
 
 import pandas as pd
-import numpy as n
+import numpy as ny
