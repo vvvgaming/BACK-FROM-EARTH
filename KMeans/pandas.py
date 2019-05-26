@@ -9,4 +9,4 @@ print('testdb'','\n',formlist)
 
 import pandas as pd
 import numpy as ny
-df
+df = pd.read_csv("/Users/Will/Downloads/test_assets.csv")
