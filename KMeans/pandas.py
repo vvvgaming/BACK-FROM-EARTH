@@ -13,4 +13,4 @@ df = pd.read_csv("/Users/Will/Downloads/test_assets.csv")
 
 df.dtypes
 
-df.to
+df.to_csv
