@@ -16,4 +16,4 @@ df.dtypes
 df.to_csv("/Users/Will/Downloads/test_assets.csv",index=False)
 merged = pd.merge(w1, w2)
 
-merged = pd.merge()
+merged = pd.merge(w1)
