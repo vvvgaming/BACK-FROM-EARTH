@@ -19,4 +19,4 @@ merged = pd.merge(w1, w2)
 merged = pd.merge(w1,w2)
 merged_all = pd.merge(merged,w3,left_on="name",right_on="merchant_id")
 
-qn = pd.Dat
+qn = pd.Data
