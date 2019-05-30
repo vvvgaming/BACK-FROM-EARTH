@@ -23,7 +23,6 @@ qn = pd.DataFrame(columns=('BIN', 'Boro Code', 'Boro', 'House Number', 'Street N
 
 
 df = df.T
-
 pd.set_option('chained_assignment', None)
 
 geoCodeCheck = geoCodeCheck[geoCode['Street Name'] == 'knickerbocker avenue']
