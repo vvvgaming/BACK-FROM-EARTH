@@ -12,7 +12,6 @@ import numpy as ny
 df = pd.read_csv("/Users/Will/Downloads/test_assets.csv")
 
 df.dtypes
-
 df.to_csv("/Users/Will/Downloads/test_assets.csv",index=False)
 merged = pd.merge(w1, w2)
 
