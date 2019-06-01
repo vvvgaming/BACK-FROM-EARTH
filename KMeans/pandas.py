@@ -25,4 +25,4 @@ df = df.T
 pd.set_option('chained_assignment', None)
 geoCodeCheck = geoCodeCheck[geoCode['Street Name'] == 'knickerbocker avenue']
 
-mask = (dfList['XCoord'] >= xy2[0]) & (dfList)
+mask = (dfList['XCoord'] >= xy2[0]) & (dfList['YCoord'] <= xy1[0])
