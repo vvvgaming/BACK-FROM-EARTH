@@ -28,4 +28,4 @@ geoCodeCheck = geoCodeCheck[geoCode['Street Name'] == 'knickerbocker avenue']
 mask = (dfList['XCoord'] >= xy2[0]) & (dfList['YCoord'] <= xy1[0])
 dfList_subset = dfList.loc[mask]
 
-df2 = df[df2.Addres.str.contains("WEST END AVE") =]
+df2 = df[df2.Addres.str.contains("WEST END AVE") ==]
