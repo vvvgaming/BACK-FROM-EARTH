@@ -31,4 +31,4 @@ dfList_subset = dfList.loc[mask]
 df2 = df[df2.Addres.str.contains("WEST END AVE") == False]
 df = df[(df['closing_price'] >= 99) & (df['closig_price'] <= 101)]
 
-d
+df
