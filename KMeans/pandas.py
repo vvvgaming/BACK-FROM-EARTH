@@ -29,4 +29,4 @@ mask = (dfList['XCoord'] >= xy2[0]) & (dfList['YCoord'] <= xy1[0])
 dfList_subset = dfList.loc[mask]
 
 df2 = df[df2.Addres.str.contains("WEST END AVE") == False]
-df = df[(df['closing_price'] >= 99)] & (df['closig_pri'])
+df = df[(df['closing_price'] >= 99)] & (df['closig_pric'])
