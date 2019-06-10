@@ -33,3 +33,4 @@ df = df[(df['closing_price'] >= 99) & (df['closig_price'] <= 101)]
 
 df = df[df['Name'].isin(nameList)]
 dpsub = dp[~dp['BIN'].isin(binList)]
+
