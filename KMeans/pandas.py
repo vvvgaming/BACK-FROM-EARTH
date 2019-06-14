@@ -35,4 +35,4 @@ df = df[df['Name'].isin(nameList)]
 dpsub = dp[~dp['BIN'].isin(binList)]
 
 df2 = df[df['INSPECTION_ID'] == df["INSPECTION_ID.1"]]
-only_gold = df[df['Gold'] > ]
+only_gold = df[df['Gold'] > 0]
