@@ -40,4 +40,4 @@ only_gold = df[df['Gold'] > 0]
 export = export.sort_values(by = 'High Risk Ranking',ascending = False).reset_index(drop = False)
 sorted(ratio_list, reverse = True)
 
-ids = dfInt["NODE"]
+ids = dfInt["NODEI"]
