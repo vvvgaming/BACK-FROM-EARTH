@@ -41,5 +41,6 @@ export = export.sort_values(by = 'High Risk Ranking',ascending = False).reset_in
 sorted(ratio_list, reverse = True)
 
 ids = dfInt["NODEID"]
-dfInt2 = dfInt[ids.isin(ids[ids.duplicated()])].sort_values(by = "NODEID") 
+dfInt2 = dfInt[ids.isin(ids[ids.duplicated()])].sort_values(by = "NODEID")
 
+r
