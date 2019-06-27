@@ -43,4 +43,4 @@ sorted(ratio_list, reverse = True)
 ids = dfInt["NODEID"]
 dfInt2 = dfInt[ids.isin(ids[ids.duplicated()])].sort_values(by = "NODEID")
 
-ratio_list = sorted(rati0)
+ratio_list = sorted(ratio_)
