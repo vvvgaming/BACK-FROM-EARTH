@@ -44,4 +44,4 @@ ids = dfInt["NODEID"]
 dfInt2 = dfInt[ids.isin(ids[ids.duplicated()])].sort_values(by = "NODEID")
 
 ratio_list = sorted(ratio_list, key = itemgetter(1), reverse = True)
-df = df.reindex_axis(sorted(col))
+df = df.reindex_axis(sorted(colu))
