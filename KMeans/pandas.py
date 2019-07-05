@@ -47,4 +47,4 @@ ratio_list = sorted(ratio_list, key = itemgetter(1), reverse = True)
 df = df.reindex_axis(sorted(columns),axis = 1)
 
 df = pd.DataFrame(dfList, columns = ['BIN', 'Boro', 'Address'])
-list_bloc
+list_block
