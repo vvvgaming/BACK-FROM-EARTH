@@ -49,4 +49,4 @@ df = df.reindex_axis(sorted(columns),axis = 1)
 df = pd.DataFrame(dfList, columns = ['BIN', 'Boro', 'Address'])
 list_block = []
 for i in range(0, len(df2)):
-    list_block.append(df2["Blo"])
+    list_block.append(df2["Bloc"])
