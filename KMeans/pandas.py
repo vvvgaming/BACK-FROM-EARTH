@@ -54,3 +54,4 @@ for i in range(0, len(df2)):
 dateList = df2['Date'].tolist()
 set_block = set(list_block)
 
+t
