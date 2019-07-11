@@ -52,4 +52,4 @@ for i in range(0, len(df2)):
     list_block.append(df2["Block"][i])
 
 dateList = df2['Date'].tolist()
-set_block = set(list_b)
+set_block = set(list_bl)
