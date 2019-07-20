@@ -59,4 +59,4 @@ set_block = sorted(set_block)
 
 frame = pd.DataFrame({'a':['the cat is blue','the sky is green','the dog is black']})
 mylist = ['dog','cat','fish']
-pattern 
+pattern =
