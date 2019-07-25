@@ -62,3 +62,4 @@ mylist = ['dog','cat','fish']
 
 pattern = '|'.join(mylist)
 frame = pd.DataFrame({'a':['the cat is blue','the sky is green','the dog is black']})
+
