@@ -63,5 +63,5 @@ mylist = ['dog','cat','fish']
 pattern = '|'.join(mylist)
 frame["TF"] = frame.a.str.contains(pattern)
 
-
+a
 
