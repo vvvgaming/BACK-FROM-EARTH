@@ -64,6 +64,6 @@ pattern = '|'.join(mylist)
 frame["TF"] = frame.a.str.contains(pattern)
 
 a = filter(None,a)
-a = []
+a = [1]
 
  
