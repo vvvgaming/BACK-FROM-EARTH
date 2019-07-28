@@ -66,5 +66,5 @@ frame["TF"] = frame.a.str.contains(pattern)
 a = filter(None,a)
 a = [1,"",3,1,3,2,1,1]
 
-a
+a 
  
