@@ -67,5 +67,5 @@ a = filter(None,a)
 a = [1,"",3,1,3,2,1,1]
 
 a = ["NA" if x == "" else x for x in a]
-x =
+x = 
  
