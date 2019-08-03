@@ -70,4 +70,4 @@ a = ["NA" if x == "" else x for x in a]
 x = list(set(list1).intersection(list2))
 
 words = flist
-final_string = ','.join(s)
+final_string = ','.join(str)
