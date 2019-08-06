@@ -72,4 +72,4 @@ x = list(set(list1).intersection(list2))
 words = flist
 final_string = ','.join(str(nameDic.get(word,word)) for word in words)
 
-matchList.sort(key = lambd)
+matchList.sort(key = lambda)
