@@ -76,4 +76,4 @@ matchList.sort(key = lambda s:len(s),reverse = Ture)
 name_list = ['ALEX PERA','','VAL TOL']
 
 name_list = [x for x in name_list if x != '']
-o
+oL
