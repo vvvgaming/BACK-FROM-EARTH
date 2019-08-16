@@ -78,4 +78,4 @@ name_list = ['ALEX PERA','','VAL TOL']
 name_list = [x for x in name_list if x != '']
 oList = sum(oList,[])
 
-people = ['Dr.Christopher Brooks', 'Dr.Kevyn Collins-Th']
+people = ['Dr.Christopher Brooks', 'Dr.Kevyn Collins-Tho']
