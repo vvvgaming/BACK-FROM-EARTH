@@ -82,3 +82,4 @@ people = ['Dr.Christopher Brooks', 'Dr.Kevyn Collins-Thompson', 'Dr. VG Vinod Vy
 def split_title_and_name(person)
 
 list(map(split_title_and_name, people))
+
