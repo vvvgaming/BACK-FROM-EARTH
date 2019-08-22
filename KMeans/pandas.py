@@ -79,6 +79,6 @@ name_list = [x for x in name_list if x != '']
 oList = sum(oList,[])
 
 people = ['Dr.Christopher Brooks', 'Dr.Kevyn Collins-Thompson', 'Dr. VG Vinod Vydiswaran', 'Dr.Daneil Romaro']
-def split_title_end_name(person)
+def split_title_and_name(person)
 
 list(map(split_title_))
