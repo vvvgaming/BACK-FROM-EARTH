@@ -81,4 +81,4 @@ oList = sum(oList,[])
 people = ['Dr.Christopher Brooks', 'Dr.Kevyn Collins-Thompson', 'Dr. VG Vinod Vydiswaran', 'Dr.Daneil Romaro']
 def split_title_and_name(person)
 
-list(map(split_title_and_name, peopl))
+list(map(split_title_and_name, people))
