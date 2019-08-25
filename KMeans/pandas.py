@@ -83,4 +83,5 @@ def split_title_and_name(person)
 
 list(map(split_title_and_name, people))
 df3['Target'] = df.WAITING_TIME.map(lambda x: 1 if x >= 1800 else 0)
+
  
