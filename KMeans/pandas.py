@@ -87,4 +87,4 @@ df3['Target'] = df.WAITING_TIME.map(lambda x: 1 if x >= 1800 else 0)
 my_function = lamda a,b,c:a3 + b2 + c
 print my_function(2,3,4)
 
-df = df[["Permit Number","PermitT"]]
+df = df[["Permit Number","PermitTy"]]
