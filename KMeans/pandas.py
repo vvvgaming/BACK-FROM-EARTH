@@ -88,4 +88,4 @@ my_function = lamda a,b,c:a3 + b2 + c
 print my_function(2,3,4)
 
 df = df[["Permit Number","PermitType"]]
-jobtype_dum
+jobtype_dumm
