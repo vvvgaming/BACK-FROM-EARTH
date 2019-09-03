@@ -89,3 +89,4 @@ print my_function(2,3,4)
 
 df = df[["Permit Number","PermitType"]]
 jobtype_dummies = pd.get_dummies(df.PermitType, prefix = 'PermitType')
+
