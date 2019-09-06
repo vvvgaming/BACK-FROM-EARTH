@@ -92,3 +92,4 @@ jobtype_dummies = pd.get_dummies(df.PermitType, prefix = 'PermitType')
 
 df = pd.concat([df,jobtype_dummies], axis = 1)
 lst = []
+
