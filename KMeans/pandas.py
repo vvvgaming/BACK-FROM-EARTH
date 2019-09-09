@@ -94,4 +94,4 @@ df = pd.concat([df,jobtype_dummies], axis = 1)
 lst = []
 
 for i in range(10)
-lst = [i * j]
+lst = [i * j ]
