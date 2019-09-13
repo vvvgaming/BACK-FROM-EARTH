@@ -97,4 +97,4 @@ for i in range(10)
 lst = [i * j for in range(10) for j in range(10)]
 
 all_data = pd.DataFrame()
-all_data = all_data.appe
+all_data = all_data.appen
