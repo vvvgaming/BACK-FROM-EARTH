@@ -99,4 +99,4 @@ lst = [i * j for in range(10) for j in range(10)]
 all_data = pd.DataFrame()
 all_data = all_data.append(df, ignore_index = False)
 
-location_df =
+location_df = 
