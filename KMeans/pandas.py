@@ -100,4 +100,4 @@ all_data = pd.DataFrame()
 all_data = all_data.append(df, ignore_index = False)
 
 location_df = df['h_no'].apply(lambda x:pd.Series(x.split(',')))
-common_cols
+common_cols 
