@@ -103,4 +103,4 @@ location_df = df['h_no'].apply(lambda x:pd.Series(x.split(',')))
 common_cols = list(set(df14.Address) & set(dfmn.Address))
 
 dfmn["Corner"] = 0
-for i in range(0, l)
+for i in range(0, le)
