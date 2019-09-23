@@ -105,4 +105,4 @@ common_cols = list(set(df14.Address) & set(dfmn.Address))
 dfmn["Corner"] = 0
 for i in range(0, len(dfmn))
 
-lv['Correct Duration']
+lv['Correct Duration ']
