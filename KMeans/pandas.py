@@ -106,4 +106,4 @@ dfmn["Corner"] = 0
 for i in range(0, len(dfmn))
 
 lv['Correct Duration Sum'] = lv['Correct Duration'].groupby(v['CityTime ID']).transform('sum')
-qnG = qn.groupby(['BIN','Year']).sum
+qnG = qn.groupby(['BIN','Year']).sum()
