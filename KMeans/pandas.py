@@ -108,4 +108,4 @@ for i in range(0, len(dfmn))
 lv['Correct Duration Sum'] = lv['Correct Duration'].groupby(v['CityTime ID']).transform('sum')
 qnG = qn.groupby(['BIN','Year']).sum()
 
-qnG = qnG.add_suffix('_Count').reset_i
+qnG = qnG.add_suffix('_Count').reset_in
