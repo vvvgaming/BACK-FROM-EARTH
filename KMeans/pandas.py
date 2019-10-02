@@ -109,4 +109,4 @@ lv['Correct Duration Sum'] = lv['Correct Duration'].groupby(v['CityTime ID']).tr
 qnG = qn.groupby(['BIN','Year']).sum()
 
 qnG = qnG.add_suffix('_Count').reset_index()
-dfG = df.groupby('Category')
+dfG = df.groupby('Category').
