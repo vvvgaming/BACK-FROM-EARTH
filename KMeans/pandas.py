@@ -116,4 +116,3 @@ df3 = df.groupby("Date").agg({"VISIT_KEY": pd.Series.nunique})
 
 f = rank_title.groupby('Name')['Title'].apply(lambda x: "{%s}" % ', '.join(x))
 X = 
-
