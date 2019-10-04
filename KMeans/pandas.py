@@ -110,3 +110,4 @@ qnG = qn.groupby(['BIN','Year']).sum()
 
 qnG = qnG.add_suffix('_Count').reset_index()
 dfG = df.groupby('Category').apply(lambda df,a,b: sum(df[a] * df[b]), 'Weight (oz.)', 'Quantity'))
+
