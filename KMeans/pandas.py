@@ -114,4 +114,6 @@ dfG = df.groupby('Category').apply(lambda df,a,b: sum(df[a] * df[b]), 'Weight (o
 dfG = (df.groupby('BIN_Number').agg({'Job_Number':'count', 'AHV_Grants': 'sum', 'Initial_Da':'sum', 'Additional':'sum'}).reset_index().rename(columns={'Job_Number':'Job_Number_count'}) )
 df3 = df.groupby("Date").agg({"VISIT_KEY": pd.Series.nunique})
 
+f = rank_title.groupby('Name')['Title'].apply(lambda x: "{%s}" % ', '.join(x))
+
 
