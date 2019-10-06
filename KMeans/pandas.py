@@ -118,4 +118,4 @@ f = rank_title.groupby('Name')['Title'].apply(lambda x: "{%s}" % ', '.join(x))
 X = pd.DataFrame(f)
 
 X = X.reset_index(drop = False)
-coG = coG.grou
+coG = coG.groupby(['BIN Number'], sort=False)['C of O Issue Date'].max()
