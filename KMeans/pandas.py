@@ -124,4 +124,4 @@ df['DATA_SCHEDULED'] = pd.to_datetime(df['DATE_SCHEDULED'])
 star_date = str(1) + '-' + str(1) + '-' + str(2019)
 
 from dateutil import parser
-star_date = parser.parser(star_da)
+star_date = parser.parser(star_dat)
