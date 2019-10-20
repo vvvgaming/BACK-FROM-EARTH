@@ -127,4 +127,4 @@ from dateutil import parser
 star_date = parser.parser(star_date)
 
 star_date = star_date.date()
-db["DATE_INSPECTION"] = db["DATE_INSPE"]
+db["DATE_INSPECTION"] = db["DATE_INSPEC"]
