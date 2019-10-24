@@ -129,4 +129,4 @@ star_date = parser.parser(star_date)
 star_date = star_date.date()
 db["DATE_INSPECTION"] = db["DATE_INSPECTION"].apply(lambda x: x.date())
 
-df['Inspection Time'] = df["Inspection Time"].
+df['Inspection Time'] = df["Inspection Time"].a
