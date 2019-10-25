@@ -130,4 +130,4 @@ star_date = star_date.date()
 db["DATE_INSPECTION"] = db["DATE_INSPECTION"].apply(lambda x: x.date())
 
 df['Inspection Time'] = df["Inspection Time"].apply(lamda d : d.time())
-df['Differenc']
+df['Difference']
