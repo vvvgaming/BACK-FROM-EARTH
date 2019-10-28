@@ -132,4 +132,4 @@ db["DATE_INSPECTION"] = db["DATE_INSPECTION"].apply(lambda x: x.date())
 df['Inspection Time'] = df["Inspection Time"].apply(lamda d : d.time())
 df['Difference'] = (df["hearing_date"] - df["ticket_issued_date"]).dt.days
 
-d = df2["Variance End Dat"]
+d = df2["Variance End Date"]
