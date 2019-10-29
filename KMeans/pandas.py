@@ -133,4 +133,4 @@ df['Inspection Time'] = df["Inspection Time"].apply(lamda d : d.time())
 df['Difference'] = (df["hearing_date"] - df["ticket_issued_date"]).dt.days
 
 d = df2["Variance End Date"][j] - df2["Variance Start Date"][j]
-diff = d.day
+diff = d.days
