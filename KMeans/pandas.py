@@ -136,3 +136,4 @@ d = df2["Variance End Date"][j] - df2["Variance Start Date"][j]
 diff = d.days
 diff = int(diff)
 
+p
