@@ -136,4 +136,4 @@ d = df2["Variance End Date"][j] - df2["Variance Start Date"][j]
 diff = d.days
 diff = int(diff)
 
-print pd.Timedelta(d["Next_Login"][0] - d["Crash_Time_EST"][0]).seconds / 3600
+print pd.Timedelta(d["Next_Login"][0] - d["Crash_Time_EST"][0]).seconds / 3600.
