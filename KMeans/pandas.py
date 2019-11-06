@@ -137,4 +137,4 @@ diff = d.days
 diff = int(diff)
 
 print pd.Timedelta(d["Next_Login"][0] - d["Crash_Time_EST"][0]).seconds / 3600.0
-df2 = df2.assign(session = pd.cut(df2.DateTime.))
+df2 = df2.assign(session = pd.cut(df2.DateTime.d))
