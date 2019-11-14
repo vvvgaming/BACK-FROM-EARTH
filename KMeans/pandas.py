@@ -140,4 +140,4 @@ print pd.Timedelta(d["Next_Login"][0] - d["Crash_Time_EST"][0]).seconds / 3600.0
 df2 = df2.assign(session = pd.cut(df2.DateTime.dt.hour,[0,6,12,18,24], labels = ['Night','Morning','Afternoon','Evening']))
 
 df["Week Number"][i] = datetime.date(year,month,day).isocalendar()[1]
-star_time = str(lv["Star Time"][i].month) + '-' 
+star_time = str(lv["Star Time"][i].month) + '-' +
