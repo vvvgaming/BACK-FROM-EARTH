@@ -143,4 +143,4 @@ df["Week Number"][i] = datetime.date(year,month,day).isocalendar()[1]
 star_time = str(lv["Star Time"][i].month) + '-' + str(lv["Star Time"][i].day) + '-' + str(lv["Star Time"][i].year)
 
 end_time = str(lv["End Time"][i].month) + '-' + str(lv["End Time"][i].day) + '-' + str(lv["End Time"][i].year)
-mask = (wd['workdays'] >= star_time) & (wd['workdays'] <= en)
+mask = (wd['workdays'] >= star_time) & (wd['workdays'] <= end)
