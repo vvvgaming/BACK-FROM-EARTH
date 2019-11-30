@@ -148,4 +148,4 @@ mask = (wd['workdays'] >= star_time) & (wd['workdays'] <= end_time)
 wd_subset = wd.loc[mask]
 from datetime import datetime
 
-print str(date)
+print str(datet)
