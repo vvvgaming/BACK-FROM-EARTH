@@ -149,4 +149,4 @@ wd_subset = wd.loc[mask]
 from datetime import datetime
 
 print str(datetime.now())
-insp_date = df["DATE_"]
+insp_date = df["DATE_I"]
