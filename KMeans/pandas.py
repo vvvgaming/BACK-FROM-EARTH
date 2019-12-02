@@ -151,3 +151,4 @@ from datetime import datetime
 print str(datetime.now())
 insp_date = df["DATE_INSPCTION"][0]
 
+d
