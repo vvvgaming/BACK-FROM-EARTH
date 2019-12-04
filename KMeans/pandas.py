@@ -152,4 +152,4 @@ print str(datetime.now())
 insp_date = df["DATE_INSPCTION"][0]
 
 d = datetime.timedelta(days = 2)
-minus
+minus2
