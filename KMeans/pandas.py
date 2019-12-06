@@ -154,4 +154,4 @@ insp_date = df["DATE_INSPCTION"][0]
 d = datetime.timedelta(days = 2)
 minus2 = insp_date - d
 
-plus2 = insp_date 
+plus2 = insp_date -
