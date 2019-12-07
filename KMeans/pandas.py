@@ -155,4 +155,4 @@ d = datetime.timedelta(days = 2)
 minus2 = insp_date - d
 
 plus2 = insp_date + d
-mask = (all)
+mask = (all_)
