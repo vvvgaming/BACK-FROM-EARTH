@@ -158,4 +158,4 @@ plus2 = insp_date + d
 mask = (all_data2['Date'] >= minus2) & (all_data2['Date'] <= plus2)
 
 dfpm2 = all_data2.loc[mask]
-s
+su
