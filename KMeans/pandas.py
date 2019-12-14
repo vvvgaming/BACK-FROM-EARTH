@@ -160,4 +160,4 @@ mask = (all_data2['Date'] >= minus2) & (all_data2['Date'] <= plus2)
 dfpm2 = all_data2.loc[mask]
 sum_trans = df3["Transaction Amount"].sum()
 
-df2["EucDistance"].min
+df2["EucDistance"].min()
