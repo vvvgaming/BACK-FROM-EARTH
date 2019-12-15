@@ -163,4 +163,4 @@ sum_trans = df3["Transaction Amount"].sum()
 df2["EucDistance"].min()
 df.describe().transpose()
 
-dr.dty
+dr.dtyp
