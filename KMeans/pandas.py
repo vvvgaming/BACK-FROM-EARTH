@@ -161,4 +161,4 @@ dfpm2 = all_data2.loc[mask]
 sum_trans = df3["Transaction Amount"].sum()
 
 df2["EucDistance"].min()
-df.describe().transpos
+df.describe().transpose
