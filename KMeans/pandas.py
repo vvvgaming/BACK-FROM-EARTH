@@ -164,4 +164,4 @@ df2["EucDistance"].min()
 df.describe().transpose()
 
 dr.dtypes
-dr[dr.select_dtypes(include = ['fl'])]
+dr[dr.select_dtypes(include = ['flo'])]
