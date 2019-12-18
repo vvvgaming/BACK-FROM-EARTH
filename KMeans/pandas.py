@@ -164,4 +164,4 @@ df2["EucDistance"].min()
 df.describe().transpose()
 
 dr.dtypes
-dr[dr.select_dtypes(include = ['float']).column]
+dr[dr.select_dtypes(include = ['float']).columns]
