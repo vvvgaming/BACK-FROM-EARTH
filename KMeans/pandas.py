@@ -166,4 +166,4 @@ df.describe().transpose()
 dr.dtypes
 dr[dr.select_dtypes(include = ['float']).columns] *= 100
 
-dr = dr.roun
+dr = dr.round
