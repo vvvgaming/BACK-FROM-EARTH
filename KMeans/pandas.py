@@ -167,4 +167,4 @@ dr.dtypes
 dr[dr.select_dtypes(include = ['float']).columns] *= 100
 
 dr = dr.round(2)
-dwsDic = dwsG.set_index('')
+dwsDic = dwsG.set_index('b')
