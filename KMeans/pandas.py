@@ -28,7 +28,7 @@ geoCodeCheck = geoCodeCheck[geoCode['Street Name'] == 'knickerbocker avenue']
 mask = (dfList['XCoord'] >= xy2[0]) & (dfList['YCoord'] <= xy1[0])
 dfList_subset = dfList.loc[mask]
 
-df2 = df[df2.Addres.str.contains("WEST END AVE") == False]
+df2 = df[df2.Address.str.contains("WEST END AVE") == False]
 df = df[(df['closing_price'] >= 99) & (df['closig_price'] <= 101)]
 
 df = df[df['Name'].isin(nameList)]
@@ -169,4 +169,4 @@ dr[dr.select_dtypes(include = ['float']).columns] *= 100
 dr = dr.round(2)
 dwsDic = dwsG.set_index('bin')['WallArea SqFt'].to_dict()
 
-df["lat"] = df["address"]
+df["lat"] = df["address"].
