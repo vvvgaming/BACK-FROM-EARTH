@@ -170,4 +170,4 @@ dr = dr.round(2)
 dwsDic = dwsG.set_index('bin')['WallArea SqFt'].to_dict()
 
 df["lat"] = df["address"].map(lat)
-di 
+di =
