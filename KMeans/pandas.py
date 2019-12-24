@@ -172,3 +172,4 @@ dwsDic = dwsG.set_index('bin')['WallArea SqFt'].to_dict()
 df["lat"] = df["address"].map(lat)
 di = {1: "A", 2: "B"}
 
+d
