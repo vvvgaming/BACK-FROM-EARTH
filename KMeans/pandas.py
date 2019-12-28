@@ -173,4 +173,4 @@ df["lat"] = df["address"].map(lat)
 di = {1: "A", 2: "B"}
 
 df = df.replace({"col1": di})
-dic_s = {'73983'}
+dic_s = {'739837'}
