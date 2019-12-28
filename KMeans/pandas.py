@@ -175,4 +175,4 @@ di = {1: "A", 2: "B"}
 df = df.replace({"col1": di})
 dic_s = {'7398378':'Y','7398310':'Y'}
 
-df['Flag'] = df
+df['Flag'] = df[]
