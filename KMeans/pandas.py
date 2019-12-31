@@ -176,4 +176,9 @@ df = df.replace({"col1": di})
 dic_s = {'7398378':'Y','7398310':'Y'}
 
 df['Flag'] = df['Job Number'].map(dic_s).fillna('N')
-for i rang
+for i in range(0, len(dfdn)):
+     print "terracot address", dfdn["AddressMatch"][i]
+try: 
+    print "dic list", d2[dfdn["AddressMatch"][i]] 
+except KeyError, e:
+    print e
