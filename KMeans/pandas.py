@@ -183,4 +183,4 @@ try:
 except KeyError, e:
     print e
 
-import pand
+import panda
