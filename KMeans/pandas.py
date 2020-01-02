@@ -184,4 +184,4 @@ except KeyError, e:
     print e
 
 import pandas as pd
-impo
+impor
