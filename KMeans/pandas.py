@@ -185,4 +185,4 @@ except KeyError, e:
 
 import pandas as pd
 import numpy as np
-data = pd.read_csv("t")
+data = pd.read_csv("tr")
