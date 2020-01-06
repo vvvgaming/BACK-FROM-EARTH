@@ -188,3 +188,4 @@ import numpy as np
 data = pd.read_csv("train.csv", index_col = "loan_ID")
 
 #Create a new function:
+
