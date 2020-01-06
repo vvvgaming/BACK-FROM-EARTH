@@ -189,4 +189,4 @@ data = pd.read_csv("train.csv", index_col = "loan_ID")
 
 #Create a new function:
 
-def num_mis
+def num_miss
