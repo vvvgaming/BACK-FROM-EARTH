@@ -192,3 +192,4 @@ data = pd.read_csv("train.csv", index_col = "loan_ID")
 def num_missing(x):
     return sum(x.isnull())
 
+
