@@ -194,3 +194,4 @@ def num_missing(x):
 
 
 #Applying per column:
+p
