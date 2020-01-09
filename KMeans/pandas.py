@@ -193,4 +193,4 @@ def num_missing(x):
     return sum(x.isnull())
 
 
-#Applying per colu
+#Applying per colum
