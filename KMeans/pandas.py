@@ -194,4 +194,4 @@ def num_missing(x):
 
 
 #Applying per column:
-print "Missing value"
+print "Missing values"
