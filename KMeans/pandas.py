@@ -194,4 +194,4 @@ def num_missing(x):
 
 
 #Applying per column:
-print "Missing values per co"
+print "Missing values per col"
