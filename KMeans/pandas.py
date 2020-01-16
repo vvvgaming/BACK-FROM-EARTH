@@ -196,3 +196,4 @@ def num_missing(x):
 #Applying per column:
 print "Missing values per column:"
 print data.apply(num_missing, axis = 0)#axis = 0 defines that function is to be applied on each colums
+
