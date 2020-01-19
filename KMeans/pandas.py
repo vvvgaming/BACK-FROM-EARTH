@@ -199,4 +199,4 @@ print data.apply(num_missing, axis = 0)#axis = 0 defines that function is to be 
 
 #Applying per row:
 print "\nMissing values per row:"
-print 
+print d
