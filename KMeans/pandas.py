@@ -201,4 +201,4 @@ print data.apply(num_missing, axis = 0)#axis = 0 defines that function is to be 
 print "\nMissing values per row:"
 print data.apply(num_missing, axis = 1).head() #axis = 1 defines that function is to applied on each row
 
-#First we import a
+#First we import a 
