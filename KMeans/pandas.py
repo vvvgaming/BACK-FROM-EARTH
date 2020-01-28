@@ -202,4 +202,4 @@ print "\nMissing values per row:"
 print data.apply(num_missing, axis = 1).head() #axis = 1 defines that function is to applied on each row
 
 #First we import a function to datermine the mode
-from scipy.stats impor
+from scipy.stats import
