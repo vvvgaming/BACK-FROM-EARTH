@@ -205,3 +205,4 @@ print data.apply(num_missing, axis = 1).head() #axis = 1 defines that function i
 from scipy.stats import mode
 mode(data['Gender'])
 
+m
