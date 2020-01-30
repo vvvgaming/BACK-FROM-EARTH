@@ -206,3 +206,4 @@ from scipy.stats import mode
 mode(data['Gender'])
 
 mode(data['Gender']).mode[0]
+
