@@ -207,4 +207,4 @@ mode(data['Gender'])
 
 mode(data['Gender']).mode[0]
 
-#Impute the va
+#Impute the val
