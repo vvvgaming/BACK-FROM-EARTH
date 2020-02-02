@@ -208,4 +208,4 @@ mode(data['Gender'])
 mode(data['Gender']).mode[0]
 
 #Impute the values:
-data['Gender'].fillna(mode(data['G']))
+data['Gender'].fillna(mode(data['Ge']))
