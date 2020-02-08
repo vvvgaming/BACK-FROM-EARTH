@@ -210,4 +210,4 @@ mode(data['Gender']).mode[0]
 #Impute the values:
 data['Gender'].fillna(mode(data['Gender']).mode[0], inplace = True)
 data['Married'].fillna(mode(data['Married']).mode[0], inplace = True)
-data['Self_Emploed'].fillna()
+data['Self_Emploed'].fillna(m)
