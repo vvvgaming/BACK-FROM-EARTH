@@ -212,4 +212,4 @@ data['Gender'].fillna(mode(data['Gender']).mode[0], inplace = True)
 data['Married'].fillna(mode(data['Married']).mode[0], inplace = True)
 data['Self_Emploed'].fillna(mode(data['Self_Emploed']).mode[0], inplace = True)
 
-#Now check the #missing values again to confirm
+#Now check the #missing values again to confirm:
