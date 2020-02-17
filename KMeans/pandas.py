@@ -215,4 +215,4 @@ data['Self_Emploed'].fillna(mode(data['Self_Emploed']).mode[0], inplace = True)
 #Now check the #missing values again to confirm:
 print data.apply(num_missing, axis = 0)
 
-#Determine pi
+#Determine piv
