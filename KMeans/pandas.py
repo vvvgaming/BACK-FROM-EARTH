@@ -216,3 +216,4 @@ data['Self_Emploed'].fillna(mode(data['Self_Emploed']).mode[0], inplace = True)
 print data.apply(num_missing, axis = 0)
 
 #Determine pivot table
+i
