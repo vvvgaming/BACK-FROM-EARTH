@@ -216,4 +216,4 @@ data['Self_Employed'].fillna(mode(data['Self_Employed']).mode[0], inplace = True
 print data.apply(num_missing, axis = 0)
 
 #Determine pivot table
-imput_grps = data.pivot_table(values = ["LoanAmount"], index = ["Gender", "Married", "Self_Employed"], aggfunc = n)
+imput_grps = data.pivot_table(values = ["LoanAmount"], index = ["Gender", "Married", "Self_Employed"], aggfunc = np)
