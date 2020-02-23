@@ -218,3 +218,4 @@ print data.apply(num_missing, axis = 0)
 #Determine pivot table
 imput_grps = data.pivot_table(values = ["LoanAmount"], index = ["Gender", "Married", "Self_Employed"], aggfunc = np.mean)
 print impute_grps
+
