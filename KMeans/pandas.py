@@ -219,4 +219,4 @@ print data.apply(num_missing, axis = 0)
 imput_grps = data.pivot_table(values = ["LoanAmount"], index = ["Gender", "Married", "Self_Employed"], aggfunc = np.mean)
 print impute_grps
 
-#iterate only through rows with missing LoanAmoun
+#iterate only through rows with missing LoanAmount
