@@ -220,4 +220,4 @@ imput_grps = data.pivot_table(values = ["LoanAmount"], index = ["Gender", "Marri
 print impute_grps
 
 #iterate only through rows with missing LoanAmount
-for i, 
+for i, r
