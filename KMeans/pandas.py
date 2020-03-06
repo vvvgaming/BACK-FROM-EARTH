@@ -222,4 +222,4 @@ print impute_grps
 #iterate only through rows with missing LoanAmount
 for i, row in data.loc[data['LoanAmount'].isnull(),:].iterrows():
     ind = tuple([row['Gender'], row['Married'], row['Self_Employed']])
-    data.loc[i, 'LoanAmount'] = 
+    data.loc[i, 'LoanAmount'] = i
