@@ -225,3 +225,5 @@ for i, row in data.loc[data['LoanAmount'].isnull(),:].iterrows():
     data.loc[i, 'LoanAmount'] = impute_grps.loc[ind].values[0]
 #Now check the #missing values again to confirm:
 print data.apply(num_missing, axis = 0)
+
+p
