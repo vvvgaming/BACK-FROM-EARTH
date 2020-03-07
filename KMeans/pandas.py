@@ -223,4 +223,5 @@ print impute_grps
 for i, row in data.loc[data['LoanAmount'].isnull(),:].iterrows():
     ind = tuple([row['Gender'], row['Married'], row['Self_Employed']])
     data.loc[i, 'LoanAmount'] = impute_grps.loc[ind].values[0]
-#Now ch
+#Now check the #missing values again to confirm:
+print data.apply(num_missing, axis = 0)
