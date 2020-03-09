@@ -226,4 +226,4 @@ for i, row in data.loc[data['LoanAmount'].isnull(),:].iterrows():
 #Now check the #missing values again to confirm:
 print data.apply(num_missing, axis = 0)
 
-pd.crosstab(data["Crei"])
+pd.crosstab(data["Credi"])
