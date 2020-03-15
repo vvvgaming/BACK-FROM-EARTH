@@ -229,4 +229,4 @@ print data.apply(num_missing, axis = 0)
 pd.crosstab(data["Credit_History"], data["Loan_Status"], margins = True)
 def percConvert(ser):
     return ser/float(ser[-1])
-pd.crosstab(data["Credit_His"])
+pd.crosstab(data["Credit_Hist"])
