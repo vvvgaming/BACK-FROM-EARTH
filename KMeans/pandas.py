@@ -231,3 +231,5 @@ def percConvert(ser):
     return ser/float(ser[-1])
 pd.crosstab(data["Credit_History"], data["Loan_Status"], margin = True).apply(percCovert, axis = 1)
 
+
+prop_rates
