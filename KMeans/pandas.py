@@ -234,3 +234,4 @@ pd.crosstab(data["Credit_History"], data["Loan_Status"], margin = True).apply(pe
 
 prop_rates = pd.DataFrame([1000, 5000, 12000], index=['Rural','Semiurban','Urban'],columns=['rates'])
 prop_rates
+
