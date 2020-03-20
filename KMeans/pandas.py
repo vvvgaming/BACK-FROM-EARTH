@@ -238,3 +238,4 @@ prop_rates
 data_merged = data.merge(right=prop_rates, how='inner',left_on='Property_Area',right_index=True, sort=False)
 data_merged.pivot_table(values='Credit_History',index=['Property_Area','rates'], aggfunc=len)
 
+
