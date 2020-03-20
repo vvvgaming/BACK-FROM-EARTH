@@ -241,7 +241,6 @@ data_merged.pivot_table(values='Credit_History',index=['Property_Area','rates'],
 
 
 
-f
 
 
 
