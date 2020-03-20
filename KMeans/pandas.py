@@ -235,3 +235,5 @@ pd.crosstab(data["Credit_History"], data["Loan_Status"], margin = True).apply(pe
 prop_rates = pd.DataFrame([1000, 5000, 12000], index=['Rural','Semiurban','Urban'],columns=['rates'])
 prop_rates
 
+data_merged = data.merge(right=prop_rates, how='inner',left_on='Property_Area',right_index=True, sort=False)
+data_merged.pivot_table(values='Credit_History',index=['Property_Area','rates'], aggfunc=len)
