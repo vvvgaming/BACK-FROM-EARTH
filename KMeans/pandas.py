@@ -240,4 +240,4 @@ data_merged.pivot_table(values='Credit_History',index=['Property_Area','rates'],
 
 
 data_sorted = data.sort_values(['ApplicantIncome', 'CoapplicantIncome'], ascending = False)
-data_sorted[['ApplicantIncome', 'CoapplicantInco']]
+data_sorted[['ApplicantIncome', 'CoapplicantIncom']]
