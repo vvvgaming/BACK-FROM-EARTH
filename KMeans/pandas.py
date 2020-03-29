@@ -242,4 +242,4 @@ data_merged.pivot_table(values='Credit_History',index=['Property_Area','rates'],
 data_sorted = data.sort_values(['ApplicantIncome', 'CoapplicantIncome'], ascending = False)
 data_sorted[['ApplicantIncome', 'CoapplicantIncome']].head(10)
 
-import matplotlib.pyplot as
+import matplotlib.pyplot as 
