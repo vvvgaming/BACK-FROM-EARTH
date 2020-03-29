@@ -243,4 +243,4 @@ data_sorted = data.sort_values(['ApplicantIncome', 'CoapplicantIncome'], ascendi
 data_sorted[['ApplicantIncome', 'CoapplicantIncome']].head(10)
 
 import matplotlib.pyplot as plt
-%matplot
+%matplotl
