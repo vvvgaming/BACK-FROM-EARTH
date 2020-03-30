@@ -244,3 +244,4 @@ data_sorted[['ApplicantIncome', 'CoapplicantIncome']].head(10)
 
 import matplotlib.pyplot as plt
 %matplotlib inline
+d
