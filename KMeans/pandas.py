@@ -244,4 +244,64 @@ data_sorted[['ApplicantIncome', 'CoapplicantIncome']].head(10)
 
 import matplotlib.pyplot as plt
 %matplotlib inline
-data.boxplo
+data.boxplot(column="ApplicantIncome",by="Loan_Status")
+
+data.hist(column="ApplicantIncome",by="Loan_Status",bins=30)
+
+#Binning:
+def binning(col, cut_points, labels=None):
+  #Define min and max values:
+  minval = col.min()
+  maxval = col.max()
+
+  #create list by adding min and max to cut_points
+  break_points = [minval] + cut_points + [maxval]
+
+  #if no labels provided, use default labels 0 ... (n-1)
+  if not labels:
+    labels = range(len(cut_points)+1)
+
+  #Binning using cut function of pandas
+  colBin = pd.cut(col,bins=break_points,labels=labels,include_lowest=True)
+  return colBin
+
+#Binning age:
+cut_points = [90,140,190]
+labels = ["low","medium","high","very high"]
+data["LoanAmount_Bin"] = binning(data["LoanAmount"], cut_points, labels)
+print pd.value_counts(data["LoanAmount_Bin"], sort=False)
+
+
+
+#Define a generic function using Pandas replace function
+def coding(col, codeDict):
+  colCoded = pd.Series(col, copy=True)
+  for key, value in codeDict.items():
+    colCoded.replace(key, value, inplace=True)
+  return colCoded
+ 
+#Coding LoanStatus as Y=1, N=0:
+print 'Before Coding:'
+print pd.value_counts(data["Loan_Status"])
+data["Loan_Status_Coded"] = coding(data["Loan_Status"], {'N':0,'Y':1})
+print '\nAfter Coding:'
+print pd.value_counts(data["Loan_Status_Coded"])
+
+#Check current type:
+data.dtypes
+
+
+#Load the file:
+colTypes = pd.read_csv('datatypes.csv')
+print colTypes
+
+
+#Iterate through each row and assign variable type in a Pandas dataframe
+#Note: astype is used to assign types
+
+for i, row in colTypes.iterrows():  #i: dataframe index; row: each row in series format
+    if row['type']=="categorical":
+        data[row['feature']]=data[row['feature']].astype(np.object)
+    elif row['type']=="continuous":
+        data[row['feature']]=data[row['feature']].astype(np.float)
+print data.dtypes
