@@ -307,4 +307,4 @@ for i, row in colTypes.iterrows():  #i: dataframe index; row: each row in series
 print data.dtypes
 
 
-select hzs.ID
+select hzs.ID_
