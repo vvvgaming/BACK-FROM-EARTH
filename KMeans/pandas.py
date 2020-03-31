@@ -306,3 +306,4 @@ for i, row in colTypes.iterrows():  #i: dataframe index; row: each row in series
         data[row['feature']]=data[row['feature']].astype(np.float)
 print data.dtypes
 
+
