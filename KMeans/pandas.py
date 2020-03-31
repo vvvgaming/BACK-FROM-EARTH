@@ -305,3 +305,4 @@ for i, row in colTypes.iterrows():  #i: dataframe index; row: each row in series
     elif row['type']=="continuous":
         data[row['feature']]=data[row['feature']].astype(np.float)
 print data.dtypes
+
