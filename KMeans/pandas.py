@@ -307,6 +307,6 @@ for i, row in colTypes.iterrows():  #i: dataframe index; row: each row in series
 print data.dtypes
 
 
-select hzs.cer ID_Number, sum(hns.amount) delay_amount
+select hzs.cert ID_Number, sum(hns.amount) delay_amount
 from
 ((select u.cert))
