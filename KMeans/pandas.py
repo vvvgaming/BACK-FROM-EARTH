@@ -309,4 +309,4 @@ print data.dtypes
 
 select hzs.cert_no ID_Number, sum(hns.amount) delay_amount
 from
-((select u.cert_no ID_Number, sum(t.amount) inv))
+((select u.cert_no ID_Number, sum(t.amount) inve))
