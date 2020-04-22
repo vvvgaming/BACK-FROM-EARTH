@@ -5,5 +5,5 @@ inner join shanba_deposit.v_e_accounts e on u.id = e.users.id
 inner join yx_data_group.Kstatus m on e.merchant_id = m.merchant
 inner join shanba_deposit.transactions t on e.card_no = t.creditor_e_account_no
 inner join shanba_deposit.assets a on t.asset_id = a.id
-where d
+where da
 ))
