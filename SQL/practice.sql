@@ -41,4 +41,4 @@ and xm.平台结果='停止运营'
 group by 身份证)) hzs
 group by 身份证
 
-
+##part 2
