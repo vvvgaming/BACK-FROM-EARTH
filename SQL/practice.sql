@@ -1,3 +1,4 @@
+##part 1
 select hzs.身份证 身份证, sum(hzs.投资金额) 暴雷金额 
 from 
 ((select u.cert_no 身份证, sum(t.amount) 投资金额 from shanba_deposit.v_users u
@@ -39,3 +40,5 @@ if(
 and xm.平台结果='停止运营'
 group by 身份证)) hzs
 group by 身份证
+
+
