@@ -42,4 +42,4 @@ group by 身份证)) hzs
 group by 身份证
 
 ##part 2
-select u.cert_no 身份证
+select u.cert_no 身份证,
