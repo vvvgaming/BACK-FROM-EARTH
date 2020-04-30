@@ -45,4 +45,4 @@ group by 身份证
 select u.cert_no 身份证, e.card_no 电子账号, t.amount 投资金额, t.flag 投资状态,
 date(t.created_at) 投资时间,
 m.name 平台,
-e.merchan
+e.merchant
