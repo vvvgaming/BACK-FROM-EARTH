@@ -48,3 +48,4 @@ m.name 平台,
 e.merchant_id 平台ID,
 a.debt_loan_term 期限,
 date(a.created_at) 标的创建,
+d
