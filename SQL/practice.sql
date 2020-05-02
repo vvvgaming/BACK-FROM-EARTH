@@ -47,4 +47,4 @@ date(t.created_at) 投资时间,
 m.name 平台,
 e.merchant_id 平台ID,
 a.debt_loan_term 期限,
-date(a.created_)
+date(a.created_a)
