@@ -49,4 +49,4 @@ e.merchant_id 平台ID,
 a.debt_loan_term 期限,
 date(a.created_at) 标的创建,
 date_add(date(a.created_at), interval cast(a.debt_loan_term as signed) day) 标的到期
-from 
+from v
