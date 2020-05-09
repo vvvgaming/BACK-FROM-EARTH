@@ -50,4 +50,4 @@ a.debt_loan_term 期限,
 date(a.created_at) 标的创建,
 date_add(date(a.created_at), interval cast(a.debt_loan_term as signed) day) 标的到期
 from v_users u
-inner join v_eaccounts e on u.id = e.user_id and u.cert_no = ''
+inner join v_eaccounts e on u.id = e.user_id and u.cert_no = '01318EE1C7FE252BDB686E304B389686'
