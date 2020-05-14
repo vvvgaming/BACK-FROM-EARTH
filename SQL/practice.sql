@@ -52,4 +52,4 @@ date_add(date(a.created_at), interval cast(a.debt_loan_term as signed) day) æ ‡ç
 from v_users u
 inner join v_eaccounts e on u.id = e.user_id and u.cert_no = '01318EE1C7FE252BDB686E304B389686'
 inner join merchant m on e.merchant_id = m.id
-left join transaction 
+left join transaction e
