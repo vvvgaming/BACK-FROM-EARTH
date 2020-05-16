@@ -53,4 +53,4 @@ from v_users u
 inner join v_eaccounts e on u.id = e.user_id and u.cert_no = '01318EE1C7FE252BDB686E304B389686'
 inner join merchant m on e.merchant_id = m.id
 left join transaction t e.card_no = t.creditor_e_account_no
-left join assets a o
+left join assets a on
