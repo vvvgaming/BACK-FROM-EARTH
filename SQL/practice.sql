@@ -55,4 +55,5 @@ inner join merchant m on e.merchant_id = m.id
 left join transaction t e.card_no = t.creditor_e_account_no
 left join assets a on t.asset_id = a.id
 where t.amount >= 100 
-and t.flag (1,2,3,4) and cast(a.debt_loan_term as signed) > 0
+and t.flag (1,2,3,4) 
+and cast(a.debt_loan_term as signed) > 0
