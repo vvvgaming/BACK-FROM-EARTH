@@ -58,3 +58,5 @@ where t.amount >= 100
 and t.flag (1,2,3,4) 
 and cast(a.debt_loan_term as signed) > 0
 and a.debt_loan_term = 62
+
+
