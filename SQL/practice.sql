@@ -60,4 +60,4 @@ and cast(a.debt_loan_term as signed) > 0
 and a.debt_loan_term = 62
 
 
-##part 
+##part 3
