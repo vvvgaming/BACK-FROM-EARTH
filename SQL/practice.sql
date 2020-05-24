@@ -61,4 +61,4 @@ and a.debt_loan_term = 62
 
 
 ##part 3
-select u.cert_
+select u.cert_n
