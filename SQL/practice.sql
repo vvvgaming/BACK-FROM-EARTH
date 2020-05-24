@@ -61,4 +61,4 @@ and a.debt_loan_term = 62
 
 
 ##part 3
-select u.cert_no 身份证, ca
+select u.cert_no 身份证, cas
