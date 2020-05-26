@@ -63,4 +63,4 @@ and a.debt_loan_term = 62
 ##part 3
 select u.cert_no 身份证, 
 case when u.sex = 1 then '男'
-when u.sex = 2 t
+when u.sex = 2 th
