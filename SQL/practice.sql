@@ -65,4 +65,4 @@ select u.cert_no 身份证,
 case when u.sex = 1 then '男'
 when u.sex = 2 then '女'
 else '未知' end 性别,
-sum(t)
+sum(t.)
