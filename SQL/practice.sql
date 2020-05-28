@@ -66,4 +66,4 @@ case when u.sex = 1 then '男'
 when u.sex = 2 then '女'
 else '未知' end 性别,
 sum(t.amount) 投资总额
-from t_acc
+from t_acco
