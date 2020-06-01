@@ -68,4 +68,4 @@ else '未知' end 性别,
 sum(t.amount) 投资总额
 from t_account u
 inner join t_transaction t on u.new_id = t.creditor_account_id
-inn
+inne
