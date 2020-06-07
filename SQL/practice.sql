@@ -71,4 +71,4 @@ inner join t_transaction t on u.new_id = t.creditor_account_id
 inner join t_assets a on t.asset_id = a.new_id
 where t.amount >= 100
 and t.flag IN (1,2,3,4)
-and cast(a.debt_loa_term)
+and cast(a.debt_loan_term)
