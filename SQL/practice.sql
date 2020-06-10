@@ -73,4 +73,4 @@ where t.amount >= 100
 and t.flag IN (1,2,3,4)
 and cast(a.debt_loan_term as signed)  > 0
 group by 身份证, 性别
-having sum(t.amount) >= 10
+having sum(t.amount) >= 100
