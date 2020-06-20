@@ -75,4 +75,4 @@ and cast(a.debt_loan_term as signed)  > 0
 group by 身份证, 性别
 having sum(t.amount) >= 10000 and sum(t.amount) < 50000
 
-##
+##p
