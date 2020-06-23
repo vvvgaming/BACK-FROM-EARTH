@@ -77,4 +77,20 @@ having sum(t.amount) >= 10000 and sum(t.amount) < 50000
 
 ##part 4
 select u.cert_no 身份证,
-case when u.sex = 1 th
+case when u.sex = 1 then '男',
+when u.sex = 2 then '女'
+else '未知' end 性别, 
+sum(t.amount) 投资金额,
+from v_users u
+inner join v_e_accounts e on u.id = e.user_id
+inner join transactions t on e.card_no = t.creditor_e_account_no
+inner join assets a on t.asset_id = a.id
+where t.amount >= 100 
+and t.flag IN (1,2,3,4) 
+and cast(a.debt_loan_term as signed) > 0
+group by 身份证,性别
+
+select cert_no 身份证,
+sex 性别,
+sum(amount) 总投资额 from `lzj_2020oldsum`
+group by 身份证,性别
