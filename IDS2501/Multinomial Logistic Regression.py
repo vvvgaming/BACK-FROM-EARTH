@@ -1,1 +1,1 @@
-import numpy as ny
+import numpy as np
