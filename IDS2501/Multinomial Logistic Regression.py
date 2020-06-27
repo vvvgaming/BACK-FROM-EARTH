@@ -1,3 +1,3 @@
 import numpy as np
 import pandas as pd
-from datetime import datetime, date, timed
+from datetime import datetime, date, timede
