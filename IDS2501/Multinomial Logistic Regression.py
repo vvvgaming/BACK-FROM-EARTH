@@ -39,3 +39,4 @@ from matplotlib.font_manager import FontProperties
 myfont = FontProperties(fname="/home/aistudio/NotoSansCJKsc-Light.otf", size=12)
 
 
+P
