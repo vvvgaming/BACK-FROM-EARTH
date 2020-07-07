@@ -37,3 +37,5 @@ RANDOM_SEED = 42
 # 引入中文字体
 from matplotlib.font_manager import FontProperties
 myfont = FontProperties(fname="/home/aistudio/NotoSansCJKsc-Light.otf", size=12)
+
+
