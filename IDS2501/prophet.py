@@ -3,4 +3,4 @@ import numpy as np
 import matplotlib.pyplot as plt
 from fbprophet import Prophet
 from fbprophet.diagnostics import cross.validation
-from fbprophet.diagnostics import perform
+from fbprophet.diagnostics import performa
