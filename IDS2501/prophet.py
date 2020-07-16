@@ -4,4 +4,4 @@ import matplotlib.pyplot as plt
 from fbprophet import Prophet
 from fbprophet.diagnostics import cross_validation
 from fbprophet.diagnostics import performance_metrics
-from fbpro
+from fbprop
