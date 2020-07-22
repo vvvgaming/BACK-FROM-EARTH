@@ -8,4 +8,4 @@ from fbprophet.plot import plot_cross_validation_metrics
 import warnings
 warnings.filterwarnings('ignore')
 
-data_user = pd.read_csv('')
+data_user = pd.read_csv('user_balance_table.csv')
