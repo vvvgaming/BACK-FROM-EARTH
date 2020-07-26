@@ -10,4 +10,4 @@ warnings.filterwarnings('ignore')
 
 data_user = pd.read_csv('user_balance_table.csv')
 data_user['report_date'] = pd.to_datetime(data_user['report_date'], format = '%Y%m%d')
-data.user
+data_user.
