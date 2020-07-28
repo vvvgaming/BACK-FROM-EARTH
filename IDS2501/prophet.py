@@ -12,4 +12,5 @@ data_user = pd.read_csv('user_balance_table.csv')
 data_user['report_date'] = pd.to_datetime(data_user['report_date'], format = '%Y%m%d')
 data_user.head()
 
-data_user_byday = data_user.groupby
+data_user_byday = data_user.groupby(['report_date'])['total_purchase_amt','total_redeem_amt'].sum().sort_values(['report_date']).reset_index()
+data_user_byday.head()
