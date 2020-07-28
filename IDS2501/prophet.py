@@ -16,3 +16,4 @@ data_user_byday = data_user.groupby(['report_date'])['total_purchase_amt','total
 data_user_byday.head()
 
 ##
+
