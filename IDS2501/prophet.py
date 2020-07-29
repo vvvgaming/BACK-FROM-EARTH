@@ -17,4 +17,4 @@ data_user_byday.head()
 
 ##
 
-#
+#定义模型
