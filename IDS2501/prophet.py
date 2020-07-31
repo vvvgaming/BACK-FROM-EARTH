@@ -18,4 +18,4 @@ data_user_byday.head()
 ##
 
 #定义模型
-def FB(data: pd.DataFrame) -> pdDataFr
+def FB(data: pd.DataFrame) -> pd.DataFr
