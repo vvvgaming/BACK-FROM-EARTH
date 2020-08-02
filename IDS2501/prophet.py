@@ -21,5 +21,5 @@ data_user_byday.head()
 def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     df = pd.DataFrame({
-        'ds':data.report_
+        'ds':data.report_d
     })
