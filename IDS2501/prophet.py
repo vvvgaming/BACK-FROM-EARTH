@@ -22,5 +22,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     df = pd.DataFrame({
         'ds':data.report_date,
-        'y':data.total_purch
+        'y':data.total_purcha
     })
