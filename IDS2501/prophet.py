@@ -24,3 +24,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
         'ds':data.report_date,
         'y':data.total_purchase_amt,
     })
+    
