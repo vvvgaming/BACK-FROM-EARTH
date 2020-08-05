@@ -25,4 +25,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
         'y':data.total_purchase_amt,
     })
 
-    df['cap'] = data.tot
+    df['cap'] = data.total_purchase_amt
