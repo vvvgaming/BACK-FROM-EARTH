@@ -26,4 +26,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     })
 
     df['cap'] = data.total_purchase_amt.values.max()
-    df['floor'] = data.t
+    df['floor'] = data.to
