@@ -29,5 +29,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     df['floor'] = data.total_purchase_amt.values.min()
 
     m = Prophet(
-        changepoint_p
+        changepoint_pr
     )
