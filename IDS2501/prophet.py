@@ -31,4 +31,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     m = Prophet(
         changepoint_prior_scale = 0.5
         daily_seasonality = False
+        
     )
