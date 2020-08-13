@@ -32,5 +32,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
         changepoint_prior_scale = 0.5
         daily_seasonality = False
         yearly_seasonality = True
-        we
+        wee
     )
