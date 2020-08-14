@@ -33,5 +33,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
         daily_seasonality = False
         yearly_seasonality = True
         weekly_seasonality = True
-        growt
+        growth
     )
