@@ -35,3 +35,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
         weekly_seasonality = True
         growth = 'logistic'
     )
+    
