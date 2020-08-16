@@ -36,4 +36,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
         growth = 'logistic'
     )
 
-    m.add_country_ho
+    m.add_country_hol
