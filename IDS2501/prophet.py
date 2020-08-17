@@ -39,3 +39,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     m.add_country_holiday(country_name = 'CN')
 
     m.fit(df)
+    
