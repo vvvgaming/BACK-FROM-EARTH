@@ -41,4 +41,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     m.fit(df)
 
     future = m.make_future_dataframe(periods = 30, freq = 'D')
-    future
+    future['cap'] = data.total_purchase_amt.values.max()
