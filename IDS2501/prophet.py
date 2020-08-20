@@ -40,4 +40,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     m.fit(df)
 
-    future = m.make_future_dat
+    future = m.make_future_data
