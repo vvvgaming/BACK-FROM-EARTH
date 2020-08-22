@@ -42,4 +42,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     future = m.make_future_dataframe(periods = 30, freq = 'D')
     future['cap'] = data.total_purchase_amt.values.max()
-    future['floor'] = data.totl_purc
+    future['floor'] = data.totl_purch
