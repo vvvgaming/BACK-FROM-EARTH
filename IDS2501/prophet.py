@@ -44,4 +44,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     future['cap'] = data.total_purchase_amt.values.max()
     future['floor'] = data.total_purchase_amt.values.min()
 
-    f
+    fo
