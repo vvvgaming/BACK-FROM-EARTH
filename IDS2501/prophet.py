@@ -45,3 +45,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     future['floor'] = data.total_purchase_amt.values.min()
 
     forecast = m.predict(future)
+    
