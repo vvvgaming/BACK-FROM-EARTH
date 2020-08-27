@@ -47,4 +47,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     forecast = m.predict(future)
     
     fig = m.plot_components(forecast)
-    fig1 =
+    fig1 = 
