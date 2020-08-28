@@ -49,4 +49,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     fig = m.plot_components(forecast)
     fig1 = m.plot(forecast)
 
-    return forecas
+    return forecast
