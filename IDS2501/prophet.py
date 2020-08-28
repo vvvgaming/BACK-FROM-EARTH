@@ -50,4 +50,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     fig1 = m.plot(forecast)
 
     return forecast
+
     
