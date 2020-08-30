@@ -52,4 +52,40 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     return forecast
 
     result_purchase = FB(data_user_byday)
+
+
+
+
+    def FB(data: pd.DataFrame) -> pd.DataFrame:
+
+            df = pd.DataFrame({
+    'ds': data.report_date,
+    'y': data.total_redeem_amt,
+    })
+    
+    df['cap'] = data.total_redeem_amt.values.max()
+    df['floor'] = data.total_redeem_amt.values.min()
+
+    m = Prophet(
+        changepoint_prior_scale=0.05, 
+        daily_seasonality=False,
+        yearly_seasonality=True, #年周期性
+        weekly_seasonality=True, #周周期性
+        growth="logistic",
+    )
+    
+    m.add_country_holidays(country_name='CN')#中国所有的节假日    
+    
+    m.fit(df)
+    
+    future = m.make_future_dataframe(periods=30, freq='D')#预测时长
+    future['cap'] = data.total_redeem_amt.values.max()
+    future['floor'] = data.total_redeem_amt.values.min()
+
+    forecast = m.predict(future)
+    
+    fig = m.plot_components(forecast)
+    fig1 = m.plot(forecast)
+    
+    return forecast
     
