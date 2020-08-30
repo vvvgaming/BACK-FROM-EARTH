@@ -51,4 +51,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     return forecast
 
-    result_purchase = FB(data_user_byda)
+    result_purchase = FB(data_user_byday)
