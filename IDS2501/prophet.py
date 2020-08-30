@@ -51,4 +51,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     return forecast
 
-    result_pur
+    result_purc
