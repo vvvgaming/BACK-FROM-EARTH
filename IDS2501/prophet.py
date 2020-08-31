@@ -89,3 +89,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     
     return forecast
     
+    
