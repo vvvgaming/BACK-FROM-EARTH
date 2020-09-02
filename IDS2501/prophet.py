@@ -92,4 +92,4 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
     result_redeem = FB(data_user_byday)
 
     
-    result_purchas
+    result_purchase
