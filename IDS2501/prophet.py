@@ -93,4 +93,5 @@ def FB(data: pd.DataFrame) -> pd.DataFrame:
 
     
     result_purchase.tail()
+
     
