@@ -95,3 +95,4 @@ result_redeem = FB(data_user_byday)
 result_purchase.tail()
 
 
+d
