@@ -95,4 +95,4 @@ result_redeem = FB(data_user_byday)
 result_purchase.tail()
 
 
-data_comp = pd.read_cs
+data_comp = pd.read_csv
