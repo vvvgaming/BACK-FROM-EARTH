@@ -98,4 +98,4 @@ result_purchase.tail()
 data_comp = pd.read_csv('comp_predict_table.csv', header = None)
 data_comp.head()
 
-dat
+data
