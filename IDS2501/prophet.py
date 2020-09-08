@@ -100,4 +100,4 @@ data_comp.head()
 
 data_day[]
 for i in range(20140901,20140931):
-    data_day.appe
+    data_day.appen
