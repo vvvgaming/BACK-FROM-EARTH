@@ -103,3 +103,4 @@ for i in range(20140901,20140931):
     data_day.append(i)
 
 
+d
