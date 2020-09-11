@@ -103,4 +103,4 @@ for i in range(20140901,20140931):
     data_day.append(i)
 
 
-data_comp = pd.DataFrame(colu)
+data_comp = pd.DataFrame(colum)
