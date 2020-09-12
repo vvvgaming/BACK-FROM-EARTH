@@ -105,4 +105,4 @@ for i in range(20140901,20140931):
 
 data_comp = pd.DataFrame(columns = [0, 1, 2])
 
-data_comp[0] = da
+data_comp[0] = dat
