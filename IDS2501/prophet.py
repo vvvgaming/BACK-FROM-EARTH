@@ -109,3 +109,4 @@ data_comp[0] = data_day
 data_comp[1] = result_purchase.yhat.values[-30:]
 data_comp[2] = result_redeem.yhat.values[-30:]
 data_comp
+
