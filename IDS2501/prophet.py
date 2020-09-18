@@ -110,4 +110,4 @@ data_comp[1] = result_purchase.yhat.values[-30:]
 data_comp[2] = result_redeem.yhat.values[-30:]
 data_comp
 
-data_com
+data_comp.
