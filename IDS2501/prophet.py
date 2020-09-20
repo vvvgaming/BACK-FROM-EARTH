@@ -110,4 +110,4 @@ data_comp[1] = result_purchase.yhat.values[-30:]
 data_comp[2] = result_redeem.yhat.values[-30:]
 data_comp
 
-data_comp.to_csv('tc_comp_predict_table.csv', header = None, i)
+data_comp.to_csv('tc_comp_predict_table.csv', header = None, in)
