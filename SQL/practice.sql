@@ -96,4 +96,4 @@ sum(amount) 总投资额 from `lzj_2020oldsum`
 group by 身份证,性别
 
 
-##part 
+##part 4
