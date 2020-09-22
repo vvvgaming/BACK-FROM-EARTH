@@ -97,4 +97,4 @@ group by 身份证,性别
 
 
 ##part 4
-select a.* fro
+select a.* from
