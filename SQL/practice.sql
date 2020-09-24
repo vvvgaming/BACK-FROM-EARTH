@@ -97,4 +97,4 @@ group by 身份证,性别
 
 
 ##part 4
-select a.* from (select * from table order by crea)
+select a.* from (select * from table order by creat)
