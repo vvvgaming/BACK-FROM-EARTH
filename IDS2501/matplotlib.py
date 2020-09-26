@@ -28,3 +28,4 @@ plt.pie(values[-1,3:6],explode=explode,labels=label,autopct='%1.1f%%')
 plt.title('一季度国民生产总值')
 plt.savefig('.../tmp/一季度国民生产总值.png')
 plt.show()
+
