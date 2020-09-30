@@ -31,4 +31,4 @@ plt.show()
 
 minimumSpainningTree(graph):
     mark all vertices and edges as unvisited
-    mark some vertex
+    mark some vertex,
