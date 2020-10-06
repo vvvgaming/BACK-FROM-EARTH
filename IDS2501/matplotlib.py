@@ -35,5 +35,5 @@ minimumSpainningTree(graph):
     mark some vertex, say v,  as visited
     for all the vertices:
         find the least weight edge from a visited vertex to an
-        unvisited vertex, sa
+        unvisited vertex, say
         
