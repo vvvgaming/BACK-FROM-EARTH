@@ -29,7 +29,7 @@ plt.title('一季度国民生产总值')
 plt.savefig('.../tmp/一季度国民生产总值.png')
 plt.show()
 
-#test Prim Algor
+#test Prim Algori
 minimumSpainningTree(graph):
     mark all vertices and edges as unvisited
     mark some vertex, say v,  as visited
