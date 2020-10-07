@@ -36,5 +36,5 @@ minimumSpainningTree(graph):
     for all the vertices:
         find the least weight edge from a visited vertex to an
         unvisited vertex, say w
-        mark t
+        mark th
         
