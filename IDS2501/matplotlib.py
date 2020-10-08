@@ -39,4 +39,4 @@ minimumSpainningTree(graph):
         mark the edge and was visited
         
 
-#topolo
+#topolog
