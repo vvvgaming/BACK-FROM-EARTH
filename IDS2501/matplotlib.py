@@ -38,3 +38,4 @@ minimumSpainningTree(graph):
         unvisited vertex, say w
         mark the edge and was visited
         
+
