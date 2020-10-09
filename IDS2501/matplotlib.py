@@ -40,4 +40,4 @@ minimumSpainningTree(graph):
         
 
 #topological sort
-topologicalSort(g)
+topologicalSort(gr)
