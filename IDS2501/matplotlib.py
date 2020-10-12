@@ -41,4 +41,4 @@ minimumSpainningTree(graph):
 
 #topological sort
 topologicalSort(graph g):
-    stack = Linked
+    stack = LinkedS
