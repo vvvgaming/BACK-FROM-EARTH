@@ -44,3 +44,4 @@ topologicalSort(graph g):
     stack = LinkedStack()
     mark all vertices in the graph as unvisited
     for each vertex, v, in the graph:
+        
