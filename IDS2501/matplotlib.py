@@ -49,4 +49,4 @@ topologicalSort(graph g):
     return stack
 
 
-dfs(graph, v, s)
+dfs(graph, v, st)
