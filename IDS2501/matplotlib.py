@@ -46,3 +46,4 @@ topologicalSort(graph g):
     for each vertex, v, in the graph:
         if v is unvisited:
            dfs(g, v, stack)
+    
