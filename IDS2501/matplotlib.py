@@ -50,4 +50,4 @@ topologicalSort(graph g):
 
 
 dfs(graph, v, stack):
-    mark v as vi
+    mark v as vis
