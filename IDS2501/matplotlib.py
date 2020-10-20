@@ -51,4 +51,4 @@ topologicalSort(graph g):
 
 dfs(graph, v, stack):
     mark v as visited
-    fo
+    for
