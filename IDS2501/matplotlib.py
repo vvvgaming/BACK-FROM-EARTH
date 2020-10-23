@@ -54,4 +54,5 @@ dfs(graph, v, stack):
     for each vertex, w, adjacent to v:
         if w is unvisited:
             dfs(grap, w, stack)
-            
+
+        
