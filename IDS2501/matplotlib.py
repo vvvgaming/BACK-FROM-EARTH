@@ -55,4 +55,4 @@ dfs(graph, v, stack):
         if w is unvisited:
             dfs(grap, w, stack)
 
-    stack.
+    stack.p
