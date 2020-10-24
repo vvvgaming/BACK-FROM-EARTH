@@ -56,3 +56,5 @@ dfs(graph, v, stack):
             dfs(grap, w, stack)
 
     stack.push(v)
+
+
