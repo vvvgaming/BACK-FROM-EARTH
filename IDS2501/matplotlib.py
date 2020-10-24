@@ -58,4 +58,4 @@ dfs(graph, v, stack):
     stack.push(v)
 
 
-#Dijkstra
+#Dijkstra Algorithm
