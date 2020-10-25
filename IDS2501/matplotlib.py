@@ -61,4 +61,4 @@ dfs(graph, v, stack):
 #Dijkstra Algorithm
 Do
   
-    Find the vertex F t
+    Find the vertex F th
