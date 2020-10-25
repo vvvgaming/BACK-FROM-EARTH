@@ -61,4 +61,4 @@ dfs(graph, v, stack):
 #Dijkstra Algorithm
 Do
   
-    Find the vert
+    Find the verte
