@@ -61,4 +61,4 @@ dfs(graph, v, stack):
 #Dijkstra Algorithm
 Do
   
-    Find the vertex F that is not yet
+    Find the vertex F that is not yet 
