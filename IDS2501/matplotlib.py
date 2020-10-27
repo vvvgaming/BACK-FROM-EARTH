@@ -61,4 +61,4 @@ dfs(graph, v, stack):
 #Dijkstra Algorithm
 Do
   
-    Find the vertex F that is not yet included and has the mi
+    Find the vertex F that is not yet included and has the min
