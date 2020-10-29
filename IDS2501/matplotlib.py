@@ -62,4 +62,4 @@ dfs(graph, v, stack):
 Do
   
     Find the vertex F that is not yet included and has the minimal
-    distance in the re
+    distance in the res
