@@ -63,4 +63,4 @@ Do
   
     Find the vertex F that is not yet included and has the minimal
     distance in the results grid
-    Mark F 
+    Mark F a
