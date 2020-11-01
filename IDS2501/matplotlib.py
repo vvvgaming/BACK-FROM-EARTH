@@ -64,4 +64,4 @@ Do
     Find the vertex F that is not yet included and has the minimal
     distance in the results grid
     Mark F as included
-    For each other vertex T not includ
+    For each other vertex T not include
