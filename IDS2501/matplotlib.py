@@ -65,4 +65,4 @@ Do
     distance in the results grid
     Mark F as included
     For each other vertex T not included
-        If there is an edge from F to
+        If there is an edge from F to 
