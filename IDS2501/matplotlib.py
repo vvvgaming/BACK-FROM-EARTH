@@ -65,4 +65,4 @@ Do
     distance in the results grid
     Mark F as included
     For each other vertex T not included
-        If there is a
+        If there is an
