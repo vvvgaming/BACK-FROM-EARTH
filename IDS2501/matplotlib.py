@@ -66,4 +66,4 @@ Do
     Mark F as included
     For each other vertex T not included
         If there is an edge from F to T
-        Set new d
+        Set new di
