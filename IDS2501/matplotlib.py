@@ -67,4 +67,4 @@ Do
     For each other vertex T not included
         If there is an edge from F to T
         Set new distance + edge's weight
-        If new distance 
+        If new distance <
