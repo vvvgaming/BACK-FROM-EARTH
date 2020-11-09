@@ -69,4 +69,4 @@ Do
         Set new distance + edge's weight
         If new distance < T's distance in the results grid
            Set T's distance to new distance
-           Set 
+           Set T
