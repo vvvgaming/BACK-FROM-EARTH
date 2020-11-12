@@ -70,4 +70,4 @@ Do
         If new distance < T's distance in the results grid
            Set T's distance to new distance
            Set T's parent in the results grid to F
-While at least 
+While at least o
