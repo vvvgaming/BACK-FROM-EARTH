@@ -73,4 +73,4 @@ Do
 While at least one vertex is not included
 
 #Back tracking
-Create an empt
+Create an empty
