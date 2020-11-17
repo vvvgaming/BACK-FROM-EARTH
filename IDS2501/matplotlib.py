@@ -74,4 +74,4 @@ While at least one vertex is not included
 
 #Back tracking
 Create an empty stack
-Push the starting state onto the st
+Push the starting state onto the sta
