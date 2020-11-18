@@ -75,4 +75,4 @@ While at least one vertex is not included
 #Back tracking
 Create an empty stack
 Push the starting state onto the stack
-While the stack is not e
+While the stack is not em
