@@ -75,4 +75,4 @@ While at least one vertex is not included
 #Back tracking
 Create an empty stack
 Push the starting state onto the stack
-While the stack is 
+While the stack is n
