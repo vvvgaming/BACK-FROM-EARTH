@@ -76,4 +76,4 @@ While at least one vertex is not included
 Create an empty stack
 Push the starting state onto the stack
 While the stack is not empty
-    Pop the stack and 
+    Pop the stack and e
