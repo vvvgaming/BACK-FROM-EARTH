@@ -77,4 +77,4 @@ Create an empty stack
 Push the starting state onto the stack
 While the stack is not empty
     Pop the stack and examine the state
-    If the state represents an ending sta
+    If the state represents an ending stat
