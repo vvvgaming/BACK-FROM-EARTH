@@ -79,4 +79,4 @@ While the stack is not empty
     Pop the stack and examine the state
     If the state represents an ending state
        Return SUCCESSFUL CONCLUSION
-    Else if the stat
+    Else if the state
