@@ -79,4 +79,4 @@ While the stack is not empty
     Pop the stack and examine the state
     If the state represents an ending state
        Return SUCCESSFUL CONCLUSION
-    Else if the state has not been vis
+    Else if the state has not been visi
