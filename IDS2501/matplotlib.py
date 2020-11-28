@@ -80,4 +80,4 @@ While the stack is not empty
     If the state represents an ending state
        Return SUCCESSFUL CONCLUSION
     Else if the state has not been visited previously
-    
+     
