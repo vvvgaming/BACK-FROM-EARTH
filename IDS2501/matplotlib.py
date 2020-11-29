@@ -81,4 +81,4 @@ While the stack is not empty
        Return SUCCESSFUL CONCLUSION
     Else if the state has not been visited previously
          Mark the state as visited
-         Pus
+         Push
