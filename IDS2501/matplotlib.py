@@ -82,4 +82,4 @@ While the stack is not empty
     Else if the state has not been visited previously
          Mark the state as visited
          Push onto the stack all unvisited adjacent states
-Return          
+Return U         
