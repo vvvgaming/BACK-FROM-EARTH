@@ -85,4 +85,4 @@ While the stack is not empty
 Return UNSUCCESSFUL CONCLUSION        
 
 Instantiate a stack
-Locate the charac
+Locate the charact
