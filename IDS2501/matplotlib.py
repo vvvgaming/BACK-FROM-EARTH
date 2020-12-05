@@ -84,4 +84,4 @@ While the stack is not empty
          Push onto the stack all unvisited adjacent states
 Return UNSUCCESSFUL CONCLUSION        
 
-Instantiate a sta
+Instantiate a stac
