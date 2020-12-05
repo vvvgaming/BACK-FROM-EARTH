@@ -85,4 +85,4 @@ While the stack is not empty
 Return UNSUCCESSFUL CONCLUSION        
 
 Instantiate a stack
-Locate the character "P" in the gr
+Locate the character "P" in the gri
