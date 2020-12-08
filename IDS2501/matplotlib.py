@@ -87,4 +87,4 @@ Return UNSUCCESSFUL CONCLUSION
 Instantiate a stack
 Locate the character "P" in the grid
 Push its location onto the stack
-While the stack is
+While the stack is 
