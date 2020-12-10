@@ -88,4 +88,4 @@ Instantiate a stack
 Locate the character "P" in the grid
 Push its location onto the stack
 While the stack is not empty
-    Pop a location, (row, colum), of
+    Pop a location, (row, colum), off
