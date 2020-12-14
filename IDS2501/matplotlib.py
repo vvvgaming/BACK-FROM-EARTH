@@ -90,4 +90,4 @@ Push its location onto the stack
 While the stack is not empty
     Pop a location, (row, colum), off the stack
     If the grid contains "T" at this location, then
-       A path has been
+       A path has been 
