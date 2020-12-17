@@ -92,4 +92,4 @@ While the stack is not empty
     If the grid contains "T" at this location, then
        A path has been found
        Return True
-    Else if this location does not con
+    Else if this location does not cont
