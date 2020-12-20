@@ -93,4 +93,4 @@ While the stack is not empty
        A path has been found
        Return True
     Else if this location does not contain a dot
-        Pla
+        Plac
