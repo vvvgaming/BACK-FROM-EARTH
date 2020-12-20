@@ -93,4 +93,4 @@ While the stack is not empty
        A path has been found
        Return True
     Else if this location does not contain a dot
-        Place a dot in the grid at this locat
+        Place a dot in the grid at this locati
