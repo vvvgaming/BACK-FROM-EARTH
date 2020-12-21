@@ -94,4 +94,4 @@ While the stack is not empty
        Return True
     Else if this location does not contain a dot
         Place a dot in the grid at this location
-        Examin
+        Examine
