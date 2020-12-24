@@ -95,4 +95,4 @@ While the stack is not empty
     Else if this location does not contain a dot
         Place a dot in the grid at this location
         Examine the adjacent cells to this one and
-        for each one that contains a 
+        for each one that contains a s
