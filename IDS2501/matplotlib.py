@@ -98,3 +98,4 @@ While the stack is not empty
         for each one that contains a space,
             push its location onto the stack
 Return False
+
