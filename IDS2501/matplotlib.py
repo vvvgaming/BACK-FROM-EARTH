@@ -97,4 +97,4 @@ While the stack is not empty
         Examine the adjacent cells to this one and
         for each one that contains a space,
             push its location onto the stack
-Return F
+Return Fa
