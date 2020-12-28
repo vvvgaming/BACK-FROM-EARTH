@@ -100,3 +100,4 @@ While the stack is not empty
 Return False
 
 #CRNN
+f
