@@ -100,4 +100,4 @@ While the stack is not empty
 Return False
 
 #CRNN
-for i, filter
+for i, filter_
