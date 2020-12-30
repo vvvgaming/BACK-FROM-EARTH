@@ -101,4 +101,4 @@ Return False
 
 #CRNN
 for i, filter_size in enumerate(filter_sizes):
-    with tf.
+    with tf.n
