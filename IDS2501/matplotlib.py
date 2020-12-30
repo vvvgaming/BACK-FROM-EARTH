@@ -100,4 +100,4 @@ While the stack is not empty
 Return False
 
 #CRNN
-for i, filter_size in enumerate(filter_si)
+for i, filter_size in enumerate(filter_siz)
