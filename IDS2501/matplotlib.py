@@ -101,4 +101,4 @@ Return False
 
 #CRNN
 for i, filter_size in enumerate(filter_sizes):
-    with tf.name_scope('conv-pool-%s' %)
+    with tf.name_scope('conv-pool-%s' % )
