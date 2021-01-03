@@ -102,4 +102,4 @@ Return False
 #CRNN
 for i, filter_size in enumerate(filter_sizes):
     with tf.name_scope('conv-pool-%s' % filter_size):
-        num_before 
+        num_before =
