@@ -104,3 +104,4 @@ for i, filter_size in enumerate(filter_sizes):
     with tf.name_scope('conv-pool-%s' % filter_size):
         num_before = (filter_size-1) // 2
         num_after = (filter_size-1) - num_before
+        
