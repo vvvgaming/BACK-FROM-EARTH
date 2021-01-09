@@ -105,4 +105,4 @@ for i, filter_size in enumerate(filter_sizes):
         num_before = (filter_size-1) // 2
         num_after = (filter_size-1) - num_before
         pad_before = tf.concat([self.pad] * num_before, 1)
-        pad_after = 
+        pad_after = t
