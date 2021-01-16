@@ -107,4 +107,4 @@ for i, filter_size in enumerate(filter_sizes):
         pad_before = tf.concat([self.pad] * num_before, 1)
         pad_after = tf.concat([self.pad] * num_post, 1)
         emb_padding = tf.concat([pad_before, embedding, pad_after], 1)
-        filter_shape = [filter_size, emb]
+        filter_shape = [filter_size, embe]
