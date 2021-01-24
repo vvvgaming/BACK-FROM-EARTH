@@ -109,4 +109,4 @@ for i, filter_size in enumerate(filter_sizes):
         emb_padding = tf.concat([pad_before, embedding, pad_after], 1)
         filter_shape = [filter_size, embedding_size, 1, num_filters]
         w = tf.Variable(tf.truncated_normal(filter_shape, stddev = 0.1), name = 'W')
-        b = tf.Variable(tf.const)
+        b = tf.Variable(tf.consta)
