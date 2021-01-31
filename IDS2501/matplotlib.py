@@ -111,4 +111,4 @@ for i, filter_size in enumerate(filter_sizes):
         w = tf.Variable(tf.truncated_normal(filter_shape, stddev = 0.1), name = 'W')
         b = tf.Variable(tf.constant(0.1, shape = [num_filters]), name = 'b')
         conv = tf.nn.conv2d(emb_padding, w, strides = [1,1,1,1], padding = 'VALID', name = 'conv')
-        h = tf.nn.relu(tf.nn.b)
+        h = tf.nn.relu(tf.nn.bi)
