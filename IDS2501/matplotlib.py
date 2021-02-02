@@ -112,4 +112,4 @@ for i, filter_size in enumerate(filter_sizes):
         b = tf.Variable(tf.constant(0.1, shape = [num_filters]), name = 'b')
         conv = tf.nn.conv2d(emb_padding, w, strides = [1,1,1,1], padding = 'VALID', name = 'conv')
         h = tf.nn.relu(tf.nn.bias_add(conv,b), name = 'relu')
-        pooled = tf.nn.m
+        pooled = tf.nn.ma
