@@ -113,4 +113,4 @@ for i, filter_size in enumerate(filter_sizes):
         conv = tf.nn.conv2d(emb_padding, w, strides = [1,1,1,1], padding = 'VALID', name = 'conv')
         h = tf.nn.relu(tf.nn.bias_add(conv,b), name = 'relu')
         pooled = tf.nn.max_pool(h, ksize = [1, max_pool_size, 1, 1], strides = [1, max_pool_size, 1, 1], padding = 'SAME', name = 'pool')
-        
+        p
