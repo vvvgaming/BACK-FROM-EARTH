@@ -115,3 +115,5 @@ for i, filter_size in enumerate(filter_sizes):
         pooled = tf.nn.max_pool(h, ksize = [1, max_pool_size, 1, 1], strides = [1, max_pool_size, 1, 1], padding = 'SAME', name = 'pool')
         pooled = tf.reshape(pooled, [-1, reduce, num_filters])
         pooled_concat.append(pooled)
+
+
