@@ -117,4 +117,4 @@ for i, filter_size in enumerate(filter_sizes):
         pooled_concat.append(pooled)
 
 pooled_concat = tf.concat(pooled_concat, 2)
-pooled
+pooled_
