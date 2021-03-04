@@ -121,3 +121,4 @@ pooled_concat = tf.nn.dropout(pooled_concat, self.drop_keep_prob)
 lstm_cell = tf.contrib.rnn.GRUcell(num_units = hidden_unit)
 lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob = self.dropout_keep_prob)
 self._initial_state = lstm_cell.zero_state(self.batch_size, tf.float32)
+
