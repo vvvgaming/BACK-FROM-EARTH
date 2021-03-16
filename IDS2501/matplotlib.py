@@ -124,4 +124,4 @@ self._initial_state = lstm_cell.zero_state(self.batch_size, tf.float32)
 inputs = [tf.squeeze(input_, [1]) for input_ in tf.split(pooled_concat, num_or_size_splits = int(reduce), axis = 1)]
 outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = self._initial_state, sequence_length = self.context_len)
 
- #includ
+ #includ 
