@@ -125,4 +125,4 @@ inputs = [tf.squeeze(input_, [1]) for input_ in tf.split(pooled_concat, num_or_s
 outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = self._initial_state, sequence_length = self.context_len)
 
  #includ <stdio.h>
- int 
+ int m
