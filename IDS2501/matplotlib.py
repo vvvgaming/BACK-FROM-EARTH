@@ -127,6 +127,6 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  #includ <stdio.h>
  int main()
  {
-     int i, 
+     int i, a
 
  }
