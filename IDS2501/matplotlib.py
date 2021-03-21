@@ -131,6 +131,7 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
      a = 0;
      #pragma omp parallel for
      for(i = 0; i < 10; i++)
-         a = a + i
+         a = a + i;
+
 
  }
