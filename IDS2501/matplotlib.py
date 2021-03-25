@@ -135,7 +135,7 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
      printf("a1 = %d\n", a);
      a = 0;
      #pragma omp parallel for reduction(+:a)
-     for(i )
+     for(i =)
 
 
  }
