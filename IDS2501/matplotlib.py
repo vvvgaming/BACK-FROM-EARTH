@@ -138,7 +138,7 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
      for(i = 1; i < 100; i++)
          a = a + i;
          printf("a2 = %d\n", a);
-         retur
+         return
 
 
  }
