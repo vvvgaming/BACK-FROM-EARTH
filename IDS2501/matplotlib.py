@@ -146,4 +146,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  #coding: utf-8
  import os
  import time
- import ran
+ import rand
