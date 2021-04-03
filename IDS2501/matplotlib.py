@@ -147,4 +147,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import os
  import time
  import random
- import ji
+ import jie
