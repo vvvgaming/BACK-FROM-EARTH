@@ -148,4 +148,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import time
  import random
  import jieba
- impor
+ import
