@@ -1,4 +1,0 @@
-ofxCv
-ofxFaceTracker
-ofxGui
-ofxJpegGlitch
