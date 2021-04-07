@@ -150,4 +150,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import jiebaq
  import nltk
  import sklearn
- from sklearn.naive_bayes import Multi
+ from sklearn.naive_bayes import Multin
