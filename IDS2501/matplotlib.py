@@ -152,4 +152,5 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import sklearn
  from sklearn.naive_bayes import MultinomialNB
  import numpy as np
- import pylab as p
+ import pylab as pl
+ 
