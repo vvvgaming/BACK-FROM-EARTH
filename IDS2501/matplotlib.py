@@ -154,3 +154,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import numpy as np
  import pylab as pl
  import matplotlib as plt
+ 
