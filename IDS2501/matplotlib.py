@@ -155,4 +155,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import pylab as pl
  import matplotlib as plt
 
- def MakeWordsSet()
+ def MakeWordsSet(w)
