@@ -156,4 +156,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import matplotlib as plt
 
  def MakeWordsSet(words_file):
-     words_s
+     words_se
