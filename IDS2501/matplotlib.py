@@ -157,4 +157,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
 
  def MakeWordsSet(words_file):
      words_set = set()
-     with open(wor)
+     with open(word)
