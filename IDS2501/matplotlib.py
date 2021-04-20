@@ -159,4 +159,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
      words_set = set()
      with open(words_file, 'r') as fp:
          for line in fp.readlines():
-             word = line.strip().decode("utf-")
+             word = line.strip().decode("utf-8")
