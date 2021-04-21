@@ -160,4 +160,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
      with open(words_file, 'r') as fp:
          for line in fp.readlines():
              word = line.strip().decode("utf-8")
-             if len(word) > 0 and not in 
+             if len(word) > 0 and not in w
