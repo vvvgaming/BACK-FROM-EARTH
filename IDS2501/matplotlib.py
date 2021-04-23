@@ -162,4 +162,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
              word = line.strip().decode("utf-8")
              if len(word) > 0 and not in words_set:
                  words_set.add(word)
-    retur
+    return
