@@ -164,4 +164,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
                  words_set.add(word)
     return words_set
 
-def
+def 
