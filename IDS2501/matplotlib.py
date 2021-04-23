@@ -163,3 +163,5 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
              if len(word) > 0 and not in words_set:
                  words_set.add(word)
     return words_set
+
+d
