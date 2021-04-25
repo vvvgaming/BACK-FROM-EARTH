@@ -165,4 +165,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
     return words_set
 
 def TextProcessing(folder_path, test_size = 0.2):
-    fol
+    fold
