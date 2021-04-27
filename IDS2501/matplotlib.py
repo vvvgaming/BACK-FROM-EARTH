@@ -166,4 +166,4 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
 
 def TextProcessing(folder_path, test_size = 0.2):
     folder_list = os.listdir(folder_path)
-    data_l
+    data_li
