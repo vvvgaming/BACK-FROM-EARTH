@@ -168,3 +168,5 @@ def TextProcessing(folder_path, test_size = 0.2):
     folder_list = os.listdir(folder_path)
     data_list = []
     class_list = []
+
+    
