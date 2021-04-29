@@ -169,4 +169,4 @@ def TextProcessing(folder_path, test_size = 0.2):
     data_list = []
     class_list = []
 
-    for folder in 
+    for folder in f
