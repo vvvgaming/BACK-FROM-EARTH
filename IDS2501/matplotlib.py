@@ -170,4 +170,4 @@ def TextProcessing(folder_path, test_size = 0.2):
     class_list = []
 
     for folder in folder_list:
-        new_folder_path = os.path.j
+        new_folder_path = os.path.jo
