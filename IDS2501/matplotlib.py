@@ -179,4 +179,5 @@ def TextProcessing(folder_path, test_size = 0.2):
            break
         with open(os.path.join(new_folder_path, file), 'r') as fp:
             raw = fp.read()
+
             
