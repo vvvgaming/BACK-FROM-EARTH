@@ -9,4 +9,4 @@ import matplotlib.pyplot as plt
 from train_autoencoder import ConvAutoencoder
 from train_ffn import CombineLatent
 
-def Adversarial_trai
+def Adversarial_train
