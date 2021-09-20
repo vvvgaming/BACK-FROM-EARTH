@@ -9,4 +9,4 @@ import matplotlib.pyplot as plt
 from train_autoencoder import ConvAutoencoder
 from train_ffn import CombineLatent
 
-def Adversarial_training(Alice, Eve, Bob, FFN,)
+def Adversarial_training(Alice, Eve, Bob, FFN, )
