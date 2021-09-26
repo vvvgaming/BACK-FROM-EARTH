@@ -14,4 +14,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 	for j in range(GAN_epoch):
 		print("The Adversarial Epoch is:", j)
 		FFN.train()
+
 		
