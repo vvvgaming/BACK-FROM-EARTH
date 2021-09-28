@@ -15,4 +15,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		print("The Adversarial Epoch is:", j)
 		FFN.train()
 
-		for k in range(Ali)
+		for k in range(Alic)
