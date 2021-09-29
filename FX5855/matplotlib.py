@@ -147,7 +147,37 @@ outputs, state = tf.contrib.rnn.static_rnn(lstm_cell, inputs, initial_state = se
  import os
  import time
  import random
- import jieba
+ import jiebaq
  import nltk
  import sklearn
- from sklearn.naive_bayes import 
+ from sklearn.naive_bayes import MultinomialNB
+ import numpy as np
+ import pylab as pl
+ import matplotlib as plt
+
+ def MakeWordsSet(words_file):
+     words_set = set()
+     with open(words_file, 'r') as fp:
+         for line in fp.readlines():
+             word = line.strip().decode("utf-8")
+             if len(word) > 0 and not in words_set:
+                 words_set.add(word)
+    return words_set
+
+def TextProcessing(folder_path, test_size = 0.2):
+    folder_list = os.listdir(folder_path)
+    data_list = []
+    class_list = []
+
+    for folder in folder_list:
+        new_folder_path = os.path.join(folder_path, folder)
+       files = os.listdir(new_folder_path)
+
+       j = 1
+       for file in files:
+           if j > 100
+           break
+        with open(os.path.join(new_folder_path, file), 'r') as fp:
+            raw = fp.read()
+
+            word_cut = jieba.cut(raw, cut_all = F)
