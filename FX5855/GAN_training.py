@@ -16,4 +16,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		FFN.train()
 
 		for k in range(Alice_epoch):
-		  train_loss_
+		  train_loss_b
