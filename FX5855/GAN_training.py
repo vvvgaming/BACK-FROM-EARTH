@@ -18,4 +18,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		for k in range(Alice_epoch):
 		  train_loss_ba = 0
 		  min_train_loss_ba = 100
-		  for i, train_data in enumerate(train_d)
+		  for i, train_data in enumerate(train_da)
