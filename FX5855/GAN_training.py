@@ -20,4 +20,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  min_train_loss_ba = 100
 		  for i, train_data in enumerate(train_data_loader):
 		  	FFN_optim.zero_grad()
-		  	if len()
+		  	if len(t)
