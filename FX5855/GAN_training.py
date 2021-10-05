@@ -21,4 +21,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  for i, train_data in enumerate(train_data_loader):
 		  	FFN_optim.zero_grad()
 		  	if len(train_data[0]) != batch_size :
-		  		contin
+		  		continu
