@@ -22,4 +22,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	FFN_optim.zero_grad()
 		  	if len(train_data[0]) != batch_size :
 		  		continue
-		  	ar
+		  	arr
