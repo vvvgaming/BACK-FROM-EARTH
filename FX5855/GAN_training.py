@@ -23,4 +23,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	if len(train_data[0]) != batch_size :
 		  		continue
 		  	arr = np.arange(batch_size)
-		  	np.random.sh
+		  	np.random.shu
