@@ -24,4 +24,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  		continue
 		  	arr = np.arange(batch_size)
 		  	np.random.shuffle(arr)
-		  	image = train_d
+		  	image = train_da
