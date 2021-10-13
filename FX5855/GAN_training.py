@@ -28,4 +28,4 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	keys = train_data[0][arr]
 		  	Alice_vec = Alice.extract_latent(image)
 		  	key_vec = Alice.extract_latent(keys)
-		  	_,x,y,z = Alice_vec
+		  	_,x,y,z = Alice_vec.
