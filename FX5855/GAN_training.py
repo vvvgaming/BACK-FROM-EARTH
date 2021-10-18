@@ -31,5 +31,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	_,x,y,z = Alice_vec.size()
 		  	Alice_vec = Alice_vec.reshape(batch_size,-1)
 		  	Key_vec = Key_vec.reshape(batch_size,-1)
-		  	oup_vec = FFN.Encode_Decode(Al)
+		  	oup_vec = FFN.Encode_Decode(Ali)
 		  	
