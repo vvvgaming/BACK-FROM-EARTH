@@ -36,5 +36,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	B_image = Bob.distract_latent(oup_vec)
 		  	E_image = Eve.distract_latent(oup_vec)
 		  	criterion = nn.MSEloss()
-		  	loss = criterion(image, B_image) - criterion(i)
+		  	loss = criterion(image, B_image) - criterion(im)
 		  	
