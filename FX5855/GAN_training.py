@@ -39,5 +39,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	loss = criterion(image, B_image) - criterion(image, E_image)
 		  	if i%100 == 0:
 		  		print(loss)
-		  		print("Alice-B")
+		  		print("Alice-Bo")
 		  	
