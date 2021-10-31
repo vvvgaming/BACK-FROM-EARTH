@@ -40,5 +40,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  	if i%100 == 0:
 		  		print(loss)
 		  		print("Alice-Bob's p1 Loss is", criterion(image, B_image))
-		  		print("Eve's p1 is loss", cri)
+		  		print("Eve's p1 is loss", crit)
 		  	
