@@ -43,5 +43,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  		print("Eve's p1 is loss", criterion(image, E_image))
 		  		loss.backward()
 		  		FFN_optim.step()
-		  		train
+		  		train.
 		  	
