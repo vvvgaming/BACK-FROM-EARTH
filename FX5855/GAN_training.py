@@ -42,6 +42,6 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  		print("Alice-Bob's p1 Loss is", criterion(image, B_image))
 		  		print("Eve's p1 is loss", criterion(image, E_image))
 		  		loss.backward()
-		  		F
+		  		FF
 
 		  	
