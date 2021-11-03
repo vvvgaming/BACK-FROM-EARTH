@@ -85,5 +85,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
       if (train_loss_e / len(train_data_loader)) < min_train_loss_e : 
           min_train_loss_e = train_loss_e / len(train_data_loader)
           torch.save(FFN.state_dict(),"Eve_GAN.pth")
-if __na
+if __nam
 		  	
