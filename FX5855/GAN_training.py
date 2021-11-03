@@ -45,5 +45,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 		  		FFN_optim.step()
 		  		train_loss_ba += loss.item() 
 
-		  	
+		  	p
 		  	
