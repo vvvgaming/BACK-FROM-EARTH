@@ -87,5 +87,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
           torch.save(FFN.state_dict(),"Eve_GAN.pth")
 if __name__ == "__main__"
     parser = argparse.ArgumentParser(description = 'Process some itegers.')
-    parser.add_argument('-batch_size', type = int, default = 32, help = 'Trainin')
+    parser.add_argument('-batch_size', type = int, default = 32, help = 'Training')
 		  	
