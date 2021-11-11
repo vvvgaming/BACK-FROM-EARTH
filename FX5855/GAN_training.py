@@ -88,5 +88,5 @@ def Adversarial_training(Alice, Eve, Bob, FFN, train_data_loader, batch_size, FF
 if __name__ == "__main__"
     parser = argparse.ArgumentParser(description = 'Process some itegers.')
     parser.add_argument('-batch_size', type = int, default = 32, help = 'Training batch size')
-    parser.add_argument('-lr', type = fl)
+    parser.add_argument('-lr', type = flo)
 		  	
