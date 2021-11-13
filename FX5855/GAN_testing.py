@@ -93,7 +93,7 @@
 # if __name__ == "__main__":
 #     parser = argparse.ArgumentParser(description='Process some integers.')
     # parser.add_argument('-batch_size', type=int , default = 32 , help='Training batch size')
-    parser.add_argument('-lr', type=float , default = 0.001 , help='learning rate')  
+    # parser.add_argument('-lr', type=float , default = 0.001 , help='learning rate')  
     parser.add_argument('-GAN_epoch' , type=int , default=5)
     parser.add_argument('-Alice_epoch' , type=int , default=10)
     parser.add_argument('-Eve_epoch' , type=int , default=10)
