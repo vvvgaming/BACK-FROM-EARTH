@@ -95,7 +95,7 @@
     # parser.add_argument('-batch_size', type=int , default = 32 , help='Training batch size')
     # parser.add_argument('-lr', type=float , default = 0.001 , help='learning rate')  
     # parser.add_argument('-GAN_epoch' , type=int , default=5)
-    parser.add_argument('-Alice_epoch' , type=int , default=10)
+    # parser.add_argument('-Alice_epoch' , type=int , default=10)
     parser.add_argument('-Eve_epoch' , type=int , default=10)
     parser.add_argument('-dataset_path',type=str , default = "Dataset/101_ObjectCategories")
     parser.add_argument('-convencoder_path',type=str , default = "ConvAutoEncoder.pth")
