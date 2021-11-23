@@ -92,7 +92,7 @@ if __name__ == "__main__"
     parser.add_argument('-GAN_epoch', type = int, default = 5)
 		parser.add_argument('-Alice_epoch', type = int, default = 10) 
 		parser.add_argument('-Eve_epoch', type = int, default = 10) 
-		parser.add_argument('-dataset_path', type = str, defa)
+		parser.add_argument('-dataset_path', type = str, defau)
 
 
 
