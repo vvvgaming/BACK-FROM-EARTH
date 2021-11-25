@@ -97,7 +97,7 @@
     # parser.add_argument('-GAN_epoch' , type=int , default=5)
     # parser.add_argument('-Alice_epoch' , type=int , default=10)
     # parser.add_argument('-Eve_epoch' , type=int , default=10)
-    parser.add_argument('-dataset_path',type=str , default = "Dataset/101_ObjectCategories")
+    # parser.add_argument('-dataset_path',type=str , default = "Dataset/101_ObjectCategories")
     parser.add_argument('-convencoder_path',type=str , default = "ConvAutoEncoder.pth")
     parser.add_argument('-deep_FFN_path',type=str , default = "FFN.pth")
     parser.add_argument('-Eve_checkpt',type=str,default = "Eve.pth")
