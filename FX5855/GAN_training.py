@@ -95,7 +95,7 @@ if __name__ == "__main__"
 		parser.add_argument('-dataset_path', type = str, default = "Dataset/101_ObjectCategories")
 		parser.add_argument('-convencoder_path', type = str, default = "ConvAutoEncoder.pth")
     parser.add_argument('-deep_FFN_path', type = str, default = "FFN.pth")
-    parser.add_argument('-Eve_checkpt', type = st)
+    parser.add_argument('-Eve_checkpt', type = str)
 
 
 
