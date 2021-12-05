@@ -100,7 +100,7 @@
     # parser.add_argument('-dataset_path',type=str , default = "Dataset/101_ObjectCategories")
     # parser.add_argument('-convencoder_path',type=str , default = "ConvAutoEncoder.pth")
     # parser.add_argument('-deep_FFN_path',type=str , default = "FFN.pth")
-    parser.add_argument('-Eve_checkpt',type=str,default = "Eve.pth")
+    # parser.add_argument('-Eve_checkpt',type=str,default = "Eve.pth")
     args = parser.parse_args()
     Alice , Bob , Eve = ConvAutoencoder() , ConvAutoencoder() , ConvAutoencoder() 
     Alice.load_state_dict(torch.load(args.convencoder_path))
