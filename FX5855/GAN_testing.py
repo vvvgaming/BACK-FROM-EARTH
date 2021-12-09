@@ -102,7 +102,7 @@
     # parser.add_argument('-deep_FFN_path',type=str , default = "FFN.pth")
     # parser.add_argument('-Eve_checkpt',type=str,default = "Eve.pth")
     # args = parser.parse_args()
-    Alice , Bob , Eve = ConvAutoencoder() , ConvAutoencoder() , ConvAutoencoder() 
+    # Alice , Bob , Eve = ConvAutoencoder() , ConvAutoencoder() , ConvAutoencoder() 
     Alice.load_state_dict(torch.load(args.convencoder_path))
     Bob.load_state_dict(torch.load(args.convencoder_path))
     Eve.load_state_dict(torch.load(args.Eve_checkpt))
