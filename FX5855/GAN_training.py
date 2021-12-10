@@ -98,7 +98,7 @@ if __name__ == "__main__"
     parser.add_argument('-Eve_checkpt', type = str, default = "Eve.pth")
     args = parser.parse_args()
     Alice, Bob, Eve = ConvAutoencoder(), ConvAutoencoder(), ConvAutoencoder()
-    Alice.load_state_dict(torch.load(ar))
+    Alice.load_state_dict(torch.load(arg))
 
 
 
