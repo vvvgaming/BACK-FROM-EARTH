@@ -99,7 +99,7 @@ if __name__ == "__main__"
     args = parser.parse_args()
     Alice, Bob, Eve = ConvAutoencoder(), ConvAutoencoder(), ConvAutoencoder()
     Alice.load_state_dict(torch.load(args.convencoder_path))
-    Bob.load_state_dict(tor)
+    Bob.load_state_dict(torc)
 
 
 
