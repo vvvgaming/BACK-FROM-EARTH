@@ -103,7 +103,7 @@
     # parser.add_argument('-Eve_checkpt',type=str,default = "Eve.pth")
     # args = parser.parse_args()
     # Alice , Bob , Eve = ConvAutoencoder() , ConvAutoencoder() , ConvAutoencoder() 
-    Alice.load_state_dict(torch.load(args.convencoder_path))
+    # Alice.load_state_dict(torch.load(args.convencoder_path))
     Bob.load_state_dict(torch.load(args.convencoder_path))
     Eve.load_state_dict(torch.load(args.Eve_checkpt))
     FFN = CombineLatent(256)   
