@@ -100,7 +100,7 @@ if __name__ == "__main__"
     Alice, Bob, Eve = ConvAutoencoder(), ConvAutoencoder(), ConvAutoencoder()
     Alice.load_state_dict(torch.load(args.convencoder_path))
     Bob.load_state_dict(torch.load(args.convencoder_path))
-    Eve.load_state_dict(torch.load(args.Eve))
+    Eve.load_state_dict(torch.load(args.Eve_))
 
 
 
