@@ -106,7 +106,7 @@
     # Alice.load_state_dict(torch.load(args.convencoder_path))
     # Bob.load_state_dict(torch.load(args.convencoder_path))
     # Eve.load_state_dict(torch.load(args.Eve_checkpt))
-    FFN = CombineLatent(256)   
+    # FFN = CombineLatent(256)   
     FFN.load_state_dict(torch.load(args.deep_FFN_path))
     train_loader , valid_loader = get_train_valid_loader(args.dataset_path,args.batch_size,True,1234)    
     FFN_optim = torch.optim.Adam(FFN.parameters(), lr = args.lr)
