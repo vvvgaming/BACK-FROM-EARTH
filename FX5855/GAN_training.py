@@ -101,7 +101,7 @@ if __name__ == "__main__"
     Alice.load_state_dict(torch.load(args.convencoder_path))
     Bob.load_state_dict(torch.load(args.convencoder_path))
     Eve.load_state_dict(torch.load(args.Eve_checkpt))
-    FFN = Combin
+    FFN = Combine
 
 
 
