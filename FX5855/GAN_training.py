@@ -102,6 +102,7 @@ if __name__ == "__main__"
     Bob.load_state_dict(torch.load(args.convencoder_path))
     Eve.load_state_dict(torch.load(args.Eve_checkpt))
     FFN = CombineLatent(256)
+    
 
 
 
