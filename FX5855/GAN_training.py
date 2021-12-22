@@ -103,7 +103,7 @@ if __name__ == "__main__"
     Eve.load_state_dict(torch.load(args.Eve_checkpt))
     FFN = CombineLatent(256)
     FFN.load_state_dict(torch.load(args.deep_FFN_path))
-    train_loader, valid_loader = get_train_valid_loader(args.dataset_path, ar)
+    train_loader, valid_loader = get_train_valid_loader(args.dataset_path, arg)
 
 
 
