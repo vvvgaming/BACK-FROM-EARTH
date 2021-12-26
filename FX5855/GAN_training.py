@@ -105,7 +105,7 @@ if __name__ == "__main__"
     FFN.load_state_dict(torch.load(args.deep_FFN_path))
     train_loader, valid_loader = get_train_valid_loader(args.dataset_path, args.batch_size, True, 1234)
     FFN_optim = torch.optim.Adam(FFN.parameters(), lr = args.lr)
-    Eve_optim = torch
+    Eve_optim = torch.
 
 
 
