@@ -110,7 +110,7 @@
     # FFN.load_state_dict(torch.load(args.deep_FFN_path))
     # train_loader , valid_loader = get_train_valid_loader(args.dataset_path,args.batch_size,True,1234)    
     # FFN_optim = torch.optim.Adam(FFN.parameters(), lr = args.lr)
-    Eve_optim = torch.optim.Adam(Eve.parameters(), lr = args.lr)
+    # Eve_optim = torch.optim.Adam(Eve.parameters(), lr = args.lr)
     Adversarial_training(Alice, Eve, Bob, FFN, train_loader , valid_loader, args.batch_size, FFN_optim , Eve_optim , args.GAN_epoch , args.Alice_epoch , args.Eve_epoch )
     
       
