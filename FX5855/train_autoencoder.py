@@ -1,2 +1,2 @@
 import torch, torchvision
-import numpy a
+import numpy as
