@@ -1,2 +1,2 @@
 import torch, torchvision
-import to
+import tor
