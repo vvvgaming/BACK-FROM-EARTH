@@ -1,3 +1,3 @@
 import torch, torchvision
 import numpy as np
-from torchvision import dataset
+from torchvision import datasets
