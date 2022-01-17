@@ -8,4 +8,4 @@ import torch.nn.functional as F
 import argparse
 from Dataloader import get_train_valid_loader
 
-class ConvAutoencod
+class ConvAutoencode
