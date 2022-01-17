@@ -9,4 +9,4 @@ import argparse
 from Dataloader import get_train_valid_loader
 
 class ConvAutoencoder(nn.Module):
-	def __in
+	def __ini
