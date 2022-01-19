@@ -9,8 +9,8 @@
 # from Dataloader import get_train_valid_loader
 
 
-class ConvAutoencoder(nn.Module):
-    def __init__(self):
+# class ConvAutoencoder(nn.Module):
+#     def __init__(self):
         super(ConvAutoencoder, self).__init__()
         self.conv1 = nn.Conv2d(3, 16, 2, padding=1)  
         self.conv2 = nn.Conv2d(16, 4, 2, padding=1)
