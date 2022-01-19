@@ -11,4 +11,4 @@ from Dataloader import get_train_valid_loader
 class ConvAutoencoder(nn.Module):
 	def __init__(self):
 		super(ConvAutoencoder, self).__init__()
-		self.c
+		self.co
