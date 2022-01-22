@@ -12,4 +12,4 @@ class ConvAutoencoder(nn.Module):
 	def __init__(self):
 		super(ConvAutoencoder, self).__init__()
 		self.conv1 = nn.Conv2d(3, 16, 2, padding = 1)
-		self
+		self.
