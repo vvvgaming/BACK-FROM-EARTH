@@ -12,7 +12,7 @@
 # class ConvAutoencoder(nn.Module):
 #     def __init__(self):
         # super(ConvAutoencoder, self).__init__()
-        self.conv1 = nn.Conv2d(3, 16, 2, padding=1)  
+        # self.conv1 = nn.Conv2d(3, 16, 2, padding=1)  
         self.conv2 = nn.Conv2d(16, 4, 2, padding=1)
         self.pool = nn.MaxPool2d(2, 2)
         self.t_conv1 = nn.ConvTranspose2d(4, 16, 2, stride=2)
