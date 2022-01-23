@@ -13,4 +13,4 @@ class ConvAutoencoder(nn.Module):
 		super(ConvAutoencoder, self).__init__()
 		self.conv1 = nn.Conv2d(3, 16, 2, padding = 1)
 		self.conv2 = nn.Conv2d(16, 4, 2, padding = 1)
-		self.pool = nn
+		self.pool = nn.
