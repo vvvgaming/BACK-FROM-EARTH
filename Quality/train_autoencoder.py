@@ -16,3 +16,4 @@ class ConvAutoencoder(nn.Module):
 		self.pool = nn.MaxPool2d(2, 2)
 		self.t_conv1 = nn.ConvTranspose2d(4, 16, 2, stride = 2)
 		self.t_conv2 = nn.ConvTranspose2d(16, 3, 2, stride = 2)
+		
