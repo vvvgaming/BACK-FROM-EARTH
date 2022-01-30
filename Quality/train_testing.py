@@ -18,8 +18,8 @@
         # self.t_conv1 = nn.ConvTranspose2d(4, 16, 2, stride=2)
         # self.t_conv2 = nn.ConvTranspose2d(16, 3, 2, stride=2)
 
-    def forward(self, x):
-        x = F.relu(self.conv1(x))
+    # def forward(self, x):
+    #     x = F.relu(self.conv1(x))
         x = self.pool(x)
         x = F.relu(self.conv2(x))
         x = self.pool(x)  
