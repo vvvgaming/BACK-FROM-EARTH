@@ -20,4 +20,4 @@ class ConvAutoencoder(nn.Module):
 	def forward(self, x):
 		x = F.relu(self.conv1(x))
 		x = self.pool(x)
-		x = F.relu(self.c)
+		x = F.relu(self.co)
