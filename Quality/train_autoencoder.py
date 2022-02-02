@@ -24,4 +24,4 @@ class ConvAutoencoder(nn.Module):
 		x = self.pool(x)
 		x = F.relu(self.t_conv1(x))
 		x = torch.tanh(self.t_conv2(x))
-		re
+		ret
