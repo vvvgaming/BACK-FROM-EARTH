@@ -24,7 +24,7 @@
         # x = F.relu(self.conv2(x))
         # x = self.pool(x)  
         # x = F.relu(self.t_conv1(x))
-        x = torch.tanh(self.t_conv2(x))
+        # x = torch.tanh(self.t_conv2(x))
         return x
       
     def extract_latent(self,x):
