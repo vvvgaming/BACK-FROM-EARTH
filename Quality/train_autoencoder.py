@@ -28,3 +28,11 @@ class ConvAutoencoder(nn.Module):
 
 	def extract_latent(self, x):
 		x
+
+
+
+
+
+
+
+		
