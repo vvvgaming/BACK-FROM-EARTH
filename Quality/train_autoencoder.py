@@ -26,4 +26,4 @@ class ConvAutoencoder(nn.Module):
 		x = torch.tanh(self.t_conv2(x))
 		return x
 
-	def extract_latent(self,)
+	def extract_latent(self, )
