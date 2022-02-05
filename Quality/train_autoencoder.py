@@ -27,7 +27,7 @@ class ConvAutoencoder(nn.Module):
 		return x
 
 	def extract_latent(self, x):
-		x = F.rel
+		x = F.relu
 
 
 
