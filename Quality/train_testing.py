@@ -28,7 +28,7 @@
         # return x
       
     # def extract_latent(self,x):
-        x = F.relu(self.conv1(x))
+        # x = F.relu(self.conv1(x))
         x = self.pool(x)
         x = F.relu(self.conv2(x))
         x = self.pool(x) 
