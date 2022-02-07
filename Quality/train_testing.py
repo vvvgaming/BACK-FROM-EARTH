@@ -32,7 +32,7 @@
         # x = self.pool(x)
         # x = F.relu(self.conv2(x))
         # x = self.pool(x) 
-        return x
+        # return x
       
     def distract_latent(self,x):
         x = F.relu(self.t_conv1(x))
