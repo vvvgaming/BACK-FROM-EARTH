@@ -33,7 +33,7 @@ class ConvAutoencoder(nn.Module):
 		x = self.pool(x)
 		return x
 
-	de
+	def
 
 
 
