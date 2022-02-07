@@ -31,7 +31,7 @@ class ConvAutoencoder(nn.Module):
 		x = self.pool(x)
 		x = F.relu(self.conv2(x))
 		x = self.pool(x)
-		ret
+		retu
 
 
 
