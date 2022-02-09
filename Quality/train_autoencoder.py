@@ -33,7 +33,7 @@ class ConvAutoencoder(nn.Module):
 		x = self.pool(x)
 		return x
 
-	def distract_latent(s)
+	def distract_latent(se)
 
 
 
