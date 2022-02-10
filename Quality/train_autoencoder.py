@@ -34,7 +34,7 @@ class ConvAutoencoder(nn.Module):
 		return x
 
 	def distract_latent(self, x):
-        x = F.relu(self.tconv1(x))
+        x = F.relu(self.t_conv1(x))
 
 
 
