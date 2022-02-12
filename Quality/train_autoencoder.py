@@ -40,7 +40,7 @@ class ConvAutoencoder(nn.Module):
 
 
 
-def t
+def tr
 
 
 
