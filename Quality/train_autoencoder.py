@@ -38,6 +38,7 @@ class ConvAutoencoder(nn.Module):
         x = torch.tanh(self.t_conv2(x))
         return x
 
+
         
 
 
