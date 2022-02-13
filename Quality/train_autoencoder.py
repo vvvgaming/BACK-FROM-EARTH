@@ -40,7 +40,7 @@ class ConvAutoencoder(nn.Module):
 
 
 
-def train_autoencoder(Alice, train_data_loader, v)
+def train_autoencoder(Alice, train_data_loader, va)
 
 
 
