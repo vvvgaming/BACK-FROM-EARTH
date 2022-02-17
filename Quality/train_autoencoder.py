@@ -43,7 +43,7 @@ class ConvAutoencoder(nn.Module):
 def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c_optim, n_epoch, chkpt_file):
 	min_train_loss = 100
 	for j in range(n_epoch):
-	  print("")
+	  print("T")
 
 
 
