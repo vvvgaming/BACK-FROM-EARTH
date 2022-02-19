@@ -45,7 +45,7 @@
   # min_train_loss = 100
   # for j in range(n_epoch):
     # print("The Epoch is:",j)
-    Alice.train()
+    # Alice.train()
     train_loss = 0
     for i,train_data in enumerate(train_data_loader):
       c_optim.zero_grad()
