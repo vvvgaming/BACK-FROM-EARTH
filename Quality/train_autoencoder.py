@@ -46,7 +46,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  print("The Epoch is:", j)
 	  Alice.train()
 	  train_loss = 0
-	  for i, train_data in enumerate(train_data_load)
+	  for i, train_data in enumerate(train_data_loade)
 
 
 
