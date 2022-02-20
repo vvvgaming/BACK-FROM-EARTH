@@ -47,7 +47,7 @@
     # print("The Epoch is:",j)
     # Alice.train()
     # train_loss = 0
-    for i,train_data in enumerate(train_data_loader):
+    # for i,train_data in enumerate(train_data_loader):
       c_optim.zero_grad()
       img = train_data[0]
       t_img = Alice(img)
