@@ -46,7 +46,7 @@
   # for j in range(n_epoch):
     # print("The Epoch is:",j)
     # Alice.train()
-    train_loss = 0
+    # train_loss = 0
     for i,train_data in enumerate(train_data_loader):
       c_optim.zero_grad()
       img = train_data[0]
