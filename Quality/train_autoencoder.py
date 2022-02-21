@@ -48,7 +48,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  train_loss = 0
 	  for i, train_data in enumerate(train_data_loader):
 	  	c_optim.zero_grad()
-	  	img = tra
+	  	img = trai
 
 
 
