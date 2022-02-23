@@ -51,7 +51,7 @@
       # c_optim.zero_grad()
       # img = train_data[0]
       # t_img = Alice(img)
-      criterion = nn.MSELoss()
+      # criterion = nn.MSELoss()
       loss = criterion(img,t_img)
       if i%100 == 0:
         print(loss)
