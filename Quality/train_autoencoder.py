@@ -50,7 +50,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	c_optim.zero_grad()
 	  	img = train_data[0]
 	  	t_img = Alice(img)
-	  	criterion = nn.MSELoss
+	  	criterion = nn.MSELoss()
 
 
 
