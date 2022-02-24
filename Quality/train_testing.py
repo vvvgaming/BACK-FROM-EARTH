@@ -52,7 +52,7 @@
       # img = train_data[0]
       # t_img = Alice(img)
       # criterion = nn.MSELoss()
-      loss = criterion(img,t_img)
+      # loss = criterion(img,t_img)
       if i%100 == 0:
         print(loss)
       loss.backward()
