@@ -53,7 +53,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	criterion = nn.MSELoss()
 	  	loss = criterion(img, t_img)
 	  	if i%100 == 0:
-	  		pr
+	  		pri
 
 
 
