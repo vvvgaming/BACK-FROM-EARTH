@@ -55,7 +55,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	if i%100 == 0:
 	  		print(loss)
 	  	loss.backward()
-	  	
+	  	c
 
 
 
