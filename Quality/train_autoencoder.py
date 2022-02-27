@@ -54,7 +54,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	loss = criterion(img, t_img)
 	  	if i%100 == 0:
 	  		print(loss)
-	  	loss.bac
+	  	loss.back
 
 
 
