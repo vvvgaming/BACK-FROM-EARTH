@@ -55,7 +55,7 @@
       # loss = criterion(img,t_img)
       # if i%100 == 0:
         # print(loss)
-      loss.backward()
+      # loss.backward()
       c_optim.step()
       train_loss += loss.item()
       
