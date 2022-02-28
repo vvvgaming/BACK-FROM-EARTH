@@ -57,7 +57,7 @@
         # print(loss)
       # loss.backward()
       # c_optim.step()
-      train_loss += loss.item()
+      # train_loss += loss.item()
       
     print("The Training Loss is :" , train_loss / len(train_data_loader))
     if (train_loss / len(train_data_loader)) < min_train_loss : 
