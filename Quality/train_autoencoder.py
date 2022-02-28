@@ -59,7 +59,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	train_loss += loss.item()
 
 	  	
-	  print("The Tr")
+	  print("The Tra")
 
 
 
