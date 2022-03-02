@@ -59,7 +59,7 @@
       # c_optim.step()
       # train_loss += loss.item()
       
-    print("The Training Loss is :" , train_loss / len(train_data_loader))
+    # print("The Training Loss is :" , train_loss / len(train_data_loader))
     if (train_loss / len(train_data_loader)) < min_train_loss : 
       print("Currently Saving file to" , chkpt_file)
       min_train_loss = train_loss / len(train_data_loader)
