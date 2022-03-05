@@ -61,7 +61,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	
 	  print("The Training Loss is:", train_loss / len(train_data_loader))
 	  if (train_loss / len(train_data_loader)) < min_train_loss :
-	  	print("Currently Saving file to", chkpt)
+	  	print("Currently Saving file to", chkpt_)
 
 
 
