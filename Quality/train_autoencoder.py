@@ -66,7 +66,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 	  	torch.save(Alice.state_dict(), chkpt_file)
 
 
-if __n
+if __na
 
 
 
