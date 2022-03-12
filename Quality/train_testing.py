@@ -66,7 +66,7 @@
       # torch.save(Alice.state_dict(), chkpt_file)         
   
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Process some integers.')
     parser.add_argument('-batch_size', type=int, default = 32 ,
                    help='Training batch size')
