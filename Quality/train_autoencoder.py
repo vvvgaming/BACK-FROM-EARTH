@@ -67,7 +67,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(descrip)
+	parser = argparse.ArgumentParser(descript)
 
 
 
