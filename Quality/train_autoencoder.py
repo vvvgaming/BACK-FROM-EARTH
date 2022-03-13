@@ -68,7 +68,7 @@ def train_autoencoder(Alice, train_data_loader, valid_data_loader, batch_size, c
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = 'Process some integers.')
-	parser = add_argument('-bat')
+	parser = add_argument('-batc')
 
 
 
