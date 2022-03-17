@@ -68,8 +68,8 @@
 
 # if __name__ == "__main__":
     # parser = argparse.ArgumentParser(description='Process some integers.')
-    parser.add_argument('-batch_size', type=int, default = 32 ,
-                   help='Training batch size')
+    # parser.add_argument('-batch_size', type=int, default = 32 ,
+    #                help='Training batch size')
     parser.add_argument('-lr', type=float, default = 0.001 ,
                    help='an integer for the accumulator')  
     parser.add_argument('-n_epochs' , type=int , default=5)
