@@ -70,7 +70,8 @@ if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description = 'Process some integers.')
 	parser = add_argument('-batch_size', type = int, default = 32,
 		help = 'Traning batch size')
-	parser = add_argument('-lr', type = float, default = 0.001,)
+	parser = add_argument('-lr', type = float, default = 0.001,
+		)
 
 
 
