@@ -71,7 +71,7 @@ if __name__ == "__main__":
 	parser = add_argument('-batch_size', type = int, default = 32,
 		help = 'Traning batch size')
 	parser = add_argument('-lr', type = float, default = 0.001,
-		help = 'an integer for the accumula')
+		help = 'an integer for the accumulat')
 
 
 
