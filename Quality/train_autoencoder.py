@@ -72,7 +72,7 @@ if __name__ == "__main__":
 		help = 'Traning batch size')
 	parser.add_argument('-lr', type = float, default = 0.001,
 		help = 'an integer for the accumulator')
-	parser.add_argument('-n_epochs', type)
+	parser.add_argument('-n_epochs', type )
 
 
 
