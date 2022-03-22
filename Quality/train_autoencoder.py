@@ -73,7 +73,7 @@ if __name__ == "__main__":
 	parser.add_argument('-lr', type = float, default = 0.001,
 		help = 'an integer for the accumulator')
 	parser.add_argument('-n_epochs', type = int, default = 5)
-	parser.add_argume
+	parser.add_argumen
 
 
 
