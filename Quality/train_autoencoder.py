@@ -74,7 +74,7 @@ if __name__ == "__main__":
 		help = 'an integer for the accumulator')
 	parser.add_argument('-n_epochs', type = int, default = 5)
 	parser.add_argument('-dataset_path', type = str, default = "Dataset/101_ObjectCategories")
-	parser.add_argument('-chkpt_file', type = str, default = 'Co')
+	parser.add_argument('-chkpt_file', type = str, default = 'Con')
 
 
 
