@@ -76,7 +76,7 @@ if __name__ == "__main__":
 	parser.add_argument('-dataset_path', type = str, default = "Dataset/101_ObjectCategories")
 	parser.add_argument('-chkpt_file', type = str, default = 'ConvAutoEncoder.pth')
 	args = parser.parse_args()
-	C
+	Co
 
 
 
