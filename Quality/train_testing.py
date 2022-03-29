@@ -76,7 +76,7 @@
     # parser.add_argument('-dataset_path',type=str,default = "Dataset/101_ObjectCategories")
     # parser.add_argument('-chkpt_file',type=str,default = "ConvAutoEncoder.pth")
     # args = parser.parse_args()
-    ConvCoder = ConvAutoencoder()
+    # ConvCoder = ConvAutoencoder()
     c_optim = torch.optim.Adam( ConvCoder.parameters() , lr = args.lr )
     train_loader , valid_loader = get_train_valid_loader(args.dataset_path,args.batch_size,True,1234)
     train_autoencoder(ConvCoder, train_loader , valid_loader , args.batch_size , c_optim , args.n_epochs , args.chkpt_file) 
