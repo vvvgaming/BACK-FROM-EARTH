@@ -77,7 +77,7 @@ if __name__ == "__main__":
 	parser.add_argument('-chkpt_file', type = str, default = 'ConvAutoEncoder.pth')
 	args = parser.parse_args()
 	ConvCoder = ConvAutoencoder()
-	c_optim = torch.optim.
+	c_optim = torch.optim.A
 
 
 
