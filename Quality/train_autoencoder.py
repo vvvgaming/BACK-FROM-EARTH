@@ -78,7 +78,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	ConvCoder = ConvAutoencoder()
 	c_optim = torch.optim.Adam( ConvCoder.parameters(), lr = args.lr )
-	train_loader, valid_loader = get_trai
+	train_loader, valid_loader = get_train
 
 
 
