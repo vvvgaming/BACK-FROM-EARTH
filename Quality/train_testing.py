@@ -78,5 +78,5 @@
     # args = parser.parse_args()
     # ConvCoder = ConvAutoencoder()
     # c_optim = torch.optim.Adam( ConvCoder.parameters() , lr = args.lr )
-    train_loader , valid_loader = get_train_valid_loader(args.dataset_path,args.batch_size,True,1234)
+    # train_loader , valid_loader = get_train_valid_loader(args.dataset_path,args.batch_size,True,1234)
     train_autoencoder(ConvCoder, train_loader , valid_loader , args.batch_size , c_optim , args.n_epochs , args.chkpt_file) 
