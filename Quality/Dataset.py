@@ -1,1 +1,1 @@
-import scipy.s
+import scipy.sp
