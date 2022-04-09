@@ -1,1 +1,1 @@
-import scip
+import scipy
