@@ -1,8 +1,3 @@
-'''
-Evaluate the performance of Top-K recommendation:
-    Protocol: leave-1-out evaluation
-    Measures: Hit Ratio and NDCG
-'''
 import math
 import heapq # for retrieval topK
 import multiprocessing
