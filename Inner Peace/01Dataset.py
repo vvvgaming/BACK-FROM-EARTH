@@ -12,4 +12,4 @@ class Dataset(object):
 
 		self.num_users, self.num_items = self.trainMatrix.shape
 
-	def load_rating_f
+	def load_rating_fi
