@@ -17,7 +17,7 @@
         
         # self.num_users, self.num_items = self.trainMatrix.shape
         
-    def load_rating_file_as_list(self, filename):
+    # def load_rating_file_as_list(self, filename):
         ratingList = []
         with open(filename, "r") as f:
             line = f.readline()
