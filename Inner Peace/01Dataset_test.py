@@ -19,7 +19,7 @@
         
     # def load_rating_file_as_list(self, filename):
         # ratingList = []
-        with open(filename, "r") as f:
+        # with open(filename, "r") as f:
             line = f.readline()
             while line != None and line != "":
                 arr = line.split("\t")
