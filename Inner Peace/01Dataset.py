@@ -16,4 +16,4 @@ class Dataset(object):
 		ratingList = []
 		with open(filename, "r") as f:
 			line = f.readline()
-			while line != Non
+			while line != None
