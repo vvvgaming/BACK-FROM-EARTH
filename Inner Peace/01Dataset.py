@@ -18,4 +18,4 @@ class Dataset(object):
 			line = f.readline()
 			while line != None and line != "":
 				arr = line.split("\t")
-				user, item = int(arr[0]), 
+				user, item = int(arr[0]), i
