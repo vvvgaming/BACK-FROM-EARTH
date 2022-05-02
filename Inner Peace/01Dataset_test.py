@@ -23,7 +23,7 @@
             # line = f.readline()
             # while line != None and line != "":
                 # arr = line.split("\t")
-                user, item = int(arr[0]), int(arr[1])
+                # user, item = int(arr[0]), int(arr[1])
                 ratingList.append([user, item])
                 line = f.readline()
         return ratingList
