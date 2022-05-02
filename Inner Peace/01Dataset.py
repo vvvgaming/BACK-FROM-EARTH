@@ -20,3 +20,4 @@ class Dataset(object):
 				arr = line.split("\t")
 				user, item = int(arr[0]), int(arr[1])
 				ratingList.append([user, item])
+				
