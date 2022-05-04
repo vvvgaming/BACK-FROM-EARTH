@@ -26,7 +26,7 @@
                 # user, item = int(arr[0]), int(arr[1])
                 # ratingList.append([user, item])
                 # line = f.readline()
-        return ratingList
+        # return ratingList
     
     def load_negative_file(self, filename):
         negativeList = []
