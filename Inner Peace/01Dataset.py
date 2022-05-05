@@ -23,4 +23,4 @@ class Dataset(object):
 				line = f.readline()
 		return ratingList
 
-	def load_negative_file(self, filen)
+	def load_negative_file(self, filena)
