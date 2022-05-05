@@ -28,7 +28,7 @@
                 # line = f.readline()
         # return ratingList
     
-    def load_negative_file(self, filename):
+    # def load_negative_file(self, filename):
         negativeList = []
         with open(filename, "r") as f:
             line = f.readline()
