@@ -29,7 +29,7 @@
         # return ratingList
     
     # def load_negative_file(self, filename):
-        negativeList = []
+        # negativeList = []
         with open(filename, "r") as f:
             line = f.readline()
             while line != None and line != "":
