@@ -25,4 +25,4 @@ class Dataset(object):
 
 	def load_negative_file(self, filename):
 		negativeList = []
-		
+		w
