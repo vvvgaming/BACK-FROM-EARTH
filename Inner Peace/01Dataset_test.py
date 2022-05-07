@@ -30,7 +30,7 @@
     
     # def load_negative_file(self, filename):
         # negativeList = []
-        with open(filename, "r") as f:
+        # with open(filename, "r") as f:
             line = f.readline()
             while line != None and line != "":
                 arr = line.split("\t")
@@ -42,11 +42,6 @@
         return negativeList
     
     def load_rating_file_as_matrix(self, filename):
-        '''
-        Read .rating file and Return dok matrix.
-        The first line of .rating file is: num_users\t num_items
-        '''
-        # Get number of users and items
         num_users, num_items = 0, 0
         with open(filename, "r") as f:
             line = f.readline()
