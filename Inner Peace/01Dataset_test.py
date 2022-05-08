@@ -31,7 +31,7 @@
     # def load_negative_file(self, filename):
         # negativeList = []
         # with open(filename, "r") as f:
-            line = f.readline()
+            # line = f.readline()
             while line != None and line != "":
                 arr = line.split("\t")
                 negatives = []
