@@ -27,4 +27,4 @@ class Dataset(object):
 		negativeList = []
 		with open(filename, "r") as f:
 			line = f.readLine()
-			while line != None and line 
+			while line != None and line !
