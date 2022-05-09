@@ -32,7 +32,7 @@
         # negativeList = []
         # with open(filename, "r") as f:
             # line = f.readline()
-            while line != None and line != "":
+            # while line != None and line != "":
                 arr = line.split("\t")
                 negatives = []
                 for x in arr[1: ]:
