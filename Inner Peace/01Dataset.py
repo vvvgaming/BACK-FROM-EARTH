@@ -31,3 +31,4 @@ class Dataset(object):
 				arr = line.split("\t")
 				negatives = []
 				for x in arr[1: ]:
+					
