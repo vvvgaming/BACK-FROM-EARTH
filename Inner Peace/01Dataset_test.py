@@ -38,7 +38,7 @@
                 # for x in arr[1: ]:
                     # negatives.append(int(x))
                 # negativeList.append(negatives)
-                line = f.readline()
+                # line = f.readline()
         return negativeList
     
     def load_rating_file_as_matrix(self, filename):
