@@ -37,4 +37,4 @@ class Dataset(object):
 		return negativeList
 
 
-	def load_rati
+	def load_ratin
