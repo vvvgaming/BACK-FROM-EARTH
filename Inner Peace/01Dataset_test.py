@@ -44,7 +44,7 @@
     # def load_rating_file_as_matrix(self, filename):
         # num_users, num_items = 0, 0
         # with open(filename, "r") as f:
-            line = f.readline()
+            # line = f.readline()
             while line != None and line != "":
                 arr = line.split("\t")
                 u, i = int(arr[0]), int(arr[1])
