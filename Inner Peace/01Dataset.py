@@ -41,4 +41,4 @@ class Dataset(object):
 		num_users, num_items = 0, 0
 		with open(filename, "r") as f:
 			line = f.readline()
-			while lin
+			while line
