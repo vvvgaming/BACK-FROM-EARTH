@@ -43,4 +43,4 @@ class Dataset(object):
 			line = f.readline()
 			while line != None and line != "":
 				arr = line.split("\t")
-				u, i = int()
+				u, i = int(a)
