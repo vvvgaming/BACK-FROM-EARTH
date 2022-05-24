@@ -50,7 +50,7 @@
                 # u, i = int(arr[0]), int(arr[1])
                 # num_users = max(num_users, u)
                 # num_items = max(num_items, i)
-                line = f.readline()
+                # line = f.readline()
         # Construct matrix
         mat = sp.dok_matrix((num_users+1, num_items+1), dtype=np.float32)
         with open(filename, "r") as f:
