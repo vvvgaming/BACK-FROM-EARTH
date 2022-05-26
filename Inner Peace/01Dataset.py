@@ -49,4 +49,4 @@ class Dataset(object):
 				line = f.readline()
 
 
-		mat = sp.d
+		mat = sp.do
