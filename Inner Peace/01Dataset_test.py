@@ -53,7 +53,7 @@
                 # line = f.readline()
         # Construct matrix
         # mat = sp.dok_matrix((num_users+1, num_items+1), dtype=np.float32)
-        with open(filename, "r") as f:
+        # with open(filename, "r") as f:
             line = f.readline()
             while line != None and line != "":
                 arr = line.split("\t")
