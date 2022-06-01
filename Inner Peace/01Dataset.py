@@ -54,4 +54,4 @@ class Dataset(object):
 			line = f.readline()
 			while line != None and line != "":
 				arr = line.split("\t")
-				user, item, rating = int(arr[0]), i
+				user, item, rating = int(arr[0]), in
