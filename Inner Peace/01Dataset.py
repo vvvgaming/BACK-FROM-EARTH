@@ -58,4 +58,4 @@ class Dataset(object):
 				if (rating > 0):
 					mat[user, item] = 1.0
 				line = f.readline()
-		r
+		return mat
