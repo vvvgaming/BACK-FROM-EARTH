@@ -1,2 +1,2 @@
 import math
-import heap
+import heapq
