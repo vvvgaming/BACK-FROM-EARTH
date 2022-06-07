@@ -6,7 +6,7 @@
 
 
 # Global variables that are shared across processes
-_model = None
+# _model = None
 _testRatings = None
 _testNegatives = None
 _K = None
