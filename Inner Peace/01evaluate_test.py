@@ -2,7 +2,7 @@
 # import heapq
 # import multiprocessing
 # import numpy as np
-from time import time
+# from time import time
 
 
 # Global variables that are shared across processes
