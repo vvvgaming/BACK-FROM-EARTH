@@ -8,8 +8,8 @@
 # Global variables that are shared across processes
 # _model = None
 # _testRatings = None
-_testNegatives = None
-_K = None
+# _testNegatives = None
+# _K = None
 
 def evaluate_model(model, testRatings, testNegatives, K, num_thread):
     global _model
