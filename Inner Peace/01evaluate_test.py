@@ -11,7 +11,7 @@
 # _testNegatives = None
 # _K = None
 
-def evaluate_model(model, testRatings, testNegatives, K, num_thread):
+# def evaluate_model(model, testRatings, testNegatives, K, num_thread):
     global _model
     global _testRatings
     global _testNegatives
