@@ -16,7 +16,7 @@
     # global _testRatings
     # global _testNegatives
     # global _K
-    _model = model
+    # _model = model
     _testRatings = testRatings
     _testNegatives = testNegatives
     _K = K
