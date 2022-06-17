@@ -19,7 +19,7 @@
     # _model = model
     # _testRatings = testRatings
     # _testNegatives = testNegatives
-    _K = K
+    # _K = K
         
     hits, ndcgs = [],[]
     if(num_thread > 1): # Multi-thread
