@@ -18,7 +18,7 @@
     # global _K
     # _model = model
     # _testRatings = testRatings
-    _testNegatives = testNegatives
+    # _testNegatives = testNegatives
     _K = K
         
     hits, ndcgs = [],[]
