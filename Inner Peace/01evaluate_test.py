@@ -22,7 +22,7 @@
     # _K = K
         
     # hits, ndcgs = [],[]
-    if(num_thread > 1): # Multi-thread
+    # if(num_thread > 1): # Multi-thread
         pool = multiprocessing.Pool(processes=num_thread)
         res = pool.map(eval_one_rating, range(len(_testRatings)))
         pool.close()
