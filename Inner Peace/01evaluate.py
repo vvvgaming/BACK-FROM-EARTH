@@ -21,3 +21,4 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 
 	hits, ndcgs = [],[]
 	if(num_thread > 1):
+		
