@@ -21,4 +21,4 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 
 	hits, ndcgs = [],[]
 	if(num_thread > 1):
-		pool = multiprocessing.Pool(processes = num_t)
+		pool = multiprocessing.Pool(processes = num_th)
