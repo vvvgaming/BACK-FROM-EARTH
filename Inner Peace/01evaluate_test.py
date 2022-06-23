@@ -26,7 +26,7 @@
         # pool = multiprocessing.Pool(processes=num_thread)
         # res = pool.map(eval_one_rating, range(len(_testRatings)))
         # pool.close()
-        pool.join()
+        # pool.join()
         hits = [r[0] for r in res]
         ndcgs = [r[1] for r in res]
         return (hits, ndcgs)
