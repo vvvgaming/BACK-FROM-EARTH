@@ -27,7 +27,7 @@
         # res = pool.map(eval_one_rating, range(len(_testRatings)))
         # pool.close()
         # pool.join()
-        hits = [r[0] for r in res]
+        # hits = [r[0] for r in res]
         ndcgs = [r[1] for r in res]
         return (hits, ndcgs)
     # Single thread
