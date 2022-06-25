@@ -25,4 +25,4 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 		res = pool.map(eval_one_rating, range(len(_testRatings)))
 		pool.close()
 		pool.join()
-		hits = 
+		hits = []
