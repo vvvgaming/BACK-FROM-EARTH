@@ -28,7 +28,7 @@
         # pool.close()
         # pool.join()
         # hits = [r[0] for r in res]
-        ndcgs = [r[1] for r in res]
+        # ndcgs = [r[1] for r in res]
         return (hits, ndcgs)
     # Single thread
     for idx in xrange(len(_testRatings)):
