@@ -28,3 +28,4 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 		hits = [r[0] for r in res]
 		ndcgs = [r[1] for r in res]
 		return (hits, ndcgs)
+		
