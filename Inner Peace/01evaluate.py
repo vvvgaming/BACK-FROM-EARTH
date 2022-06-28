@@ -30,4 +30,4 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 		return (hits, ndcgs)
 
 	for idx in xrange(len(_testRatings)):
-		(hr,ndc)
+		(hr,ndcg)
