@@ -35,3 +35,5 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 		ndcgs.append(ndcg)
 
 	return (hits, ndcgs)
+
+
