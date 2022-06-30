@@ -33,7 +33,7 @@
     # Single thread
     # for idx in xrange(len(_testRatings)):
         # (hr,ndcg) = eval_one_rating(idx)
-        hits.append(hr)
+        # hits.append(hr)
         ndcgs.append(ndcg)      
     return (hits, ndcgs)
 
