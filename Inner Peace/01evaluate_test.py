@@ -35,7 +35,7 @@
         # (hr,ndcg) = eval_one_rating(idx)
         # hits.append(hr)
         # ndcgs.append(ndcg)      
-    return (hits, ndcgs)
+    # return (hits, ndcgs)
 
 def eval_one_rating(idx):
     rating = _testRatings[idx]
