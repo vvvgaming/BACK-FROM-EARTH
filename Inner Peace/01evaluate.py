@@ -39,4 +39,4 @@ def evaluate_model(model, testRatings, testNegatives, K, num_thread):
 
 def eval_one_rating(idx):
 	rating = _testRatings[idx]
-	i
+	it
