@@ -40,7 +40,7 @@
 # def eval_one_rating(idx):
     # rating = _testRatings[idx]
     # items = _testNegatives[idx]
-    u = rating[0]
+    # u = rating[0]
     gtItem = rating[1]
     items.append(gtItem)
     # Get prediction scores
