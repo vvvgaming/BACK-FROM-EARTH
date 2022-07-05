@@ -41,4 +41,4 @@ def eval_one_rating(idx):
 	rating = _testRatings[idx]
 	items = _testNegetives[idx]
 	u = rating[0]
-	gtItem = rat
+	gtItem = rati
