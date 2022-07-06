@@ -41,7 +41,7 @@
     # rating = _testRatings[idx]
     # items = _testNegatives[idx]
     # u = rating[0]
-    gtItem = rating[1]
+    # gtItem = rating[1]
     items.append(gtItem)
     # Get prediction scores
     map_item_score = {}
