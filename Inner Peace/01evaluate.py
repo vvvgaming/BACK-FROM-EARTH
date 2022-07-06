@@ -42,4 +42,4 @@ def eval_one_rating(idx):
 	items = _testNegetives[idx]
 	u = rating[0]
 	gtItem = rating[1]
-	ite
+	item
