@@ -44,7 +44,7 @@
     # gtItem = rating[1]
     # items.append(gtItem)
     # Get prediction scores
-    map_item_score = {}
+    # map_item_score = {}
     users = np.full(len(items), u, dtype = 'int32')
     predictions = _model.predict([users, np.array(items)], 
                                  batch_size=100, verbose=0)
