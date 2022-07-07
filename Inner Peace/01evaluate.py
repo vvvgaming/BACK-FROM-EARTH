@@ -44,4 +44,4 @@ def eval_one_rating(idx):
 	gtItem = rating[1]
 	items.append(gtItem)
 
-	map_item_sco
+	map_item_scor
