@@ -45,4 +45,4 @@ def eval_one_rating(idx):
 	items.append(gtItem)
 
 	map_item_score = {}
-	users = np.full(len(items), u, dtype = 'int3')
+	users = np.full(len(items), u, dtype = 'int32')
