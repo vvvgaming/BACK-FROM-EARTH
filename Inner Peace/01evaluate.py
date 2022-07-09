@@ -46,7 +46,7 @@ def eval_one_rating(idx):
 
 	map_item_score = {}
 	users = np.full(len(items), u, dtype = 'int32')
-	predictions = _model.predict([users, np.arra])
+	predictions = _model.predict([users, np.array])
 
 
 
