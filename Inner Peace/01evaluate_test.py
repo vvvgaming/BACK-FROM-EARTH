@@ -48,7 +48,7 @@
     # users = np.full(len(items), u, dtype = 'int32')
     # predictions = _model.predict([users, np.array(items)], 
     #                              batch_size=100, verbose=0)
-    for i in xrange(len(items)):
+    # for i in xrange(len(items)):
         item = items[i]
         map_item_score[item] = predictions[i]
     items.pop()
