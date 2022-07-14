@@ -50,7 +50,7 @@
     #                              batch_size=100, verbose=0)
     # for i in xrange(len(items)):
         # item = items[i]
-        map_item_score[item] = predictions[i]
+        # map_item_score[item] = predictions[i]
     items.pop()
     
     # Evaluate top rank list
