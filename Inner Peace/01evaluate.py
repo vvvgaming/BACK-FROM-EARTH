@@ -54,7 +54,7 @@ def eval_one_rating(idx):
 	items.pop()
 
 
-	ranklist = heapq.nlargest
+	ranklist = heapq.nlargest()
 
 
 
