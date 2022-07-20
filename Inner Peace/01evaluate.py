@@ -60,7 +60,7 @@ def eval_one_rating(idx):
 	return (hr, ndcg)
 
 
-de
+def
 
 
 
