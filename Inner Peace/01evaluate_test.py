@@ -57,7 +57,7 @@
     # ranklist = heapq.nlargest(_K, map_item_score, key=map_item_score.get)
     # hr = getHitRatio(ranklist, gtItem)
     # ndcg = getNDCG(ranklist, gtItem)
-    return (hr, ndcg)
+    # return (hr, ndcg)
 
 def getHitRatio(ranklist, gtItem):
     for item in ranklist:
