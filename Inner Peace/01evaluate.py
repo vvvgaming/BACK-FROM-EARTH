@@ -67,7 +67,7 @@ def getHitRatio(ranklist, gtItem):
 	return 0
 
 
-def getNDCG(rank)
+def getNDCG(rankl)
 
 
 
