@@ -63,7 +63,7 @@
     # for item in ranklist:
         # if item == gtItem:
             # return 1
-    return 0
+    # return 0
 
 def getNDCG(ranklist, gtItem):
     for i in xrange(len(ranklist)):
