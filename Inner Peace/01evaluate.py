@@ -69,6 +69,7 @@ def getHitRatio(ranklist, gtItem):
 
 def getNDCG(ranklist, gtItem):
 	for i in xrange(len(ranklist)):
+		
 
 
 
