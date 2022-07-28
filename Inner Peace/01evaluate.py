@@ -71,7 +71,7 @@ def getNDCG(ranklist, gtItem):
 	for i in xrange(len(ranklist)):
 		item = ranklist[i]
 		if item == gtItem:
-			return math
+			return math.
 
 
 
