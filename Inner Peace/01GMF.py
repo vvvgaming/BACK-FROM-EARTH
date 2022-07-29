@@ -1,1 +1,1 @@
-import nump
+import numpy
