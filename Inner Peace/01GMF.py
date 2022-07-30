@@ -1,2 +1,2 @@
 import numpy as np
-import theano.t
+import theano.te
