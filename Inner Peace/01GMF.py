@@ -3,4 +3,4 @@ import theano.tensor as T
 import keras
 from keras import backend as K
 from keras import initializations
-from keras.models import Sequential, Model, load_model, save_mode
+from keras.models import Sequential, Model, load_model, save_model
