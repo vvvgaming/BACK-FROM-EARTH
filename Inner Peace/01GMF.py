@@ -4,4 +4,4 @@ import keras
 from keras import backend as K
 from keras import initializations
 from keras.models import Sequential, Model, load_model, save_model
-from keras.layers.co
+from keras.layers.cor
