@@ -8,4 +8,4 @@ from keras.layers.core import Dense, Lambda, Activation
 from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten
 from keras.optimizers import Adagrad, Adam, SGD, RMSprop
 from keras.regularizers import l2
-from Dataset impor
+from Dataset import 
