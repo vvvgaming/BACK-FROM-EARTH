@@ -12,4 +12,4 @@ from Dataset import Dataset
 from evaluate import evaluate_model
 from time import time
 import multiprocessing as mp
-import sy
+import sys
