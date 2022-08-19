@@ -17,4 +17,4 @@ import math
 import argparse
 
 
-de
+def
