@@ -17,4 +17,4 @@ import math
 import argparse
 
 
-def parse_arg
+def parse_args
