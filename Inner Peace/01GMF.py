@@ -18,4 +18,4 @@ import argparse
 
 
 def parse_args():
-	parser = argparse.Arg
+	parser = argparse.Argu
