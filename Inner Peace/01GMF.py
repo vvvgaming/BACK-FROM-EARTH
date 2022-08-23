@@ -18,4 +18,4 @@ import argparse
 
 
 def parse_args():
-	parser = argparse.ArgumentParser(description = "Run G")
+	parser = argparse.ArgumentParser(description = "Run GM")
