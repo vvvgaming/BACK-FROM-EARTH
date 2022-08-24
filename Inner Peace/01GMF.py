@@ -19,4 +19,4 @@ import argparse
 
 def parse_args():
 	parser = argparse.ArgumentParser(description = "Run GMF.")
-	parser.add_argument('--path', nargs = '?', default = 'Data/', help = 'Inpu')
+	parser.add_argument('--path', nargs = '?', default = 'Data/', help = 'Input')
