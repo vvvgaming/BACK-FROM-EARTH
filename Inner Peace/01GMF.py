@@ -20,5 +20,5 @@ import argparse
 def parse_args():
 	parser = argparse.ArgumentParser(description = "Run GMF.")
 	parser.add_argument('--path', nargs = '?', default = 'Data/', help = 'Input data path.')
-	parser.add_argument('--dataset', nargs = '?', defaul = 'ml-1m', help = 'Choose a dataset.')
+	parser.add_argument('--dataset', nargs = '?', default = 'ml-1m', help = 'Choose a dataset.')
 	parser.add_argument('--epochs', type = int, defaul)
