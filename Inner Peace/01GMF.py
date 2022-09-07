@@ -24,4 +24,4 @@ def parse_args():
 	parser.add_argument('--epochs', type = int, default = 100, help = 'Number of epochs.')
 	parser.add_argument('--batch_size', type = int, default = 256, help = 'Batch size.')
 	parser.add_argument('--num_factors', type = int, default = 8, help = 'Embedding size.')
-	parser.add_a
+	parser.add_ar
