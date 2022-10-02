@@ -32,7 +32,7 @@ def parse_args():
 	parser.add_argument('--out', type = int, default = 1, help = 'Whether to save the trained model.')
 	return parser.parse_args()
 
-def init_normal(shape, name = Non)
+def init_normal(shape, name = None)
 
 
 
