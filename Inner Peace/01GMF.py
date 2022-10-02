@@ -33,7 +33,7 @@ def parse_args():
 	return parser.parse_args()
 
 def init_normal(shape, name = None):
-	return initializations
+	return initializations.
 
 
 
