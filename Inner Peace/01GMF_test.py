@@ -43,7 +43,7 @@
     #                     help='Whether to save the trained model.')
     # return parser.parse_args()
 
-def init_normal(shape, name=None):
+# def init_normal(shape, name=None):
     return initializations.normal(shape, scale=0.01, name=name)
 
 def get_model(num_users, num_items, latent_dim, regs=[0,0]):
