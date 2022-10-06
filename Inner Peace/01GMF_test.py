@@ -46,7 +46,7 @@
 # def init_normal(shape, name=None):
     # return initializations.normal(shape, scale=0.01, name=name)
 
-def get_model(num_users, num_items, latent_dim, regs=[0,0]):
+# def get_model(num_users, num_items, latent_dim, regs=[0,0]):
     # Input variables
     user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
     item_input = Input(shape=(1,), dtype='int32', name = 'item_input')
