@@ -37,7 +37,7 @@ def init_normal(shape, name = None):
 
 def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 
-	user_input = Input(shape = (1,), dtype = 'int32', nam)
+	user_input = Input(shape = (1,), dtype = 'int32', name)
 
 
 
