@@ -48,7 +48,7 @@
 
 # def get_model(num_users, num_items, latent_dim, regs=[0,0]):
     # Input variables
-    user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
+    # user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
     item_input = Input(shape=(1,), dtype='int32', name = 'item_input')
 
     MF_Embedding_User = Embedding(input_dim = num_users, output_dim = latent_dim, name = 'user_embedding',
