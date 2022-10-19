@@ -43,7 +43,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 	MF_Embedding_User = Embedding(input_dim = num_users, output_dim = latent_dim, name = 'user_embedding',
 		init = init_normal, W_regularizer = l2(regs[0]), input_length = 1)
 	MF_Embedding_Item = Embedding(input_dim = num_items, output_dim = latent_dim, name = 'item_embedding',
-		ini)
+		init)
 
 
 
