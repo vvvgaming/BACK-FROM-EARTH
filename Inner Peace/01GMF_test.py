@@ -57,7 +57,7 @@
     #                               init = init_normal, W_regularizer = l2(regs[1]), input_length=1)   
     
     # Crucial to flatten an embedding vector!
-    user_latent = Flatten()(MF_Embedding_User(user_input))
+    # user_latent = Flatten()(MF_Embedding_User(user_input))
     item_latent = Flatten()(MF_Embedding_Item(item_input))
     
     # Element-wise product of user and item embeddings 
