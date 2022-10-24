@@ -46,7 +46,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 		init = init_normal, W_regularizer = l2(regs[1]), input_length = 1)
 
 	user_latent = Flatten()(MF_Embedding_User(user_input))
-	item_latent = Flatten()(MF_)
+	item_latent = Flatten()(MF_E)
 
 
 
