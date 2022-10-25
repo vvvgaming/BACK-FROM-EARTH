@@ -58,7 +58,7 @@
     
     # Crucial to flatten an embedding vector!
     # user_latent = Flatten()(MF_Embedding_User(user_input))
-    item_latent = Flatten()(MF_Embedding_Item(item_input))
+    # item_latent = Flatten()(MF_Embedding_Item(item_input))
     
     # Element-wise product of user and item embeddings 
     predict_vector = merge([user_latent, item_latent], mode = 'mul')
