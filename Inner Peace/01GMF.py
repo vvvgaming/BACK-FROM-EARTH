@@ -49,7 +49,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 	item_latent = Flatten()(MF_Embedding_Item(item_input))
 
 
-	predict_vector = merge([user_latent, item_latent], mode = '')
+	predict_vector = merge([user_latent, item_latent], mode = 'm')
 
 
 
