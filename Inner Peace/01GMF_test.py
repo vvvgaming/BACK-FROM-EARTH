@@ -61,7 +61,7 @@
     # item_latent = Flatten()(MF_Embedding_Item(item_input))
     
     # Element-wise product of user and item embeddings 
-    predict_vector = merge([user_latent, item_latent], mode = 'mul')
+    # predict_vector = merge([user_latent, item_latent], mode = 'mul')
     
     # Final prediction layer
     #prediction = Lambda(lambda x: K.sigmoid(K.sum(x)), output_shape=(1,))(predict_vector)
