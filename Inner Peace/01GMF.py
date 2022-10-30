@@ -51,7 +51,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 
 	predict_vector = merge([user_latent, item_latent], mode = 'mul')
 
-	prediction = Dense(1, activation = 'sigmoid', init = 'lecun_uniform', name =)
+	prediction = Dense(1, activation = 'sigmoid', init = 'lecun_uniform', name = )
 
 
 
