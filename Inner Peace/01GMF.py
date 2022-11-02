@@ -55,7 +55,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 
 	model = Model(input = [user_input, item_input], output = prediction)
 
-	return
+	return 
 
 
 
