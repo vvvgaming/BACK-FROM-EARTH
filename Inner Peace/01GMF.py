@@ -58,7 +58,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 	return model
 
 
-def get_train_in
+def get_train_ins
 
 
 
