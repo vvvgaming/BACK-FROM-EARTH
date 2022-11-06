@@ -59,7 +59,7 @@ def get_model(num_user, num_item, latent_dim, regs = [0, 0]):
 
 
 def get_train_instances(train, num_negatives):
-	user_input, item_input, labels =
+	user_input, item_input, labels = 
 
 
 
