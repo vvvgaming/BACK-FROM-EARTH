@@ -78,7 +78,7 @@
     # for (u, i) in train.keys():
         # positive instance
         # user_input.append(u)
-        item_input.append(i)
+        # item_input.append(i)
         labels.append(1)
         # negative instances
         for t in xrange(num_negatives):
