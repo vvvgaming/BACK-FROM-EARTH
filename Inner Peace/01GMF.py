@@ -65,6 +65,7 @@ def get_train_instances(train, num_negatives):
 		user_input.append(u)
 		item_input.append(i)
 		labels.append(1)
+		
 
 
 
