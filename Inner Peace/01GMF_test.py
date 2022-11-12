@@ -81,7 +81,7 @@
         # item_input.append(i)
         # labels.append(1)
         # negative instances
-        for t in xrange(num_negatives):
+        # for t in xrange(num_negatives):
             j = np.random.randint(num_items)
             while train.has_key((u, j)):
                 j = np.random.randint(num_items)
