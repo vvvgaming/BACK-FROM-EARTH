@@ -86,7 +86,7 @@
             # while train.has_key((u, j)):
                 # j = np.random.randint(num_items)
             # user_input.append(u)
-            item_input.append(j)
+            # item_input.append(j)
             labels.append(0)
     return user_input, item_input, labels
 
