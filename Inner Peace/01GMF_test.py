@@ -90,7 +90,7 @@
             # labels.append(0)
     # return user_input, item_input, labels
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     args = parse_args()
     num_factors = args.num_factors
     regs = eval(args.regs)
