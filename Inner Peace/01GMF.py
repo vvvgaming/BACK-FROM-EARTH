@@ -81,6 +81,7 @@ if __name__ == '__main__':
 	args = parse_args()
 	num_factors = args.num_factors
 	regs = eval(args.regs)
+	
 
 
 
