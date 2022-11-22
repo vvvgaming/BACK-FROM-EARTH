@@ -82,7 +82,7 @@ if __name__ == '__main__':
 	num_factors = args.num_factors
 	regs = eval(args.regs)
 	num_negatives = args.num_neg
-	learner = args.lea
+	learner = args.lear
 
 
 
