@@ -81,7 +81,7 @@ if __name__ == '__main__':
 	args = parse_args()
 	num_factors = args.num_factors
 	regs = eval(args.regs)
-	num_negatives = args.nu
+	num_negatives = args.num
 
 
 
