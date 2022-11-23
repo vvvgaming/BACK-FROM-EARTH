@@ -83,7 +83,7 @@ if __name__ == '__main__':
 	regs = eval(args.regs)
 	num_negatives = args.num_neg
 	learner = args.learner
-	
+	l
 
 
 
