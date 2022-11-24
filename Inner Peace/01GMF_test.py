@@ -97,7 +97,7 @@
     # num_negatives = args.num_neg
     # learner = args.learner
     # learning_rate = args.lr
-    epochs = args.epochs
+    # epochs = args.epochs
     batch_size = args.batch_size
     verbose = args.verbose
     
