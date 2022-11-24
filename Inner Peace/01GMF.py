@@ -85,7 +85,7 @@ if __name__ == '__main__':
 	learner = args.learner
 	learning_rate = args.lr
 	epochs = args.epochs
-	batc
+	batch
 
 
 
