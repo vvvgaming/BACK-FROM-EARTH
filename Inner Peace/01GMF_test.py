@@ -98,7 +98,7 @@
     # learner = args.learner
     # learning_rate = args.lr
     # epochs = args.epochs
-    batch_size = args.batch_size
+    # batch_size = args.batch_size
     verbose = args.verbose
     
     topK = 10
