@@ -86,7 +86,7 @@ if __name__ == '__main__':
 	learning_rate = args.lr
 	epochs = args.epochs
 	batch_size = args.batch_size
-	ve
+	ver
 
 
 
