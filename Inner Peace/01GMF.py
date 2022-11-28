@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 	topK = 10
 	evaluation_threads = 1
-	print("GMF arguments: %s" %(ar))
+	print("GMF arguments: %s" %(arg))
 
 
 
