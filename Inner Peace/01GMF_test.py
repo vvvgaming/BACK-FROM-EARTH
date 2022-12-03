@@ -107,7 +107,7 @@
     # model_out_file = 'Pretrain/%s_GMF_%d_%d.h5' %(args.dataset, num_factors, time())
     
     # Loading data
-    t1 = time()
+    # t1 = time()
     dataset = Dataset(args.path + args.dataset)
     train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRatings, dataset.testNegatives
     num_users, num_items = train.shape
