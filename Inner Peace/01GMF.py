@@ -97,7 +97,7 @@ if __name__ == '__main__':
 	dataset = Dataset(args.path +args.dataset)
 	train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRatings, dataset.testNegatives
 	num_users, num_items = train.shape
-	print("Load data done [%.1f s]. #user = ")
+	print("Load data done [%.1f s]. #user = %")
 
 
 
