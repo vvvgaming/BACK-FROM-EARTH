@@ -102,7 +102,7 @@ if __name__ == '__main__':
 
     model = get_model(num_users, num_items, num_factors, regs)
     if learner.lower() == 'adagrad':
-    	model
+    	model.
 
 
 
