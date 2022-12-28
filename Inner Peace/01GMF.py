@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 
     t1 = time()
-    (hits, ndcgs) = e
+    (hits, ndcgs) = ev
 
 
 
