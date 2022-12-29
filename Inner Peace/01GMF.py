@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 
     t1 = time()
-    (hits, ndcgs) = evaluate_model(model, te)
+    (hits, ndcgs) = evaluate_model(model, tes)
 
 
 
