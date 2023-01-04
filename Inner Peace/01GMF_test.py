@@ -132,7 +132,7 @@
     # hr, ndcg = np.array(hits).mean(), np.array(ndcgs).mean()
     #mf_embedding_norm = np.linalg.norm(model.get_layer('user_embedding').get_weights())+np.linalg.norm(model.get_layer('item_embedding').get_weights())
     #p_norm = np.linalg.norm(model.get_layer('prediction').get_weights()[0])
-    print('Init: HR = %.4f, NDCG = %.4f\t [%.1f s]' % (hr, ndcg, time()-t1))
+    # print('Init: HR = %.4f, NDCG = %.4f\t [%.1f s]' % (hr, ndcg, time()-t1))
     
     # Train model
     best_hr, best_ndcg, best_iter = hr, ndcg, -1
