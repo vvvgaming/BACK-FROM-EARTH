@@ -118,6 +118,9 @@ if __name__ == '__main__':
     print('Init: HR = %.4f, NDCG = %.4f\t [%.1f s]' % (hr, ndcg, time() - t1))
 
 
+    b
+
+
 
  
 
