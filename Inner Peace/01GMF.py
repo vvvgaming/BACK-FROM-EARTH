@@ -118,7 +118,7 @@ if __name__ == '__main__':
     print('Init: HR = %.4f, NDCG = %.4f\t [%.1f s]' % (hr, ndcg, time() - t1))
 
 
-    best_hr, best_ndcg, b
+    best_hr, best_ndcg, be
 
 
 
