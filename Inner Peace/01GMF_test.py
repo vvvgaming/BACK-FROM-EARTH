@@ -135,7 +135,7 @@
     # print('Init: HR = %.4f, NDCG = %.4f\t [%.1f s]' % (hr, ndcg, time()-t1))
     
     # Train model
-    best_hr, best_ndcg, best_iter = hr, ndcg, -1
+    # best_hr, best_ndcg, best_iter = hr, ndcg, -1
     for epoch in xrange(epochs):
         t1 = time()
         # Generate training instances
