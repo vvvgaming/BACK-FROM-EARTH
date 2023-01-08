@@ -122,7 +122,7 @@ if __name__ == '__main__':
     for epoch in xrang(epochs):
     	t1 = time()
 
-    	user_input, item_input, l
+    	user_input, item_input, la
 
 
 
