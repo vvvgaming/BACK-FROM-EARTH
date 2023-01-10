@@ -123,6 +123,7 @@ if __name__ == '__main__':
     	t1 = time()
 
     	user_input, item_input, labels = get_train_instances(train, num_negatives)
+    	
 
 
 
