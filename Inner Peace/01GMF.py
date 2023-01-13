@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
 
     	hist = model.fit([np.array(user_input), np.array(item_input)],
-    		              np.array(labe))
+    		              np.array(label))
 
 
 
