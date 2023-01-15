@@ -129,7 +129,7 @@ if __name__ == '__main__':
     		              np.array(labels),
     		              batch_size = batch_size, nb_epoch = 1, verbose = 0, shuffle = True)
 
-    	t2
+    	t2 
 
 
 
