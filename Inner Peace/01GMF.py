@@ -130,6 +130,7 @@ if __name__ == '__main__':
     		              batch_size = batch_size, nb_epoch = 1, verbose = 0, shuffle = True)
 
     	t2 = time()
+    	
 
 
 
