@@ -132,7 +132,7 @@ if __name__ == '__main__':
     	t2 = time()
 
     	if epoch %verbose == 0:
-    		(hits, ndcgs) = evaluat
+    		(hits, ndcgs) = evaluate
 
 
 
