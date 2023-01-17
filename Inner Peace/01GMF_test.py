@@ -148,7 +148,7 @@
         # t2 = time()
         
         # Evaluation
-        if epoch %verbose == 0:
+        # if epoch %verbose == 0:
             (hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, evaluation_threads)
             hr, ndcg, loss = np.array(hits).mean(), np.array(ndcgs).mean(), hist.history['loss'][0]
             print('Iteration %d [%.1f s]: HR = %.4f, NDCG = %.4f, loss = %.4f [%.1f s]' 
