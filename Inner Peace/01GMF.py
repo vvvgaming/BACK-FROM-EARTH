@@ -132,7 +132,7 @@ if __name__ == '__main__':
     	t2 = time()
 
     	if epoch %verbose == 0:
-    		(hits, ndcgs) = evaluate_model(model, testRatings, topK, evaluatio)
+    		(hits, ndcgs) = evaluate_model(model, testRatings, topK, evaluation)
 
 
 
