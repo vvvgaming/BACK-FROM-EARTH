@@ -136,6 +136,7 @@ if __name__ == '__main__':
     		hr, ndcg, loss = np.array(hits).mean(), np.array(ndcgs), hist.history['loss'][0]
     		print('Interation %d [%.1f s]: HR = %.4f, NDCG = %.4f, loss = %.4f [%.1f s]'
     			% (epoch, t2 - t1, hr, ndcg, loss, time() - t2))
+    		
 
 
 
