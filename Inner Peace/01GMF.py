@@ -137,7 +137,7 @@ if __name__ == '__main__':
     		print('Interation %d [%.1f s]: HR = %.4f, NDCG = %.4f, loss = %.4f [%.1f s]'
     			% (epoch, t2 - t1, hr, ndcg, loss, time() - t2))
 
-    		if hr > bes
+    		if hr > best
 
 
 
