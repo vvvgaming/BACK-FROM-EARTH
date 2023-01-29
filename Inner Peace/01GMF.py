@@ -139,7 +139,7 @@ if __name__ == '__main__':
 
     		if hr > best_hr:
     			best_hr, best_ndcg, best_iter = hr, ndcg, epoch
-    			if args.ou
+    			if args.out
 
 
 
