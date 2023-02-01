@@ -142,8 +142,8 @@ if __name__ == '__main__':
     			if args.out > 0:
     				model.save_weights(model_out_file, overwrite = True)
 
-
-    print("End. Best Interation %d:")
+ 
+    print("End. Best Interation %d: ")
 
 
 
