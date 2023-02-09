@@ -1,4 +1,4 @@
 import numpy as np
 
 import theano
-import theano.tenso
+import theano.tensor
