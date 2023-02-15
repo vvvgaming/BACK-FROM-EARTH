@@ -6,4 +6,4 @@ import keras
 from keras import backend as K
 from keras import initializations
 from keras.regularizers import l2, activity_l2
-from keras.models import Sequen
+from keras.models import Sequent
