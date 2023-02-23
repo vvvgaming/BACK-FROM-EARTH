@@ -10,4 +10,4 @@ from keras.models import Sequential, Graph, Model
 from keras.layers.core import Dense, Lambda, Activation
 from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten, Dropout
 from keras.constraints import maxnorm
-from keras.optimizers
+from keras.optimizers 
