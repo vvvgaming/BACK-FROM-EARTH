@@ -11,4 +11,4 @@ from keras.layers.core import Dense, Lambda, Activation
 from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten, Dropout
 from keras.constraints import maxnorm
 from keras.optimizers import Adagrad, Adam, SGD, RMSprop
-from eva
+from eval
