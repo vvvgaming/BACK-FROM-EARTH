@@ -11,7 +11,7 @@
 # from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten, Dropout
 # from keras.constraints import maxnorm
 # from keras.optimizers import Adagrad, Adam, SGD, RMSprop
-from evaluate import evaluate_model
+# from evaluate import evaluate_model
 from Dataset import Dataset
 from time import time
 import sys
