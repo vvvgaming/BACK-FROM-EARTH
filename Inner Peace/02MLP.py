@@ -12,4 +12,4 @@ from keras.layers import Embedding, Input, Dense, merge, Reshape, Merge, Flatten
 from keras.constraints import maxnorm
 from keras.optimizers import Adagrad, Adam, SGD, RMSprop
 from evaluate import evaluate_model
-f
+fr
