@@ -16,4 +16,4 @@ from Dataset import Dataset
 from time import time
 import sys
 import argparse
-import multiprocessing as m
+import multiprocessing as mp
