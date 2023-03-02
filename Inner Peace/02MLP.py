@@ -20,4 +20,4 @@ import multiprocessing as mp
 
 
 def parse_args():
-	parse
+	parser
