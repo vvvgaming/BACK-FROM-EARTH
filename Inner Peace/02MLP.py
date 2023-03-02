@@ -19,4 +19,4 @@ import argparse
 import multiprocessing as mp
 
 
-def parse_a
+def parse_ar
