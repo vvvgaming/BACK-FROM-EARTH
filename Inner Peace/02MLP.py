@@ -19,4 +19,4 @@ import argparse
 import multiprocessing as mp
 
 
-def pa
+def par
