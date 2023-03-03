@@ -20,4 +20,4 @@ import multiprocessing as mp
 
 
 def parse_args():
-	parser = argparse.ArgumentP
+	parser = argparse.ArgumentPa
