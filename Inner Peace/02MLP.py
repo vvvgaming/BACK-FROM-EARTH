@@ -20,4 +20,4 @@ import multiprocessing as mp
 
 
 def parse_args():
-	parser = argparse.ArgumentParser(description = "Run MLP")
+	parser = argparse.ArgumentParser(description = "Run MLP.")
