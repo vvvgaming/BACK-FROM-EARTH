@@ -22,4 +22,4 @@ import multiprocessing as mp
 def parse_args():
 	parser = argparse.ArgumentParser(description = "Run MLP.")
 	parser.add_argument('--path', nargs = '?', default = 'Data/', help = 'Input data path.')
-	parser.add_argument('--dataset', nargs = '?', default =)
+	parser.add_argument('--dataset', nargs = '?', default = )
