@@ -25,4 +25,4 @@ def parse_args():
 	parser.add_argument('--dataset', nargs = '?', default = 'ml-1m', help = 'Choose a dataset.')
 	parser.add_argument('--epochs', type = int, default = 100, help = 'Number of epochs.')
 	parser.add_argument('--batch_size', type = int, default = 256, help = 'Batch size.')
-	parser.add_argument('--layers', nargs = '?', default = '[64, 32, 16, 8]', help = "Size of each layer. Note that ")
+	parser.add_argument('--layers', nargs = '?', default = '[64, 32, 16, 8]', help = "Size of each layer. Note that t")
