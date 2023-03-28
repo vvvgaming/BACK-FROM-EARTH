@@ -26,4 +26,4 @@ def parse_args():
 	parser.add_argument('--epochs', type = int, default = 100, help = 'Number of epochs.')
 	parser.add_argument('--batch_size', type = int, default = 256, help = 'Batch size.')
 	parser.add_argument('--layers', nargs = '?', default = '[64, 32, 16, 8]', help = "Size of each layer. Note that the concatenation of user and item embedding. So layers[0]/2 is the embedding size.")
-	parser.add_argument('--reg_layers', nargs = '?', default = '[0,0,0,0]', help = "Regularization for ")
+	parser.add_argument('--reg_layers', nargs = '?', default = '[0,0,0,0]', help = "Regularization for e")
