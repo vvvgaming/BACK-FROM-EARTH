@@ -28,4 +28,4 @@ def parse_args():
 	parser.add_argument('--layers', nargs = '?', default = '[64, 32, 16, 8]', help = "Size of each layer. Note that the concatenation of user and item embedding. So layers[0]/2 is the embedding size.")
 	parser.add_argument('--reg_layers', nargs = '?', default = '[0,0,0,0]', help = "Regularization for each layer")
 	parser.add_argument('--num_neg', type = int, default = 4, help = 'Number of negatives instances to pair with a positive instances.)
-	parser.add_argument('--lr', type = float, default = 0.001, help = 'Le')
+	parser.add_argument('--lr', type = float, default = 0.001, help = 'Lea')
