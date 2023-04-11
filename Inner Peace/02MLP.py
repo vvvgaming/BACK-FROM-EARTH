@@ -30,7 +30,7 @@ def parse_args():
 	parser.add_argument('--num_neg', type = int, default = 4, help = 'Number of negatives instances to pair with a positive instances.)
 	parser.add_argument('--lr', type = float, default = 0.001, help = 'Learning rate.')
 	parser.add_argument('--learner', nargs = '?', default = 'adam', help = 'Specify an optimizer: adagrad, adam, rmsprop, sgd')
-	parser.add_argument('--verbose', type = int)
+	parser.add_argument('--verbose', type = int,)
 
 
 
