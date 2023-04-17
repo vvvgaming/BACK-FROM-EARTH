@@ -33,6 +33,7 @@ def parse_args():
 	parser.add_argument('--verbose', type = int, default = 1, help = 'Show performance per X iterations')
 	parser.add_argument('--out', type = int, default = 1, help = 'Whether to save the trained model.')
 	return parser.parse_args()
+	
 
 
 
