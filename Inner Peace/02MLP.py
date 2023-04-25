@@ -38,7 +38,7 @@ def init_normal(shape, name = None):
 	return initializations.normal(shape, scale = 0.01, name = name)
 
 def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
-	assert len(la)
+	assert len(lay)
 
 
 
