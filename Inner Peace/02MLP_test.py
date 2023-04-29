@@ -52,7 +52,7 @@
 #     assert len(layers) == len(reg_layers)
     # num_layer = len(layers) #Number of layers in the MLP
     # Input variables
-    user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
+    # user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
     item_input = Input(shape=(1,), dtype='int32', name = 'item_input')
 
     MLP_Embedding_User = Embedding(input_dim = num_users, output_dim = layers[0]/2, name = 'user_embedding',
