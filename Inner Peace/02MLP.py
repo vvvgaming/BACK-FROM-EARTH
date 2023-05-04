@@ -44,7 +44,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 	user_input = Input(shape = (1,), dtype = 'int32', name = 'user_input')
 	item_input = Input(shape = (1,), dtype = 'int32', name = 'item_input')
 
-	MLP_Emdedding_User = Embedding(input_dim = num_users, output_dim = layers[0]/2, name = 'user_embeddin')
+	MLP_Emdedding_User = Embedding(input_dim = num_users, output_dim = layers[0]/2, name = 'user_embedding',)
 
 
 
