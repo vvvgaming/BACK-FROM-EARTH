@@ -47,7 +47,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 	MLP_Embedding_User = Embedding(input_dim = num_users, output_dim = layers[0]/2, name = 'user_embedding',
 		init = init_normal, W_regularizer = l2(reg_layers[0]), input_length = 1)
 	MLP_Embedding_Item = Embedding(input_dim = num_items, output_dim = layers[0]/2, name = 'item_embedding',
-		init = init_)
+		init = init_n)
 
 
 
