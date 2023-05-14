@@ -50,7 +50,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 		init = init_normal, W_regularizer = l2(reg_layers[0]), input_length = 1)
 
 
-	user_late
+	user_laten
 
 
 
