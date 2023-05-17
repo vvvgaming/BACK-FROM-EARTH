@@ -51,7 +51,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 
 
 	user_latent = Flatten()(MLP_Embedding_User(user_input))
-	item_latent = Flatten()(MLP_Embedding)
+	item_latent = Flatten()(MLP_Embedding_)
 
 
 
