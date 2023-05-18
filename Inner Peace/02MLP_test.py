@@ -62,7 +62,7 @@
     
     # Crucial to flatten an embedding vector!
     # user_latent = Flatten()(MLP_Embedding_User(user_input))
-    item_latent = Flatten()(MLP_Embedding_Item(item_input))
+    # item_latent = Flatten()(MLP_Embedding_Item(item_input))
     
     # The 0-th layer is the concatenation of embedding layers
     vector = merge([user_latent, item_latent], mode = 'concat')
