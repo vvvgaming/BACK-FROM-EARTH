@@ -65,7 +65,7 @@
     # item_latent = Flatten()(MLP_Embedding_Item(item_input))
     
     # The 0-th layer is the concatenation of embedding layers
-    vector = merge([user_latent, item_latent], mode = 'concat')
+    # vector = merge([user_latent, item_latent], mode = 'concat')
     
     # MLP layers
     for idx in xrange(1, num_layer):
