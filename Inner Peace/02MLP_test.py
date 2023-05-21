@@ -68,7 +68,7 @@
     # vector = merge([user_latent, item_latent], mode = 'concat')
     
     # MLP layers
-    for idx in xrange(1, num_layer):
+    # for idx in xrange(1, num_layer):
         layer = Dense(layers[idx], W_regularizer= l2(reg_layers[idx]), activation='relu', name = 'layer%d' %idx)
         vector = layer(vector)
         
