@@ -56,7 +56,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 	vector = merge([user_latent, item_latent], mode = 'concat')
 
 	for idx in xrange(1, num_layer):
-		layer = Dense(layers[idx], W_regulariz)
+		layer = Dense(layers[idx], W_regularize)
 
 
 
