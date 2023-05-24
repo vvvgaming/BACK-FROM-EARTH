@@ -57,6 +57,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 
 	for idx in xrange(1, num_layer):
 		layer = Dense(layers[idx], W_regularizer = l2(reg_layers[idx]), activation = 'relu', name = 'layer%d' %idx)
+		
 
 
 
