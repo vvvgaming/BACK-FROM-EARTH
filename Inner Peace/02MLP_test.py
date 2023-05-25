@@ -69,8 +69,8 @@
     
     # MLP layers
     # for idx in xrange(1, num_layer):
-        layer = Dense(layers[idx], W_regularizer= l2(reg_layers[idx]), activation='relu', name = 'layer%d' %idx)
-        vector = layer(vector)
+        # layer = Dense(layers[idx], W_regularizer= l2(reg_layers[idx]), activation='relu', name = 'layer%d' %idx)
+        # vector = layer(vector)
         
     # Final prediction layer
     prediction = Dense(1, activation='sigmoid', init='lecun_uniform', name = 'prediction')(vector)
