@@ -60,7 +60,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 		vector = layer(vector)
 
 
-		prediction = Dense(1, activation = 'sigmoid', init = 'lecum')
+		prediction = Dense(1, activation = 'sigmoid', init = 'lecum_')
 
 
 
