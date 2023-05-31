@@ -78,7 +78,7 @@
     # model = Model(input=[user_input, item_input], 
     #               output=prediction)
     
-    return model
+    # return model
 
 def get_train_instances(train, num_negatives):
     user_input, item_input, labels = [],[],[]
