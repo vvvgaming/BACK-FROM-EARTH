@@ -68,7 +68,8 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 
 		return model
 
-		
+
+
 
 
 
