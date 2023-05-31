@@ -75,8 +75,8 @@
     # Final prediction layer
     # prediction = Dense(1, activation='sigmoid', init='lecun_uniform', name = 'prediction')(vector)
     
-    model = Model(input=[user_input, item_input], 
-                  output=prediction)
+    # model = Model(input=[user_input, item_input], 
+    #               output=prediction)
     
     return model
 
