@@ -74,7 +74,7 @@ def get_train_instances(train, num_negatives):
 	num_users = train.shape[0]
 	for (u, i) in train.keys():
 
-		u
+		us
 
 
 
