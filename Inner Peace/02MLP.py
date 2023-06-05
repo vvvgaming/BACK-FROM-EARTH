@@ -72,7 +72,7 @@ def get_model(num_user, num_items, layers = [20,10], reg_layers = [0,0]):
 def get_train_instances(train, num_negatives):
 	user_input, item_input, labels = [],[],[]
 	num_users = train.shape[0]
-	for (u, i) in train.k
+	for (u, i) in train.ke
 
 
 
