@@ -75,7 +75,7 @@ def get_train_instances(train, num_negatives):
 	for (u, i) in train.keys():
 
 		user_input.append(u)
-		
+		i
 
 
 
