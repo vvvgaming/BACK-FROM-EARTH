@@ -78,7 +78,7 @@ def get_train_instances(train, num_negatives):
 		item_input.append(j)
 		labels.append(1)
 
-		for t in xrang
+		for t in xrange
 
 
 
