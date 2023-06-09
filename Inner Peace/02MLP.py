@@ -79,7 +79,7 @@ def get_train_instances(train, num_negatives):
 		labels.append(1)
 
 		for t in xrange(num_negatives):
-			j = n
+			j = np
 
 
 
