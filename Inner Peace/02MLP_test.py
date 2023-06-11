@@ -91,7 +91,7 @@
 #         # negative instances
 #         for t in xrange(num_negatives):
 #             j = np.random.randint(num_items)
-            while train.has_key((u, j)):
+            # while train.has_key((u, j)):
                 j = np.random.randint(num_items)
             user_input.append(u)
             item_input.append(j)
