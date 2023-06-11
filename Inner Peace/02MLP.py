@@ -80,7 +80,7 @@ def get_train_instances(train, num_negatives):
 
 		for t in xrange(num_negatives):
 			j = np.random.randint(num_items)
-			while train.has_k
+			while train.has_ke
 
 
 
