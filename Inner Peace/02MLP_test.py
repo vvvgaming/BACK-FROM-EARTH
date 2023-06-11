@@ -80,17 +80,17 @@
     
     # return model
 
-def get_train_instances(train, num_negatives):
-    user_input, item_input, labels = [],[],[]
-    num_users = train.shape[0]
-    for (u, i) in train.keys():
-        # positive instance
-        user_input.append(u)
-        item_input.append(i)
-        labels.append(1)
-        # negative instances
-        for t in xrange(num_negatives):
-            j = np.random.randint(num_items)
+# def get_train_instances(train, num_negatives):
+#     user_input, item_input, labels = [],[],[]
+#     num_users = train.shape[0]
+#     for (u, i) in train.keys():
+#         # positive instance
+#         user_input.append(u)
+#         item_input.append(i)
+#         labels.append(1)
+#         # negative instances
+#         for t in xrange(num_negatives):
+#             j = np.random.randint(num_items)
             while train.has_key((u, j)):
                 j = np.random.randint(num_items)
             user_input.append(u)
