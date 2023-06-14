@@ -87,7 +87,7 @@ def get_train_instances(train, num_negatives):
 			labels.append(0)
 
 
-	return user_in
+	return user_inp
 
 
 
