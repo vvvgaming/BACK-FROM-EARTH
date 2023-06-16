@@ -90,7 +90,7 @@ def get_train_instances(train, num_negatives):
 	return user_input, item_input, labels
 
 
-if __name__ == '__main'
+if __name__ == '__main_'
 
 
 
