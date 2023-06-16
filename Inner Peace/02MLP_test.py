@@ -98,7 +98,7 @@
             # labels.append(0)
     # return user_input, item_input, labels
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     args = parse_args()
     path = args.path
     dataset = args.dataset
