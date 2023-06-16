@@ -96,7 +96,7 @@
             # user_input.append(u)
             # item_input.append(j)
             # labels.append(0)
-    return user_input, item_input, labels
+    # return user_input, item_input, labels
 
 if __name__ == '__main__':
     args = parse_args()
