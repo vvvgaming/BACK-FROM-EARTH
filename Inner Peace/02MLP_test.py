@@ -99,7 +99,7 @@
     # return user_input, item_input, labels
 
 # if __name__ == '__main__':
-    args = parse_args()
+    # args = parse_args()
     path = args.path
     dataset = args.dataset
     layers = eval(args.layers)
