@@ -100,7 +100,7 @@
 
 # if __name__ == '__main__':
     # args = parse_args()
-    path = args.path
+    # path = args.path
     dataset = args.dataset
     layers = eval(args.layers)
     reg_layers = eval(args.reg_layers)
