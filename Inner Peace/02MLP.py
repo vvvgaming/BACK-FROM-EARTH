@@ -94,7 +94,7 @@ if __name__ == '__main__':
 	args = parser_args()
 	path = args.path
 	dataset = args.dataset
-	layer
+	layers
 
 
 
