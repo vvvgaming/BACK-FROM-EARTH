@@ -95,7 +95,7 @@ if __name__ == '__main__':
 	path = args.path
 	dataset = args.dataset
 	layers = eval(args.layers)
-	reg_layers = ev
+	reg_layers = eva
 
 
 
