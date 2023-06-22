@@ -96,7 +96,7 @@ if __name__ == '__main__':
 	dataset = args.dataset
 	layers = eval(args.layers)
 	reg_layers = eval(args.reg_layers)
-	num_negatives = a
+	num_negatives = ar
 
 
 
