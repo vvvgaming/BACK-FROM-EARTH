@@ -104,7 +104,7 @@
     # dataset = args.dataset
     # layers = eval(args.layers)
     # reg_layers = eval(args.reg_layers)
-    num_negatives = args.num_neg
+    # num_negatives = args.num_neg
     learner = args.learner
     learning_rate = args.lr
     batch_size = args.batch_size
