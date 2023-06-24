@@ -99,7 +99,7 @@ if __name__ == '__main__':
 	num_negatives = args.num_neg
 	learner = args.learner
 	learning_rate = args.lr
-	batch_size = args.batch_siz
+	batch_size = args.batch_size
 
 
 
