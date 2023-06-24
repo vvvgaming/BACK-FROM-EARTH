@@ -98,7 +98,7 @@ if __name__ == '__main__':
 	reg_layers = eval(args.reg_layers)
 	num_negatives = args.num_neg
 	learner = args.learner
-	learning_rate =
+	learning_rate = 
 
 
 
