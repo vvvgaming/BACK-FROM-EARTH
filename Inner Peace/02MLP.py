@@ -100,7 +100,7 @@ if __name__ == '__main__':
 	learner = args.learner
 	learning_rate = args.lr
 	batch_size = args.batch_size
-	ep
+	epo
 
 
 
