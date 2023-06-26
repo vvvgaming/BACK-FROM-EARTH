@@ -103,7 +103,7 @@ if __name__ == '__main__':
 	epochs = args.epochs
 	verbose = args.verbose
 
-	topK 
+	topK =
 
 
 
