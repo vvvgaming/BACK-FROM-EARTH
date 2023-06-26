@@ -101,7 +101,7 @@ if __name__ == '__main__':
 	learning_rate = args.lr
 	batch_size = args.batch_size
 	epochs = args.epochs
-	verbose = args
+	verbose = args.
 
 
 
