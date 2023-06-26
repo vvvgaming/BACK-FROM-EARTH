@@ -109,7 +109,7 @@
     # learning_rate = args.lr
     # batch_size = args.batch_size
     # epochs = args.epochs
-    verbose = args.verbose
+    # verbose = args.verbose
     
     topK = 10
     evaluation_threads = 1 #mp.cpu_count()
