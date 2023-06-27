@@ -111,7 +111,7 @@
     # epochs = args.epochs
     # verbose = args.verbose
     
-    topK = 10
+    # topK = 10
     evaluation_threads = 1 #mp.cpu_count()
     print("MLP arguments: %s " %(args))
     model_out_file = 'Pretrain/%s_MLP_%s_%d.h5' %(args.dataset, args.layers, time())
