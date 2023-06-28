@@ -104,7 +104,7 @@ if __name__ == '__main__':
 	verbose = args.verbose
 
 	topK = 10
-	evaluation_thread
+	evaluation_threads
 
 
 
