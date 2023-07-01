@@ -107,6 +107,8 @@ if __name__ == '__main__':
 	evaluation_threads = 1
 	print("MLP argument: %s " %(args))
 	model_out_file = 'Pretrain/%s_MLP_%s_%d.h5' %(args.dataset, args.layers, time())
+
+
 	
 
 
