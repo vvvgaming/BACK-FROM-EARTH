@@ -109,7 +109,7 @@ if __name__ == '__main__':
 	model_out_file = 'Pretrain/%s_MLP_%s_%d.h5' %(args.dataset, args.layers, time())
 
 
-	t1 = time
+	t1 = time()
 
 
 
