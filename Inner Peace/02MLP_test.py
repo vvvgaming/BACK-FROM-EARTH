@@ -118,7 +118,7 @@
     
     # Loading data
     # t1 = time()
-    dataset = Dataset(args.path + args.dataset)
+    # dataset = Dataset(args.path + args.dataset)
     train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRatings, dataset.testNegatives
     num_users, num_items = train.shape
     print("Load data done [%.1f s]. #user=%d, #item=%d, #train=%d, #test=%d" 
