@@ -110,7 +110,7 @@ if __name__ == '__main__':
 
 
 	t1 = time()
-	dataset = Dataset()
+	dataset = Dataset(a)
 
 
 
