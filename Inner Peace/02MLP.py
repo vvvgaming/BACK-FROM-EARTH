@@ -110,7 +110,7 @@ if __name__ == '__main__':
 
 
 	t1 = time()
-	dataset = Dataset(args.pat)
+	dataset = Dataset(args.path)
 
 
 
