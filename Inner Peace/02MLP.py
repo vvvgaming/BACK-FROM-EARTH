@@ -111,7 +111,7 @@ if __name__ == '__main__':
 
 	t1 = time()
 	dataset = Dataset(args.path + args.dataset)
-	train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRating, dataset.testNe
+	train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRating, dataset.testNeg
 
 
 
