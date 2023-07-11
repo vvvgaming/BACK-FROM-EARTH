@@ -114,7 +114,7 @@ if __name__ == '__main__':
 	train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRating, dataset.testNegatives
 	num_users, num_items = train.shape
 	print("Load data done [%.1f s]. #user = %d, #item = %d, #train = %d, #test = %d"
-		%(time() ))
+		%(time() -))
 
 
 
