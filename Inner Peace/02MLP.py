@@ -117,7 +117,7 @@ if __name__ == '__main__':
 		%(time() - t1, num_users, num_items, train.nnz, len(testRatings)))
 
 
-	model =
+	model = 
 
 
 
