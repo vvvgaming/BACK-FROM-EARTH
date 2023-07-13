@@ -116,6 +116,8 @@ if __name__ == '__main__':
 	print("Load data done [%.1f s]. #user = %d, #item = %d, #train = %d, #test = %d"
 		%(time() - t1, num_users, num_items, train.nnz, len(testRatings)))
 
+	
+
 
 
 
