@@ -125,7 +125,7 @@
     #       %(time()-t1, num_users, num_items, train.nnz, len(testRatings)))
     
     # Build model
-    model = get_model(num_users, num_items, layers, reg_layers)
+    # model = get_model(num_users, num_items, layers, reg_layers)
     if learner.lower() == "adagrad": 
         model.compile(optimizer=Adagrad(lr=learning_rate), loss='binary_crossentropy')
     elif learner.lower() == "rmsprop":
