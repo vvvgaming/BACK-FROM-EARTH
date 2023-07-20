@@ -120,7 +120,7 @@ if __name__ == '__main__':
 	model = get_model(num_users, num_items, layers, reg_layers)
 	if learner.lower() == "adagrad":
 		model.compile(optimizer = Adagrad(lr = learning_rate), loss = 'binary_crossentropy')
-	elif learner
+	elif learner.
 
 
 
