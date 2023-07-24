@@ -121,7 +121,8 @@ if __name__ == '__main__':
 	if learner.lower() == "adagrad":
 		model.compile(optimizer = Adagrad(lr = learning_rate), loss = 'binary_crossentropy')
 	elif learner.lower() == "rmsprop":
-		model.compile(optimizer = RMSprop(lr = learning_rate), loss = 'binary_crossentrop')
+		model.compile(optimizer = RMSprop(lr = learning_rate), loss = 'binary_crossentropy')
+	e
 
 
 
