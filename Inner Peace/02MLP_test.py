@@ -130,7 +130,7 @@
         # model.compile(optimizer=Adagrad(lr=learning_rate), loss='binary_crossentropy')
     # elif learner.lower() == "rmsprop":
         # model.compile(optimizer=RMSprop(lr=learning_rate), loss='binary_crossentropy')
-    elif learner.lower() == "adam":
+    # elif learner.lower() == "adam":
         model.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy')
     else:
         model.compile(optimizer=SGD(lr=learning_rate), loss='binary_crossentropy')    
