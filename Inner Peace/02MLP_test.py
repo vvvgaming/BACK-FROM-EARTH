@@ -132,7 +132,7 @@
         # model.compile(optimizer=RMSprop(lr=learning_rate), loss='binary_crossentropy')
     # elif learner.lower() == "adam":
         # model.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy')
-    else:
+    # else:
         model.compile(optimizer=SGD(lr=learning_rate), loss='binary_crossentropy')    
     
     # Check Init performance
