@@ -131,7 +131,7 @@ if __name__ == '__main__':
 	t1 = time()
 	(hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, evaluation_threads)
 	hr, ndcg = np.array(hits).mean(), np.array(ndcgs).mean()
-	print('Init')
+	print('Init:')
 
 
 
