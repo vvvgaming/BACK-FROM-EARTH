@@ -133,6 +133,7 @@ if __name__ == '__main__':
 	hr, ndcg = np.array(hits).mean(), np.array(ndcgs).mean()
 	print('Init: HR = %.4f, NDCG = %.4f [%.1f]' %(hr, ndcg, time() - t1))
 
+
 	
 
 
