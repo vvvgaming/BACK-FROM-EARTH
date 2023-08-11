@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
 
 	best_hr, best_ndcg, best_iter = hr, ndcg, -1
-	for epoch in xrange
+	for epoch in xrange()
 
 
 
