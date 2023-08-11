@@ -144,7 +144,7 @@
     # Train model
     # best_hr, best_ndcg, best_iter = hr, ndcg, -1
     # for epoch in xrange(epochs):
-        t1 = time()
+        # t1 = time()
         # Generate training instances
         user_input, item_input, labels = get_train_instances(train, num_negatives)
     
