@@ -138,7 +138,7 @@ if __name__ == '__main__':
 	for epoch in xrange(epochs):
 		t1 = time()
 
-		user_input, item_input, labels = get_t
+		user_input, item_input, labels = get_tr
 
 
 
