@@ -146,7 +146,7 @@
     # for epoch in xrange(epochs):
         # t1 = time()
         # Generate training instances
-        user_input, item_input, labels = get_train_instances(train, num_negatives)
+        # user_input, item_input, labels = get_train_instances(train, num_negatives)
     
         # Training        
         hist = model.fit([np.array(user_input), np.array(item_input)], #input
