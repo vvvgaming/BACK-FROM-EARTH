@@ -141,7 +141,7 @@ if __name__ == '__main__':
 		user_input, item_input, labels = get_train_instances(train, num_negatives)
 
 
-		hist = model.fit([np.array(user_input), np.array(item_input)], np.array(lab))
+		hist = model.fit([np.array(user_input), np.array(item_input)], np.array(labe))
 
 
 
