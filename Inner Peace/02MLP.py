@@ -143,7 +143,7 @@ if __name__ == '__main__':
 
 		hist = model.fit([np.array(user_input), np.array(item_input)], np.array(labels),
 			             batch_size = batch_size, np_epoch = 1, verbose = 0, shuffle = True)
-		t2 
+		t2 =
 
 
 
