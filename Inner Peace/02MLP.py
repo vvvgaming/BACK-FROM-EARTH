@@ -146,7 +146,7 @@ if __name__ == '__main__':
 		t2 = time()
 
 
-		if epoch %
+		if epoch %v
 
 
 
