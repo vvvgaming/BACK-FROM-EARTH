@@ -147,6 +147,7 @@ if __name__ == '__main__':
 
 
 		if epoch %verbose == 0:
+			
 
 
 
