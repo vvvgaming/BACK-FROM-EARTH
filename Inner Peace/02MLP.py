@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
 
 		if epoch %verbose == 0:
-			(hits, ndcgs) = ev
+			(hits, ndcgs) = eva
 
 
 
