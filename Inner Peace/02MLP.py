@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
 
 		if epoch %verbose == 0:
-			(hits, ndcgs) = evaluate_model(model, testRatings, tesNegatives, topK, evaluation_thread)
+			(hits, ndcgs) = evaluate_model(model, testRatings, tesNegatives, topK, evaluation_threads)
 
 
 
