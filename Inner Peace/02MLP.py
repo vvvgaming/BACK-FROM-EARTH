@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
 		if epoch %verbose == 0:
 			(hits, ndcgs) = evaluate_model(model, testRatings, tesNegatives, topK, evaluation_threads)
-			hr, ndcg, loss = np.array(hits).mean(), np.array(ndcgs).mean(), h
+			hr, ndcg, loss = np.array(hits).mean(), np.array(ndcgs).mean(), hi
 
 
 
