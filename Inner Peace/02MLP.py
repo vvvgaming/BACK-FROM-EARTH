@@ -150,7 +150,7 @@ if __name__ == '__main__':
 			(hits, ndcgs) = evaluate_model(model, testRatings, tesNegatives, topK, evaluation_threads)
 			hr, ndcg, loss = np.array(hits).mean(), np.array(ndcgs).mean(), hit.history['loss'][0]
 			print('Iteration %d [%.1f s]: HR = %.4f, NDCG = %.4f, loss = %.4f [%.1f s]'
-				% (epoch, t2 - t))
+				% (epoch, t2 - t1))
 
 
 
