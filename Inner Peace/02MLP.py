@@ -157,7 +157,7 @@ if __name__ == '__main__':
 			    	model.save_weights(model_out_file, overwrite = True)
 
 
-	p
+	pr
 
 
 
