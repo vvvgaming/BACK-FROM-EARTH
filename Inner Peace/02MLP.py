@@ -157,7 +157,7 @@ if __name__ == '__main__':
 			    	model.save_weights(model_out_file, overwrite = True)
 
 
-	print("End. Best Iteration %d: HR =")
+	print("End. Best Iteration %d: HR = ")
 
 
 
