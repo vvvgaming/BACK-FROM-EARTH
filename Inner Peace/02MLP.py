@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
 
 	print("End. Best Iteration %d: HR = %.4f, NDCG = %.4f." %(best_iter, best_hr, best_ndcg))
-	if args
+	if args.
 
 
 
