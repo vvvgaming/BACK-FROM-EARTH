@@ -1,3 +1,3 @@
 import numpy as np
 
-import thea
+import thean
