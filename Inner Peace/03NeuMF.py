@@ -5,4 +5,4 @@ import theano.tensor as T
 import keras
 from keras import backend as K
 from keras import initializations
-from keras.regul
+from keras.regula
