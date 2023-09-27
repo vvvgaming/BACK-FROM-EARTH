@@ -8,4 +8,4 @@ from keras import initializations
 from keras.regularizers import l1, l2, l1l2
 from keras.model import Sequential, Model
 from keras.layers.core import Dense, Lambda, Activation
-from keras
+from keras.
