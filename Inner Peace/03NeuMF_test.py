@@ -12,7 +12,7 @@
 # from keras.optimizers import Adagrad, Adam, SGD, RMSprop
 # from evaluate import evaluate_model
 # from Dataset import Dataset
-from time import time
+# from time import time
 import sys
 import GMF, MLP
 import argparse
