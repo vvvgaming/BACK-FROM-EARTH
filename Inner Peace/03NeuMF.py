@@ -18,4 +18,4 @@ import GMF, MLP
 import argparse
 
 
-def parse_ar
+def parse_arg
