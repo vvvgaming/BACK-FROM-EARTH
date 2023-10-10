@@ -19,4 +19,4 @@ import argparse
 
 
 def parse_args():
-	parser = argparse.ArgumentParser(description = "Run Ne")
+	parser = argparse.ArgumentParser(description = "Run Neu")
