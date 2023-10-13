@@ -20,4 +20,4 @@ import argparse
 
 def parse_args():
 	parser = argparse.ArgumentParser(description = "Run NeuMF.")
-	parser.add_argument('--path', nargs = '?', default = 'Data/', help = 'Input d')
+	parser.add_argument('--path', nargs = '?', default = 'Data/', help = 'Input da')
