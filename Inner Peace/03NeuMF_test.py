@@ -18,10 +18,10 @@
 # import argparse
 
 #################### Arguments ####################
-def parse_args():
-    parser = argparse.ArgumentParser(description="Run NeuMF.")
-    parser.add_argument('--path', nargs='?', default='Data/',
-                        help='Input data path.')
+# def parse_args():
+#     parser = argparse.ArgumentParser(description="Run NeuMF.")
+#     parser.add_argument('--path', nargs='?', default='Data/',
+#                         help='Input data path.')
     parser.add_argument('--dataset', nargs='?', default='ml-1m',
                         help='Choose a dataset.')
     parser.add_argument('--epochs', type=int, default=100,
