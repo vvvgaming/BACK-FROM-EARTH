@@ -25,5 +25,5 @@ def parse_args():
 	parser.add_argument('--epchos', type = int, default = 100, help = 'Number of epchos.')
 	parser.add_argument('--batch_size', type = int, default = 256, help = 'Batch size.')
 	parser.add_argument('--num_factors', type = int, default = 8, help = 'Embedding size of MF model.')
-	parser.add_argument('--layers', nargs = '?', default = '[64, 32, 16, 8]', help = 'MLP layers. Note that the first layer is the concatenation of user and item embeddi')
+	parser.add_argument('--layers', nargs = '?', default = '[64, 32, 16, 8]', help = 'MLP layers. Note that the first layer is the concatenation of user and item embeddin')
 
