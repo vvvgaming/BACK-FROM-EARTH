@@ -30,8 +30,8 @@
     #                     help='Batch size.')
     # parser.add_argument('--num_factors', type=int, default=8,
     #                     help='Embedding size of MF model.')
-    parser.add_argument('--layers', nargs='?', default='[64,32,16,8]',
-                        help="MLP layers. Note that the first layer is the concatenation of user and item embeddings. So layers[0]/2 is the embedding size.")
+    # parser.add_argument('--layers', nargs='?', default='[64,32,16,8]',
+    #                     help="MLP layers. Note that the first layer is the concatenation of user and item embeddings. So layers[0]/2 is the embedding size.")
     parser.add_argument('--reg_mf', type=float, default=0,
                         help='Regularization for MF embeddings.')                    
     parser.add_argument('--reg_layers', nargs='?', default='[0,0,0,0]',
