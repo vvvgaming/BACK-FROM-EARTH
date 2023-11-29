@@ -30,5 +30,5 @@ def parse_args():
 	parser.add_argument('--reg_layers', nargs = '?', default = '[0, 0, 0, 0]', help = "Regularization for each MLP layer. reg_layer[0] is the regularization for embeddings.")
 	parser.add_argument('--num_neg', type = int, default = 4, help = 'Number of negative instances to pair with a positive instance.')
 	parser.add_argument('--lr', type = float, default = 0.001, help = 'Learning rate.')
-	parser.add_argument('--learner', nargs = '?', def)
+	parser.add_argument('--learner', nargs = '?', defa)
 
