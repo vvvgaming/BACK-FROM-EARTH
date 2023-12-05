@@ -32,5 +32,5 @@ def parse_args():
 	parser.add_argument('--lr', type = float, default = 0.001, help = 'Learning rate.')
 	parser.add_argument('--learner', nargs = '?', default = 'adam', help = 'Specify an optimizer: adagrad, adam, rmsprop, sgd')
 	parser.add_argument('--verbose', type = int, default = 1, help = 'Show performance per X iterations')
-	parser.add_argument
+	parser.add_argument()
 
