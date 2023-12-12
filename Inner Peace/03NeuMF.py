@@ -33,5 +33,5 @@ def parse_args():
 	parser.add_argument('--learner', nargs = '?', default = 'adam', help = 'Specify an optimizer: adagrad, adam, rmsprop, sgd')
 	parser.add_argument('--verbose', type = int, default = 1, help = 'Show performance per X iterations')
 	parser.add_argument('--out', type = int, default = 1, help = 'Whether to save the trained model.')
-	parser.add_argument('--mf_pretrain', nargs = '?', default = '', help = 'Specify the pretrain model file for MF part. If empty, no pre')
+	parser.add_argument('--mf_pretrain', nargs = '?', default = '', help = 'Specify the pretrain model file for MF part. If empty, no pret')
 
