@@ -46,8 +46,8 @@
 #                         help='Show performance per X iterations')
 #     parser.add_argument('--out', type=int, default=1,
 #                         help='Whether to save the trained model.')
-    parser.add_argument('--mf_pretrain', nargs='?', default='',
-                        help='Specify the pretrain model file for MF part. If empty, no pretrain will be used')
+#     parser.add_argument('--mf_pretrain', nargs='?', default='',
+#                         help='Specify the pretrain model file for MF part. If empty, no pretrain will be used')
     parser.add_argument('--mlp_pretrain', nargs='?', default='',
                         help='Specify the pretrain model file for MLP part. If empty, no pretrain will be used')
     return parser.parse_args()
