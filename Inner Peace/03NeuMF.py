@@ -34,7 +34,7 @@ def parse_args():
 	parser.add_argument('--verbose', type = int, default = 1, help = 'Show performance per X iterations')
 	parser.add_argument('--out', type = int, default = 1, help = 'Whether to save the trained model.')
 	parser.add_argument('--mf_pretrain', nargs = '?', default = '', help = 'Specify the pretrain model file for MF part. If empty, no pretrain will be used')
-	parser.add_argument('--mlp_pretrain', nargs = '?', default = '', help = 'Spec')
+	parser.add_argument('--mlp_pretrain', nargs = '?', default = '', help = 'Speci')
 
 
 
