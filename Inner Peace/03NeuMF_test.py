@@ -50,7 +50,7 @@
 #                         help='Specify the pretrain model file for MF part. If empty, no pretrain will be used')
 #     parser.add_argument('--mlp_pretrain', nargs='?', default='',
 #                         help='Specify the pretrain model file for MLP part. If empty, no pretrain will be used')
-    return parser.parse_args()
+#     return parser.parse_args()
 
 def init_normal(shape, name=None):
     return initializations.normal(shape, scale=0.01, name=name)
