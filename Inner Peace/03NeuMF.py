@@ -38,7 +38,7 @@ def parse_args():
 	return parser.parse_args()
 
 
-def init_
+def init_n
 
 
 
