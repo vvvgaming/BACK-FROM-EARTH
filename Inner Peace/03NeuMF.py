@@ -38,7 +38,7 @@ def parse_args():
 	return parser.parse_args()
 
 
-def init_norma
+def init_normal
 
 
 
