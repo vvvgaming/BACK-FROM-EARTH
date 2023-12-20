@@ -38,7 +38,7 @@ def parse_args():
 	return parser.parse_args()
 
 
-def init_normal(shape, n)
+def init_normal(shape, na)
 
 
 
