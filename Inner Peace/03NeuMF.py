@@ -39,6 +39,7 @@ def parse_args():
 
 
 def init_normal(shape, name = None):
+	
 
 
 
