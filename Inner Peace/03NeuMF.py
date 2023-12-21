@@ -39,7 +39,7 @@ def parse_args():
 
 
 def init_normal(shape, name = None):
-	return initializations.no
+	return initializations.nor
 
 
 
