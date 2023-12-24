@@ -52,8 +52,8 @@
 #                         help='Specify the pretrain model file for MLP part. If empty, no pretrain will be used')
 #     return parser.parse_args()
 
-def init_normal(shape, name=None):
-    return initializations.normal(shape, scale=0.01, name=name)
+# def init_normal(shape, name=None):
+#     return initializations.normal(shape, scale=0.01, name=name)
 
 def get_model(num_users, num_items, mf_dim=10, layers=[10], reg_layers=[0], reg_mf=0):
     assert len(layers) == len(reg_layers)
