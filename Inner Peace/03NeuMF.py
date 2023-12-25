@@ -41,7 +41,7 @@ def parse_args():
 def init_normal(shape, name = None):
 	return initializations.normal(shape, scale = 0.01, name = name)
 
-def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_laye)
+def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers)
 
 
 
