@@ -56,7 +56,7 @@
 #     return initializations.normal(shape, scale=0.01, name=name)
 
 # def get_model(num_users, num_items, mf_dim=10, layers=[10], reg_layers=[0], reg_mf=0):
-    assert len(layers) == len(reg_layers)
+#     assert len(layers) == len(reg_layers)
     num_layer = len(layers) #Number of layers in the MLP
     # Input variables
     user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
