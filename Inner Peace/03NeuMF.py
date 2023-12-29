@@ -43,7 +43,7 @@ def init_normal(shape, name = None):
 
 def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0], reg_mf = 0):
 	assert len(layers) == len(reg_layers)
-	num_layer
+	num_layer 
 
 
 
