@@ -45,7 +45,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	assert len(layers) == len(reg_layers)
 	num_layer = len(layers)
 
-	user_input = Input(shape = (1,), dt)
+	user_input = Input(shape = (1,), dty)
 
 
 
