@@ -46,7 +46,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	num_layer = len(layers)
 
 	user_input = Input(shape = (1,), dtype = 'int32', name = 'user_input')
-	item_input = Input(sh)
+	item_input = Input(sha)
 
 
 
