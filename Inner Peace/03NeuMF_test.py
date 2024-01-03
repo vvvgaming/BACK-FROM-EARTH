@@ -60,7 +60,7 @@
 #     num_layer = len(layers) #Number of layers in the MLP
     # Input variables
 #     user_input = Input(shape=(1,), dtype='int32', name = 'user_input')
-    item_input = Input(shape=(1,), dtype='int32', name = 'item_input')
+#     item_input = Input(shape=(1,), dtype='int32', name = 'item_input')
     
     # Embedding layer
     MF_Embedding_User = Embedding(input_dim = num_users, output_dim = mf_dim, name = 'mf_embedding_user',
