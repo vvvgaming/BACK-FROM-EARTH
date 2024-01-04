@@ -48,7 +48,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	user_input = Input(shape = (1,), dtype = 'int32', name = 'user_input')
 	item_input = Input(shape = (1,), dtype = 'int32', name = 'item_input')
 
-	MF_Embedding_User =
+	MF_Embedding_User = 
 
 
 
