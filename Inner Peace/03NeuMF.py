@@ -49,7 +49,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	item_input = Input(shape = (1,), dtype = 'int32', name = 'item_input')
 
 	MF_Embedding_User = Embedding(input_dim = num_users, output_dim = mf_dim, name = 'mf_embedding_user',
-		init = init_normal, W_regularizer)
+		init = init_normal, W_regularizer )
 
 
 
