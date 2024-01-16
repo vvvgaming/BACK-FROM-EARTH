@@ -54,7 +54,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	MF_Embedding_Item = Embedding(input_dim = num_items, output_dim = mf_dim, name = 'mf_embedding_item',
 		init = init_normal, W_regularizer = l2(reg_mf), input_length = 1)
 
-	MF_Embedding_User = Embedding(input_dim = users)
+	MF_Embedding_User = Embedding(input_dim = nusers)
 
 
 
