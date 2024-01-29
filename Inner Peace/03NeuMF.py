@@ -61,7 +61,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 		init = init_normal, W_regularizer = l2(reg_layers[0]), input_length = 1)
 
 
-	mf_user_latent = Flatten()(MF_Embeddin)
+	mf_user_latent = Flatten()(MF_Embedding)
 
 
 
