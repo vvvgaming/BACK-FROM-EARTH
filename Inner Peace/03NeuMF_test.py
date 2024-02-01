@@ -75,7 +75,7 @@
     
     # MF part
 #     mf_user_latent = Flatten()(MF_Embedding_User(user_input))
-    mf_item_latent = Flatten()(MF_Embedding_Item(item_input))
+#     mf_item_latent = Flatten()(MF_Embedding_Item(item_input))
     mf_vector = merge([mf_user_latent, mf_item_latent], mode = 'mul') # element-wise multiply
 
     # MLP part 
