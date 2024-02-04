@@ -79,7 +79,7 @@
 #     mf_vector = merge([mf_user_latent, mf_item_latent], mode = 'mul') # element-wise multiply
 
     # MLP part 
-    mlp_user_latent = Flatten()(MLP_Embedding_User(user_input))
+#     mlp_user_latent = Flatten()(MLP_Embedding_User(user_input))
     mlp_item_latent = Flatten()(MLP_Embedding_Item(item_input))
     mlp_vector = merge([mlp_user_latent, mlp_item_latent], mode = 'concat')
     for idx in xrange(1, num_layer):
