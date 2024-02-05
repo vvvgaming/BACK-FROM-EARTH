@@ -66,7 +66,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	mf_vector = merge([mf_user_latent, mf_item_latent], mode = 'null')
 
 	mlp_user_latent = Flatten()(MF_Embedding_User(user_input))
-	mlp_item_latent = Fla
+	mlp_item_latent = Flat
 
 
 
