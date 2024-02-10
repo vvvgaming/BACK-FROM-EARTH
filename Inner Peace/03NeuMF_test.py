@@ -81,8 +81,8 @@
     # MLP part 
 #     mlp_user_latent = Flatten()(MLP_Embedding_User(user_input))
 #     mlp_item_latent = Flatten()(MLP_Embedding_Item(item_input))
-    mlp_vector = merge([mlp_user_latent, mlp_item_latent], mode = 'concat')
-    for idx in xrange(1, num_layer):
+#     mlp_vector = merge([mlp_user_latent, mlp_item_latent], mode = 'concat')
+#     for idx in xrange(1, num_layer):
         layer = Dense(layers[idx], W_regularizer= l2(reg_layers[idx]), activation='relu', name="layer%d" %idx)
         mlp_vector = layer(mlp_vector)
 
