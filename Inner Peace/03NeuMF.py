@@ -69,7 +69,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	mlp_item_latent = Flatten()(MLF_Embedding_Item(item_input))
 	mlp_vector = merge([mlp_user_latent, mlp_item_latent], mode = concat)
 	for idx in xrange(1, num_layer):
-		layer = Dense(layers[idx], W_regularizer = l2(reg_layers[idx]), activation = 'relu', name = "laye")
+		layer = Dense(layers[idx], W_regularizer = l2(reg_layers[idx]), activation = 'relu', name = "layer")
 
 
 
