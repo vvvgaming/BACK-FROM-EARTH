@@ -73,7 +73,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 		mlp_vector = layer(mlp_vector)
 
 
-	predict_vector = merge([mf_vector, mlp_vector])
+	predict_vector = merge([mf_vector, mlp_vector],)
 
 
 
