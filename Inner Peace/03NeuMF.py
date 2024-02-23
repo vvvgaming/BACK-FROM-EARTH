@@ -76,7 +76,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 	predict_vector = merge([mf_vector, mlp_vector], mode = 'concat')
 
 
-	prediction = Dense(1, activation = 'sigmoid', init = 'lecum_u')
+	prediction = Dense(1, activation = 'sigmoid', init = 'lecum_un')
 
 
 
