@@ -77,6 +77,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 
 
 	prediction = Dense(1, activation = 'sigmoid', init = 'lecum_uniform', name = "prediction")(predict_vector)
+
 	
 
 
