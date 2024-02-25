@@ -92,7 +92,7 @@
 #     predict_vector = merge([mf_vector, mlp_vector], mode = 'concat')
     
     # Final prediction layer
-    prediction = Dense(1, activation='sigmoid', init='lecun_uniform', name = "prediction")(predict_vector)
+#     prediction = Dense(1, activation='sigmoid', init='lecun_uniform', name = "prediction")(predict_vector)
     
     model = Model(input=[user_input, item_input], 
                   output=prediction)
