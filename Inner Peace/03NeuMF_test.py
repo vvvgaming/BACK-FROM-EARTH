@@ -97,7 +97,7 @@
 #     model = Model(input=[user_input, item_input], 
 #                   output=prediction)
     
-    return model
+#     return model
 
 def load_pretrain_model(model, gmf_model, mlp_model, num_layers):
     # MF embeddings
