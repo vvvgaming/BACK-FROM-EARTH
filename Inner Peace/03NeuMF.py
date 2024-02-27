@@ -81,7 +81,7 @@ def get_model(num_users, num_items, mf_dim = 10, layers = [10], reg_layers = [0]
 
 	model = Model(input = [user_input, item_input], output = prediction)
 
-	return mode
+	return model
 
 
 
