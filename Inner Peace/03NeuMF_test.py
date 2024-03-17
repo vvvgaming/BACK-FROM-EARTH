@@ -103,7 +103,7 @@
     # MF embeddings
 #     gmf_user_embeddings = gmf_model.get_layer('user_embedding').get_weights()
 #     gmf_item_embeddings = gmf_model.get_layer('item_embedding').get_weights()
-    model.get_layer('mf_embedding_user').set_weights(gmf_user_embeddings)
+#     model.get_layer('mf_embedding_user').set_weights(gmf_user_embeddings)
     model.get_layer('mf_embedding_item').set_weights(gmf_item_embeddings)
     
     # MLP embeddings
