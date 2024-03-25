@@ -109,7 +109,7 @@
     # MLP embeddings
 #     mlp_user_embeddings = mlp_model.get_layer('user_embedding').get_weights()
 #     mlp_item_embeddings = mlp_model.get_layer('item_embedding').get_weights()
-    model.get_layer('mlp_embedding_user').set_weights(mlp_user_embeddings)
+#     model.get_layer('mlp_embedding_user').set_weights(mlp_user_embeddings)
     model.get_layer('mlp_embedding_item').set_weights(mlp_item_embeddings)
     
     # MLP layers
