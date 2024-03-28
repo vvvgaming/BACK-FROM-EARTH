@@ -96,7 +96,7 @@ def load_pretrain_model(model, gmf_model, mlp_model, num_layers):
 	model.get_layer('mlp_embedding_user').set_weights(mlp_user_embeddings)
 	model.get_layer('mlp_embedding_item').set_weights(mlp_item_embeddings)
 
-for
+for 
 
 
 
