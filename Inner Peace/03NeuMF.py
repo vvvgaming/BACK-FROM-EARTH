@@ -97,7 +97,7 @@ def load_pretrain_model(model, gmf_model, mlp_model, num_layers):
 	model.get_layer('mlp_embedding_item').set_weights(mlp_item_embeddings)
 
 for i in xrange(1, num_layers):
-	mlp_layer_weights = mlp_mod
+	mlp_layer_weights = mlp_mode
 
 
 
