@@ -113,8 +113,8 @@
 #     model.get_layer('mlp_embedding_item').set_weights(mlp_item_embeddings)
     
     # MLP layers
-    for i in xrange(1, num_layers):
-        mlp_layer_weights = mlp_model.get_layer('layer%d' %i).get_weights()
+#     for i in xrange(1, num_layers):
+#         mlp_layer_weights = mlp_model.get_layer('layer%d' %i).get_weights()
         model.get_layer('layer%d' %i).set_weights(mlp_layer_weights)
         
     # Prediction weights
