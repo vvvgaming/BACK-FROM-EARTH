@@ -101,7 +101,7 @@ for i in xrange(1, num_layers):
 	model.get_layer('layer%d' %i).set_weights(mlp_layer_weights)
 
 
-gmf_prediction = gmf_model.get_layer('prediction').g
+gmf_prediction = gmf_model.get_layer('prediction').ge
 
 
 
