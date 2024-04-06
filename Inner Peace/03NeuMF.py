@@ -102,7 +102,7 @@ for i in xrange(1, num_layers):
 
 
 gmf_prediction = gmf_model.get_layer('prediction').get_weights()
-mlp_prediction = mlp_model.get_layer('pre')
+mlp_prediction = mlp_model.get_layer('pred')
 
 
 
