@@ -104,7 +104,7 @@ for i in xrange(1, num_layers):
 gmf_prediction = gmf_model.get_layer('prediction').get_weights()
 mlp_prediction = mlp_model.get_layer('prediction').get_weights()
 new_weights = np.concatenate((gmf_prediction[0], mlp_prediction[0]), axis = 0)
-new_b = gmf_prediction[1] + mlp_predi
+new_b = gmf_prediction[1] + mlp_predic
 
 
 
