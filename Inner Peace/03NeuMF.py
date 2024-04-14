@@ -108,7 +108,7 @@ for i in xrange(1, num_layers):
     model.get_layer('prediction').set_weights([0.5 * new_weights, 0.5 * new_b])
     return model
 
-def get_train
+def get_train_
 
 
 
