@@ -123,7 +123,7 @@
 #     new_weights = np.concatenate((gmf_prediction[0], mlp_prediction[0]), axis=0)
 #     new_b = gmf_prediction[1] + mlp_prediction[1]
 #     model.get_layer('prediction').set_weights([0.5*new_weights, 0.5*new_b])    
-    return model
+#     return model
 
 def get_train_instances(train, num_negatives):
     user_input, item_input, labels = [],[],[]
