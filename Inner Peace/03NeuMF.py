@@ -141,3 +141,4 @@ model.get_layer('prediction').set_weights([0.5 * new_weights, 0.5 * new_b])
 
 
 
+
