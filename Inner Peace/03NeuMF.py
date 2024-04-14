@@ -107,6 +107,7 @@ for i in xrange(1, num_layers):
     new_b = gmf_prediction[1] + mlp_prediction[1]
     model.get_layer('prediction').set_weights([0.5 * new_weights, 0.5 * new_b])
     return model
+    
 
 
 
