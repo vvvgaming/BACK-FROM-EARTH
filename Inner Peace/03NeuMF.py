@@ -109,7 +109,7 @@ for i in xrange(1, num_layers):
     return model
 
 def get_train_instances(train, negatives):
-	user_input, item_i
+	user_input, item_inp
 
 
 
