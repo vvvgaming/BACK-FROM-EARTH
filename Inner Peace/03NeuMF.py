@@ -111,7 +111,7 @@ for i in xrange(1, num_layers):
 def get_train_instances(train, negatives):
 	user_input, item_input, labels = [],[],[]
 	num_users = train.shape[0]
-	for (u,)
+	for (u, )
 
 
 
