@@ -112,7 +112,7 @@ def get_train_instances(train, negatives):
 	user_input, item_input, labels = [],[],[]
 	num_users = train.shape[0]
 	for (u, i) in train.keys():
-		user_input.ap
+		user_input.app
 
 
 
