@@ -114,7 +114,7 @@ def get_train_instances(train, negatives):
 	for (u, i) in train.keys():
 		user_input.append(u)
 		item_input.append(i)
-		labels.appen
+		labels.append
 
 
 
