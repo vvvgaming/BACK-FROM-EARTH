@@ -116,7 +116,7 @@ def get_train_instances(train, negatives):
 		item_input.append(i)
 		labels.append(1)
 
-		for t in xrange(num)
+		for t in xrange(num_)
 
 
 
