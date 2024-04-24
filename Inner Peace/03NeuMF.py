@@ -117,7 +117,7 @@ def get_train_instances(train, negatives):
 		labels.append(1)
 
 		for t in xrange(num_negatives):
-			j = np.random.ra
+			j = np.random.ran
 
 
 
