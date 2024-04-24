@@ -118,7 +118,7 @@ def get_train_instances(train, negatives):
 
 		for t in xrange(num_negatives):
 			j = np.random.randint(num_items)
-			wh
+			whi
 
 
 
