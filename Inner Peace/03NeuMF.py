@@ -119,7 +119,7 @@ def get_train_instances(train, negatives):
 		for t in xrange(num_negatives):
 			j = np.random.randint(num_items)
 			while train.has_key(u, i)
-			    j
+			    j 
 
 
 
