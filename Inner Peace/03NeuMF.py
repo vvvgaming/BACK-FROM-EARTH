@@ -120,7 +120,7 @@ def get_train_instances(train, negatives):
 			j = np.random.randint(num_items)
 			while train.has_key(u, i)
 			    j = np.random.randint(num_items)
-			    user_input.append
+			    user_input.append()
 
 
 
