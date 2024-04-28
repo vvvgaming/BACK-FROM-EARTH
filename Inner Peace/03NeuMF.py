@@ -124,6 +124,8 @@ def get_train_instances(train, negatives):
 			    item_input.append(j)
 			    labels.append(0)
 
+	    r
+
 
 
 
