@@ -122,7 +122,7 @@ def get_train_instances(train, negatives):
 			    j = np.random.randint(num_items)
 			    user_input.append(u)
 			    item_input.append(j)
-			    labels.appen
+			    labels.append
 
 
 
