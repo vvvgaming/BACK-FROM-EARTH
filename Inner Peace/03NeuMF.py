@@ -127,7 +127,7 @@ def get_train_instances(train, negatives):
 	    return user_input, item_input, labels
 
 
-if __name__ == '__mai'
+if __name__ == '__main'
 
 
 
