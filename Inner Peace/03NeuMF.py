@@ -128,7 +128,7 @@ def get_train_instances(train, negatives):
 
 
 if __name__ == '__main__':
-	a
+	ar
 
 
 
