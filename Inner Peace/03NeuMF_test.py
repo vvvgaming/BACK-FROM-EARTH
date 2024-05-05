@@ -143,10 +143,10 @@
 #             labels.append(0)
 #     return user_input, item_input, labels
 
-if __name__ == '__main__':
-    args = parse_args()
-    num_epochs = args.epochs
-    batch_size = args.batch_size
+# if __name__ == '__main__':
+#     args = parse_args()
+#     num_epochs = args.epochs
+#     batch_size = args.batch_size
     mf_dim = args.num_factors
     layers = eval(args.layers)
     reg_mf = args.reg_mf
