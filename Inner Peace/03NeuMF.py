@@ -132,7 +132,7 @@ if __name__ == '__main__':
 	num_epochs = args.epochs
 	batch_size = args.batch_size
 	mf_dim = args.num_factors
-	layers = eval(args.laye)
+	layers = eval(args.layer)
 
 
 
