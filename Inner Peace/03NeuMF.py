@@ -133,7 +133,7 @@ if __name__ == '__main__':
 	batch_size = args.batch_size
 	mf_dim = args.num_factors
 	layers = eval(args.layers)
-	reg_mf
+	reg_mf 
 
 
 
