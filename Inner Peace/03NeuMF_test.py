@@ -148,7 +148,7 @@
 #     num_epochs = args.epochs
 #     batch_size = args.batch_size
 #     mf_dim = args.num_factors
-    layers = eval(args.layers)
+#     layers = eval(args.layers)
     reg_mf = args.reg_mf
     reg_layers = eval(args.reg_layers)
     num_negatives = args.num_neg
