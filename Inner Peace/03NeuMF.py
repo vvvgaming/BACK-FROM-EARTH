@@ -134,7 +134,7 @@ if __name__ == '__main__':
 	mf_dim = args.num_factors
 	layers = eval(args.layers)
 	reg_mf = args.reg_mf
-	reg_layers = eval(ar)
+	reg_layers = eval(arg)
 
 
 
