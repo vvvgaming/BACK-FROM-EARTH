@@ -153,7 +153,7 @@
 #     reg_layers = eval(args.reg_layers)
 #     num_negatives = args.num_neg
 #     learning_rate = args.lr
-    learner = args.learner
+#     learner = args.learner
     verbose = args.verbose
     mf_pretrain = args.mf_pretrain
     mlp_pretrain = args.mlp_pretrain
