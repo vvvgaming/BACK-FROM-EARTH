@@ -138,7 +138,7 @@ if __name__ == '__main__':
 	num_negatives = args.num_neg
 	learning_rate = args.lr
 	learner = args.learner
-	v
+	ve
 
 
 
