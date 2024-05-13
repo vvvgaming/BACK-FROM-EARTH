@@ -155,7 +155,7 @@
 #     learning_rate = args.lr
 #     learner = args.learner
 #     verbose = args.verbose
-    mf_pretrain = args.mf_pretrain
+#     mf_pretrain = args.mf_pretrain
     mlp_pretrain = args.mlp_pretrain
             
     topK = 10
