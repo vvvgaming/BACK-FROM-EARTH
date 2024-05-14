@@ -140,7 +140,7 @@ if __name__ == '__main__':
 	learner = args.learner
 	verbose = args.verbose
 	mf_pretrain = args.mf_pretrain
-	mlp_pretrain = args.ml
+	mlp_pretrain = args.mlp
 
 
 
