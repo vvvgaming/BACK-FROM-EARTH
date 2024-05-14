@@ -156,7 +156,7 @@
 #     learner = args.learner
 #     verbose = args.verbose
 #     mf_pretrain = args.mf_pretrain
-    mlp_pretrain = args.mlp_pretrain
+#     mlp_pretrain = args.mlp_pretrain
             
     topK = 10
     evaluation_threads = 1#mp.cpu_count()
