@@ -143,7 +143,7 @@ if __name__ == '__main__':
 	mlp_pretrain = args.mlp_pretrain
 
 	topK = 10
-	evaluat
+	evaluati
 
 
 
