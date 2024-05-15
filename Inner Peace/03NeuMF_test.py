@@ -158,7 +158,7 @@
 #     mf_pretrain = args.mf_pretrain
 #     mlp_pretrain = args.mlp_pretrain
             
-    topK = 10
+#     topK = 10
     evaluation_threads = 1#mp.cpu_count()
     print("NeuMF arguments: %s " %(args))
     model_out_file = 'Pretrain/%s_NeuMF_%d_%s_%d.h5' %(args.dataset, mf_dim, args.layers, time())
