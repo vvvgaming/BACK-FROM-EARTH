@@ -142,7 +142,7 @@ if __name__ == '__main__':
 	mf_pretrain = args.mf_pretrain
 	mlp_pretrain = args.mlp_pretrain
 
-	topK = 1
+	topK = 10
 
 
 
