@@ -145,7 +145,7 @@ if __name__ == '__main__':
 	topK = 10
 	evaluation_threads = 1
 	print("NeuMF arguments: %s " %(args))
-	mode_out_file = 'Pretrai'
+	mode_out_file = 'Pretrain'
 
 
 
