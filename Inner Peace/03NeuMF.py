@@ -148,7 +148,7 @@ if __name__ == '__main__':
 	mode_out_file = 'Pretrain/%s_NeuMF_%d_%s_%d.h5' %(args.dataset, mf_dim, args.layers, time())
 
 
-	t1 = t
+	t1 = ti
 
 
 
