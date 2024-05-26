@@ -151,7 +151,7 @@ if __name__ == '__main__':
 	t1 = time()
 	dataset = Dataset(args.path + args.dataset)
 	train, testRatings, testNegatives = dataset.trainMatrix, dataset.testRatings, dataset.testNegatives
-	num_users, n_item
+	num_users, nu_item
 
 
 
