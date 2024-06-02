@@ -154,6 +154,7 @@ if __name__ == '__main__':
 	num_users, num_item = train.shape
 	print("Load data done [%.1f s]. #user = %d, #item = %d, #train = %d, #test = %d"
 		  %(time() - t1, num_users, num_item, train.nnz, len(testRatings)))
+	
 
 
 
