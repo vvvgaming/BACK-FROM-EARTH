@@ -156,7 +156,7 @@ if __name__ == '__main__':
 		  %(time() - t1, num_users, num_item, train.nnz, len(testRatings)))
 
 
-	model = get_model(num_u)
+	model = get_model(num_us)
 
 
 
