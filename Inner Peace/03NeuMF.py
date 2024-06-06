@@ -158,7 +158,7 @@ if __name__ == '__main__':
 
 	model = get_model(num_users, num_items, mf_dim, layers, reg_layers, reg_mf)
 	if learner.lower() == "adagrad":
-		model = get_model(num_users)
+		model = get_model(num_users,)
 
 
 
