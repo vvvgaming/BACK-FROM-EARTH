@@ -159,7 +159,7 @@ if __name__ == '__main__':
 	model = get_model(num_users, num_items, mf_dim, layers, reg_layers, reg_mf)
 	if learner.lower() == "adagrad":
 		model.compile(optimizer = Adagrad(lr = learning_rate), loss = 'binary_crossentropy')
-	elif learner.lower() == "rmspro"
+	elif learner.lower() == "rmsprop"
 
 
 
