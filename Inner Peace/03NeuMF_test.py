@@ -174,9 +174,9 @@
     # Build model
 #     model = get_model(num_users, num_items, mf_dim, layers, reg_layers, reg_mf)
 #     if learner.lower() == "adagrad": 
-        model.compile(optimizer=Adagrad(lr=learning_rate), loss='binary_crossentropy')
-    elif learner.lower() == "rmsprop":
-        model.compile(optimizer=RMSprop(lr=learning_rate), loss='binary_crossentropy')
+#         model.compile(optimizer=Adagrad(lr=learning_rate), loss='binary_crossentropy')
+#     elif learner.lower() == "rmsprop":
+#         model.compile(optimizer=RMSprop(lr=learning_rate), loss='binary_crossentropy')
     elif learner.lower() == "adam":
         model.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy')
     else:
