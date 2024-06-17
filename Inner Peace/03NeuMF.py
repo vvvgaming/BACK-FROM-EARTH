@@ -162,7 +162,7 @@ if __name__ == '__main__':
 	elif learner.lower() == "rmsprop":
 		model.compile(optimizer = RMSprop(lr = learning_rate), loss = 'binary_crossentropy')
 	elif learner.lower() == 'adam':
-		model.compile(optimizer )
+		model.compile(optimizer =)
 
 
 
