@@ -166,7 +166,7 @@ if __name__ == '__main__':
 	else:
 		model.compile(optimizer = SGD(lr = learning_rate), loss = 'binary_crossentropy')
 
-		
+	
 
 
 
