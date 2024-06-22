@@ -179,8 +179,8 @@
 #         model.compile(optimizer=RMSprop(lr=learning_rate), loss='binary_crossentropy')
 #     elif learner.lower() == "adam":
 #         model.compile(optimizer=Adam(lr=learning_rate), loss='binary_crossentropy')
-    else:
-        model.compile(optimizer=SGD(lr=learning_rate), loss='binary_crossentropy')
+#     else:
+#         model.compile(optimizer=SGD(lr=learning_rate), loss='binary_crossentropy')
     
     # Load pretrain model
     if mf_pretrain != '' and mlp_pretrain != '':
