@@ -167,7 +167,7 @@ if __name__ == '__main__':
 		model.compile(optimizer = SGD(lr = learning_rate), loss = 'binary_crossentropy')
 
 
-	if mf_pretrain != '' and mlp_pretrain !
+	if mf_pretrain != '' and mlp_pretrain !=
 
 
 
