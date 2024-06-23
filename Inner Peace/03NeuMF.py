@@ -168,7 +168,7 @@ if __name__ == '__main__':
 
 
 	if mf_pretrain != '' and mlp_pretrain != '':
-		gmf_model = GMF
+		gmf_model = GMF.
 
 
 
