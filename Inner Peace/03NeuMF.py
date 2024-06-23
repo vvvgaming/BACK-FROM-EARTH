@@ -168,8 +168,7 @@ if __name__ == '__main__':
 
 
 	if mf_pretrain != '' and mlp_pretrain != '':
-		gmf_mo
-
+		gmf_mod
 
 
 
