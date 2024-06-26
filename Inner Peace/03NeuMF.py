@@ -169,7 +169,7 @@ if __name__ == '__main__':
 
 	if mf_pretrain != '' and mlp_pretrain != '':
 		gmf_model = GMF.get_model(num_users, num_items, mf_dim)
-		gmf_model.load_weights(mf_pretra)
+		gmf_model.load_weights(mf_pretrai)
 
 
 
