@@ -183,9 +183,9 @@
 #         model.compile(optimizer=SGD(lr=learning_rate), loss='binary_crossentropy')
     
     # Load pretrain model
-    if mf_pretrain != '' and mlp_pretrain != '':
-        gmf_model = GMF.get_model(num_users,num_items,mf_dim)
-        gmf_model.load_weights(mf_pretrain)
+#     if mf_pretrain != '' and mlp_pretrain != '':
+#         gmf_model = GMF.get_model(num_users,num_items,mf_dim)
+#         gmf_model.load_weights(mf_pretrain)
         mlp_model = MLP.get_model(num_users,num_items, layers, reg_layers)
         mlp_model.load_weights(mlp_pretrain)
         model = load_pretrain_model(model, gmf_model, mlp_model, len(layers))
