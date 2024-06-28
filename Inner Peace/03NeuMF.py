@@ -170,7 +170,7 @@ if __name__ == '__main__':
 	if mf_pretrain != '' and mlp_pretrain != '':
 		gmf_model = GMF.get_model(num_users, num_items, mf_dim)
 		gmf_model.load_weights(mf_pretrain)
-		mlp_model = MLP.get_model(nu)
+		mlp_model = MLP.get_model(num)
 
 
 
