@@ -172,7 +172,7 @@ if __name__ == '__main__':
 		gmf_model.load_weights(mf_pretrain)
 		mlp_model = MLP.get_model(num_users, num_items, layers, reg_layers)
 		mlp_model.load_weights(mlp_pretrain)
-		model = load_p
+		model = load_pr
 
 
 
