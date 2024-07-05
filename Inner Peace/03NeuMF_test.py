@@ -189,7 +189,7 @@
 #         mlp_model = MLP.get_model(num_users,num_items, layers, reg_layers)
 #         mlp_model.load_weights(mlp_pretrain)
 #         model = load_pretrain_model(model, gmf_model, mlp_model, len(layers))
-        print("Load pretrained GMF (%s) and MLP (%s) models done. " %(mf_pretrain, mlp_pretrain))
+#         print("Load pretrained GMF (%s) and MLP (%s) models done. " %(mf_pretrain, mlp_pretrain))
         
     # Init performance
     (hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, evaluation_threads)
