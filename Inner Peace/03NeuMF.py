@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
 
 	(hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, evaluation_threads)
-	hr, ndcgs = 
+	hr, ndcgs = n
 
 
 
