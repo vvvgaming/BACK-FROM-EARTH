@@ -181,7 +181,7 @@ if __name__ == '__main__':
 	print('Int: HR = %.4f, NDCG = %.4f' % (hr, ndcg))
 	best_hr, best_ndcg, best_iter = hr, ndcg, -1
 	if args.out > 0:
-	    model.save_weights(model_out_file, over)
+	    model.save_weights(model_out_file, overw)
 
 
 
