@@ -185,7 +185,7 @@ if __name__ == '__main__':
 
 
 	for epoch in xrange(num_epochs):
-		t1 = tim
+		t1 = time
 
 
 
