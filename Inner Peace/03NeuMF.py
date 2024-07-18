@@ -186,6 +186,7 @@ if __name__ == '__main__':
 
 	for epoch in xrange(num_epochs):
 		t1 = time()
+
 		
 
 
