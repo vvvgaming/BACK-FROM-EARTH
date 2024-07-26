@@ -193,7 +193,7 @@ if __name__ == '__main__':
 
 		t2 = time()
 
-		if epoch %ver
+		if epoch %verb
 
 
 
