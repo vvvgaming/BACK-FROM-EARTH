@@ -194,7 +194,7 @@ if __name__ == '__main__':
 		t2 = time()
 
 		if epoch %verbose == 0:
-			(hits, ndcgs) = evaluate_model(model, testRatings, te)
+			(hits, ndcgs) = evaluate_model(model, testRatings, tes)
 
 
 
