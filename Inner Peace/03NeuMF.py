@@ -189,12 +189,12 @@ if __name__ == '__main__':
 
 		user_input, item_input, labels = get_train_instances(train, num_negatives)
 
-		hist = model.fit([np.array(user_input), np.array(item_input)], np.array(labels), batch_size = batch_size, nb_epoch = 1, verbose = 0, shuffle = True)
+		hist = model.fit([np.array(user_input), np.arraay(item_input)], np.array(labels), batch_size = batch_size, nb_epoch = 1, verbose = 0, shuffle = True)
 
 		t2 = time()
 
 		if epoch %verbose == 0:
-			(hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, ev)
+			(hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, eva)
 
 
 
