@@ -196,7 +196,7 @@ if __name__ == '__main__':
 		if epoch %verbose == 0:
 			(hits, ndcgs) = evaluate_model(model, testRatings, testNegatives, topK, evaluation_threads)
 			hr, ndcg, loss = np.array(hits).mean(), np.array(ndcgs).mean(), hist.history['loss'][0]
-			print('Iteratio')
+			print('Iteration')
 
 
 
