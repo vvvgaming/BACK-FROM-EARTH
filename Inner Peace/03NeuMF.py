@@ -205,7 +205,8 @@ if __name__ == '__main__':
 
 
 	print("End. Best Iteration %d: HR = %.4f, NDCG = %.4f. " %(best_iter, best_hr, best_ndcg))
-	if args.
+	if args.out > 0:
+        print("The best NeuMF model is saved to %s" %(model_out_file))
 
 
 
