@@ -1,1 +1,1 @@
-import matplotlib, matplotlib.pyplot as pypl
+import matplotlib, matplotlib.pyplot as pyplo
