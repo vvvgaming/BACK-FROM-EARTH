@@ -4,7 +4,7 @@
 
 # alco2019 = pickle.load(open("alco2019.pickle", "rb"))
 
-states = pd.read_csv("states.csv", name=("States", "Standard", "Postal", "Capital"))
+# states = pd.read_csv("states.csv", name=("States", "Standard", "Postal", "Capital"))
 columns = ["Wine", "Beer"]
 
 kmeans = sklearn.cluster.KMeans(n_clusters=9)
