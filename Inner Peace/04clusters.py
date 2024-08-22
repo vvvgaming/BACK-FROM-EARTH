@@ -5,4 +5,4 @@ import sklearn.cluster, sklearn.preprocessing
 alco2024 = pickle.load(open("alco2024.pickle", "rb"))
 
 states = pd.read_csv("states.csv", name = ("States", "Standard", "Postal", "Capital"))
-col
+colu
