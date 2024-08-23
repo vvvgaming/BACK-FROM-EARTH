@@ -7,4 +7,4 @@ alco2024 = pickle.load(open("alco2024.pickle", "rb"))
 states = pd.read_csv("states.csv", name = ("States", "Standard", "Postal", "Capital"))
 columns = ["Wine", "Beer"]
 
-kmeans = sklearn.clust
+kmeans = sklearn.cluste
