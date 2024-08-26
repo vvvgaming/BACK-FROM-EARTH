@@ -9,4 +9,4 @@ columns = ["Wine", "Beer"]
 
 kmeans = sklearn.cluster.KMeans(n_cluster = 28)
 kmeans.fit(alco2024[colums])
-alco2024["Clust"]
+alco2024["Cluste"]
