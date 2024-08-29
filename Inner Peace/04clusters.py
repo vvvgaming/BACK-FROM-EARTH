@@ -12,4 +12,4 @@ kmeans.fit(alco2024[colums])
 alco2024["Cluster"] = kmeans.labels_
 centers = pd.dataFrame(kmeans.cluster_centers_, colums = colums)
 
-matplotlib.style.use("ggplo")
+matplotlib.style.use("ggplot")
