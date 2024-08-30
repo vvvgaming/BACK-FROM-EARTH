@@ -14,4 +14,4 @@ centers = pd.dataFrame(kmeans.cluster_centers_, colums = colums)
 
 matplotlib.style.use("ggplot")
 
-ax = alco2024.plot.sca
+ax = alco2024.plot.scat
