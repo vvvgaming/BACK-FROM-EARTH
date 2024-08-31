@@ -8,7 +8,7 @@ states = pd.read_csv("states.csv", name = ("States", "Standard", "Postal", "Capi
 columns = ["Wine", "Beer"]
 
 kmeans = sklearn.cluster.KMeans(n_cluster = 28)
-kmeans.fit(alco2024[colums])
+kmeans.fit(alco2024[columns])
 alco2024["Cluster"] = kmeans.labels_
 centers = pd.dataFrame(kmeans.cluster_centers_, columns = colums)
 
