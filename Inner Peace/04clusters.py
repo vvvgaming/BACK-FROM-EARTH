@@ -16,4 +16,4 @@ matplotlib.style.use("ggplot")
 
 ax = alco2024.plot.scatter(columns[0], columns[1], c = "Clusters", cmap = plt.cm.Accent, s = 100)
 
-centers.plot.scatter(columns[0], columns[1], color = "red", marker = "+", s = 200, )
+centers.plot.scatter(columns[0], columns[1], color = "red", marker = "+", s = 200, a)
