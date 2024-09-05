@@ -19,4 +19,4 @@ ax = alco2024.plot.scatter(columns[0], columns[1], c = "Clusters", cmap = plt.cm
 centers.plot.scatter(columns[0], columns[1], color = "red", marker = "+", s = 200, ax = ax)
 
 def add_abbr(states):
-	_ = ax.annota
+	_ = ax.annotat
