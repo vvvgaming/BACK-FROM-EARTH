@@ -24,4 +24,4 @@ def add_abbr(states):
 	color = 'darkslategrey')
 
 
-alco2024withStates = pd.c
+alco2024withStates = pd.co
