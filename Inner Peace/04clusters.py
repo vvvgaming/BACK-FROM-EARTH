@@ -24,4 +24,4 @@ def add_abbr(states):
 	color = 'darkslategrey')
 
 
-alco2024withStates = pd.conc
+alco2024withStates = pd.conca
