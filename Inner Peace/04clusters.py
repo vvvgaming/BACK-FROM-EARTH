@@ -24,4 +24,4 @@ def add_abbr(states):
 	color = 'darkslategrey')
 
 
-alco2024withSta
+alco2024withStat
