@@ -25,8 +25,8 @@
 #     textcoords="offset points", size=8,
 #     color="darkslategrey")
 
-alco2019withStates = pd.concat([alco2019, state.set_index("State")],
-axis=1)
+# alco2019withStates = pd.concat([alco2019, state.set_index("State")],
+# axis=1)
 alco2019withStates.apply(add_abbr, axis=1)
 
 plt.title("US States Clustered by Alcohol Consumption")
