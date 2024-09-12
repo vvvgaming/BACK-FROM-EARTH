@@ -24,4 +24,4 @@ def add_abbr(states):
 	color = 'darkslategrey')
 
 
-alco2024withStates = pd.concat([alc])
+alco2024withStates = pd.concat([alco])
