@@ -27,4 +27,4 @@ def add_abbr(states):
 alco2024withStates = pd.concat([alco2024, state.set_index("State")], axis = 1)
 alco2024withStates.apply(add_abbr, axis = 1)
 
-plt.title("Us States Clust")
+plt.title("Us States Cluste")
