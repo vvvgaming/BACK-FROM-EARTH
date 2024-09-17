@@ -28,4 +28,4 @@ alco2024withStates = pd.concat([alco2024, state.set_index("State")], axis = 1)
 alco2024withStates.apply(add_abbr, axis = 1)
 
 plt.title("Us States Clustered by Alcohol Consumption")
-plt.savefig("/images/cl")
+plt.savefig("/images/clu")
