@@ -30,4 +30,4 @@ alco2024withStates.apply(add_abbr, axis = 1)
 plt.title("Us States Clustered by Alcohol Consumption")
 plt.savefig("/images/cluster.pdf")
 
-import rand
+import rando
