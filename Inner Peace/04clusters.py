@@ -33,3 +33,4 @@ plt.savefig("/images/cluster.pdf")
 import random
 import math
 
+d
