@@ -32,8 +32,8 @@
 # plt.title("US States Clustered by Alcohol Consumption")
 # plt.savefig("/images/cluster.pdf")
 
-import random
-import math
+# import random
+# import math
 
 def eucldist(p0,p1):
     dist = 0.0
