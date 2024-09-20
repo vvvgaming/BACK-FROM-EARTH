@@ -34,3 +34,4 @@ import random
 import math
 
 def eucldist(p0, p1):
+	
