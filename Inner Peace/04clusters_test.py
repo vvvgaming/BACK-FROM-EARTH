@@ -35,11 +35,11 @@
 # import random
 # import math
 
-def eucldist(p0,p1):
-    dist = 0.0
-    for i in range(0, len(p0)):
-        dist += (p0[i] - p1[i])**2
-    return math.sqrt(dist)
+# def eucldist(p0,p1):
+#     dist = 0.0
+#     for i in range(0, len(p0)):
+#         dist += (p0[i] - p1[i])**2
+#     return math.sqrt(dist)
 
 
 
