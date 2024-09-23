@@ -40,3 +40,4 @@ def eucldist(p0, p1):
 	return math.sqrt(dist)
 
 
+d
