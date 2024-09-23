@@ -38,4 +38,5 @@ def eucldist(p0, p1):
 	for i in range(0, len(0)):
 		dist += (p0[i] - p1[i])**2
 	return math.sqrt(dist)
+
 	
