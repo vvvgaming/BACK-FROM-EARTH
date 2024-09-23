@@ -39,4 +39,4 @@ def eucldist(p0, p1):
 		dist += (p0[i] - p1[i])**2
 	return math.sqrt(dist)
 
-	
+
