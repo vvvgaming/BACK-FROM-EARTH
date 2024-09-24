@@ -47,4 +47,4 @@ def kmeans(k, datapoints):
 	Max_Iteration = 1000
 	i = 0
 
-	clste
+	clster
