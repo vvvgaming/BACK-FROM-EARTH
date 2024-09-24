@@ -45,4 +45,4 @@ def kmeans(k, datapoints):
 	d = len(datapoints[0])
 
 	Max_Iteration = 1000
-	i =
+	i = 0
