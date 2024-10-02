@@ -43,17 +43,17 @@
 
 
 
-def kmeans(k,datapoints):
-
-    d = len(datapoints[0])
-
-    Max_Iteration = 1000
-    i = 0
-
-    cluster = [0] * len(datapoints)
-    prev_cluster = [-1] * len(datapoints)
-
-    cluster_centers = []
+# def kmeans(k,datapoints):
+# 
+#     d = len(datapoints[0])
+# 
+#     Max_Iteration = 1000
+#     i = 0
+# 
+#     cluster = [0] * len(datapoints)
+#     prev_cluster = [-1] * len(datapoints)
+# 
+#     cluster_centers = []
     for i in range(0,k):
         new_cluster = []
 
