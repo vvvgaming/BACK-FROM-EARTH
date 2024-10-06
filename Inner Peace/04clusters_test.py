@@ -54,12 +54,12 @@
 #     prev_cluster = [-1] * len(datapoints)
 # 
 #     cluster_centers = []
-    for i in range(0,k):
-        new_cluster = []
-
-    cluster_centers += [random.choice(datapoints)]
-
-    force_recalculation = False
+#     for i in range(0,k):
+#         new_cluster = []
+# 
+#     cluster_centers += [random.choice(datapoints)]
+# 
+#     force_recalculation = False
 
 
     while (cluster != prev_cluster) or (i > Max_Iterations) or (force_recalculation) :
