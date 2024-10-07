@@ -57,7 +57,7 @@ def kmeans(k, datapoints):
 	cluster_centers += [random.choice(datapoints)]
 	force_recalculation = False
 
-	while (cluster != prev_cluster) or (i > Max_Iterations)
+	while (cluster != prev_cluster) or (i > Max_Iterations) 
 
 
 
