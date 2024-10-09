@@ -59,7 +59,7 @@ def kmeans(k, datapoints):
 
 	while (cluster != prev_cluster) or (i > Max_Iterations) or (force_recalculation) :
 
-		prev_clu
+		prev_clus
 
 
 
