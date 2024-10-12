@@ -63,7 +63,7 @@ def kmeans(k, datapoints):
 		force_recalculation = False
 		i += 1
 
-		for p in 
+		for p in r
 
 
 
