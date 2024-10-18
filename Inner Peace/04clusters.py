@@ -70,7 +70,7 @@ def kmeans(k, datapoints):
 
 				dist = eucldist(datapoints[p], cluster_centers[c])
 
-				if (dist < min_dis)
+				if (dist < min_dist)
 
 
 
