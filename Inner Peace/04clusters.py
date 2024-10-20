@@ -73,6 +73,7 @@ def kmeans(k, datapoints):
 				if (dist < min_dist):
 					min_dist = dist
 					cluster[p] = c
+
 				
 
 
