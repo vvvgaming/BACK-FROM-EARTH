@@ -75,7 +75,7 @@ def kmeans(k, datapoints):
 					cluster[p] = c
 
 
-		for k in rang
+		for k in range
 
 
 
