@@ -78,7 +78,7 @@ def kmeans(k, datapoints):
 		for k in range(0, len(cluster_centers)):
 			new_center = [0] * d
 			members = 0
-			for p in range(0, len(da))
+			for p in range(0, len(dat))
 
 
 
