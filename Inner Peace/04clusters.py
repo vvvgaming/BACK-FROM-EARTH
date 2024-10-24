@@ -80,7 +80,7 @@ def kmeans(k, datapoints):
 			members = 0
 			for p in range(0, len(datapoits)):
 				if(cluster[p] == k):
-					f
+					fo
 
 
 
