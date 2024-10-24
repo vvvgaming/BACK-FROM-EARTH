@@ -79,7 +79,7 @@ def kmeans(k, datapoints):
 			new_center = [0] * d
 			members = 0
 			for p in range(0, len(datapoits)):
-				if(cluster[p] ==)
+				if(cluster[p] == )
 
 
 
