@@ -83,6 +83,7 @@ def kmeans(k, datapoints):
 					for j in range(0, d):
 						new_center[j] += datapoints[p][j]
 					members += 1
+					
 
 
 
