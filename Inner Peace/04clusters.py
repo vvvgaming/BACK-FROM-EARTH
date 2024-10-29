@@ -86,6 +86,7 @@ def kmeans(k, datapoints):
 
 			for j in range(0, d):
 				if members != 0:
+					n
 
 
 
