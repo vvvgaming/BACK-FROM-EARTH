@@ -88,7 +88,7 @@ def kmeans(k, datapoints):
 				if members != 0:
 					new_center[j] = new_center[j] / float(members)
 
-				el
+				els
 
 
 
