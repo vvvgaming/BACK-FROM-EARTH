@@ -89,7 +89,7 @@ def kmeans(k, datapoints):
 					new_center[j] = new_center[j] / float(members)
 
 				else:
-					new_center = random.choice(datap)
+					new_center = random.choice(datapo)
 
 
 
