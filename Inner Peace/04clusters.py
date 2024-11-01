@@ -90,7 +90,7 @@ def kmeans(k, datapoints):
 
 				else:
 					new_center = random.choice(datapoints)
-					force_recalcuc
+					force_recalcuca
 
 
 
