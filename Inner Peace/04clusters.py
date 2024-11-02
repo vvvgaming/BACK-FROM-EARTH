@@ -91,7 +91,7 @@ def kmeans(k, datapoints):
 				else:
 					new_center = random.choice(datapoints)
 					force_recalcucation = True
-					print"Forced Recalcuca"
+					print"Forced Recalcucat"
 
 
 
