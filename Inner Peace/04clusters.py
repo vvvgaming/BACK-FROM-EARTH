@@ -93,7 +93,7 @@ def kmeans(k, datapoints):
 					force_recalcucation = True
 					print"Forced Recalcucation..."
 
-			cluster_centers[k] = n
+			cluster_centers[k] = ne
 
 
 
