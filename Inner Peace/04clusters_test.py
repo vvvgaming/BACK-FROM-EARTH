@@ -62,43 +62,43 @@
 #     force_recalculation = False
 
 
-    while (cluster != prev_cluster) or (i > Max_Iterations) or (force_recalculation) :
-
-        prev_cluster = list(cluster)
-        force_recalculation = False
-        i += 1
-
-        for p in range(0, len(datapoints)):
-            min_dist = float("inf")
-
-            for c in range(0, len(cluster_centers)):
-
-                dist = eucldist(datapoints[p],cluster_centers[c])
-
-                if (dist < min_dist):
-                    min_dist = dist
-                    cluster[p] = c
-
-
-        for k in range(0,len(cluster_centers)):
-            new_center = [0] * d
-            members = 0
-            for p in range(0,len(datapoints)):
-                if(cluster[p] == k):
-                    for j in range(0,d):
-                        new_center[j] += datapoints[p][j]
-                    members += 1
-
-            for j in range(0,d):
-                if members != 0:
-                    new_center[j] = new_center[j] / float(members)
-
-                else:
-                    new_center = random.choice(datapoints)
-                    force_recalculation = True
-                    print "Forced Recalculation..."
-
-            cluster_centers[k] = new_center
+#     while (cluster != prev_cluster) or (i > Max_Iterations) or (force_recalculation) :
+# 
+#         prev_cluster = list(cluster)
+#         force_recalculation = False
+#         i += 1
+# 
+#         for p in range(0, len(datapoints)):
+#             min_dist = float("inf")
+# 
+#             for c in range(0, len(cluster_centers)):
+# 
+#                 dist = eucldist(datapoints[p],cluster_centers[c])
+# 
+#                 if (dist < min_dist):
+#                     min_dist = dist
+#                     cluster[p] = c
+# 
+# 
+#         for k in range(0,len(cluster_centers)):
+#             new_center = [0] * d
+#             members = 0
+#             for p in range(0,len(datapoints)):
+#                 if(cluster[p] == k):
+#                     for j in range(0,d):
+#                         new_center[j] += datapoints[p][j]
+#                     members += 1
+# 
+#             for j in range(0,d):
+#                 if members != 0:
+#                     new_center[j] = new_center[j] / float(members)
+# 
+#                 else:
+#                     new_center = random.choice(datapoints)
+#                     force_recalculation = True
+#                     print "Forced Recalculation..."
+# 
+#             cluster_centers[k] = new_center
 
 
     print "======== Results ========"
