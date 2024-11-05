@@ -97,6 +97,7 @@ def kmeans(k, datapoints):
 
 
 	print "======== Results ========"
+	
 
 
 
