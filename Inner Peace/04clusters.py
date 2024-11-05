@@ -96,7 +96,7 @@ def kmeans(k, datapoints):
 			cluster_centers[k] = new_center
 
 
-	print "="
+	print "=="
 
 
 
