@@ -97,7 +97,7 @@ def kmeans(k, datapoints):
 
 
 	print "======== Results ========"
-	print "Clust"
+	print "Cluste"
 
 
 
