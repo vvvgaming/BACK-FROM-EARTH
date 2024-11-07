@@ -99,7 +99,7 @@ def kmeans(k, datapoints):
 	print "======== Results ========"
 	print "Clusters", cluster_centers
 	print "Iterations", i
-	print "Assign"
+	print "Assignm"
 
 
 
