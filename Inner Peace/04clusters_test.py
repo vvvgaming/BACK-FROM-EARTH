@@ -101,10 +101,10 @@
 #             cluster_centers[k] = new_center
 
 
-    print "======== Results ========"
-    print "Clusters", cluster_centers
-    print "Iterations",i
-    print "Assignments", cluster
+#     print "======== Results ========"
+#     print "Clusters", cluster_centers
+#     print "Iterations",i
+#     print "Assignments", cluster
 
 
 if __name__ == "__main__":
