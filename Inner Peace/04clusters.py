@@ -102,7 +102,7 @@ def kmeans(k, datapoints):
 	print "Assignments", cluster
 
 
-	
+
 
 
 
