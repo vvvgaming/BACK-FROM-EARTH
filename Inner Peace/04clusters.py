@@ -100,6 +100,7 @@ def kmeans(k, datapoints):
 	print "Clusters", cluster_centers
 	print "Iterations", i
 	print "Assignments", cluster
+	
 
 
 
