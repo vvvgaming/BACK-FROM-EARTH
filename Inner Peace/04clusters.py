@@ -103,7 +103,7 @@ def kmeans(k, datapoints):
 
 
 
-if __nam
+if __name_
 
 
 
