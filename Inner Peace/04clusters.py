@@ -106,7 +106,7 @@ def kmeans(k, datapoints):
 if __name__ == "__main__":
 
 
-	datapoints = [(3,2),(2,2),(1,2),]
+	datapoints = [(3,2),(2,2),(1,2),()]
 
 
 
