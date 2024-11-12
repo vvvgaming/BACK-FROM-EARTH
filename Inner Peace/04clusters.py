@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 	k = 2
 
-	kmeans(k, datapo)
+	kmeans(k, datapoi)
 
 
 
