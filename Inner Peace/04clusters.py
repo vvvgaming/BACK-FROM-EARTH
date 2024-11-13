@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
 
 	##重点测试
-	for cent in range
+	for cent in range()
 
 
 
