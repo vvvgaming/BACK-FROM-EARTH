@@ -116,7 +116,7 @@ if __name__ == "__main__":
 
 	##重点测试
 	for cent in range(k):
-		ptsInClust = dataSet[nonzero(clu)]
+		ptsInClust = dataSet[nonzero(clus)]
 
 
 
