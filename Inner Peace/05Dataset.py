@@ -1,1 +1,1 @@
-import scipy.spar
+import scipy.spars
