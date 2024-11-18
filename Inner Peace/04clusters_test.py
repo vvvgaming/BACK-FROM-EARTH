@@ -120,8 +120,8 @@
 
         
     
-    #重点测试
-    for cent in range(k):
-        ptsInClust = dataSet[nonzero(clusterAssment[:,0].A==cent)[0]]
-        centroids[cent,:] = mean(ptsInClust, axis=0)
+#     #重点测试
+#     for cent in range(k):
+#         ptsInClust = dataSet[nonzero(clusterAssment[:,0].A==cent)[0]]
+#         centroids[cent,:] = mean(ptsInClust, axis=0)
  
