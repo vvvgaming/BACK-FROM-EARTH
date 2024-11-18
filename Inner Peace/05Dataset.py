@@ -1,2 +1,2 @@
 import scipy.sparse as sp
-import numpy as 
+import numpy as n
