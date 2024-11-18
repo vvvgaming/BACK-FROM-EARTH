@@ -1,1 +1,1 @@
-import sci
+import scip
