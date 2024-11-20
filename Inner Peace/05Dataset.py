@@ -3,4 +3,4 @@ import numpy as np
 
 class Dataset(object):
 
-	def __init
+	def __init_
