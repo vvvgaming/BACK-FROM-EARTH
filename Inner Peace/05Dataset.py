@@ -1,4 +1,4 @@
 import scipy.sparse as sp
 import numpy as np
 
-class Dataset(obje)
+class Dataset(objec)
