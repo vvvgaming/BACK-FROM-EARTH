@@ -5,4 +5,4 @@ class Dataset(object):
 
 	def __init__(self, path):
 
-		sel
+		self.t
