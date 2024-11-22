@@ -5,4 +5,4 @@ class Dataset(object):
 
 	def __init__(self, path):
 
-		self.trainMatr
+		self.trainMatri
