@@ -5,4 +5,4 @@ class Dataset(object):
 
 	def __init__(self, path):
 
-		self.trainMatrix = self.load_rating_file_as_ma
+		self.trainMatrix = self.load_rating_file_as_mat
