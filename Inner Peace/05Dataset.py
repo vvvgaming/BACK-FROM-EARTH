@@ -7,4 +7,4 @@ class Dataset(object):
 
 		self.trainMatrix = self.load_rating_file_as_matrix(path + ".train.rating")
 		self.testRatings = self.load_rating_file_as_list(path + ".test.rating")
-		self.testNegatives = s
+		self.testNegatives = se
