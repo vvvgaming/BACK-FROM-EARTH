@@ -10,4 +10,4 @@ class Dataset(object):
 		self.testNegatives = self.load_negative_file(path + ".test.negative")
 		assert len(self.testRatings) == len(self.testNegatives)
 
-		self.
+		self.n
