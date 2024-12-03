@@ -9,4 +9,5 @@ class Dataset(object):
 		self.testRatings = self.load_rating_file_as_list(path + ".test.rating")
 		self.testNegatives = self.load_negative_file(path + ".test.negative")
 		assert len(self.testRatings) == len(self.testNegatives)
+
 		
