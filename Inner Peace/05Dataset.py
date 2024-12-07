@@ -10,4 +10,4 @@ class Dataset(object):
 		self.testNegatives = self.load_negative_file(path + ".test.negative")
 		assert len(self.testRatings) == len(self.testNegatives)
 
-		self.num_users, self.num_items = self.trainMatrix.
+		self.num_users, self.num_items = self.trainMatrix.s
