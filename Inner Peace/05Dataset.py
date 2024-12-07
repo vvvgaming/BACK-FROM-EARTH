@@ -11,3 +11,4 @@ class Dataset(object):
 		assert len(self.testRatings) == len(self.testNegatives)
 
 		self.num_users, self.num_items = self.trainMatrix.shape
+		
