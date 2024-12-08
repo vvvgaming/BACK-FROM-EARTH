@@ -13,4 +13,4 @@ class Dataset(object):
 		self.num_users, self.num_items = self.trainMatrix.shape
 
 	def load_rating_file_as_list(self, filename):
-		ra
+		rat
