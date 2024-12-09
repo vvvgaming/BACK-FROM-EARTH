@@ -14,4 +14,4 @@ class Dataset(object):
 
 	def load_rating_file_as_list(self, filename):
 		ratingList = []
-		with open(fi)
+		with open(fil)
