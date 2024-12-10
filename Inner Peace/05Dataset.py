@@ -15,4 +15,4 @@ class Dataset(object):
 	def load_rating_file_as_list(self, filename):
 		ratingList = []
 		with open(filename, "r") as f:
-			line = f.re
+			line = f.rea
