@@ -19,4 +19,4 @@ class Dataset(object):
 			while line != None and line != "":
 				arr = line.split("\t")
 				user, item = int(arr[0]), int(arr[1])
-				ratingList.append([user, it])
+				ratingList.append([user, ite])
