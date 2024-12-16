@@ -22,3 +22,4 @@ class Dataset(object):
 				ratingList.append([user, item])
 				line = f.readline()
 		return ratingList
+		
