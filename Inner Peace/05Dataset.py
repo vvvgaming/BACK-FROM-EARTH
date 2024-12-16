@@ -23,4 +23,4 @@ class Dataset(object):
 				line = f.readline()
 		return ratingList
 
-	def loa
+	def load
