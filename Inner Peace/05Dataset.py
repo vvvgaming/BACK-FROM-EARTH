@@ -23,4 +23,4 @@ class Dataset(object):
 				line = f.readline()
 		return ratingList
 
-	def load_negative_f
+	def load_negative_fi
