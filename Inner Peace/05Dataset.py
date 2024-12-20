@@ -26,4 +26,4 @@ class Dataset(object):
 	def load_negative_file(self, filename):
 		negativeList = []
 		with open(filename, "r") as f:
-			line = f.re
+			line = f.rea
