@@ -30,4 +30,4 @@ class Dataset(object):
 			while line != None and line != "":
 				arr = line.split("\t")
 				negatives = []
-				for 
+				for x
