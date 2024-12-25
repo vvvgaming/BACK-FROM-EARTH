@@ -31,4 +31,4 @@ class Dataset(object):
 				arr = line.split("\t")
 				negatives = []
 				for x in arr[1: ]:
-					negatives.append(int)
+					negatives.append(int())
