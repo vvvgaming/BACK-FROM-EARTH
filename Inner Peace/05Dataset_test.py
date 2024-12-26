@@ -30,10 +30,10 @@
 #             while line != None and line != "":
 #                 arr = line.split("\t")
 #                 negatives = []
-                for x in arr[1: ]:
-                    negatives.append(int(x))
-                negativeList.append(negatives)
-                line = f.readline()
+#                 for x in arr[1: ]:
+#                     negatives.append(int(x))
+#                 negativeList.append(negatives)
+#                 line = f.readline()
         return negativeList
 
 
