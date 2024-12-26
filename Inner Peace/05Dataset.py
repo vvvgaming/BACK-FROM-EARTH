@@ -33,4 +33,4 @@ class Dataset(object):
 				for x in arr[1: ]:
 					negatives.append(int(x))
 				negativeList.append(negatives)
-				line =
+				line = 
