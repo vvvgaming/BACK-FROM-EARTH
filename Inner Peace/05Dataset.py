@@ -35,4 +35,5 @@ class Dataset(object):
 				negativeList.append(negatives)
 				line = f.readline()
 		return negativeList
+
 		
