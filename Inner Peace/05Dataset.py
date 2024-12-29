@@ -37,7 +37,7 @@ class Dataset(object):
 		return negativeList
 
 
-	def load_rating_file_as_matrix(self, fi)
+	def load_rating_file_as_matrix(self, fil)
 
 
 
