@@ -40,7 +40,7 @@ class Dataset(object):
 	def load_rating_file_as_matrix(self, filename):
 		num_users, num_items = 0, 0
 		with open(filename, "r") as f:
-			line = 
+			line = f
 
 
 
