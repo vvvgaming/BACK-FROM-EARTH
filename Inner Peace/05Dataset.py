@@ -42,7 +42,7 @@ class Dataset(object):
 		with open(filename, "r") as f:
 			line = f.readline()
 			while line != None and line != "":
-				arr = 
+				arr = l
 
 
 
