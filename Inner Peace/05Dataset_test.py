@@ -42,7 +42,7 @@
 #         with open(filename, "r") as f:
 #             line = f.readline()
 #             while line != None and line != "":
-                arr = line.split("\t")
+#                 arr = line.split("\t")
                 u, i = int(arr[0]), int(arr[1])
                 num_users = max(num_users, u)
                 num_items = max(num_items, i)
