@@ -44,7 +44,7 @@ class Dataset(object):
 			while line != None and line != "":
 				arr = line.split("\t")
 				u, i = int(arr[0]), int(arr[1])
-				num_users = max(num_u)
+				num_users = max(num_us)
 
 
 
