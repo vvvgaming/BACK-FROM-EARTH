@@ -49,7 +49,7 @@ class Dataset(object):
 				line = f.readline()
 
 
-        mat = sp.dok_matrix((num_users + 1, num_items + 1), dt)
+        mat = sp.dok_matrix((num_users + 1, num_items + 1), dty)
 
 
 
