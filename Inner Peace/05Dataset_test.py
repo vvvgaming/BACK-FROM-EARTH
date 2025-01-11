@@ -49,7 +49,7 @@
 #                 line = f.readline()
 
 
-        mat = sp.dok_matrix((num_users+1, num_items+1), dtype = np.float32)
+#         mat = sp.dok_matrix((num_users+1, num_items+1), dtype = np.float32)
         with open(filename, "r") as f:
             line = f.readline()
             while line != None and line != "":
