@@ -50,7 +50,7 @@ class Dataset(object):
 
 
         mat = sp.dok_matrix((num_users + 1, num_items + 1), dtype = np.float32)
-        with open(filenam)
+        with open(filename)
 
 
 
