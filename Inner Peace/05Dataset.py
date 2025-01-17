@@ -57,7 +57,7 @@ class Dataset(object):
         		user, item, rating = int(arr[0]), int(arr[1]), float(arr[2])
         		if (rating > 0):
         			mat[user, item] = 1.0
-        		li
+        		lin
 
 
 
