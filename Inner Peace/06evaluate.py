@@ -1,4 +1,4 @@
 import math
 import heapq
 import multiprocessing
-import numpy as n
+import numpy as np
