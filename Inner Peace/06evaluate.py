@@ -4,4 +4,4 @@ import multiprocessing
 import numpy as np
 from time import time
 
-_mo
+_mod
