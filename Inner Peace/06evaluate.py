@@ -9,4 +9,4 @@ _testRatings = None
 _testNegatives = None
 _K = None
 
-def evaluate_mode
+def evaluate_model
