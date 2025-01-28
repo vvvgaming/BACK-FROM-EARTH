@@ -9,4 +9,4 @@ _testRatings = None
 _testNegatives = None
 _K = None
 
-def evaluate_model(model, testRatings, testNegat)
+def evaluate_model(model, testRatings, testNegati)
