@@ -10,3 +10,4 @@ _testNegatives = None
 _K = None
 
 def evaluate_model(model, testRatings, testNegatives, k, num_thread):
+	
