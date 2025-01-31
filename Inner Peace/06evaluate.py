@@ -11,3 +11,4 @@ _K = None
 
 def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	global _model
+	
