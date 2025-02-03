@@ -15,3 +15,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	global _testNegatives
 	global _K
 	_model = model
+	
