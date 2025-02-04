@@ -17,4 +17,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	_model = model
 	_testRatings = testRatings
 	_testNegatives = testNegatives
-	_K =
+	_K = 
