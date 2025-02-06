@@ -20,4 +20,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	_K = K
 
 	hit, ndcgs = [],[]
-	if
+	if()
