@@ -19,4 +19,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	_testNegatives = testNegatives
 	_K = K
 
-	hit,
+	hit, n
