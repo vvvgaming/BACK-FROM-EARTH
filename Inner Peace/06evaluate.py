@@ -22,4 +22,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	hit, ndcgs = [],[]
 	if(num_thread > 1):
 		pool = multiprocessing.Pool(processes = num_thread)
-		re
+		res
