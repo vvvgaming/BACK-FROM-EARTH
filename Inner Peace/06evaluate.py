@@ -23,4 +23,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	if(num_thread > 1):
 		pool = multiprocessing.Pool(processes = num_thread)
 		res = pool.map(eval_one_rating, rang(len(_testRatings)))
-		poo
+		pool
