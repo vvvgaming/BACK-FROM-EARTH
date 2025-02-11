@@ -24,4 +24,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 		pool = multiprocessing.Pool(processes = num_thread)
 		res = pool.map(eval_one_rating, rang(len(_testRatings)))
 		pool.close()
-		pool
+		pool.
