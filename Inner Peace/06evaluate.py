@@ -26,4 +26,4 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 		pool.close()
 		pool.join()
 		hits = [r[0] for r in res]
-		ndcgs =
+		ndcgs = 
