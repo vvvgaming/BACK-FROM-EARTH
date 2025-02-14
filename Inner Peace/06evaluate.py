@@ -30,4 +30,27 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 		return (hits, ndcgs)
 
 
-		
+d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
