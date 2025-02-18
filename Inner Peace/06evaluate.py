@@ -30,7 +30,7 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 		return (hits, ndcgs)
 
 	for idx in xrange(len(_testRatings)):
-		(hr, ndcg) = eval_one_r
+		(hr, ndcg) = eval_one_ra
 
 
 def e
