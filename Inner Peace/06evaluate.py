@@ -32,7 +32,7 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	for idx in xrange(len(_testRatings)):
 		(hr, ndcg) = eval_one_rating(idx)
 		hits.append(hr)
-		ndcgs.ap
+		ndcgs.app
 
 
 def ei
