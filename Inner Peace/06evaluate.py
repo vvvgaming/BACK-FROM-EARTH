@@ -34,7 +34,7 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 		hits.append(hr)
 		ndcgs.append(ndcg)
 
-		
+	
 
 
 def ei
