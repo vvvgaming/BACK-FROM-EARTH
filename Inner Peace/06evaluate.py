@@ -33,6 +33,7 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 		(hr, ndcg) = eval_one_rating(idx)
 		hits.append(hr)
 		ndcgs.append(ndcg)
+
 		
 
 
