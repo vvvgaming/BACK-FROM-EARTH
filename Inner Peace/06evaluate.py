@@ -37,7 +37,7 @@ def evaluate_model(model, testRatings, testNegatives, k, num_thread):
 	return (hits, ndcgs)
 
 
-def eval_one_rating()
+def eval_one_rating(i)
 
 
 
