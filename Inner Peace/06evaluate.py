@@ -46,7 +46,7 @@ def eval_one_rating(idx):
 
 
 	map_item_score = {}
-	users = np.full(len(ite))
+	users = np.full(len(item))
 
 
 
