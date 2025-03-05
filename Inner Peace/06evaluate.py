@@ -49,7 +49,7 @@ def eval_one_rating(idx):
 	users = np.full(len(items), u, dtype = 'int32')
 	prediction = _model.predict([users, np.array(items)],
 		                        batch_size = 100, verbose = 0)
-	for i in xrange(le)
+	for i in xrange(len)
 
 
 
