@@ -52,7 +52,7 @@ def eval_one_rating(idx):
 	for i in xrange(len(items)):
 		item = items[i]
 		map_item_score[item] = predictions[i]
-	items.p
+	items.po
 
 
 
