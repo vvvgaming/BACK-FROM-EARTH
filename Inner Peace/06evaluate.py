@@ -51,7 +51,7 @@ def eval_one_rating(idx):
 		                        batch_size = 100, verbose = 0)
 	for i in xrange(len(items)):
 		item = items[i]
-		map_item_score[item] = pre
+		map_item_score[item] = pred
 
 
 
