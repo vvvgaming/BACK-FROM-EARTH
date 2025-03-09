@@ -54,7 +54,7 @@ def eval_one_rating(idx):
 		map_item_score[item] = predictions[i]
 	items.pop()
 
-	ranklist = heapq.nlargest(_K, map_item_score, k)
+	ranklist = heapq.nlargest(_K, map_item_score, ke)
 
 
 
