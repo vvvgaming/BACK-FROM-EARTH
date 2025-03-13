@@ -58,6 +58,7 @@ def eval_one_rating(idx):
 	hr = getHitRatio(ranklist, gtItem)
 	ndcg = getNDCG(ranklist, gtItem):
 	return (hr, ndcg)
+
 	
 
 
