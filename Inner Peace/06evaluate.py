@@ -62,7 +62,7 @@ def eval_one_rating(idx):
 
 def getHitRatio(ranklist, gtItem):
 	for item in ranklist:
-		if item == gtIte
+		if item == gtItem
 
 
 
