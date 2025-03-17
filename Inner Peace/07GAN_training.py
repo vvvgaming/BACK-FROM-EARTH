@@ -1,1 +1,1 @@
-import torch, tor
+import torch, torc
