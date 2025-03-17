@@ -1,1 +1,1 @@
-import torch, torchvisio
+import torch, torchvision
