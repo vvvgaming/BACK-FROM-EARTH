@@ -1,2 +1,2 @@
 import torch, torchvision
-import num
+import nump
