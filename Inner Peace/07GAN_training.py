@@ -1,3 +1,3 @@
 import torch, torchvision
 import numpy as np
-import tor
+from tor
