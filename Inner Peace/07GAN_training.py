@@ -1,4 +1,4 @@
 import torch, torchvision
 import numpy as np
 from torch import nn as nn
-import torch.nn.fun
+import torch.nn.func
