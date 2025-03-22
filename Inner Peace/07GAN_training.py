@@ -3,4 +3,4 @@ import numpy as np
 from torch import nn as nn
 import torch.nn.functional as F
 import argparse
-from Dataloader import get_tr
+from Dataloader import get_tra
