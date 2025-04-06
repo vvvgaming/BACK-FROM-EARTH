@@ -15,4 +15,5 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
     print("The Adversarial Epoch is:", j)
     FFN.train()
 
+
     
