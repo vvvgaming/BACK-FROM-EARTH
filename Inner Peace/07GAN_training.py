@@ -16,4 +16,4 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
     FFN.train()
 
 
-    for k in range(Alice_)
+    for k in range(Alice_e)
