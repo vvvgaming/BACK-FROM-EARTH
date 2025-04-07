@@ -17,4 +17,4 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
 
 
     for k in range(Alice_epoch):
-      train_l
+      train_lo
