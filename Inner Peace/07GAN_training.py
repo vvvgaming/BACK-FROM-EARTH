@@ -21,4 +21,4 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
       min_train_loss_ba = 100
       for i, train_data in enumerate(train_data_loader):
         FFN_optim.zero_grad()
-        if l
+        if le
