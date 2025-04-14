@@ -24,4 +24,4 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         if len(train_data[0]) != batch_size :
           continue
         arr = np.arange(batch_size)
-        np.random.shuffl
+        np.random.shuffle
