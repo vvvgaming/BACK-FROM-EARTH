@@ -31,4 +31,4 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         key_vec = Alice.extract_latent(keys)
         _,x,y,z = Alice_vec.size()
         Alice_vec = Alice_vec.reshape(batch_size, -1)
-        Key_ve
+        Key_vec
