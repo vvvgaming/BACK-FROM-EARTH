@@ -36,7 +36,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         oup_vec = oup_vec.reshape(-1, x, y, z)
         B_image = Bob.distract_latent(oup_vec)
         E_image = Eve.distract_latent(oup_vec)
-        criterion = 
+        criterion = n
 
 
 
