@@ -39,7 +39,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         criterion = nn.MSEloss()
         loss = criterion(image, B_image) - criterion(image, E_image)
         if i%100 == 0:
-          print()
+          print(l)
 
 
 
