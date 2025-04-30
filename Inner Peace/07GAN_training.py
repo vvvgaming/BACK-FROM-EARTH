@@ -38,7 +38,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         E_image = Eve.distract_latent(oup_vec)
         criterion = nn.MSEloss()
         loss = criterion(image, B_image) - criterion(image, E_image)
-        if i%100 == 
+        if i%100 == 0
 
 
 
