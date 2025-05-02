@@ -40,7 +40,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         loss = criterion(image, B_image) - criterion(image, E_image)
         if i%100 == 0:
           print(loss)
-          print("Alice-Bob's p")
+          print("Alice-Bob's p1")
 
 
 
