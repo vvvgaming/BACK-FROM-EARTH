@@ -42,7 +42,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
           print(loss)
           print("Alice-Bob's p1 Loss is", criterion(image, B_image))
           print("Eve's p1 is loss", criterion(image, E_image))
-          loss.backwar
+          loss.backward
 
 
 
