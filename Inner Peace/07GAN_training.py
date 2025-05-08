@@ -46,7 +46,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
           FFN_optim.step()
           train_loss_ba += loss.item()
 
-      print("The Adversarial Loss for fi")
+      print("The Adversarial Loss for fir")
 
 
 
