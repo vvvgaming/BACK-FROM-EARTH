@@ -47,7 +47,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
           train_loss_ba += loss.item()
 
       print("The Adversarial Loss for first phase is :", train_loss_ba / len(train_data_loader))
-      if (train_loss_ba / )
+      if (train_loss_ba / l)
 
 
 
