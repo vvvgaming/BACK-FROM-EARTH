@@ -50,6 +50,8 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
       if (train_loss_ba / len(train_data_loader)) < min_train_loss_ba :
         min_train_loss_ba = train_loss_ba / len(train_data_loader)
         torch.save(FFN.state_dict(), "FFN_GAN.pth")
+
+
         
 
 
