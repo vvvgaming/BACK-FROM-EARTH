@@ -53,7 +53,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
 
 
     for z in range(Eve_epoch):
-      print("The E")
+      print("The Ep")
       train_loss_e
 
 
