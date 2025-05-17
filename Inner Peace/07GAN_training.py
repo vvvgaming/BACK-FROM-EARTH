@@ -52,7 +52,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         torch.save(FFN.state_dict(), "FFN_GAN.pth")
 
 
-    for z in range(Alice_epoch):
+    for z in range(E_epoch):
       train_loss_ba
 
 
