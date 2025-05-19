@@ -56,7 +56,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
       print("The Epoch is:", j)
       train_loss_e = 0
       min_train_loss_e = 100
-      for i, train_data in enumerate(train_dat)
+      for i, train_data in enumerate(train_data)
 
 
 
