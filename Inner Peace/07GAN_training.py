@@ -58,7 +58,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
       min_train_loss_e = 100
       for i, train_data in enumerate(train_data_loader):
         Eve_optim.zero_grad()
-        if len(train_data[0])
+        if len(train_data[0]) 
 
 
 
