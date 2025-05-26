@@ -64,7 +64,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         np.random.shuffle(arr)
         image = train_data[0]
         keys = train_data[0][arr]
-        Alice_
+        Alice_v
 
 
 
