@@ -67,7 +67,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         Alice_vec = Alice.extract_latent(image)
         Key_vec = Alice.extract_latent(keys)
         _,x,y,z = Alice_vec.size()
-        Alice_vec = Alice_vec.reshape(ba)
+        Alice_vec = Alice_vec.reshape(bat)
 
 
 
