@@ -81,7 +81,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
           print("Eve's p2 Loss is", criterion(image, E_image))
         loss.backward()
         Eve_optim.step()
-        train_loss_e += los
+        train_loss_e += loss
 
 
 
