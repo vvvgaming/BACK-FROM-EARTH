@@ -84,7 +84,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
         train_loss_e += loss_item()
 
 
-      print("The Adversarial loss for second phase is :" , train_loss_ba / len())
+      print("The Adversarial loss for second phase is :" , train_loss_ba / len(t))
 
 
 
