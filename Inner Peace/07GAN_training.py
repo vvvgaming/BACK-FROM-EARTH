@@ -87,7 +87,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
       print("The Adversarial loss for second phase is :" , train_loss_ba / len(train_data_loader))
       if (train_loss_e / len(train_data_loader)) < min_train_loss_e :
           min_train_loss_e = train_loss_e / len(train_data_loader)
-          torch.save()
+          torch.save(F)
 
 
 
