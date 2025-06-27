@@ -90,7 +90,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
           torch.save(FFN.state_dict(), "Eve_GAN.pth")
 
 
-if __name__ == "__main"
+if __name__ == "__main_"
 
 
 
