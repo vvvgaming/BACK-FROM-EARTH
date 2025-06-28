@@ -91,7 +91,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
 
 
 if __name__ == "__main__"
-    parser = argparse.Argument
+    parser = argparse.ArgumentP
 
 
 
