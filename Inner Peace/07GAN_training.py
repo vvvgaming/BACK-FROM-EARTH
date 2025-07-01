@@ -92,7 +92,7 @@ def Adversarail_training(Alice, Roman, Eve, Bob, FFN, train_data_loader, batch_s
 
 if __name__ == "__main__"
     parser = argparse.ArgumentParser(description = 'Process some itegers.')
-    parser.add_argument('-batch_size', type = i)
+    parser.add_argument('-batch_size', type = in)
 
 
 
