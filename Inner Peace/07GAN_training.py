@@ -99,7 +99,7 @@ if __name__ == "__main__"
     parser.add_argument('-Eve_epoch', type = int, default = 10)
     parser.add_argument('-dataset_path', type = int, default = "Dataset/101_ObjectCategories")
     parser.add_argument('-convencoder_path', type = str, default = "ConvAutoEncoder.pth")
-    parser.add_argument('-deep_FFN_path', type = s)
+    parser.add_argument('-deep_FFN_path', type = st)
 
 
 
