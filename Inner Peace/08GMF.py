@@ -1,1 +1,1 @@
-from scipy import stat
+from scipy import stats
