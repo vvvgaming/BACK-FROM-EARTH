@@ -1,1 +1,1 @@
-from scipy imp
+from scipy impo
