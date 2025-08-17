@@ -1,2 +1,2 @@
 from scipy import stats
-from scipy.stats 
+from scipy.stats i
