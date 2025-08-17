@@ -1,1 +1,1 @@
-from scipy import st
+from scipy import sta
