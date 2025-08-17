@@ -1,1 +1,1 @@
-from sci
+from scip
