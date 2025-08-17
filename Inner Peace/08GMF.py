@@ -1,1 +1,1 @@
-from scipy impor
+from scipy import
