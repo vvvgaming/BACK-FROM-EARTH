@@ -1,1 +1,1 @@
-from scip
+from scipy
