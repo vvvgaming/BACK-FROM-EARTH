@@ -1,2 +1,2 @@
 from scipy import stats
-from scipy.stats import t as t_d
+from scipy.stats import t as t_di
