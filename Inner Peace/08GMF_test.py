@@ -2,7 +2,7 @@
 # from scipy.stats import t as t_dist
 # from scipy.stats import chi2
 
-from abtesting_test import *
+# from abtesting_test import *
 
 # You can comment out these lines! They are just here to help follow along to the tutorial.
 print(t_dist.cdf(-2, 20)) # should print .02963
