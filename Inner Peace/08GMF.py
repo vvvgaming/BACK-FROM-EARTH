@@ -1,3 +1,3 @@
 from scipy import stats
 from scipy.stats import t as t_dist
-from scipy.stats impor
+from scipy.stats import
