@@ -4,4 +4,4 @@ from scipy.stats import chi2
 
 from abtesting_test import *
 
-print(t)
+print(t_)
