@@ -4,4 +4,4 @@ from scipy.stats import chi2
 
 from abtesting_test import *
 
-print(t_dist.cdf(-2, 2))
+print(t_dist.cdf(-2, 20))
