@@ -8,7 +8,7 @@
 # print(t_dist.cdf(-2, 20)) # should print .02963
 # print(t_dist.cdf(2, 20)) # positive t-score (bad), should print .97036 (= 1 - .2963)
 
-print(chi2.cdf(23.6, 12)) # prints 0.976
+# print(chi2.cdf(23.6, 12)) # prints 0.976
 print(1 - chi2.cdf(23.6, 12)) # prints 1 - 0.976 = 0.023 (yay!)
 
 # TODO: Fill in the following functions! Be sure to delete "pass" when you want to use/run a function!
