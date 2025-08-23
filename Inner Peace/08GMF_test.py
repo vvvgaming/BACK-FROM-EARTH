@@ -5,8 +5,8 @@
 # from abtesting_test import *
 
 # You can comment out these lines! They are just here to help follow along to the tutorial.
-print(t_dist.cdf(-2, 20)) # should print .02963
-print(t_dist.cdf(2, 20)) # positive t-score (bad), should print .97036 (= 1 - .2963)
+# print(t_dist.cdf(-2, 20)) # should print .02963
+# print(t_dist.cdf(2, 20)) # positive t-score (bad), should print .97036 (= 1 - .2963)
 
 print(chi2.cdf(23.6, 12)) # prints 0.976
 print(1 - chi2.cdf(23.6, 12)) # prints 1 - 0.976 = 0.023 (yay!)
