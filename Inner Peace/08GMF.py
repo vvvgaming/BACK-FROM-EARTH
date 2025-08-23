@@ -7,4 +7,4 @@ from abtesting_test import *
 print(t_dist.cdf(-2, 20))
 print(t_dist.cdf(2, 20))
 
-print
+print()
