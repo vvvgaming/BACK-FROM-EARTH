@@ -10,3 +10,4 @@ print(t_dist.cdf(2, 20))
 print(chi2.cdf(23.6, 12))
 print(1 - chi2.cdf(23.6, 12))
 
+
