@@ -11,4 +11,4 @@ print(chi2.cdf(23.6, 12))
 print(1 - chi2.cdf(23.6, 12))
 
 
-def Slice
+def Slice_
