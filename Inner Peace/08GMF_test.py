@@ -15,7 +15,7 @@
 # NOTE: You should not be using any outside libraries or functions other than the simple operators (+, **, etc)
 # and the specifically mentioned functions (i.e. round, cdf functions...)
 
-def slice_2D(list_2D, start_row, end_row, start_col, end_col):
+# def slice_2D(list_2D, start_row, end_row, start_col, end_col):
     '''
     Splices a the 2D list via start_row:end_row and start_col:end_col
     :param list: list of list of numbers
