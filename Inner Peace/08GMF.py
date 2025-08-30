@@ -17,4 +17,4 @@ def Slice_2D(List_2D, start_row, end_row, start_col, end_col):
 
 	to_append = []
 	for l in range(start_row, end_row):
-		to_append.append(list_2D[l][st])
+		to_append.append(list_2D[l][sta])
