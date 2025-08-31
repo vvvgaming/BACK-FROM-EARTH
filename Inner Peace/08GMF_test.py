@@ -28,7 +28,7 @@
 # 
 #     return to_append
 
-def get_avg(nums):
+# def get_avg(nums):
     '''
     Helper function for calculating the average of a sample.
     :param nums: list of numbers
