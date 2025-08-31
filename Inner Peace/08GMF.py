@@ -28,4 +28,4 @@ def get_avg(nums):
 
 
 
-d
+de
