@@ -22,11 +22,11 @@
     :param nums: start_row, end_row, start_col, end_col
     :return: the spliced 2D list (ending indices are exclsive)
     '''
-    to_append = []
-    for l in range(start_row, end_row):
-        to_append.append(list_2D[l][start_col:end_col])
-
-    return to_append
+#     to_append = []
+#     for l in range(start_row, end_row):
+#         to_append.append(list_2D[l][start_col:end_col])
+# 
+#     return to_append
 
 def get_avg(nums):
     '''
