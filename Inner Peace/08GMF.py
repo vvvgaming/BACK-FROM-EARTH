@@ -28,4 +28,4 @@ def get_avg(nums):
 
 
 
-def get_
+def get_s
