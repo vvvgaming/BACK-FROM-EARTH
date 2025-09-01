@@ -28,7 +28,7 @@ def get_avg(nums):
 
 
 
-def get_stdev(nu)
+def get_stdev(num)
 
 
 
