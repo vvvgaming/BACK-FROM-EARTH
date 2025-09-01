@@ -37,7 +37,7 @@
     #TODO: fill me in!
     pass
 
-def get_stdev(nums):
+# def get_stdev(nums):
     '''
     Helper function for calculating the standard deviation of a sample.
     :param nums: list of numbers
