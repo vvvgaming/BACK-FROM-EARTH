@@ -37,7 +37,7 @@ def get_stdev(nums):
 	pass
 
 
-def get_
+def get_s
 
 
 
