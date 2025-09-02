@@ -35,7 +35,7 @@
     :return: average of list
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 # def get_stdev(nums):
     '''
