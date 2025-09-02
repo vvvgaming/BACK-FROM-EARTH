@@ -32,7 +32,7 @@ def get_stdev(nums):
 
 
 
-def ge
+def get
 
 
 
