@@ -26,6 +26,8 @@ def Slice_2D(List_2D, start_row, end_row, start_col, end_col):
 
 def get_avg(nums):
 
+	
+
 
 
 def get_stdev(nums):
