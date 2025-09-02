@@ -44,7 +44,7 @@
     :return: standard deviation of list
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 def get_standard_error(a, b):
     '''
