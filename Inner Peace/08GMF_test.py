@@ -46,7 +46,7 @@
     #TODO: fill me in!
 #     pass
 
-def get_standard_error(a, b):
+# def get_standard_error(a, b):
     '''
     Helper function for calculating the standard error, given two samples.
     :param a: list of numbers
@@ -54,7 +54,7 @@ def get_standard_error(a, b):
     :return: standard error of a and b (see studio 6 guide for this equation!)
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 def get_2_sample_df(a, b):
     '''
