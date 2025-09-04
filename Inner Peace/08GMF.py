@@ -40,7 +40,7 @@ def get_stdev(nums):
 def get_standard_error(a, b):
 
 
-	p
+	pa
 
 
 
