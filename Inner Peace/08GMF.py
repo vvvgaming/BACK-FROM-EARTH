@@ -37,7 +37,7 @@ def get_stdev(nums):
 	pass
 
 
-def get_standard_err
+def get_standard_erro
 
 
 
