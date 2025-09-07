@@ -43,7 +43,7 @@ def get_standard_error(a, b):
 	pass
 
 
-def get_2_sample_df(a)
+def get_2_sample_df(a,)
 
 
 
