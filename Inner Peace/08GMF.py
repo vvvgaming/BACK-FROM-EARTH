@@ -46,7 +46,7 @@ def get_standard_error(a, b):
 def get_2_sample_df(a, b):
 
 
-	pa
+	pas
 
 
 
