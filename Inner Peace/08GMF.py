@@ -54,7 +54,7 @@ def get_t_score(a, b):
 	pass
 
 
-def perfor
+def perform
 
 
 
