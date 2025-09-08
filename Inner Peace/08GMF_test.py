@@ -75,7 +75,7 @@
     :return: number representing the t-score given lists a and b (see studio 6 guide for this equation!)
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 def perform_2_sample_t_test(a, b):
     '''
