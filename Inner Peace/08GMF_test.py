@@ -67,7 +67,7 @@
     #TODO: fill me in!
 #     pass
 
-def get_t_score(a, b):
+# def get_t_score(a, b):
     '''
     Calculates the t-score, given two samples.
     :param a: list of numbers
