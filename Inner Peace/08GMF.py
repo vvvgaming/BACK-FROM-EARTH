@@ -48,7 +48,7 @@ def get_2_sample_df(a, b):
 
 	pass
 
-def get_t_score()
+def get_t_score(a)
 
 
 
