@@ -58,7 +58,7 @@ def perform_2_sample_t_test(a, b):
 
 
 
-	pas
+	pass
 
 
 
