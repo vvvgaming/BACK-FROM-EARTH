@@ -54,7 +54,7 @@ def get_t_score(a, b):
 	pass
 
 
-def perform_2_sample_t_
+def perform_2_sample_t_t
 
 
 
