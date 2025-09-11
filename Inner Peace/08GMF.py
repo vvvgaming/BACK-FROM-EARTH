@@ -61,7 +61,7 @@ def perform_2_sample_t_test(a, b):
 	pass
 
 
-def get_expected_grid(observ)
+def get_expected_grid(observe)
 
 
 
