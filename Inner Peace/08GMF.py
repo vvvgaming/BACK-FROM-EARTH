@@ -65,7 +65,7 @@ def get_expected_grid(observed_grid):
 
 
 
-	p
+	pa
 
 
 
