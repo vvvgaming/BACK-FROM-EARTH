@@ -105,7 +105,7 @@
     HINT: To clean up this calculation, consider filling in the optional helper functions below!
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 def df_chi2(observed_grid):
     '''
