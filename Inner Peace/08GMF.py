@@ -68,7 +68,7 @@ def get_expected_grid(observed_grid):
 	pass
 
 
-def df_chi
+def df_chi2
 
 
 
