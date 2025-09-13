@@ -107,7 +107,7 @@
     #TODO: fill me in!
 #     pass
 
-def df_chi2(observed_grid):
+# def df_chi2(observed_grid):
     '''
     Calculates the degrees of freedom of the expected counts.
     :param observed_grid: 2D list of observed counts
