@@ -114,7 +114,7 @@
     :return: degrees of freedom of expected counts (see studio 6 guide for this equation!)
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 def chi2_value(observed_grid):
     '''
