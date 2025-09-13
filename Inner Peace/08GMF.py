@@ -74,7 +74,7 @@ def df_chi2(observed_grid):
 
 	pass
 
-def chi2_val
+def chi2_valu
 
 
 
