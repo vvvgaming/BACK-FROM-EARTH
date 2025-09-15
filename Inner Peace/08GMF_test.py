@@ -123,7 +123,7 @@
     :return: associated chi^2 value of expected counts (see studio 6 guide for this equation!)
     '''
     #TODO: fill me in!
-    pass
+#     pass
 
 def perform_chi2_homogeneity_test(observed_grid):
     '''
