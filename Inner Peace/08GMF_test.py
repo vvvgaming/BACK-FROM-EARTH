@@ -116,7 +116,7 @@
     #TODO: fill me in!
 #     pass
 
-def chi2_value(observed_grid):
+# def chi2_value(observed_grid):
     '''
     Calculates the chi^2 value of the expected counts.
     :param observed_grid: 2D list of observed counts
