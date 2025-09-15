@@ -76,6 +76,7 @@ def df_chi2(observed_grid):
 
 def chi2_value(observed_grid):
 
+
 	
 
 
