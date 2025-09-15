@@ -80,7 +80,7 @@ def chi2_value(observed_grid):
 
 	pass
 
-def perform_c
+def perform_ch
 
 
 
