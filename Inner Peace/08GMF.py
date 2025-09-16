@@ -80,7 +80,7 @@ def chi2_value(observed_grid):
 
 	pass
 
-def perform_chi2_homogenei
+def perform_chi2_homogeneit
 
 
 
