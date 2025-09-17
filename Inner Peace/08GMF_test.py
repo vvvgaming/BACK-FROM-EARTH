@@ -138,7 +138,7 @@
 
 # These commented out lines are for testing your main functions. 
 # Please uncomment them when finished with your implementation and confirm you get the same values :)
-def data_to_num_list(s):
+# def data_to_num_list(s):
   '''
     Takes a copy and pasted row/col from a spreadsheet and produces a usable list of nums. 
     This will be useful when you need to run your tests on your cleaned log data!
