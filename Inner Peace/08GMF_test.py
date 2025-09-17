@@ -125,7 +125,7 @@
     #TODO: fill me in!
 #     pass
 
-def perform_chi2_homogeneity_test(observed_grid):
+# def perform_chi2_homogeneity_test(observed_grid):
     '''
     ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this will mess with our autograder)
     Calculates the p-value by performing a chi^2 test, given a list of observed counts
