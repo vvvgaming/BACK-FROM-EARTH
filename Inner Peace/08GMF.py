@@ -86,7 +86,7 @@ def perform_chi2_homogeneity_test(observed_grid):
 	pass
 
 
-def data_to_n
+def data_to_nu
 
 
 
