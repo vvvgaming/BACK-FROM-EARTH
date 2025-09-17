@@ -83,7 +83,7 @@ def chi2_value(observed_grid):
 def perform_chi2_homogeneity_test(observed_grid):
 
 
-	pa
+	pas
 
 
 
