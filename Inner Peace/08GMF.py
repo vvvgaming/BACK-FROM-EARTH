@@ -90,7 +90,7 @@ def data_to_num_list(s):
 
 
 
-	return list(m)
+	return list(ma)
 
 
 
