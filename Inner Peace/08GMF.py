@@ -90,7 +90,7 @@ def data_to_num_list(s):
 
 
 
-	return list(map(float, s.split))
+	return list(map(float, s.split()))
 
 
 
