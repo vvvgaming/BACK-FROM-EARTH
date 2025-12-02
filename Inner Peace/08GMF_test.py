@@ -188,4 +188,4 @@ print(perform_chi2_homogeneity_test(c2_observed_grid)) # this should be 0.0000
 a_c3_list = data_to_num_list(a_count_3) 
 b_c3_list = data_to_num_list(b_count_3)
 c3_observed_grid = [a_c3_list, b_c3_list]
-# chi
+# ch
