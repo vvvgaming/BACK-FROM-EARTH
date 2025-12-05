@@ -185,4 +185,4 @@ print(perform_chi2_homogeneity_test(c2_observed_grid)) # this should be 0.0000
 # Again, why do you think this is? Take a peek at a_count_2 and b_count_2 in abtesting_test.py :)
 
 # chi2_test 3:
-a_c3_li
+a_c3_l
