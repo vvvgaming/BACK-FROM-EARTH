@@ -184,4 +184,4 @@ print(chi2_value(c2_observed_grid)) # this should be 33.86444
 print(perform_chi2_homogeneity_test(c2_observed_grid)) # this should be 0.0000
 # Again, why do you think this is? Take a peek at a_count_2 and b_count_2 in abtesting_test.py :)
 
-# chi2_test
+# chi2_tes
