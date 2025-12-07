@@ -182,4 +182,4 @@ b_c2_list = data_to_num_list(b_count_2)
 c2_observed_grid = [a_c2_list, b_c2_list]
 print(chi2_value(c2_observed_grid)) # this should be 33.86444
 print(perform_chi2_homogeneity_test(c2_observed_grid)) # this should be 0.0000
-# Again, why do you think this is? Take a peek at a_count_2 and b_
+# Again, why do you think this is? Take a peek at a_count_2 and b
