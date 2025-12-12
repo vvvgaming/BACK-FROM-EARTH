@@ -181,4 +181,4 @@ a_c2_list = data_to_num_list(a_count_2)
 b_c2_list = data_to_num_list(b_count_2)
 c2_observed_grid = [a_c2_list, b_c2_list]
 print(chi2_value(c2_observed_grid)) # this should be 33.86444
-print(perform_c
+print(perform_
