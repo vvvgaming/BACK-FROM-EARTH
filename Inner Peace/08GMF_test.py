@@ -278,4 +278,3 @@ print(chi2_value(c1_observed_grid)) # this should be 4.103536
 print(perform_chi2_homogeneity_test(c1_observed_grid)) #
 
 # chi2_test 1:
-a
