@@ -253,4 +253,4 @@ a_c1_list = data_to_num_list(a_count_1)
 b_c1_list = data_to_num_list(b_count_1)
 c1_observed_grid = [a_c1_list, b_c1_list]
 print(chi2_value(c1_observed_grid)) # this should be 4.103536
-print(perform_chi2_homogeneity_test(c1_observed_g
+print(perform_chi2_homogeneity_test(c1_observed_
