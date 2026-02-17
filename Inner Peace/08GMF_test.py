@@ -239,4 +239,4 @@ print(perform_chi2_homogeneity_test(c1_observed_grid)) #
 # chi2_test 1:
 a_c1_list = data_to_num_list(a_count_1) 
 b_c1_list = data_to_num_list(b_count_1)
-c1_observed_grid = [a_c1_list, b_c1_li
+c1_observed_grid = [a_c1_list, b_c1_l
