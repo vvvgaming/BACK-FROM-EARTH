@@ -187,4 +187,4 @@ print(perform_chi2_homogeneity_test(c1_observed_grid)) #
 
 
 # chi2_test 1:
-a_c
+a_
