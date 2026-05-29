@@ -173,4 +173,4 @@ print(perform_2_sample_t_test(a_t3_list, b_t3_list)) # this should be .005091
 a_c1_list = data_to_num_list(a_count_1) 
 b_c1_list = data_to_num_list(b_count_1)
 c1_observed_grid = [a_c1_list, b_c1_list]
-print(chi2_value(c1_observed_grid)) # 
+print(chi2_value(c1_observed_grid)) #
