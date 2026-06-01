@@ -171,4 +171,4 @@ print(perform_2_sample_t_test(a_t3_list, b_t3_list)) # this should be .005091
 """
 # chi2_test 1:
 a_c1_list = data_to_num_list(a_count_1) 
-b_c1_list = data_to_num_list(b_co
+b_c1_list = data_to_num_list(b_c
