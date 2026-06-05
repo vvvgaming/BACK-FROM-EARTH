@@ -165,4 +165,4 @@ print(perform_2_sample_t_test(a_t2_list, b_t2_list)) # this should be .082379
 a_t3_list = data_to_num_list(a3) 
 b_t3_list = data_to_num_list(b3)
 print(get_t_score(a_t3_list, b_t3_list)) # this should be -2.88969
-print(perform_2_sample_t_test(a_t3_list, b_t3_list)) # this
+print(perform_2_sample_t_test(a_t3_list, b_t3_list)) # thi
