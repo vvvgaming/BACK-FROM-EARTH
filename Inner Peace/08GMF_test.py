@@ -163,4 +163,4 @@ print(perform_2_sample_t_test(a_t2_list, b_t2_list)) # this should be .082379
 
 # t_test 3:
 a_t3_list = data_to_num_list(a3) 
-b_t3_list = data
+b_t3_list = dat
