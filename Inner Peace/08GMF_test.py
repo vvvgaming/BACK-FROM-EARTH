@@ -156,4 +156,4 @@ print(perform_2_sample_t_test(a_t1_list, b_t1_list)) # this should be 0.0000
 # why do you think this is? Take a peek at a1 and b1 in abtesting_test.py :)
 
 # t_test 2:
-a_t2_list
+a_t2_lis
