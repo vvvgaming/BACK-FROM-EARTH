@@ -152,4 +152,4 @@
 a_t1_list = data_to_num_list(a1) 
 b_t1_list = data_to_num_list(b1)
 print(get_t_score(a_t1_list, b_t1_list)) # this should be -129.500
-prin
+pri
