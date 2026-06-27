@@ -151,4 +151,4 @@
 # t_test 1:
 a_t1_list = data_to_num_list(a1) 
 b_t1_list = data_to_num_list(b1)
-print(get_t_score(a_t1_list
+print(get_t_score(a_t1_lis
