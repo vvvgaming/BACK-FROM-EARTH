@@ -150,4 +150,4 @@
 """
 # t_test 1:
 a_t1_list = data_to_num_list(a1) 
-b_t1_list = data
+b_t1_list = dat
