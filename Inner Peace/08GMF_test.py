@@ -146,4 +146,3 @@
     :return: the spliced list of numbers
     '''
 #   return list(map(float, s.split()))
-
