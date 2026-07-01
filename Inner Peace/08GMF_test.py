@@ -149,4 +149,4 @@
 
 """
 # t_test 1:
-a_t1_list = data_to_num
+a_t1_list = data_to_nu
