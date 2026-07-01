@@ -149,4 +149,4 @@
 
 """
 # t_test 1:
-a_t1_list = data_
+a_t1_list = data
