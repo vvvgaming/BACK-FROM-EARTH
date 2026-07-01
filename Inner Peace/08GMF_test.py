@@ -145,4 +145,4 @@
     :param str: string holding data
     :return: the spliced list of numbers
     '''
-#   return list(map(float, s.split()
+#   return list(map(float, s.split(
