@@ -145,4 +145,3 @@
     :param str: string holding data
     :return: the spliced list of numbers
     '''
-#
