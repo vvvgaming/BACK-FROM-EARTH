@@ -144,4 +144,3 @@
     This will be useful when you need to run your tests on your cleaned log data!
     :param str: string holding data
     :return: the spliced list of numbers
-    
