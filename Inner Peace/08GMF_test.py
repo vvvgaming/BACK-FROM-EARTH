@@ -142,4 +142,4 @@
   '''
     Takes a copy and pasted row/col from a spreadsheet and produces a usable list of nums. 
     This will be useful when you need to run your tests on your cleaned log data!
-    :param str: string holding d
+    :param str: string holding 
