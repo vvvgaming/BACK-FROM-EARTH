@@ -141,4 +141,4 @@
 # def data_to_num_list(s):
   '''
     Takes a copy and pasted row/col from a spreadsheet and produces a usable list of nums. 
-    This will be useful when you need to run your tests on your c
+    This will be useful when you need to run your tests on your 
