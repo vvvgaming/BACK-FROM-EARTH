@@ -140,4 +140,4 @@
 # Please uncomment them when finished with your implementation and confirm you get the same values :)
 # def data_to_num_list(s):
   '''
-    Takes a copy and pasted ro
+    Takes a copy and pasted r
