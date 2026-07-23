@@ -131,4 +131,3 @@
     Calculates the p-value by performing a chi^2 test, given a list of observed counts
     :param observed_grid: 2D list of observed counts
     :return: calculated p-value
-    
