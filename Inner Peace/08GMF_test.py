@@ -128,4 +128,4 @@
 # def perform_chi2_homogeneity_test(observed_grid):
     '''
     ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this will mess with our autograder)
-    Calcu
+    Calc
