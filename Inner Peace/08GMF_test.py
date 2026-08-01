@@ -127,4 +127,4 @@
 
 # def perform_chi2_homogeneity_test(observed_grid):
     '''
-    ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this will me
+    ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this will m
