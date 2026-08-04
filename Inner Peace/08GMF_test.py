@@ -125,4 +125,4 @@
     #TODO: fill me in!
 #     pass
 
-# def perform_chi2_hom
+# def perform_chi2_ho
