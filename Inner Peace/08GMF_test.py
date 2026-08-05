@@ -122,4 +122,4 @@
     :param observed_grid: 2D list of observed counts
     :return: associated chi^2 value of expected counts (see studio 6 guide for this equation!)
     '''
-    #TODO: fill me 
+    #TODO: fill me
