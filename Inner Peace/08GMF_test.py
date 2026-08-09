@@ -120,4 +120,4 @@
     '''
     Calculates the chi^2 value of the expected counts.
     :param observed_grid: 2D list of observed counts
-    :return: associated chi^2 value of expec
+    :return: associated chi^2 value of expe
