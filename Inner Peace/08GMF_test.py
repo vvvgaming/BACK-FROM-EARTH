@@ -119,4 +119,4 @@
 # def chi2_value(observed_grid):
     '''
     Calculates the chi^2 value of the expected counts.
-    :param observed_grid: 2D l
+    :param observed_grid: 2D 
