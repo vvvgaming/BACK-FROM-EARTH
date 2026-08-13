@@ -118,4 +118,4 @@
 
 # def chi2_value(observed_grid):
     '''
-    Calculates the chi^2 value of t
+    Calculates the chi^2 value of 
