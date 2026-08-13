@@ -118,4 +118,4 @@
 
 # def chi2_value(observed_grid):
     '''
-    Calculates the ch
+    Calculates the c
