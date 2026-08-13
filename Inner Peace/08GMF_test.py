@@ -118,4 +118,4 @@
 
 # def chi2_value(observed_grid):
     '''
-    Calculates the chi^2 va
+    Calculates the chi^2 v
