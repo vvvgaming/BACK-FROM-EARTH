@@ -116,4 +116,4 @@
     #TODO: fill me in!
 #     pass
 
-# def chi2_value(observed_gri
+# def chi2_value(observed_gr
