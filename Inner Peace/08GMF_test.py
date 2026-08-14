@@ -117,4 +117,4 @@
 #     pass
 
 # def chi2_value(observed_grid):
-    ''
+    '
