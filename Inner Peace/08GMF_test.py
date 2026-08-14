@@ -116,4 +116,4 @@
     #TODO: fill me in!
 #     pass
 
-# def chi2
+# def chi
