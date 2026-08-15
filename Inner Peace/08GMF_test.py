@@ -113,4 +113,4 @@
     :param observed_grid: 2D list of observed counts
     :return: degrees of freedom of expected counts (see studio 6 guide for this equation!)
     '''
-    #TODO: fill me in
+    #TODO: fill me i
