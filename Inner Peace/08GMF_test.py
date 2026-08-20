@@ -110,4 +110,4 @@
 # def df_chi2(observed_grid):
     '''
     Calculates the degrees of freedom of the expected counts.
-    :param observed_grid: 2D li
+    :param observed_grid: 2D l
