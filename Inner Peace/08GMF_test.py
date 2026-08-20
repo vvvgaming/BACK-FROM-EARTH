@@ -111,4 +111,3 @@
     '''
     Calculates the degrees of freedom of the expected counts.
     :param observed_grid: 2D list of observed counts
-    
