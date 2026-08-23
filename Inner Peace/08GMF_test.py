@@ -109,4 +109,4 @@
 
 # def df_chi2(observed_grid):
     '''
-    Calculates the degrees of freedom of the expec
+    Calculates the degrees of freedom of the expe
