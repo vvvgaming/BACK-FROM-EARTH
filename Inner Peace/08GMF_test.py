@@ -107,4 +107,4 @@
     #TODO: fill me in!
 #     pass
 
-# def df_chi2
+# def df_chi
