@@ -109,4 +109,3 @@
 
 # def df_chi2(observed_grid):
     '''
-    
