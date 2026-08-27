@@ -102,4 +102,4 @@
     ** DO NOT modify the parameter, observed_grid. **
     :param observed_grid: 2D list of observed counts
     :return: 2D list of expected counts
-    HINT: To clean up this calculation, consider filling in the optional helper functions belo
+    HINT: To clean up this calculation, consider filling in the optional helper functions bel
