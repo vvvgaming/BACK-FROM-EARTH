@@ -103,4 +103,3 @@
     :param observed_grid: 2D list of observed counts
     :return: 2D list of expected counts
     HINT: To clean up this calculation, consider filling in the optional helper functions below!
-    
