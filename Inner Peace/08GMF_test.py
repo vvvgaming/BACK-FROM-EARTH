@@ -100,4 +100,4 @@
     '''
     Calculates the expected counts, given the observed counts.
     ** DO NOT modify the parameter, observed_grid. **
-    :para
+    :par
