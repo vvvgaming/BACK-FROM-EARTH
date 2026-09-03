@@ -99,4 +99,4 @@
 # def get_expected_grid(observed_grid):
     '''
     Calculates the expected counts, given the observed counts.
-    ** DO NOT modify the parameter, observed_g
+    ** DO NOT modify the parameter, observed_
