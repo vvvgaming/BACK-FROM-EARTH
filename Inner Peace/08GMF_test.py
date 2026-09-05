@@ -98,4 +98,4 @@
 
 # def get_expected_grid(observed_grid):
     '''
-    Calculates the expected counts, 
+    Calculates the expected counts,
