@@ -98,4 +98,4 @@
 
 # def get_expected_grid(observed_grid):
     '''
-    Calculates the expected coun
+    Calculates the expected cou
