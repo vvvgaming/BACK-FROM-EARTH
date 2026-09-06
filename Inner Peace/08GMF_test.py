@@ -97,4 +97,4 @@
 # def calculate_expected(row_sum, col_sum, tot_sum):
 
 # def get_expected_grid(observed_grid):
-    '''
+    ''
