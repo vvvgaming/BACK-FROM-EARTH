@@ -96,4 +96,4 @@
 # def total_sum(observed_grid):
 # def calculate_expected(row_sum, col_sum, tot_sum):
 
-# def get_expected_gri
+# def get_expected_gr
