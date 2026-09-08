@@ -94,4 +94,4 @@
 # def row_sum(observed_grid, ele_row):
 # def col_sum(observed_grid, ele_col):
 # def total_sum(observed_grid):
-# def calculate_expected(row_sum, col_sum, tot_su
+# def calculate_expected(row_sum, col_sum, tot_s
