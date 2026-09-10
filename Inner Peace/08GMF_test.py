@@ -94,4 +94,3 @@
 # def row_sum(observed_grid, ele_row):
 # def col_sum(observed_grid, ele_col):
 # def total_sum(observed_grid):
-#
