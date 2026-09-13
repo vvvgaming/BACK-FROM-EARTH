@@ -91,4 +91,4 @@
 
 
 # [OPTIONAL] Some helper functions that might be helpful in get_expected_grid().
-# def row_sum(observ
+# def row_sum(obser
