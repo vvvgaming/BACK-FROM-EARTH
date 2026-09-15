@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helper functions that might be hel
+# [OPTIONAL] Some helper functions that might be he
