@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helper functions that might be helpf
+# [OPTIONAL] Some helper functions that might be help
