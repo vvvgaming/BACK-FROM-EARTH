@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helper functions that might be helpful in get_expect
+# [OPTIONAL] Some helper functions that might be helpful in get_expec
