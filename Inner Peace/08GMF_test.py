@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helper funct
+# [OPTIONAL] Some helper func
