@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helper functions that might be helpful in ge
+# [OPTIONAL] Some helper functions that might be helpful in g
