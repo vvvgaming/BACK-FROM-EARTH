@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helper functions that might be helpful in get_exp
+# [OPTIONAL] Some helper functions that might be helpful in get_ex
