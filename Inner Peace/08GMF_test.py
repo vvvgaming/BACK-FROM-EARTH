@@ -90,4 +90,4 @@
 #     pass
 
 
-# [OPTIONAL] Some helpe
+# [OPTIONAL] Some help
