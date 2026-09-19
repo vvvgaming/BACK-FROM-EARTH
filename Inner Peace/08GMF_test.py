@@ -84,4 +84,4 @@
     :param a: list of numbers
     :param b: list of numbers
     :return: calculated p-value
-    HINT: the t_dis
+    HINT: the t_di
