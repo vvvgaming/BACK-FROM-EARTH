@@ -84,4 +84,4 @@
     :param a: list of numbers
     :param b: list of numbers
     :return: calculated p-value
-    HINT: the t_dist.cdf() function might come in 
+    HINT: the t_dist.cdf() function might come in
