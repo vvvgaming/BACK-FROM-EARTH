@@ -84,4 +84,4 @@
     :param a: list of numbers
     :param b: list of numbers
     :return: calculated p-value
-    HI
+    H
