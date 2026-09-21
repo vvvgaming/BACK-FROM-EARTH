@@ -83,4 +83,4 @@
     Calculates a p-value by performing a 2-sample t-test, given two lists of numbers.
     :param a: list of numbers
     :param b: list of numbers
-    :r
+    :
