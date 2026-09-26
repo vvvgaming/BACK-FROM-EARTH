@@ -80,4 +80,4 @@
 # def perform_2_sample_t_test(a, b):
     '''
     ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this will mess with our autograder)
-    Calculates a p-value by per
+    Calculates a p-value by pe
