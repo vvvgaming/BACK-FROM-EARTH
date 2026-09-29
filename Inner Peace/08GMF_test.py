@@ -79,4 +79,4 @@
 
 # def perform_2_sample_t_test(a, b):
     '''
-    ** DO NOT CHANGE THE NAME OF THIS FUN
+    ** DO NOT CHANGE THE NAME OF THIS FU
