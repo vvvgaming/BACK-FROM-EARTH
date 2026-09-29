@@ -79,4 +79,4 @@
 
 # def perform_2_sample_t_test(a, b):
     '''
-    ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this wil
+    ** DO NOT CHANGE THE NAME OF THIS FUNCTION!! ** (this wi
